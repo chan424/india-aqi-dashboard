@@ -1,0 +1,670 @@
+{
+  "drive_folder": {
+    "name": "AQI_DATA_ALL (start here)",
+    "url": "https://drive.google.com/drive/folders/1Q9KlGgUM53I7rSg95I7NhhphVkNkYrjw",
+    "note": "Google Drive archive owned by the dataongole@gmail.com workspace. Individual file links are the ids in drive_listing_after_reorg_19Nov2026.csv."
+  },
+  "files": [
+    {
+      "archive_path": "00_Master_Index/AP_TG_daily_AQI_2017_2023.csv",
+      "filename": "AP_TG_daily_AQI_2017_2023.csv",
+      "rows": 27507,
+      "bytes": 3135045,
+      "sha256": "70dd2b90b9d41899642c0a1045ed57cb360ba68fa5e5f30209aab60c33819aa5",
+      "description": "Daily station AQI for Andhra Pradesh and Telangana, 2017–2023, from the CPCB repository compilation.",
+      "drive": [
+        {
+          "id": "1F2dSK4ytbPAYYJJlfJm0PgC5NIqvv0g-",
+          "path": "AQI_DATA_ALL (start here)/03_AP_Telangana_combined_station_summaries",
+          "url": "https://drive.google.com/file/d/1F2dSK4ytbPAYYJJlfJm0PgC5NIqvv0g-/view"
+        }
+      ],
+      "download": "data/downloads/AP_TG_daily_AQI_2017_2023.csv.gz",
+      "download_bytes": 231434,
+      "compressed": true
+    },
+    {
+      "archive_path": "00_Master_Index/master_station_table.csv",
+      "filename": "master_station_table.csv",
+      "rows": 27,
+      "bytes": 11947,
+      "sha256": "0a2f4ea5c959037f448cbae7391c04274432ce3fbc737506337f79f621df8eb1",
+      "description": "27 Hyderabad and Andhra Pradesh stations used in the RGUKT archive, with coordinates and 2017–2023 AQI summaries.",
+      "drive": [
+        {
+          "id": "1QwwhpL4tN0xCNXgM62_Ri-K-1rfnccwe",
+          "path": "AQI_DATA_ALL (start here)/05_Station_Locations_Coordinates",
+          "url": "https://drive.google.com/file/d/1QwwhpL4tN0xCNXgM62_Ri-K-1rfnccwe/view"
+        }
+      ],
+      "download": "data/downloads/master_station_table.csv",
+      "download_bytes": 11947,
+      "compressed": false
+    },
+    {
+      "archive_path": "00_Master_Index/station_AQI_summary_2017_2023.csv",
+      "filename": "station_AQI_summary_2017_2023.csv",
+      "rows": 25,
+      "bytes": 7743,
+      "sha256": "0f17df3ce4bcc19537b994002941587f5cd200c44341a363e3e4fd1109a81074",
+      "description": "Station-level AQI summary, 2017–2023, valid-18h days.",
+      "drive": [
+        {
+          "id": "17qVIn3njByOj9IMEdN5H7FYAaHmpaMk6",
+          "path": "AQI_DATA_ALL (start here)/03_AP_Telangana_combined_station_summaries",
+          "url": "https://drive.google.com/file/d/17qVIn3njByOj9IMEdN5H7FYAaHmpaMk6/view"
+        }
+      ],
+      "download": "data/downloads/station_AQI_summary_2017_2023.csv",
+      "download_bytes": 7743,
+      "compressed": false
+    },
+    {
+      "archive_path": "00_Master_Index/stations_AP_Hyderabad.geojson",
+      "filename": "stations_AP_Hyderabad.geojson",
+      "rows": 900,
+      "bytes": 30537,
+      "sha256": "2ded0dcbdb5ceb8a38548b6dd0fd7768b49d98da967ca3334323569128f39f0c",
+      "description": "GeoJSON of those archive stations.",
+      "drive": [
+        {
+          "id": "1Gk_VJWf--Xg_fgaMlZVjXVsOhN9oOFUL",
+          "path": "AQI_DATA_ALL (start here)/05_Station_Locations_Coordinates",
+          "url": "https://drive.google.com/file/d/1Gk_VJWf--Xg_fgaMlZVjXVsOhN9oOFUL/view"
+        },
+        {
+          "id": "154_1EUUyQGdVkIl_A6mAJO3PTLIixp6M",
+          "path": "FIGURES_IMAGES_MAPS",
+          "url": "https://drive.google.com/file/d/154_1EUUyQGdVkIl_A6mAJO3PTLIixp6M/view"
+        }
+      ],
+      "download": "data/downloads/stations_AP_Hyderabad.geojson",
+      "download_bytes": 30537,
+      "compressed": false
+    },
+    {
+      "archive_path": "01_Hyderabad/CPCB_AQI_Bulletin_Hyderabad_daily_2015_2026.csv",
+      "filename": "CPCB_AQI_Bulletin_Hyderabad_daily_2015_2026.csv",
+      "rows": 4177,
+      "bytes": 724642,
+      "sha256": "4abbd4d1194817309636911f2219db211ec86d0fa1c26f9176b46a5bb8b5d5ba",
+      "description": "Hyderabad rows of the CPCB daily bulletin, 2015–2026.",
+      "drive": [
+        {
+          "id": "1KTgqZv67QnyTfadWkgVlSgXjNuEaGdZi",
+          "path": "AQI_DATA_ALL (start here)/04_CPCB_Daily_AQI_Bulletins",
+          "url": "https://drive.google.com/file/d/1KTgqZv67QnyTfadWkgVlSgXjNuEaGdZi/view"
+        }
+      ],
+      "download": "data/downloads/CPCB_AQI_Bulletin_Hyderabad_daily_2015_2026.csv.gz",
+      "download_bytes": 38937,
+      "compressed": true
+    },
+    {
+      "archive_path": "01_Hyderabad/Hyderabad_PM10_PM25_source_apportionment_CMB_2005_Guttikunda_2013.csv",
+      "filename": "Hyderabad_PM10_PM25_source_apportionment_CMB_2005_Guttikunda_2013.csv",
+      "rows": 18,
+      "bytes": 14802,
+      "sha256": "033d102c1d5d6d15df1ee1c6cb8e014ede2dd2033130fa8d75dad99a89362096",
+      "description": "CMB source shares transcribed from Guttikunda et al. 2013. Receptor-model results for 2005–06 samples.",
+      "drive": [
+        {
+          "id": "1h46Frh7jrqm96M_kJ1nVk2ORsFyqxWn1",
+          "path": "AQI_DATA_ALL (start here)/08_Emission_Sources_Fires_Studies",
+          "url": "https://drive.google.com/file/d/1h46Frh7jrqm96M_kJ1nVk2ORsFyqxWn1/view"
+        }
+      ],
+      "download": "data/downloads/Hyderabad_PM10_PM25_source_apportionment_CMB_2005_Guttikunda_2013.csv",
+      "download_bytes": 14802,
+      "compressed": false
+    },
+    {
+      "archive_path": "01_Hyderabad/Hyderabad_daily_AQI_2017_2023.csv",
+      "filename": "Hyderabad_daily_AQI_2017_2023.csv",
+      "rows": 17848,
+      "bytes": 1978066,
+      "sha256": "7deb3377891086d39e7a699a5e051edbe41aef38ff2dcb834633085a8a83a5a0",
+      "description": "Hyderabad station daily AQI, 2017–2023.",
+      "drive": [
+        {
+          "id": "1Eod7EwgfkQrbDDBoxosAny0uf0Q-D6vM",
+          "path": "AQI_DATA_ALL (start here)/01_Hyderabad",
+          "url": "https://drive.google.com/file/d/1Eod7EwgfkQrbDDBoxosAny0uf0Q-D6vM/view"
+        }
+      ],
+      "download": "data/downloads/Hyderabad_daily_AQI_2017_2023.csv.gz",
+      "download_bytes": 150024,
+      "compressed": true
+    },
+    {
+      "archive_path": "01_Hyderabad/Hyderabad_station_daily_pollutants_2017_2025.csv",
+      "filename": "Hyderabad_station_daily_pollutants_2017_2025.csv",
+      "rows": 45702,
+      "bytes": 13772895,
+      "sha256": "cb38a4c850f6807d68e5a515e20ff369d4fda4a10ff54fe547a8aa01e4cdc3b6",
+      "description": "Hyderabad CAAQMS daily pollutant means, 2017–2025.",
+      "drive": [
+        {
+          "id": "1EwG-_By8JDSROuVjXvlmjSznuKS1wsB3",
+          "path": "AQI_DATA_ALL (start here)/01_Hyderabad",
+          "url": "https://drive.google.com/file/d/1EwG-_By8JDSROuVjXvlmjSznuKS1wsB3/view"
+        }
+      ],
+      "download": "data/downloads/Hyderabad_station_daily_pollutants_2017_2025.csv.gz",
+      "download_bytes": 2736402,
+      "compressed": true
+    },
+    {
+      "archive_path": "01_Hyderabad/hyd_ap_live_aqi_snapshot_2026.csv",
+      "filename": "hyd_ap_live_aqi_snapshot_2026.csv",
+      "rows": 177,
+      "bytes": 60198,
+      "sha256": "653321a681cba373c39a043586d3b8b1d4eb00cc0b0dfc69f0ce6face3f4b9db",
+      "description": "Point-in-time bulletin and EWS snapshots collected in November 2026. Not a continuous live feed.",
+      "drive": [
+        {
+          "id": "1JyW7UHqeesFYauuctGF2IqBAc72OkKtB",
+          "path": "AQI_DATA_ALL (start here)/09_Live_AQI_Snapshots_2026",
+          "url": "https://drive.google.com/file/d/1JyW7UHqeesFYauuctGF2IqBAc72OkKtB/view"
+        }
+      ],
+      "download": "data/downloads/hyd_ap_live_aqi_snapshot_2026.csv",
+      "download_bytes": 60198,
+      "compressed": false
+    },
+    {
+      "archive_path": "01_Hyderabad/lockdown_2020_weather_normalised_Hyderabad.csv",
+      "filename": "lockdown_2020_weather_normalised_Hyderabad.csv",
+      "rows": 40,
+      "bytes": 33685,
+      "sha256": "85bb689d16bb9b3a9998c25eded1956841b4d95f998a323047375ec411cb1fc2",
+      "description": "Derived weather-normalised lockdown contrasts for Hyderabad. Placebo errors are large.",
+      "drive": [
+        {
+          "id": "14gjsBHYbruRAAeg_e4FXQ_CqHJSvkMkP",
+          "path": "AQI_DATA_ALL (start here)/01_Hyderabad",
+          "url": "https://drive.google.com/file/d/14gjsBHYbruRAAeg_e4FXQ_CqHJSvkMkP/view"
+        }
+      ],
+      "download": "data/downloads/lockdown_2020_weather_normalised_Hyderabad.csv",
+      "download_bytes": 33685,
+      "compressed": false
+    },
+    {
+      "archive_path": "02_AndhraPradesh/AP_CAAQMS_network_2015_2026.geojson",
+      "filename": "AP_CAAQMS_network_2015_2026.geojson",
+      "rows": 0,
+      "bytes": 12753,
+      "sha256": "d0b5db1f9c1ad36962ad6b5b5afbbc8e668441b361c5589c048ce562abad37df",
+      "description": "GeoJSON of the AP network table.",
+      "drive": [
+        {
+          "id": "1nHQwHkaAUluterDhXdPYG-SbB7lGq-uJ",
+          "path": "AQI_DATA_ALL (start here)/05_Station_Locations_Coordinates",
+          "url": "https://drive.google.com/file/d/1nHQwHkaAUluterDhXdPYG-SbB7lGq-uJ/view"
+        }
+      ],
+      "download": "data/downloads/AP_CAAQMS_network_2015_2026.geojson",
+      "download_bytes": 12753,
+      "compressed": false
+    },
+    {
+      "archive_path": "02_AndhraPradesh/AP_CAAQMS_network_coords_and_CPCB_bulletin_timeline_2015_2026.csv",
+      "filename": "AP_CAAQMS_network_coords_and_CPCB_bulletin_timeline_2015_2026.csv",
+      "rows": 20,
+      "bytes": 6502,
+      "sha256": "c893359324cdc0607587c3ad81bde4bc0f98c94c144d80db4d1f8b611bcd8afc",
+      "description": "APPCB network coordinates and the first and last CPCB bulletin dates. Some 2026 cities are OpenStreetMap centroids and are labelled as such in coord_source.",
+      "drive": [
+        {
+          "id": "1xhGQdjZCwnLKkIap1DDotEp2kThKsYNA",
+          "path": "AQI_DATA_ALL (start here)/05_Station_Locations_Coordinates",
+          "url": "https://drive.google.com/file/d/1xhGQdjZCwnLKkIap1DDotEp2kThKsYNA/view"
+        }
+      ],
+      "download": "data/downloads/AP_CAAQMS_network_coords_and_CPCB_bulletin_timeline_2015_2026.csv",
+      "download_bytes": 6502,
+      "compressed": false
+    },
+    {
+      "archive_path": "02_AndhraPradesh/AP_CAMS_MODEL_daily_2022_2026.csv",
+      "filename": "AP_CAMS_MODEL_daily_2022_2026.csv",
+      "rows": 23023,
+      "bytes": 4420389,
+      "sha256": "8e34972cfc0bb50d6b45c6343585a5babbed38c3d165b5cac4b5a3437c7444ad",
+      "description": "Open-Meteo CAMS model daily fields for 13 cities, 2022–2026. Model, not observations.",
+      "drive": [
+        {
+          "id": "1wBLDigq2jXLip1RIaHbpgvLjKWiT7pAB",
+          "path": "AQI_DATA_ALL (start here)/07_Model_Satellite_AQ_CAMS_AOD",
+          "url": "https://drive.google.com/file/d/1wBLDigq2jXLip1RIaHbpgvLjKWiT7pAB/view"
+        }
+      ],
+      "download": "data/downloads/AP_CAMS_MODEL_daily_2022_2026.csv.gz",
+      "download_bytes": 622272,
+      "compressed": true
+    },
+    {
+      "archive_path": "02_AndhraPradesh/AP_TG_city_year_panel_obs_PM_and_bulletin_AQI_2015_2026.csv",
+      "filename": "AP_TG_city_year_panel_obs_PM_and_bulletin_AQI_2015_2026.csv",
+      "rows": 98,
+      "bytes": 13802,
+      "sha256": "9b2e77f36ccd2532145fcc5cabfc7d76339dc3d8d14bdb5304d873f229e35d16",
+      "description": "City-year observed PM and bulletin AQI. Derived join.",
+      "drive": [
+        {
+          "id": "1Re1XFKSCh4DueMS-QyMzEkW8xxG2fyWK",
+          "path": "AQI_DATA_ALL (start here)/03_AP_Telangana_combined_station_summaries",
+          "url": "https://drive.google.com/file/d/1Re1XFKSCh4DueMS-QyMzEkW8xxG2fyWK/view"
+        }
+      ],
+      "download": "data/downloads/AP_TG_city_year_panel_obs_PM_and_bulletin_AQI_2015_2026.csv",
+      "download_bytes": 13802,
+      "compressed": false
+    },
+    {
+      "archive_path": "02_AndhraPradesh/AP_station_daily_pollutants_2017_2025.csv",
+      "filename": "AP_station_daily_pollutants_2017_2025.csv",
+      "rows": 28203,
+      "bytes": 9038110,
+      "sha256": "dc5b1e421771fe4233c0f5bd22e98edd6c064e055393f93f460364428ef15bbc",
+      "description": "Andhra Pradesh CAAQMS daily pollutant means, 2017–2025. valid_18h marks days with at least 18 hours.",
+      "drive": [
+        {
+          "id": "18yWrp_R7-9a1I9AMj_vzOBg5v6zGDSG-",
+          "path": "AQI_DATA_ALL (start here)/02_Andhra_Pradesh",
+          "url": "https://drive.google.com/file/d/18yWrp_R7-9a1I9AMj_vzOBg5v6zGDSG-/view"
+        }
+      ],
+      "download": "data/downloads/AP_station_daily_pollutants_2017_2025.csv.gz",
+      "download_bytes": 1826771,
+      "compressed": true
+    },
+    {
+      "archive_path": "02_AndhraPradesh/AndhraPradesh_daily_AQI_2017_2023.csv",
+      "filename": "AndhraPradesh_daily_AQI_2017_2023.csv",
+      "rows": 9659,
+      "bytes": 1157076,
+      "sha256": "85b6502b65dcdc5219671005c076f2f0411d1d7e9feee8634dd5b46f18a10ebf",
+      "description": "Andhra Pradesh daily station AQI, 2017–2023.",
+      "drive": [
+        {
+          "id": "1kkhVkIElrlQT6u8NPcWRQa2VhLwrIITQ",
+          "path": "AQI_DATA_ALL (start here)/02_Andhra_Pradesh",
+          "url": "https://drive.google.com/file/d/1kkhVkIElrlQT6u8NPcWRQa2VhLwrIITQ/view"
+        }
+      ],
+      "download": "data/downloads/AndhraPradesh_daily_AQI_2017_2023.csv.gz",
+      "download_bytes": 81714,
+      "compressed": true
+    },
+    {
+      "archive_path": "02_AndhraPradesh/CPCB_AQI_Bulletin_Hyd_AP_cities_daily_2015_2026.csv",
+      "filename": "CPCB_AQI_Bulletin_Hyd_AP_cities_daily_2015_2026.csv",
+      "rows": 24471,
+      "bytes": 4279309,
+      "sha256": "303d7ad954dd69478929ae268949134d152acb47843921b83ebe089ed360bd48",
+      "description": "CPCB daily city AQI bulletins for Hyderabad and Andhra Pradesh cities, 2015–2026.",
+      "drive": [
+        {
+          "id": "1Gy1dORl8KVE-5wLIxLJH3SDRstGlI9AB",
+          "path": "AQI_DATA_ALL (start here)/04_CPCB_Daily_AQI_Bulletins",
+          "url": "https://drive.google.com/file/d/1Gy1dORl8KVE-5wLIxLJH3SDRstGlI9AB/view"
+        }
+      ],
+      "download": "data/downloads/CPCB_AQI_Bulletin_Hyd_AP_cities_daily_2015_2026.csv.gz",
+      "download_bytes": 206847,
+      "compressed": true
+    },
+    {
+      "archive_path": "03_Climate_ENSO_Weather/CAMS_OpenMeteo_MODEL_forecast_Hyd_AP_cities_15_20Nov2026.csv",
+      "filename": "CAMS_OpenMeteo_MODEL_forecast_Hyd_AP_cities_15_20Nov2026.csv",
+      "rows": 108,
+      "bytes": 30944,
+      "sha256": "eb6bb635a86abcf4c4e43749c58117c14f0391ec037b090b008869a3e9e6adad",
+      "description": "CAMS and weather forecast extracted 15 Nov 2026 for 15–20 Nov. Model.",
+      "drive": [
+        {
+          "id": "1AK27mE1UoQmnhv51-GQUC2gGmGjnA7S7",
+          "path": "AQI_DATA_ALL (start here)/07_Model_Satellite_AQ_CAMS_AOD",
+          "url": "https://drive.google.com/file/d/1AK27mE1UoQmnhv51-GQUC2gGmGjnA7S7/view"
+        }
+      ],
+      "download": "data/downloads/CAMS_OpenMeteo_MODEL_forecast_Hyd_AP_cities_15_20Nov2026.csv",
+      "download_bytes": 30944,
+      "compressed": false
+    },
+    {
+      "archive_path": "03_Climate_ENSO_Weather/ONI_ERSSTv5_clean.csv",
+      "filename": "ONI_ERSSTv5_clean.csv",
+      "rows": 921,
+      "bytes": 19633,
+      "sha256": "80aabe74de07413fcf1f7c34894b8ee9c57d85ae6fbc5665145335e818705d5e",
+      "description": "NOAA Oceanic Niño Index, ERSSTv5, three-month seasons.",
+      "drive": [
+        {
+          "id": "1NIpHnz19c8W02vuELAthbuHnqPrnzqv0",
+          "path": "WEATHER_CLIMATE_ENSO_DATA",
+          "url": "https://drive.google.com/file/d/1NIpHnz19c8W02vuELAthbuHnqPrnzqv0/view"
+        }
+      ],
+      "download": "data/downloads/ONI_ERSSTv5_clean.csv",
+      "download_bytes": 19633,
+      "compressed": false
+    },
+    {
+      "archive_path": "03_Climate_ENSO_Weather/emission_sources/APnA_PM25_source_apportionment_50_Indian_airsheds_MODEL.csv",
+      "filename": "APnA_PM25_source_apportionment_50_Indian_airsheds_MODEL.csv",
+      "rows": 49,
+      "bytes": 15253,
+      "sha256": "c1741c49d3fae6de22bdea70b041c7d470c51012825e9308c166d19868e42c35",
+      "description": "APnA / UrbanEmissions 2019 CAMx PM2.5 source shares. Model.",
+      "drive": [
+        {
+          "id": "1mk26XEgIO9yTGLUyx4YsQDhFC0kuxqx1",
+          "path": "AQI_DATA_ALL (start here)/08_Emission_Sources_Fires_Studies",
+          "url": "https://drive.google.com/file/d/1mk26XEgIO9yTGLUyx4YsQDhFC0kuxqx1/view"
+        }
+      ],
+      "download": "data/downloads/APnA_PM25_source_apportionment_50_Indian_airsheds_MODEL.csv",
+      "download_bytes": 15253,
+      "compressed": false
+    },
+    {
+      "archive_path": "03_Climate_ENSO_Weather/emission_sources/WRI_GPPD_v1.3_power_plants_AP_Telangana.geojson",
+      "filename": "WRI_GPPD_v1.3_power_plants_AP_Telangana.geojson",
+      "rows": 0,
+      "bytes": 64291,
+      "sha256": "757a14946e65bb62a62afaa88f960bf0daf60c2dbbf32ba74a04fe11bb1bc8f2",
+      "description": "WRI Global Power Plant Database v1.3 plants in Andhra Pradesh and Telangana. Database frozen at 2021. CC BY 4.0.",
+      "drive": [
+        {
+          "id": "1Jpxa8n5FCxZ9yx6PKM5rpiP2hlV8o4j1",
+          "path": "AQI_DATA_ALL (start here)/08_Emission_Sources_Fires_Studies",
+          "url": "https://drive.google.com/file/d/1Jpxa8n5FCxZ9yx6PKM5rpiP2hlV8o4j1/view"
+        }
+      ],
+      "download": "data/downloads/WRI_GPPD_v1.3_power_plants_AP_Telangana.geojson",
+      "download_bytes": 64291,
+      "compressed": false
+    },
+    {
+      "archive_path": "03_Climate_ENSO_Weather/firms/FIRMS_VIIRS_NOAA20_AP_TG_OctNov_2018_2025.csv",
+      "filename": "FIRMS_VIIRS_NOAA20_AP_TG_OctNov_2018_2025.csv",
+      "rows": 28199,
+      "bytes": 8484974,
+      "sha256": "1469a8560ad530fa42ee01141dbf7779c3f8196be75f58e869df80899cc9ef7c",
+      "description": "NASA FIRMS VIIRS NOAA-20 fire detections, October–November, 2018–2025, clipped to AP and Telangana.",
+      "drive": [
+        {
+          "id": "150fNxO53zlj-nnKBzOWXBWJC2yX5YA2K",
+          "path": "AQI_DATA_ALL (start here)/08_Emission_Sources_Fires_Studies/FIRMS_VIIRS_fire_hotspots",
+          "url": "https://drive.google.com/file/d/150fNxO53zlj-nnKBzOWXBWJC2yX5YA2K/view"
+        }
+      ],
+      "download": "data/downloads/FIRMS_VIIRS_NOAA20_AP_TG_OctNov_2018_2025.csv.gz",
+      "download_bytes": 582776,
+      "compressed": true
+    },
+    {
+      "archive_path": "04_Health/AQLI_2025_gadm2_AP_Telangana_PM25_life_expectancy.csv",
+      "filename": "AQLI_2025_gadm2_AP_Telangana_PM25_life_expectancy.csv",
+      "rows": 1242,
+      "bytes": 425532,
+      "sha256": "2ee50e00c7174a32b6bb251f36bda76db5ef1d012e63f9b5bb388a50a2993b29",
+      "description": "EPIC AQLI 2025, GADM-2 districts of AP and Telangana, annual PM2.5 and life-years lost. Model.",
+      "drive": [
+        {
+          "id": "1lsjteVNbc5c_7PFkovAZP9gQHsBxvIyD",
+          "path": "HEALTH_DATA",
+          "url": "https://drive.google.com/file/d/1lsjteVNbc5c_7PFkovAZP9gQHsBxvIyD/view"
+        }
+      ],
+      "download": "data/downloads/AQLI_2025_gadm2_AP_Telangana_PM25_life_expectancy.csv.gz",
+      "download_bytes": 12514,
+      "compressed": true
+    },
+    {
+      "archive_path": "04_Health/District_AQ_health_panel_AP_TG_AQLI_PM25_NFHS5_NFHS6.csv",
+      "filename": "District_AQ_health_panel_AP_TG_AQLI_PM25_NFHS5_NFHS6.csv",
+      "rows": 46,
+      "bytes": 14800,
+      "sha256": "c7c60333b3e1b53f74bbfee9b3b201fe03ae4d8beb00275082b7d1ead0f22a53",
+      "description": "Derived district panel: AQLI PM2.5 and NFHS-5/6 indicators. Ecological.",
+      "drive": [
+        {
+          "id": "1FsDp43jwHQhTCxx4LhBWftFZwLuJIv7Z",
+          "path": "HEALTH_DATA",
+          "url": "https://drive.google.com/file/d/1FsDp43jwHQhTCxx4LhBWftFZwLuJIv7Z/view"
+        }
+      ],
+      "download": "data/downloads/District_AQ_health_panel_AP_TG_AQLI_PM25_NFHS5_NFHS6.csv",
+      "download_bytes": 14800,
+      "compressed": false
+    },
+    {
+      "archive_path": "04_Health/Diwali_PM_spike_by_station_2017_2025.csv",
+      "filename": "Diwali_PM_spike_by_station_2017_2025.csv",
+      "rows": 137,
+      "bytes": 28861,
+      "sha256": "d0449343245f8a8fef2ad0be5d2c6fa591069a27d12be7e9d65b318ef12552ef",
+      "description": "Derived Diwali versus control-window PM at CAAQMS stations.",
+      "drive": [
+        {
+          "id": "182_kdeaEPH2_4utTjccSzfc6Apc3OqNo",
+          "path": "AQI_DATA_ALL (start here)/03_AP_Telangana_combined_station_summaries",
+          "url": "https://drive.google.com/file/d/182_kdeaEPH2_4utTjccSzfc6Apc3OqNo/view"
+        }
+      ],
+      "download": "data/downloads/Diwali_PM_spike_by_station_2017_2025.csv",
+      "download_bytes": 28861,
+      "compressed": false
+    },
+    {
+      "archive_path": "04_Health/LokSabha_SQ120_27Jul2026_citywise_AQI_category_days_2023_2025_all_cities.csv",
+      "filename": "LokSabha_SQ120_27Jul2026_citywise_AQI_category_days_2023_2025_all_cities.csv",
+      "rows": 778,
+      "bytes": 245252,
+      "sha256": "8a8e22a9ce0fa39e4b7e4a17841361fa20f3c21f0e571119d73802cee974a948",
+      "description": "Lok Sabha SQ 120 (27 Jul 2026), city-wise AQI-category day counts, 2023–2025.",
+      "drive": [
+        {
+          "id": "1KHHRpZujYCGwKuUvt5AANwCCrWbMbEXZ",
+          "path": "AQI_DATA_ALL (start here)/06_NCAP_SVS_Parliament_Policy",
+          "url": "https://drive.google.com/file/d/1KHHRpZujYCGwKuUvt5AANwCCrWbMbEXZ/view"
+        }
+      ],
+      "download": "data/downloads/LokSabha_SQ120_27Jul2026_citywise_AQI_category_days_2023_2025_all_cities.csv",
+      "download_bytes": 245252,
+      "compressed": false
+    },
+    {
+      "archive_path": "04_Health/NCAP_130_cities_PM10_FY2017_18_vs_FY2025_26_LokSabha_SQ12_20Jul2026.csv",
+      "filename": "NCAP_130_cities_PM10_FY2017_18_vs_FY2025_26_LokSabha_SQ12_20Jul2026.csv",
+      "rows": 130,
+      "bytes": 18579,
+      "sha256": "d6ead676cf35377b90df36e1d038e2be3065ec67344ff8c0ae0ba7d7221b1f1e",
+      "description": "Lok Sabha SQ 12 (20 Jul 2026) Annexure-IV, PM10 in 130 NCAP cities.",
+      "drive": [
+        {
+          "id": "1IW0QTMb5BaAl2I54wMdkG7YEHA1DSmir",
+          "path": "AQI_DATA_ALL (start here)/06_NCAP_SVS_Parliament_Policy",
+          "url": "https://drive.google.com/file/d/1IW0QTMb5BaAl2I54wMdkG7YEHA1DSmir/view"
+        }
+      ],
+      "download": "data/downloads/NCAP_130_cities_PM10_FY2017_18_vs_FY2025_26_LokSabha_SQ12_20Jul2026.csv",
+      "download_bytes": 18579,
+      "compressed": false
+    },
+    {
+      "archive_path": "04_Health/NFHS6_2023_24_district_AP_TG_respiratory_NCD_tobacco_subset.csv",
+      "filename": "NFHS6_2023_24_district_AP_TG_respiratory_NCD_tobacco_subset.csv",
+      "rows": 598,
+      "bytes": 280009,
+      "sha256": "17c4fb92300c7786c209ab30a45d97c6d9f97608a8ec44e7f8a041a9998f1e03",
+      "description": "NFHS-6 (2023–24) and NFHS-5 district indicators for respiratory illness, NCD and tobacco. Survey estimates.",
+      "drive": [
+        {
+          "id": "1v50sUSS263nanjlyhak253EBqB_kn7pa",
+          "path": "HEALTH_DATA",
+          "url": "https://drive.google.com/file/d/1v50sUSS263nanjlyhak253EBqB_kn7pa/view"
+        }
+      ],
+      "download": "data/downloads/NFHS6_2023_24_district_AP_TG_respiratory_NCD_tobacco_subset.csv",
+      "download_bytes": 280009,
+      "compressed": false
+    },
+    {
+      "archive_path": "NCAP_city_case_study_matrix_AP_TG_16_cities.csv",
+      "filename": "NCAP_city_case_study_matrix_AP_TG_16_cities.csv",
+      "rows": 16,
+      "bytes": 3719,
+      "sha256": "b0c01bc8fe76585f4bdaddc90c305f2b55e87dd779cb7a29d5f7cc190186a22c",
+      "description": "Derived city matrix: NCAP PM10, Swachh Vayu scores, bulletin means, fossil capacity.",
+      "drive": [
+        {
+          "id": "1G8VpCyb5_YGkSrH7gvIf3qzEo-DTGnNv",
+          "path": "AQI_DATA_ALL (start here)/03_AP_Telangana_combined_station_summaries",
+          "url": "https://drive.google.com/file/d/1G8VpCyb5_YGkSrH7gvIf3qzEo-DTGnNv/view"
+        }
+      ],
+      "download": "data/downloads/NCAP_city_case_study_matrix_AP_TG_16_cities.csv",
+      "download_bytes": 3719,
+      "compressed": false
+    },
+    {
+      "archive_path": "Ongole_Prakasam_case_study_daily_Oct_Nov_2026.csv",
+      "filename": "Ongole_Prakasam_case_study_daily_Oct_Nov_2026.csv",
+      "rows": 50,
+      "bytes": 21002,
+      "sha256": "fe50036c3ebc957f4ce1cd37dcd69898a418fcc50260b189522bb9910e7e4b05",
+      "description": "Ongole, 1 Oct–15 Nov 2026: CAMS model, ERA5 weather, and CPCB bulletin AQI on the days a bulletin existed.",
+      "drive": [
+        {
+          "id": "1nuKbh4wWAYCG_Ir_g4OpxbOKAuHDELnt",
+          "path": "AQI_DATA_ALL (start here)/02_Andhra_Pradesh",
+          "url": "https://drive.google.com/file/d/1nuKbh4wWAYCG_Ir_g4OpxbOKAuHDELnt/view"
+        }
+      ],
+      "download": "data/downloads/Ongole_Prakasam_case_study_daily_Oct_Nov_2026.csv",
+      "download_bytes": 21002,
+      "compressed": false
+    },
+    {
+      "archive_path": "Swachh_Vayu_Survekshan_2023_2025_all_NCAP_cities_scores_ranks.csv",
+      "filename": "Swachh_Vayu_Survekshan_2023_2025_all_NCAP_cities_scores_ranks.csv",
+      "rows": 392,
+      "bytes": 77665,
+      "sha256": "9fe3998770a613ab2e3fb3e076be2c54b4ab6568b4fb7cb155b8e3e9026652bf",
+      "description": "Official Swachh Vayu Survekshan scores and ranks, 2023–2025. State is derived.",
+      "drive": [
+        {
+          "id": "1pCk8LmIVM9x_Ul6PqWajmjZNd54XzKf2",
+          "path": "AQI_DATA_ALL (start here)/06_NCAP_SVS_Parliament_Policy",
+          "url": "https://drive.google.com/file/d/1pCk8LmIVM9x_Ul6PqWajmjZNd54XzKf2/view"
+        }
+      ],
+      "download": "data/downloads/Swachh_Vayu_Survekshan_2023_2025_all_NCAP_cities_scores_ranks.csv",
+      "download_bytes": 77665,
+      "compressed": false
+    },
+    {
+      "archive_path": "drive_listing_after_reorg_19Nov2026.csv",
+      "filename": "drive_listing_after_reorg_19Nov2026.csv",
+      "rows": 894,
+      "bytes": 156270,
+      "sha256": "0c3ab8e0959b0e32a872707800a4fcbadf2edcd653894ca203dd527e346dfaa4",
+      "description": "File inventory of the Google Drive archive (dataongole@gmail.com) after the 19 Nov 2026 reorganisation. Ids build Drive links.",
+      "drive": [],
+      "download": "data/downloads/drive_listing_after_reorg_19Nov2026.csv",
+      "download_bytes": 156270,
+      "compressed": false
+    },
+    {
+      "archive_path": "generated/stations.geojson",
+      "filename": "stations_national.geojson",
+      "rows": 535,
+      "bytes": 298899,
+      "sha256": "eaff1036960349be5b9ca773e541e7196733e47a7105f386daf31fd0ad95e18e",
+      "description": "National monitor list used by the map: the 18 Nov 2026 CPCB PDF plus XKDR directory stations that the PDF does not contain.",
+      "download": "data/maps/stations.geojson",
+      "download_bytes": 298899,
+      "compressed": false,
+      "drive": []
+    }
+  ],
+  "coverage": {
+    "national_stations": 535,
+    "stations_in_pdf": 358,
+    "stations_ap": 12,
+    "stations_tg": 15,
+    "census2011_districts": 641,
+    "ap_tg_districts_2011": 23,
+    "ap_tg_districts_with_monitor": 11,
+    "ap_tg_bulletin_without_coordinates": [
+      {
+        "district": "Kurnool",
+        "state": "Andhra Pradesh",
+        "nearest_km": 92.4
+      },
+      {
+        "district": "Prakasam",
+        "state": "Andhra Pradesh",
+        "nearest_km": 146.7
+      },
+      {
+        "district": "Sri Potti Sriramulu Nellore",
+        "state": "Andhra Pradesh",
+        "nearest_km": 85.5
+      },
+      {
+        "district": "Srikakulam",
+        "state": "Andhra Pradesh",
+        "nearest_km": 120.6
+      }
+    ],
+    "ap_tg_districts_without_monitor": [
+      {
+        "district": "Karimnagar",
+        "state": "Telangana",
+        "nearest_km": 145.5
+      },
+      {
+        "district": "Khammam",
+        "state": "Telangana",
+        "nearest_km": 124.9
+      },
+      {
+        "district": "Warangal",
+        "state": "Telangana",
+        "nearest_km": 117.6
+      },
+      {
+        "district": "Nalgonda",
+        "state": "Telangana",
+        "nearest_km": 96.6
+      },
+      {
+        "district": "Nizamabad",
+        "state": "Telangana",
+        "nearest_km": 95.3
+      },
+      {
+        "district": "Vizianagaram",
+        "state": "Andhra Pradesh",
+        "nearest_km": 84.5
+      },
+      {
+        "district": "Mahbubnagar",
+        "state": "Telangana",
+        "nearest_km": 80.9
+      },
+      {
+        "district": "Adilabad",
+        "state": "Telangana",
+        "nearest_km": 78.8
+      }
+    ],
+    "boundary_note": "Monitor presence is a station point within about 2 km of the Census 2011 polygon. Districts were split after 2011, so a parent district can contain a monitor while a new district carved out of it does not."
+  }
+}

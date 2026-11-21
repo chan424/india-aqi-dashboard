@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ongole case study — RGUKT Ongole</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,560;8..60,650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="mark" aria-hidden="true"></span><span><span class="brand-name">AQI Observatory</span><span class="brand-sub">RGUKT Ongole</span></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <a href="index.html">Map</a><a href="series.html">Cities</a><a href="ongole.html" aria-current="page">Ongole</a><a href="ncap.html">NCAP</a><a href="health.html">Health</a><a href="emissions.html">Fires &amp; plants</a><a href="enso.html">ENSO</a><a href="data.html">Data</a><a href="methods.html">Methods</a>
+    </nav>
+  </header>
+  <main id="content">
+    <p class="kicker">Prakasam district</p>
+    <div class="page-head">
+      <h1>Ongole, October and November 2026</h1>
+      <p class="muted">The archive’s case-study table joins three different things on each day: the CPCB city bulletin when one was published, CAMS model concentrations, and ERA5 weather. Ongole’s monitor appears in the 21 November 2026 bulletin (AQI 83). Its coordinates are not in the CPCB PDF or the XKDR directory used for the map.</p>
+    </div>
+    <p id="ongole-note" class="callout"></p>
+    <section class="block">
+      <h2>Bulletin AQI and CAMS particles</h2>
+      <div class="chart-box"><canvas id="ongole-aqi" aria-label="Ongole bulletin AQI and CAMS PM"></canvas></div>
+      <p class="muted">PM is a model concentration in µg/m³ drawn on the same axis as the unitless bulletin AQI so the timing can be compared. The scales are not interchangeable.</p>
+    </section>
+    <section class="block">
+      <h2>Ventilation weather (ERA5)</h2>
+      <div class="chart-box"><canvas id="ongole-wx" aria-label="Ongole boundary layer, wind and rain"></canvas></div>
+      <p class="muted">Wind is multiplied by 100 so it is visible beside boundary-layer height in metres. Rain is millimetres.</p>
+    </section>
+    <section class="block">
+      <h2>Daily table</h2>
+      <div class="table-wrap">
+        <table id="ongole-table">
+          <thead><tr><th>Date</th><th>Bulletin AQI</th><th>Category</th><th>CAMS PM2.5</th><th>CAMS PM10</th><th>BLH m</th><th>Rain mm</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><p id="updated"></p><p><strong>RGUKT Ongole.</strong> Blank bulletin cells are days the city was not in the bulletin, not zero air pollution.</p></footer>
+  <script src="vendor/chart.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/chart-theme.js"></script>
+  <script src="js/ongole.js"></script>
+</body>
+</html>

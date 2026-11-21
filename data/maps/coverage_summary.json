@@ -1,0 +1,74 @@
+{
+  "national_stations": 535,
+  "stations_in_pdf": 358,
+  "stations_ap": 12,
+  "stations_tg": 15,
+  "census2011_districts": 641,
+  "ap_tg_districts_2011": 23,
+  "ap_tg_districts_with_monitor": 11,
+  "ap_tg_bulletin_without_coordinates": [
+    {
+      "district": "Kurnool",
+      "state": "Andhra Pradesh",
+      "nearest_km": 92.4
+    },
+    {
+      "district": "Prakasam",
+      "state": "Andhra Pradesh",
+      "nearest_km": 146.7
+    },
+    {
+      "district": "Sri Potti Sriramulu Nellore",
+      "state": "Andhra Pradesh",
+      "nearest_km": 85.5
+    },
+    {
+      "district": "Srikakulam",
+      "state": "Andhra Pradesh",
+      "nearest_km": 120.6
+    }
+  ],
+  "ap_tg_districts_without_monitor": [
+    {
+      "district": "Karimnagar",
+      "state": "Telangana",
+      "nearest_km": 145.5
+    },
+    {
+      "district": "Khammam",
+      "state": "Telangana",
+      "nearest_km": 124.9
+    },
+    {
+      "district": "Warangal",
+      "state": "Telangana",
+      "nearest_km": 117.6
+    },
+    {
+      "district": "Nalgonda",
+      "state": "Telangana",
+      "nearest_km": 96.6
+    },
+    {
+      "district": "Nizamabad",
+      "state": "Telangana",
+      "nearest_km": 95.3
+    },
+    {
+      "district": "Vizianagaram",
+      "state": "Andhra Pradesh",
+      "nearest_km": 84.5
+    },
+    {
+      "district": "Mahbubnagar",
+      "state": "Telangana",
+      "nearest_km": 80.9
+    },
+    {
+      "district": "Adilabad",
+      "state": "Telangana",
+      "nearest_km": 78.8
+    }
+  ],
+  "boundary_note": "Monitor presence is a station point within about 2 km of the Census 2011 polygon. Districts were split after 2011, so a parent district can contain a monitor while a new district carved out of it does not."
+}

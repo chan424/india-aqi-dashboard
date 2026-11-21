@@ -1,0 +1,576 @@
+{
+  "places": [
+    {
+      "id": "city:hyderabad",
+      "name": "Hyderabad",
+      "state": "Telangana",
+      "kind": "research_city",
+      "lat": 17.42,
+      "lon": 78.45,
+      "coord_source": "approx city centre"
+    },
+    {
+      "id": "city:amaravati",
+      "name": "Amaravati",
+      "state": "Andhra Pradesh",
+      "kind": "research_city",
+      "lat": 16.5151,
+      "lon": 80.5182,
+      "coord_source": "mean of AP network table coords (APPCB official CAAQMS list (as)"
+    },
+    {
+      "id": "city:anantapur",
+      "name": "Anantapur",
+      "state": "Andhra Pradesh",
+      "kind": "research_city",
+      "lat": 14.6759,
+      "lon": 77.593,
+      "coord_source": "mean of AP network table coords (APPCB official CAAQMS list (as)"
+    },
+    {
+      "id": "city:chittoor",
+      "name": "Chittoor",
+      "state": "Andhra Pradesh",
+      "kind": "research_city",
+      "lat": 13.2049,
+      "lon": 79.0979,
+      "coord_source": "mean of AP network table coords (APPCB official CAAQMS list (as)"
+    },
+    {
+      "id": "city:eluru",
+      "name": "Eluru",
+      "state": "Andhra Pradesh",
+      "kind": "research_city",
+      "lat": 16.7104,
+      "lon": 81.1154,
+      "coord_source": "mean of AP network table coords (GEOCODED_city_centroid_OpenStr)"
+    },
+    {
+      "id": "city:guntur",
+      "name": "Guntur",
+      "state": "Andhra Pradesh",
+      "kind": "research_city",
+      "lat": 16.2915,
+      "lon": 80.4542,
+      "coord_source": "mean of AP network table coords (GEOCODED_city_centroid_OpenStr)"
+    },
+    {
+      "id": "city:kadapa",
+      "name": "Kadapa",
+      "state": "Andhra Pradesh",
+      "kind": "research_city",
+      "lat": 14.4654,
+      "lon": 78.8245,
+      "coord_source": "mean of AP network table coords (APPCB official CAAQMS list (as)"
+    },
+    {
+      "id": "city:kakinada",
+      "name": "Kakinada",
+      "state": "Andhra Pradesh",
+      "kind": "research_city",
+      "lat": 16.9437,
+      "lon": 82.2351,
+      "coord_source": "mean of AP network table coords (GEOCODED_city_centroid_OpenStr)"
+    },
+    {
+      "id": "city:kurnool",
+      "name": "Kurnool",
+      "state": "Andhra Pradesh",
+      "kind": "research_city",
+      "lat": 15.8309,
+      "lon": 78.0425,
+      "coord_source": "mean of AP network table coords (GEOCODED_city_centroid_OpenStr)"
+    },
+    {
+      "id": "city:machilipatnam",
+      "name": "Machilipatnam",
+      "state": "Andhra Pradesh",
+      "kind": "research_city",
+      "lat": 16.1817,
+      "lon": 81.1348,
+      "coord_source": "mean of AP network table coords (GEOCODED_city_centroid_OpenStr)"
+    },
+    {
+      "id": "city:nellore",
+      "name": "Nellore",
+      "state": "Andhra Pradesh",
+      "kind": "research_city",
+      "lat": 14.4494,
+      "lon": 79.9874,
+      "coord_source": "mean of AP network table coords (GEOCODED_city_centroid_OpenStr)"
+    },
+    {
+      "id": "city:ongole",
+      "name": "Ongole",
+      "state": "Andhra Pradesh",
+      "kind": "research_city",
+      "lat": 15.5059,
+      "lon": 80.0499,
+      "coord_source": "mean of AP network table coords (GEOCODED_city_centroid_OpenStr)"
+    },
+    {
+      "id": "city:rajamahendravaram",
+      "name": "Rajamahendravaram",
+      "state": "Andhra Pradesh",
+      "kind": "research_city",
+      "lat": 17.0084,
+      "lon": 81.7714,
+      "coord_source": "mean of AP network table coords (APPCB official CAAQMS list (as)"
+    },
+    {
+      "id": "city:srikakulam",
+      "name": "Srikakulam",
+      "state": "Andhra Pradesh",
+      "kind": "research_city",
+      "lat": 18.2949,
+      "lon": 83.8939,
+      "coord_source": "mean of AP network table coords (GEOCODED_city_centroid_OpenStr)"
+    },
+    {
+      "id": "city:tirumala",
+      "name": "Tirumala",
+      "state": "Andhra Pradesh",
+      "kind": "research_city",
+      "lat": 13.675,
+      "lon": 79.3509,
+      "coord_source": "mean of AP network table coords (APPCB official CAAQMS list (as)"
+    },
+    {
+      "id": "city:tirupati",
+      "name": "Tirupati",
+      "state": "Andhra Pradesh",
+      "kind": "research_city",
+      "lat": 13.6154,
+      "lon": 79.4092,
+      "coord_source": "mean of AP network table coords (APPCB official CAAQMS list (as)"
+    },
+    {
+      "id": "city:vijayawada",
+      "name": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "kind": "research_city",
+      "lat": 16.5215,
+      "lon": 80.6376,
+      "coord_source": "mean of AP network table coords (APPCB official CAAQMS list (as)"
+    },
+    {
+      "id": "city:visakhapatnam",
+      "name": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "kind": "research_city",
+      "lat": 17.7224,
+      "lon": 83.3082,
+      "coord_source": "mean of AP network table coords (APPCB official CAAQMS list (as)"
+    },
+    {
+      "id": "major:delhi",
+      "name": "Delhi",
+      "state": "Delhi",
+      "kind": "major_city",
+      "lat": 28.6385,
+      "lon": 77.1817,
+      "coord_source": "Mean of 40 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 40
+    },
+    {
+      "id": "major:mumbai",
+      "name": "Mumbai",
+      "state": "Maharashtra",
+      "kind": "major_city",
+      "lat": 19.0926,
+      "lon": 72.8634,
+      "coord_source": "Mean of 31 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 31
+    },
+    {
+      "id": "major:kolkata",
+      "name": "Kolkata",
+      "state": "West Bengal",
+      "kind": "major_city",
+      "lat": 22.5526,
+      "lon": 88.3652,
+      "coord_source": "Mean of 8 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 8
+    },
+    {
+      "id": "major:chennai",
+      "name": "Chennai",
+      "state": "Tamil Nadu",
+      "kind": "major_city",
+      "lat": 13.065,
+      "lon": 80.2388,
+      "coord_source": "Mean of 9 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 9
+    },
+    {
+      "id": "major:bengaluru",
+      "name": "Bengaluru",
+      "state": "Karnataka",
+      "kind": "major_city",
+      "lat": 12.9522,
+      "lon": 77.5791,
+      "coord_source": "Mean of 14 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 14
+    },
+    {
+      "id": "major:ahmedabad",
+      "name": "Ahmedabad",
+      "state": "Gujarat",
+      "kind": "major_city",
+      "lat": 23.0344,
+      "lon": 72.5653,
+      "coord_source": "Mean of 9 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 9
+    },
+    {
+      "id": "major:pune",
+      "name": "Pune",
+      "state": "Maharashtra",
+      "kind": "major_city",
+      "lat": 18.555,
+      "lon": 73.8425,
+      "coord_source": "Mean of 12 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 12
+    },
+    {
+      "id": "major:jaipur",
+      "name": "Jaipur",
+      "state": "Rajasthan",
+      "kind": "major_city",
+      "lat": 26.8934,
+      "lon": 75.789,
+      "coord_source": "Mean of 6 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 6
+    },
+    {
+      "id": "major:lucknow",
+      "name": "Lucknow",
+      "state": "Uttar Pradesh",
+      "kind": "major_city",
+      "lat": 26.8506,
+      "lon": 80.9461,
+      "coord_source": "Mean of 6 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 6
+    },
+    {
+      "id": "major:patna",
+      "name": "Patna",
+      "state": "Bihar",
+      "kind": "major_city",
+      "lat": 25.5982,
+      "lon": 85.1258,
+      "coord_source": "Mean of 6 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 6
+    },
+    {
+      "id": "major:bhopal",
+      "name": "Bhopal",
+      "state": "Madhya Pradesh",
+      "kind": "major_city",
+      "lat": 23.2363,
+      "lon": 77.4025,
+      "coord_source": "Mean of 3 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 3
+    },
+    {
+      "id": "major:chandigarh",
+      "name": "Chandigarh",
+      "state": "Chandigarh",
+      "kind": "major_city",
+      "lat": 30.7357,
+      "lon": 76.7591,
+      "coord_source": "Mean of 3 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 3
+    },
+    {
+      "id": "major:guwahati",
+      "name": "Guwahati",
+      "state": "Assam",
+      "kind": "major_city",
+      "lat": 26.1594,
+      "lon": 91.7048,
+      "coord_source": "Mean of 3 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 3
+    },
+    {
+      "id": "major:kochi",
+      "name": "Kochi",
+      "state": "Kerala",
+      "kind": "major_city",
+      "lat": 9.9694,
+      "lon": 76.3212,
+      "coord_source": "Mean of 1 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 1
+    },
+    {
+      "id": "major:bhubaneswar",
+      "name": "Bhubaneswar",
+      "state": "Odisha",
+      "kind": "major_city",
+      "lat": 20.2937,
+      "lon": 85.8265,
+      "coord_source": "Mean of 2 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 2
+    },
+    {
+      "id": "major:indore",
+      "name": "Indore",
+      "state": "Madhya Pradesh",
+      "kind": "major_city",
+      "lat": 22.6597,
+      "lon": 75.7907,
+      "coord_source": "Mean of 5 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 5
+    },
+    {
+      "id": "major:nagpur",
+      "name": "Nagpur",
+      "state": "Maharashtra",
+      "kind": "major_city",
+      "lat": 21.1407,
+      "lon": 79.0645,
+      "coord_source": "Mean of 4 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 4
+    },
+    {
+      "id": "major:varanasi",
+      "name": "Varanasi",
+      "state": "Uttar Pradesh",
+      "kind": "major_city",
+      "lat": 25.3096,
+      "lon": 82.9744,
+      "coord_source": "Mean of 4 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 4
+    },
+    {
+      "id": "major:amritsar",
+      "name": "Amritsar",
+      "state": "Punjab",
+      "kind": "major_city",
+      "lat": 31.62,
+      "lon": 74.8765,
+      "coord_source": "Mean of 1 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 1
+    },
+    {
+      "id": "major:kanpur",
+      "name": "Kanpur",
+      "state": "Uttar Pradesh",
+      "kind": "major_city",
+      "lat": 26.4801,
+      "lon": 80.2837,
+      "coord_source": "Mean of 4 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 4
+    },
+    {
+      "id": "major:surat",
+      "name": "Surat",
+      "state": "Gujarat",
+      "kind": "major_city",
+      "lat": 21.17,
+      "lon": 72.7954,
+      "coord_source": "Mean of 1 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 1
+    },
+    {
+      "id": "major:coimbatore",
+      "name": "Coimbatore",
+      "state": "Tamil Nadu",
+      "kind": "major_city",
+      "lat": 10.9877,
+      "lon": 77.0069,
+      "coord_source": "Mean of 2 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 2
+    },
+    {
+      "id": "major:thiruvananthapuram",
+      "name": "Thiruvananthapuram",
+      "state": "Kerala",
+      "kind": "major_city",
+      "lat": 8.5393,
+      "lon": 76.9151,
+      "coord_source": "Mean of 2 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 2
+    },
+    {
+      "id": "major:raipur",
+      "name": "Raipur",
+      "state": "Chhattisgarh",
+      "kind": "major_city",
+      "lat": 21.272,
+      "lon": 81.6448,
+      "coord_source": "Mean of 4 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 4
+    },
+    {
+      "id": "major:dehradun",
+      "name": "Dehradun",
+      "state": "Uttarakhand",
+      "kind": "major_city",
+      "lat": 30.2694,
+      "lon": 78.0442,
+      "coord_source": "Mean of 1 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 1
+    },
+    {
+      "id": "major:srinagar",
+      "name": "Srinagar",
+      "state": "Jammu and Kashmir",
+      "kind": "major_city",
+      "lat": 34.0662,
+      "lon": 74.8198,
+      "coord_source": "Mean of 1 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 1
+    },
+    {
+      "id": "major:agartala",
+      "name": "Agartala",
+      "state": "Tripura",
+      "kind": "major_city",
+      "lat": 23.8402,
+      "lon": 91.2807,
+      "coord_source": "Mean of 2 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 2
+    },
+    {
+      "id": "major:imphal",
+      "name": "Imphal",
+      "state": "Manipur",
+      "kind": "major_city",
+      "lat": 24.7865,
+      "lon": 93.9355,
+      "coord_source": "Mean of 2 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 2
+    },
+    {
+      "id": "major:shillong",
+      "name": "Shillong",
+      "state": "Meghalaya",
+      "kind": "major_city",
+      "lat": 25.5694,
+      "lon": 91.8964,
+      "coord_source": "Mean of 2 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 2
+    },
+    {
+      "id": "major:aizawl",
+      "name": "Aizawl",
+      "state": "Mizoram",
+      "kind": "major_city",
+      "lat": 23.7176,
+      "lon": 92.7193,
+      "coord_source": "Mean of 1 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 1
+    },
+    {
+      "id": "major:kohima",
+      "name": "Kohima",
+      "state": "Nagaland",
+      "kind": "major_city",
+      "lat": 25.6635,
+      "lon": 94.099,
+      "coord_source": "Mean of 1 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 1
+    },
+    {
+      "id": "major:gangtok",
+      "name": "Gangtok",
+      "state": "Sikkim",
+      "kind": "major_city",
+      "lat": 27.3385,
+      "lon": 88.6141,
+      "coord_source": "Mean of 1 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 1
+    },
+    {
+      "id": "major:puducherry",
+      "name": "Puducherry",
+      "state": "Puducherry",
+      "kind": "major_city",
+      "lat": 11.9309,
+      "lon": 79.8027,
+      "coord_source": "Mean of 1 monitor coordinates in this city from the station list used on the map.",
+      "n_monitors": 1
+    },
+    {
+      "id": "district:telangana karimnagar",
+      "name": "Karimnagar",
+      "state": "Telangana",
+      "kind": "unmonitored_district",
+      "lat": 18.5303,
+      "lon": 79.3925,
+      "coord_source": "Representative point of the Census 2011 district polygon (DataMeet). Not a monitoring site.",
+      "nearest_monitor_km": 145.5
+    },
+    {
+      "id": "district:telangana khammam",
+      "name": "Khammam",
+      "state": "Telangana",
+      "kind": "unmonitored_district",
+      "lat": 17.6832,
+      "lon": 80.813,
+      "coord_source": "Representative point of the Census 2011 district polygon (DataMeet). Not a monitoring site.",
+      "nearest_monitor_km": 124.9
+    },
+    {
+      "id": "district:telangana warangal",
+      "name": "Warangal",
+      "state": "Telangana",
+      "kind": "unmonitored_district",
+      "lat": 17.921,
+      "lon": 79.5714,
+      "coord_source": "Representative point of the Census 2011 district polygon (DataMeet). Not a monitoring site.",
+      "nearest_monitor_km": 117.6
+    },
+    {
+      "id": "district:telangana nalgonda",
+      "name": "Nalgonda",
+      "state": "Telangana",
+      "kind": "unmonitored_district",
+      "lat": 17.0927,
+      "lon": 79.4081,
+      "coord_source": "Representative point of the Census 2011 district polygon (DataMeet). Not a monitoring site.",
+      "nearest_monitor_km": 96.6
+    },
+    {
+      "id": "district:telangana nizamabad",
+      "name": "Nizamabad",
+      "state": "Telangana",
+      "kind": "unmonitored_district",
+      "lat": 18.5357,
+      "lon": 78.1205,
+      "coord_source": "Representative point of the Census 2011 district polygon (DataMeet). Not a monitoring site.",
+      "nearest_monitor_km": 95.3
+    },
+    {
+      "id": "district:andhra pradesh vizianagaram",
+      "name": "Vizianagaram",
+      "state": "Andhra Pradesh",
+      "kind": "unmonitored_district",
+      "lat": 18.4799,
+      "lon": 83.3107,
+      "coord_source": "Representative point of the Census 2011 district polygon (DataMeet). Not a monitoring site.",
+      "nearest_monitor_km": 84.5
+    },
+    {
+      "id": "district:telangana mahbubnagar",
+      "name": "Mahbubnagar",
+      "state": "Telangana",
+      "kind": "unmonitored_district",
+      "lat": 16.5368,
+      "lon": 78.0252,
+      "coord_source": "Representative point of the Census 2011 district polygon (DataMeet). Not a monitoring site.",
+      "nearest_monitor_km": 80.9
+    },
+    {
+      "id": "district:telangana adilabad",
+      "name": "Adilabad",
+      "state": "Telangana",
+      "kind": "unmonitored_district",
+      "lat": 19.2855,
+      "lon": 79.0728,
+      "coord_source": "Representative point of the Census 2011 district polygon (DataMeet). Not a monitoring site.",
+      "nearest_monitor_km": 78.8
+    }
+  ]
+}

@@ -1,0 +1,901 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3585,
+          17.5409
+        ]
+      },
+      "properties": {
+        "station_short": "Bollaram Industrial Area",
+        "station_official": "Bollaram Industrial Area, Hyderabad - TSPCB",
+        "city": "Hyderabad",
+        "district": "Sangareddy / Hyderabad UA",
+        "state": "Telangana",
+        "lat": 17.5409,
+        "lon": 78.3585,
+        "operator": "TSPCB",
+        "site_code": "site_199",
+        "group": "Hyderabad_long_running",
+        "coord_source": "CPCB CAAQMS list PDF",
+        "aqi_name": "Bollaram Industrial Area Hyderabad TSPCB",
+        "n_days_18h": 1943.0,
+        "min_date": "2017-02-02",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 101.22659813806348,
+        "pct_AQI_gt_100": 51.41533710756562,
+        "mean_2023": 109.7740497219026,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3344,
+          17.4601
+        ]
+      },
+      "properties": {
+        "station_short": "Central University",
+        "station_official": "Central University, Hyderabad - TSPCB",
+        "city": "Hyderabad",
+        "district": "Ranga Reddy / Hyderabad UA",
+        "state": "Telangana",
+        "lat": 17.4601,
+        "lon": 78.3344,
+        "operator": "TSPCB",
+        "site_code": "site_262",
+        "group": "Hyderabad_long_running",
+        "coord_source": "CPCB CAAQMS list PDF",
+        "aqi_name": "Central University Hyderabad TSPCB",
+        "n_days_18h": 2102.0,
+        "min_date": "2017-07-02",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 85.35551252395916,
+        "pct_AQI_gt_100": 38.39200761179829,
+        "mean_2023": 86.43172112364007,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2788,
+          17.5184
+        ]
+      },
+      "properties": {
+        "station_short": "ICRISAT Patancheru",
+        "station_official": "ICRISAT Patancheru, Hyderabad - TSPCB",
+        "city": "Hyderabad",
+        "district": "Sangareddy",
+        "state": "Telangana",
+        "lat": 17.5184,
+        "lon": 78.2788,
+        "operator": "TSPCB",
+        "site_code": "site_251",
+        "group": "Hyderabad_long_running",
+        "coord_source": "CPCB CAAQMS list PDF",
+        "aqi_name": "ICRISAT Patancheru Hyderabad TSPCB",
+        "n_days_18h": 2206.0,
+        "min_date": "2017-02-02",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 86.9542872977865,
+        "pct_AQI_gt_100": 40.16319129646419,
+        "mean_2023": 90.47364295060628,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2189,
+          17.5317
+        ]
+      },
+      "properties": {
+        "station_short": "IDA Pashamylaram",
+        "station_official": "IDA Pashamylaram, Hyderabad - TSPCB",
+        "city": "Hyderabad",
+        "district": "Sangareddy",
+        "state": "Telangana",
+        "lat": 17.5317,
+        "lon": 78.2189,
+        "operator": "TSPCB",
+        "site_code": "site_275",
+        "group": "Hyderabad_long_running",
+        "coord_source": "CPCB CAAQMS list PDF",
+        "aqi_name": "IDA Pashamylaram Hyderabad TSPCB",
+        "n_days_18h": 1899.0,
+        "min_date": "2017-09-22",
+        "max_date": "2023-12-28",
+        "mean_AQI_18h": 99.60020790171664,
+        "pct_AQI_gt_100": 49.552395997893626,
+        "mean_2023": 102.40762500040948,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4332,
+          17.4559
+        ]
+      },
+      "properties": {
+        "station_short": "Sanathnagar",
+        "station_official": "Sanathnagar, Hyderabad - TSPCB",
+        "city": "Hyderabad",
+        "district": "Hyderabad",
+        "state": "Telangana",
+        "lat": 17.4559,
+        "lon": 78.4332,
+        "operator": "TSPCB",
+        "site_code": "site_294",
+        "group": "Hyderabad_long_running",
+        "coord_source": "CPCB CAAQMS list PDF",
+        "aqi_name": "Sanathnagar Hyderabad TSPCB",
+        "n_days_18h": 2042.0,
+        "min_date": "2017-09-26",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 89.75019615510298,
+        "pct_AQI_gt_100": 34.231145935357496,
+        "mean_2023": 82.57780670746399,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4514,
+          17.3497
+        ]
+      },
+      "properties": {
+        "station_short": "Zoo Park",
+        "station_official": "Zoo Park, Hyderabad - TSPCB",
+        "city": "Hyderabad",
+        "district": "Hyderabad",
+        "state": "Telangana",
+        "lat": 17.3497,
+        "lon": 78.4514,
+        "operator": "TSPCB",
+        "site_code": "site_298",
+        "group": "Hyderabad_long_running",
+        "coord_source": "CPCB CAAQMS list PDF",
+        "aqi_name": "Zoo Park Hyderabad TSPCB",
+        "n_days_18h": 1825.0,
+        "min_date": "2017-09-26",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 101.09131336729752,
+        "pct_AQI_gt_100": 52.05479452054794,
+        "mean_2023": 103.98048276975406,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.567,
+          17.4704
+        ]
+      },
+      "properties": {
+        "station_short": "ECIL Kapra",
+        "station_official": "ECIL Kapra, Hyderabad - TSPCB",
+        "city": "Hyderabad",
+        "district": "Medchal-Malkajgiri",
+        "state": "Telangana",
+        "lat": 17.4704,
+        "lon": 78.567,
+        "operator": "TSPCB",
+        "site_code": "site_5596",
+        "group": "Hyderabad_new_2022",
+        "coord_source": "CPCB CAAQMS list PDF",
+        "aqi_name": "ECIL Kapra Hyderabad TSPCB",
+        "n_days_18h": 441.0,
+        "min_date": "2022-05-14",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 76.20966784741245,
+        "pct_AQI_gt_100": 9.0702947845805,
+        "mean_2023": 75.66100450652608,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1262,
+          17.5857
+        ]
+      },
+      "properties": {
+        "station_short": "IITH Kandi",
+        "station_official": "IITH Kandi, Hyderabad - TSPCB",
+        "city": "Hyderabad",
+        "district": "Sangareddy",
+        "state": "Telangana",
+        "lat": 17.5857,
+        "lon": 78.1262,
+        "operator": "TSPCB",
+        "site_code": "site_5597",
+        "group": "Hyderabad_new_2022",
+        "coord_source": "CPCB CAAQMS list PDF",
+        "aqi_name": "IITH Kandi Hyderabad TSPCB",
+        "n_days_18h": 396.0,
+        "min_date": "2022-05-10",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 64.19694452291013,
+        "pct_AQI_gt_100": 4.797979797979798,
+        "mean_2023": 72.02607345511181,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3392,
+          17.3936
+        ]
+      },
+      "properties": {
+        "station_short": "Kokapet",
+        "station_official": "Kokapet, Hyderabad - TSPCB",
+        "city": "Hyderabad",
+        "district": "Ranga Reddy",
+        "state": "Telangana",
+        "lat": 17.3936,
+        "lon": 78.3392,
+        "operator": "TSPCB",
+        "site_code": "site_5604",
+        "group": "Hyderabad_new_2022",
+        "coord_source": "CPCB CAAQMS list PDF",
+        "aqi_name": "Kokapet Hyderabad TSPCB",
+        "n_days_18h": 389.0,
+        "min_date": "2022-06-02",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 78.09916195577325,
+        "pct_AQI_gt_100": 18.76606683804627,
+        "mean_2023": 96.43223393179387,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4869,
+          17.5449
+        ]
+      },
+      "properties": {
+        "station_short": "Kompally Municipal Office",
+        "station_official": "Kompally Municipal Office, Hyderabad - TSPCB",
+        "city": "Hyderabad",
+        "district": "Medchal-Malkajgiri",
+        "state": "Telangana",
+        "lat": 17.5449,
+        "lon": 78.4869,
+        "operator": "TSPCB",
+        "site_code": "site_5599",
+        "group": "Hyderabad_new_2022",
+        "coord_source": "CPCB CAAQMS list PDF",
+        "aqi_name": "Kompally Municipal Office Hyderabad TSPCB",
+        "n_days_18h": 383.0,
+        "min_date": "2022-05-09",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 62.72005000461125,
+        "pct_AQI_gt_100": 2.088772845953003,
+        "mean_2023": 68.60386709160547,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5694,
+          17.4294
+        ]
+      },
+      "properties": {
+        "station_short": "Nacharam TSIIC IALA",
+        "station_official": "Nacharam_TSIIC IALA, Hyderabad - TSPCB",
+        "city": "Hyderabad",
+        "district": "Medchal-Malkajgiri",
+        "state": "Telangana",
+        "lat": 17.4294,
+        "lon": 78.5694,
+        "operator": "TSPCB",
+        "site_code": "site_5600",
+        "group": "Hyderabad_new_2022",
+        "coord_source": "CPCB CAAQMS list PDF",
+        "aqi_name": "Nacharam TSIIC IALA Hyderabad TSPCB",
+        "n_days_18h": 456.0,
+        "min_date": "2022-05-09",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 78.20417222749248,
+        "pct_AQI_gt_100": 16.447368421052634,
+        "mean_2023": 90.3659893526931,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5086,
+          17.3721
+        ]
+      },
+      "properties": {
+        "station_short": "New Malakpet",
+        "station_official": "New Malakpet, Hyderabad - TSPCB",
+        "city": "Hyderabad",
+        "district": "Hyderabad",
+        "state": "Telangana",
+        "lat": 17.3721,
+        "lon": 78.5086,
+        "operator": "TSPCB",
+        "site_code": "site_5595",
+        "group": "Hyderabad_new_2022",
+        "coord_source": "CPCB CAAQMS list PDF",
+        "aqi_name": "New Malakpet Hyderabad TSPCB",
+        "n_days_18h": 444.0,
+        "min_date": "2022-06-04",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 72.24959395244008,
+        "pct_AQI_gt_100": 6.531531531531531,
+        "mean_2023": 77.41872208553666,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2862,
+          17.5285
+        ]
+      },
+      "properties": {
+        "station_short": "Ramachandrapuram",
+        "station_official": "Ramachandrapuram, Hyderabad - TSPCB",
+        "city": "Hyderabad",
+        "district": "Sangareddy",
+        "state": "Telangana",
+        "lat": 17.5285,
+        "lon": 78.2862,
+        "operator": "TSPCB",
+        "site_code": "site_5602",
+        "group": "Hyderabad_new_2022",
+        "coord_source": "CPCB CAAQMS list PDF",
+        "aqi_name": "Ramachandrapuram Hyderabad TSPCB",
+        "n_days_18h": 400.0,
+        "min_date": "2022-06-02",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 66.68627014361496,
+        "pct_AQI_gt_100": 3.25,
+        "mean_2023": 73.83432426917095,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4574,
+          17.4171
+        ]
+      },
+      "properties": {
+        "station_short": "Somajiguda",
+        "station_official": "Somajiguda, Hyderabad - TSPCB",
+        "city": "Hyderabad",
+        "district": "Hyderabad",
+        "state": "Telangana",
+        "lat": 17.4171,
+        "lon": 78.4574,
+        "operator": "TSPCB",
+        "site_code": "site_5598",
+        "group": "Hyderabad_new_2022",
+        "coord_source": "CPCB CAAQMS list PDF",
+        "aqi_name": "Somajiguda Hyderabad TSPCB",
+        "n_days_18h": 471.0,
+        "min_date": "2022-05-10",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 74.896302286105,
+        "pct_AQI_gt_100": 9.129511677282377,
+        "mean_2023": 79.9578510853719,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5182,
+          16.5151
+        ]
+      },
+      "properties": {
+        "station_short": "Secretariat Amaravati",
+        "station_official": "Secretariat, Amaravati - APPCB",
+        "city": "Amaravati",
+        "district": "Guntur (Velagapudi)",
+        "state": "Andhra Pradesh",
+        "lat": 16.5151,
+        "lon": 80.5182,
+        "operator": "APPCB",
+        "site_code": "site_1406",
+        "group": "AP_long_running",
+        "coord_source": "CPCB CAAQMS list PDF",
+        "aqi_name": "Secretariat Amaravati APPCB",
+        "n_days_18h": 1955.0,
+        "min_date": "2017-12-11",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 77.96447912568911,
+        "pct_AQI_gt_100": 24.347826086956523,
+        "mean_2023": 82.06204427251977,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.7363,
+          16.9873
+        ]
+      },
+      "properties": {
+        "station_short": "Anand Kala Kshetram",
+        "station_official": "Anand Kala Kshetram, Rajamahendravaram - APPCB",
+        "city": "Rajamahendravaram",
+        "district": "East Godavari",
+        "state": "Andhra Pradesh",
+        "lat": 16.9873,
+        "lon": 81.7363,
+        "operator": "APPCB",
+        "site_code": "site_1399",
+        "group": "AP_long_running",
+        "coord_source": "CPCB CAAQMS list PDF",
+        "aqi_name": "Anand Kala Kshetram Rajamahendravaram APPCB",
+        "n_days_18h": 2131.0,
+        "min_date": "2017-11-01",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 84.32046071671706,
+        "pct_AQI_gt_100": 28.95354293758799,
+        "mean_2023": 89.65266047271263,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3,
+          17.72
+        ]
+      },
+      "properties": {
+        "station_short": "GVM Corporation",
+        "station_official": "GVM Corporation, Visakhapatnam - APPCB",
+        "city": "Visakhapatnam",
+        "district": "Visakhapatnam",
+        "state": "Andhra Pradesh",
+        "lat": 17.72,
+        "lon": 83.3,
+        "operator": "APPCB",
+        "site_code": "site_260",
+        "group": "AP_long_running",
+        "coord_source": "CPCB CAAQMS list PDF",
+        "aqi_name": "GVM Corporation Visakhapatnam APPCB",
+        "n_days_18h": 2133.0,
+        "min_date": "2017-01-01",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 114.7167446241818,
+        "pct_AQI_gt_100": 52.55508673230192,
+        "mean_2023": 131.79325495939364,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.35,
+          13.67
+        ]
+      },
+      "properties": {
+        "station_short": "Toll Gate Tirumala",
+        "station_official": "Toll Gate, Tirumala - APPCB",
+        "city": "Tirumala",
+        "district": "Tirupati",
+        "state": "Andhra Pradesh",
+        "lat": 13.67,
+        "lon": 79.35,
+        "operator": "APPCB",
+        "site_code": "site_258",
+        "group": "AP_long_running",
+        "coord_source": "CPCB CAAQMS list PDF",
+        "aqi_name": null,
+        "n_days_18h": null,
+        "min_date": null,
+        "max_date": null,
+        "mean_AQI_18h": null,
+        "pct_AQI_gt_100": null,
+        "mean_2023": null,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.40923,
+          13.615387
+        ]
+      },
+      "properties": {
+        "station_short": "Vaikuntapuram Tirupati",
+        "station_official": "Vaikuntapuram, Tirupati - APPCB",
+        "city": "Tirupati",
+        "district": "Tirupati",
+        "state": "Andhra Pradesh",
+        "lat": 13.615387,
+        "lon": 79.40923,
+        "operator": "APPCB",
+        "site_code": "site_5666",
+        "group": "AP_newer",
+        "coord_source": "HuggingFace Zeel/C1 station_data.csv (CPCB-derived); APPCB CAAQMS list",
+        "aqi_name": "Vaikuntapuram Tirupati APPCB",
+        "n_days_18h": 331.0,
+        "min_date": "2022-11-06",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 71.98154179367512,
+        "pct_AQI_gt_100": 11.782477341389727,
+        "mean_2023": 68.62536481206762,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.593027,
+          14.675886
+        ]
+      },
+      "properties": {
+        "station_short": "Gulzarpet Anantapur",
+        "station_official": "Gulzarpet, Anantapur - APPCB",
+        "city": "Anantapur",
+        "district": "Anantapuramu",
+        "state": "Andhra Pradesh",
+        "lat": 14.675886,
+        "lon": 77.593027,
+        "operator": "APPCB",
+        "site_code": "site_5632",
+        "group": "AP_newer",
+        "coord_source": "HuggingFace Zeel/C1 station_data.csv (CPCB-derived); APPCB CAAQMS list",
+        "aqi_name": "Gulzarpet Anantapur APPCB",
+        "n_days_18h": 418.0,
+        "min_date": "2022-08-21",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 66.60543221403042,
+        "pct_AQI_gt_100": 7.894736842105263,
+        "mean_2023": 64.58389715619704,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.097889,
+          13.20488
+        ]
+      },
+      "properties": {
+        "station_short": "Gangineni Cheruvu Chittoor",
+        "station_official": "Gangineni Cheruvu, Chittoor - APPCB",
+        "city": "Chittoor",
+        "district": "Chittoor",
+        "state": "Andhra Pradesh",
+        "lat": 13.20488,
+        "lon": 79.097889,
+        "operator": "APPCB",
+        "site_code": "site_5665",
+        "group": "AP_newer",
+        "coord_source": "HuggingFace Zeel/C1 station_data.csv (CPCB-derived); APPCB CAAQMS list",
+        "aqi_name": "Gangineni Cheruvu Chittoor APPCB",
+        "n_days_18h": 298.0,
+        "min_date": "2022-11-12",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 71.1655694831689,
+        "pct_AQI_gt_100": 14.429530201342285,
+        "mean_2023": 71.37830436616689,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.824187,
+          14.465052
+        ]
+      },
+      "properties": {
+        "station_short": "Yerramukkapalli Kadapa",
+        "station_official": "Yerramukkapalli, Kadapa - APPCB",
+        "city": "Kadapa",
+        "district": "YSR Kadapa",
+        "state": "Andhra Pradesh",
+        "lat": 14.465052,
+        "lon": 78.824187,
+        "operator": "APPCB",
+        "site_code": "site_5693",
+        "group": "AP_newer",
+        "coord_source": "HuggingFace Zeel/C1 station_data.csv (CPCB-derived)",
+        "aqi_name": "Yerramukkapalli Kadapa APPCB",
+        "n_days_18h": 305.0,
+        "min_date": "2023-01-06",
+        "max_date": "2023-12-30",
+        "mean_AQI_18h": 68.45820851048765,
+        "pct_AQI_gt_100": 15.737704918032788,
+        "mean_2023": 68.45820851048765,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.627767,
+          16.507014
+        ]
+      },
+      "properties": {
+        "station_short": "PWD Grounds Vijayawada",
+        "station_official": "PWD Grounds, Vijayawada - APPCB",
+        "city": "Vijayawada",
+        "district": "NTR",
+        "state": "Andhra Pradesh",
+        "lat": 16.507014,
+        "lon": 80.627767,
+        "operator": "APPCB",
+        "site_code": "",
+        "group": "AP_Vijayawada",
+        "coord_source": "HuggingFace Zeel/C1 station_data.csv (CPCB-derived)",
+        "aqi_name": "PWD Grounds Vijayawada APPCB",
+        "n_days_18h": 609.0,
+        "min_date": "2017-05-02",
+        "max_date": "2020-11-19",
+        "mean_AQI_18h": 70.10826950904112,
+        "pct_AQI_gt_100": 12.151067323481117,
+        "mean_2023": null,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.699436,
+          16.486692
+        ]
+      },
+      "properties": {
+        "station_short": "Kanuru Vijayawada",
+        "station_official": "Kanuru, Vijayawada - APPCB",
+        "city": "Vijayawada",
+        "district": "NTR",
+        "state": "Andhra Pradesh",
+        "lat": 16.486692,
+        "lon": 80.699436,
+        "operator": "APPCB",
+        "site_code": "",
+        "group": "AP_Vijayawada",
+        "coord_source": "HuggingFace Zeel/C1 station_data.csv (CPCB-derived); APPCB list 16.485233,80.694166",
+        "aqi_name": "Kanuru Vijayawada APPCB",
+        "n_days_18h": 208.0,
+        "min_date": "2023-01-10",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 84.70521109206393,
+        "pct_AQI_gt_100": 24.519230769230766,
+        "mean_2023": 84.70521109206393,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.594233,
+          16.536107
+        ]
+      },
+      "properties": {
+        "station_short": "HB Colony Vijayawada",
+        "station_official": "HB Colony, Vijayawada - APPCB",
+        "city": "Vijayawada",
+        "district": "NTR",
+        "state": "Andhra Pradesh",
+        "lat": 16.536107,
+        "lon": 80.594233,
+        "operator": "APPCB",
+        "site_code": "",
+        "group": "AP_Vijayawada",
+        "coord_source": "HuggingFace Zeel/C1 station_data.csv (CPCB-derived)",
+        "aqi_name": "HB Colony Vijayawada APPCB",
+        "n_days_18h": 114.0,
+        "min_date": "2023-09-01",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 71.78332459155656,
+        "pct_AQI_gt_100": 14.912280701754383,
+        "mean_2023": 71.78332459155656,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.612222,
+          16.509717
+        ]
+      },
+      "properties": {
+        "station_short": "Rajiv Gandhi Park Vijayawada",
+        "station_official": "Rajiv Gandhi Park, Vijayawada - APPCB",
+        "city": "Vijayawada",
+        "district": "NTR",
+        "state": "Andhra Pradesh",
+        "lat": 16.509717,
+        "lon": 80.612222,
+        "operator": "APPCB",
+        "site_code": "",
+        "group": "AP_Vijayawada",
+        "coord_source": "HuggingFace Zeel/C1 station_data.csv (CPCB-derived); APPCB list 16.509987,80.612703",
+        "aqi_name": "Rajiv Gandhi Park Vijayawada APPCB",
+        "n_days_18h": 116.0,
+        "min_date": "2023-08-14",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 81.00644691324878,
+        "pct_AQI_gt_100": 17.24137931034483,
+        "mean_2023": 81.00644691324878,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.64911,
+          16.554731
+        ]
+      },
+      "properties": {
+        "station_short": "Rajiv Nagar Vijayawada",
+        "station_official": "Rajiv Nagar, Vijayawada - APPCB",
+        "city": "Vijayawada",
+        "district": "NTR",
+        "state": "Andhra Pradesh",
+        "lat": 16.554731,
+        "lon": 80.64911,
+        "operator": "APPCB",
+        "site_code": "",
+        "group": "AP_Vijayawada",
+        "coord_source": "HuggingFace Zeel/C1 station_data.csv (CPCB-derived); APPCB list 16.554735,80.649111",
+        "aqi_name": "Rajiv Gandhi Park Vijayawada APPCB",
+        "n_days_18h": 116.0,
+        "min_date": "2023-08-14",
+        "max_date": "2023-12-31",
+        "mean_AQI_18h": 81.00644691324878,
+        "pct_AQI_gt_100": 17.24137931034483,
+        "mean_2023": 81.00644691324878,
+        "coord_url_cpcb_pdf": "https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf",
+        "aqi_source": "https://github.com/Vonter/india-cpcb-aqi (CPCB AQI Repository, ODbL)",
+        "access_date": "2026-11-06 09:18 IST"
+      }
+    }
+  ],
+  "metadata": {
+    "access_date": "2026-11-06 09:18 IST",
+    "crs": "WGS84",
+    "note": "Coordinates from CPCB CAAQMS list PDF and CPCB-derived station tables. Not interpolated."
+  }
+}
