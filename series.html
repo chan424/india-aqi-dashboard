@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>City series — RGUKT Ongole AQI Observatory</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,560;8..60,650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="mark" aria-hidden="true"></span><span><span class="brand-name">AQI Observatory</span><span class="brand-sub">RGUKT Ongole</span></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <a href="index.html">Map</a><a href="series.html" aria-current="page">Cities</a><a href="ongole.html">Ongole</a><a href="ncap.html">NCAP</a><a href="health.html">Health</a><a href="emissions.html">Fires &amp; plants</a><a href="enso.html">ENSO</a><a href="data.html">Data</a><a href="methods.html">Methods</a>
+    </nav>
+  </header>
+  <main id="content">
+    <p class="kicker">Hyderabad and Andhra Pradesh</p>
+    <div class="page-head"><h1>Bulletin and station series</h1>
+      <p class="muted">Daily city AQI is the CPCB bulletin. Station lines are monthly means of days with at least 18 hours. Full daily files are on the data page.</p></div>
+    <section class="block">
+      <div class="filters">
+        <label>City <select id="city"></select></label>
+        <label>From <input id="from" type="date"></label>
+        <label>To <input id="to" type="date"></label>
+      </div>
+      <div class="chart-box"><canvas id="city-chart" aria-label="Daily bulletin AQI"></canvas></div>
+      <p id="city-note" class="muted"></p>
+      <details><summary>Latest rows in the current filter</summary>
+        <div class="table-wrap"><table id="city-table"><thead><tr><th>Date</th><th>AQI</th></tr></thead><tbody></tbody></table></div>
+      </details>
+    </section>
+    <section class="block">
+      <h2>Station pollutants</h2>
+      <div class="filters">
+        <label>Station <select id="station"></select></label>
+        <label>Pollutant
+          <select id="pollutant">
+            <option value="pm25">PM2.5</option>
+            <option value="pm10">PM10</option>
+            <option value="no2">NO2</option>
+            <option value="o3">Ozone</option>
+            <option value="so2">SO2</option>
+            <option value="co">CO</option>
+          </select>
+        </label>
+      </div>
+      <div class="chart-box"><canvas id="station-chart" aria-label="Monthly station pollutant"></canvas></div>
+      <p class="muted">Observed CAAQMS. CO is mg/m³; the others are µg/m³.</p>
+    </section>
+    <div class="grid-2">
+      <section class="block">
+        <h2>Diwali PM2.5</h2>
+        <div class="chart-box short"><canvas id="diwali-chart" aria-label="Diwali versus control PM2.5"></canvas></div>
+        <p id="diwali-note" class="muted"></p>
+      </section>
+      <section class="block">
+        <h2>Hyderabad lockdown, weather-normalised</h2>
+        <p class="muted">Long-running stations, Open-Meteo ERA5 model in the archive. A negative percent is lower than the weather prediction. Placebo errors in the source file are often large.</p>
+        <div class="table-wrap"><table id="lock-table"><thead><tr><th>Station</th><th>Pollutant</th><th>Lockdown vs weather</th><th>Placebo</th></tr></thead><tbody></tbody></table></div>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer"><p id="updated"></p><p><strong>RGUKT Ongole.</strong> Observed series are labelled as bulletin or CAAQMS. Derived Diwali and lockdown figures stay labelled as derived.</p></footer>
+  <script src="vendor/chart.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/chart-theme.js"></script>
+  <script src="js/series.js"></script>
+</body>
+</html>

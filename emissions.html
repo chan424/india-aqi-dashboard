@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fires and power plants — RGUKT Ongole</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,560;8..60,650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/leaflet.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="mark" aria-hidden="true"></span><span><span class="brand-name">AQI Observatory</span><span class="brand-sub">RGUKT Ongole</span></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <a href="index.html">Map</a><a href="series.html">Cities</a><a href="ongole.html">Ongole</a><a href="ncap.html">NCAP</a><a href="health.html">Health</a><a href="emissions.html" aria-current="page">Fires &amp; plants</a><a href="enso.html">ENSO</a><a href="data.html">Data</a><a href="methods.html">Methods</a>
+    </nav>
+  </header>
+  <main id="content">
+    <p class="kicker">Sources around the monitors</p>
+    <div class="page-head"><h1>Fires, power plants, source shares</h1>
+      <p class="muted">Power plants are the WRI Global Power Plant Database v1.3 (2021, CC BY 4.0), not a 2026 inventory. Fire dots are NASA FIRMS VIIRS NOAA-20 detections. Source shares are models or receptor studies, not emission inventories of the current year.</p></div>
+    <section class="block">
+      <div class="filters"><label>Fire year <select id="fire-year"></select></label></div>
+      <div id="plant-map" style="height:480px" role="application" aria-label="Power plants and fire detections"></div>
+      <p class="muted">Marker area grows with capacity. Coal is near-black, gas rust, hydro teal, solar gold, wind olive. Red halos are 0.5° fire cells for the selected October–November.</p>
+    </section>
+    <section class="block">
+      <h2>October–November fire detections</h2>
+      <div class="chart-box short"><canvas id="fire-chart" aria-label="Fire detections by year"></canvas></div>
+      <p id="fire-note" class="muted"></p>
+    </section>
+    <div class="grid-2">
+      <section class="block"><h2>APnA PM2.5 shares (model, 2019)</h2><div class="chart-box"><canvas id="apna-chart" aria-label="Source apportionment shares"></canvas></div></section>
+      <section class="block"><h2>Hyderabad CMB, PM2.5, 2005–06 samples</h2><div class="chart-box"><canvas id="cmb-chart" aria-label="Hyderabad CMB source shares"></canvas></div>
+        <p class="muted">Transcribed from Guttikunda et al. 2013. Station codes are as printed (PG and others).</p></section>
+    </div>
+  </main>
+  <footer class="site-footer"><p id="updated"></p><p><strong>RGUKT Ongole.</strong></p></footer>
+  <script src="vendor/leaflet.js"></script>
+  <script src="vendor/chart.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/chart-theme.js"></script>
+  <script src="js/emissions.js"></script>
+</body>
+</html>

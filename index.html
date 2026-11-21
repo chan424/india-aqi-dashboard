@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>India AQI map — RGUKT Ongole</title>
+  <meta name="description" content="National air-quality monitors, monitoring gaps in Andhra Pradesh and Telangana, and live model AQI estimates. A research display from RGUKT Ongole.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,560;8..60,650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/leaflet.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="mark" aria-hidden="true"></span>
+      <span><span class="brand-name">AQI Observatory</span><span class="brand-sub">RGUKT Ongole</span></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <a href="index.html" aria-current="page">Map</a>
+      <a href="series.html">Cities</a>
+      <a href="ongole.html">Ongole</a>
+      <a href="ncap.html">NCAP</a>
+      <a href="health.html">Health</a>
+      <a href="emissions.html">Fires &amp; plants</a>
+      <a href="enso.html">ENSO</a>
+      <a href="data.html">Data</a>
+      <a href="methods.html">Methods</a>
+    </nav>
+  </header>
+  <main id="content">
+    <p class="kicker">India monitor map · Andhra Pradesh &amp; Telangana</p>
+    <div class="lede">
+      <h1>Where India measures the air, and where it does not.</h1>
+      <p>Monitors are the CPCB CAAQMS list of 18 November 2026, filled out with the XKDR station directory where that PDF is silent, including the US Embassy sites. Colour is the latest CPCB city bulletin when a station’s city is on it. Numbers tagged Estimated (model) are CAMS via Open-Meteo, bias-corrected and scored with the CPCB sub-index. They are not regulatory AQI.</p>
+    </div>
+    <p class="status" role="status"><span class="dot" aria-hidden="true"></span><span id="status-text">Loading stations and the model cache…</span></p>
+    <div class="map-layout">
+      <div class="map-wrap">
+        <div class="map-toolbar">
+          <label><input id="layer-stations" type="checkbox" checked> Monitors</label>
+          <label><input id="layer-gaps" type="checkbox" checked> AP &amp; Telangana districts</label>
+          <label><input id="layer-grid" type="checkbox"> Distance grid</label>
+          <label><input id="layer-india" type="checkbox"> All-India districts</label>
+          <label><input id="layer-true" type="checkbox"> Satellite</label>
+          <label><input id="layer-aod" type="checkbox"> AOD</label>
+          <button id="reset-view" class="linkish secondary" type="button">AP &amp; Telangana</button>
+        </div>
+        <div id="map" role="application" aria-label="Map of Indian air-quality monitors and monitoring gaps. A table of the same city estimates follows."></div>
+        <div class="legend" aria-label="Legend">
+          <span><i style="background:#1f8a4c"></i>Good</span>
+          <span><i style="background:#8fbf3f"></i>Satisfactory</span>
+          <span><i style="background:#e2b400"></i>Moderate</span>
+          <span><i style="background:#ef8a1a"></i>Poor</span>
+          <span><i style="background:#e23d2b"></i>Very Poor</span>
+          <span><i style="background:#7a1530"></i>Severe</span>
+          <span><i style="background:#8d867c"></i>No bulletin match</span>
+          <span><span class="swatch" style="background:#efb4ae"></span>District &gt;100 km from a published monitor</span>
+          <span><span class="swatch" style="background:#e4d7f2"></span>Bulletin monitor, coordinates unpublished</span>
+        </div>
+      </div>
+      <div>
+        <label class="visually-hidden" for="place-search" style="position:absolute;left:-999px">Filter cities</label>
+        <input id="place-search" class="search" type="search" placeholder="Filter cities and districts" aria-label="Filter cities and districts">
+        <div id="place-list" class="panel" style="margin-top:0.55rem"></div>
+      </div>
+    </div>
+    <section class="block" style="margin-top:0.9rem">
+      <h2>City table</h2>
+      <p class="muted">Measured values are CPCB city bulletins. Estimated values are the model. Click the map for an estimate at any point. The ± figure on each card is the 2025 holdout RMSE, about 39 AQI points.</p>
+      <div class="table-wrap">
+        <table id="city-table">
+          <thead><tr><th>Place</th><th>State</th><th>Measured (monitor)</th><th>Estimated (model)</th><th>Nearest published monitor, km</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p><strong>RGUKT Ongole.</strong> A research display for air quality and health in Hyderabad, Andhra Pradesh and Telangana. Official AQI is published by the Central Pollution Control Board. Model numbers on this site are estimates.</p>
+  </footer>
+  <script src="vendor/leaflet.js"></script>
+  <script src="js/aqi.js"></script>
+  <script src="js/estimate.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/map.js"></script>
+</body>
+</html>

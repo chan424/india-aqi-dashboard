@@ -1,0 +1,753 @@
+{
+  "generated_at": "2026-11-21T10:53:24Z",
+  "use_pollutant_calibration": true,
+  "use_aqi_affine": false,
+  "use_idw": false,
+  "pollutant_calibration": {
+    "pm25": {
+      "a": 16.4709,
+      "b": 0.8016,
+      "extra": {}
+    },
+    "pm10": {
+      "a": 34.1406,
+      "b": 1.0982,
+      "extra": {}
+    },
+    "no2": {
+      "a": 12.1263,
+      "b": 0.4937,
+      "extra": {}
+    },
+    "o3": {
+      "a": 15.8004,
+      "b": 0.182,
+      "extra": {}
+    },
+    "so2": {
+      "a": 7.2598,
+      "b": 0.0656,
+      "extra": {}
+    },
+    "co": {
+      "a": 0.5558,
+      "b": 0.1815,
+      "extra": {}
+    }
+  },
+  "pollutant_calibration_fitted_even_if_unused": {
+    "pm25": {
+      "a": 16.4709,
+      "b": 0.8016,
+      "extra": {}
+    },
+    "pm10": {
+      "a": 34.1406,
+      "b": 1.0982,
+      "extra": {}
+    },
+    "no2": {
+      "a": 12.1263,
+      "b": 0.4937,
+      "extra": {}
+    },
+    "o3": {
+      "a": 15.8004,
+      "b": 0.182,
+      "extra": {}
+    },
+    "so2": {
+      "a": 7.2598,
+      "b": 0.0656,
+      "extra": {}
+    },
+    "co": {
+      "a": 0.5558,
+      "b": 0.1815,
+      "extra": {}
+    }
+  },
+  "idw": {
+    "power": 2,
+    "radius_km": 300,
+    "floor_km": 15
+  },
+  "fit": {
+    "sample": "City-day mean of CAAQMS stations with valid_18h (≥18 distinct hours), joined to Open-Meteo CAMS daily means on the same city and date.",
+    "cities": [
+      "Chittoor",
+      "Hyderabad",
+      "Vijayawada",
+      "Visakhapatnam"
+    ],
+    "train_dates": "2022-01-01 to 2024-12-31",
+    "test_dates": "2025-01-01 to 2025-12-31",
+    "co_unit": "CAMS carbon_monoxide divided by 1000 to convert µg/m³ to mg/m³ before the join with station CO.",
+    "ozone_limitation": "Station and CAMS ozone in this join are daily means. CPCB's ozone sub-index is defined on an 8-hour average. Live estimates use the max 8-hour mean from hourly CAMS; the historical score uses the daily mean.",
+    "weather": "RH, wind speed and rain from the station record were tested as extra linear terms. A weather model is selected only when its 2025 RMSE is at least 5% lower than CAMS-only. The daily CAMS file has no weather, so the bulletin comparison below applies a and b only."
+  },
+  "pollutants": {
+    "pm25": {
+      "cities": [
+        "Chittoor",
+        "Hyderabad",
+        "Vijayawada",
+        "Visakhapatnam"
+      ],
+      "raw_test": {
+        "n": 1435,
+        "mae": 17.09,
+        "rmse": 21.41,
+        "bias_pred_minus_obs": -13.15,
+        "r": 0.598
+      },
+      "linear_test": {
+        "n": 1435,
+        "mae": 11.33,
+        "rmse": 15.91,
+        "bias_pred_minus_obs": -2.71,
+        "r": 0.598
+      },
+      "linear_coefficients": {
+        "a": 16.4709,
+        "b": 0.8016
+      },
+      "linear_train": {
+        "n": 3173,
+        "mae": 11.04,
+        "rmse": 20.22,
+        "bias_pred_minus_obs": -0.0,
+        "r": 0.582
+      },
+      "weather_test": {
+        "n": 1434,
+        "mae": 12.01,
+        "rmse": 16.73,
+        "bias_pred_minus_obs": -1.81,
+        "r": 0.561
+      },
+      "weather_coefficients": {
+        "a": 16.4618,
+        "b": 0.8216,
+        "rh": -0.048,
+        "ws": 1.6955,
+        "rain": 0.0768,
+        "n_train": 3173,
+        "n_test": 1434
+      },
+      "selected": "cams_only"
+    },
+    "pm10": {
+      "cities": [
+        "Chittoor",
+        "Hyderabad",
+        "Vijayawada",
+        "Visakhapatnam"
+      ],
+      "raw_test": {
+        "n": 1435,
+        "mae": 52.37,
+        "rmse": 62.99,
+        "bias_pred_minus_obs": -51.81,
+        "r": 0.518
+      },
+      "linear_test": {
+        "n": 1435,
+        "mae": 24.69,
+        "rmse": 38.47,
+        "bias_pred_minus_obs": -14.21,
+        "r": 0.518
+      },
+      "linear_coefficients": {
+        "a": 34.1406,
+        "b": 1.0982
+      },
+      "linear_train": {
+        "n": 3165,
+        "mae": 23.77,
+        "rmse": 36.73,
+        "bias_pred_minus_obs": 0.0,
+        "r": 0.631
+      },
+      "weather_test": {
+        "n": 1434,
+        "mae": 25.53,
+        "rmse": 39.21,
+        "bias_pred_minus_obs": -13.69,
+        "r": 0.478
+      },
+      "weather_coefficients": {
+        "a": 31.1299,
+        "b": 1.109,
+        "rh": 0.0047,
+        "ws": 1.445,
+        "rain": -0.5836,
+        "n_train": 3165,
+        "n_test": 1434
+      },
+      "selected": "cams_only"
+    },
+    "no2": {
+      "cities": [
+        "Chittoor",
+        "Hyderabad",
+        "Vijayawada",
+        "Visakhapatnam"
+      ],
+      "raw_test": {
+        "n": 1433,
+        "mae": 12.7,
+        "rmse": 16.77,
+        "bias_pred_minus_obs": -11.78,
+        "r": 0.645
+      },
+      "linear_test": {
+        "n": 1433,
+        "mae": 8.92,
+        "rmse": 14.73,
+        "bias_pred_minus_obs": -6.79,
+        "r": 0.645
+      },
+      "linear_coefficients": {
+        "a": 12.1263,
+        "b": 0.4937
+      },
+      "linear_train": {
+        "n": 3168,
+        "mae": 7.25,
+        "rmse": 9.65,
+        "bias_pred_minus_obs": -0.0,
+        "r": 0.586
+      },
+      "weather_test": {
+        "n": 1432,
+        "mae": 9.78,
+        "rmse": 15.24,
+        "bias_pred_minus_obs": -7.46,
+        "r": 0.569
+      },
+      "weather_coefficients": {
+        "a": 4.719,
+        "b": 0.481,
+        "rh": 0.1302,
+        "ws": -0.6923,
+        "rain": -0.997,
+        "n_train": 3167,
+        "n_test": 1432
+      },
+      "selected": "cams_only"
+    },
+    "o3": {
+      "cities": [
+        "Chittoor",
+        "Hyderabad",
+        "Vijayawada",
+        "Visakhapatnam"
+      ],
+      "raw_test": {
+        "n": 1438,
+        "mae": 50.4,
+        "rmse": 56.72,
+        "bias_pred_minus_obs": 49.51,
+        "r": 0.16
+      },
+      "linear_test": {
+        "n": 1438,
+        "mae": 11.74,
+        "rmse": 15.73,
+        "bias_pred_minus_obs": -0.79,
+        "r": 0.16
+      },
+      "linear_coefficients": {
+        "a": 15.8004,
+        "b": 0.182
+      },
+      "linear_train": {
+        "n": 3058,
+        "mae": 12.83,
+        "rmse": 17.15,
+        "bias_pred_minus_obs": 0.0,
+        "r": 0.246
+      },
+      "weather_test": {
+        "n": 1434,
+        "mae": 13.16,
+        "rmse": 19.88,
+        "bias_pred_minus_obs": 3.28,
+        "r": 0.35
+      },
+      "weather_coefficients": {
+        "a": 13.8484,
+        "b": 0.1781,
+        "rh": -0.1286,
+        "ws": 7.3717,
+        "rain": -1.012,
+        "n_train": 3057,
+        "n_test": 1434
+      },
+      "selected": "cams_only"
+    },
+    "so2": {
+      "cities": [
+        "Chittoor",
+        "Hyderabad",
+        "Vijayawada",
+        "Visakhapatnam"
+      ],
+      "raw_test": {
+        "n": 1438,
+        "mae": 5.78,
+        "rmse": 7.27,
+        "bias_pred_minus_obs": -1.5,
+        "r": 0.037
+      },
+      "linear_test": {
+        "n": 1438,
+        "mae": 3.7,
+        "rmse": 5.35,
+        "bias_pred_minus_obs": -2.69,
+        "r": 0.037
+      },
+      "linear_coefficients": {
+        "a": 7.2598,
+        "b": 0.0656
+      },
+      "linear_train": {
+        "n": 3173,
+        "mae": 3.14,
+        "rmse": 4.82,
+        "bias_pred_minus_obs": 0.0,
+        "r": 0.316
+      },
+      "weather_test": {
+        "n": 1434,
+        "mae": 3.96,
+        "rmse": 5.66,
+        "bias_pred_minus_obs": -2.8,
+        "r": -0.074
+      },
+      "weather_coefficients": {
+        "a": 10.9321,
+        "b": 0.0672,
+        "rh": -0.0431,
+        "ws": -0.5243,
+        "rain": -0.0743,
+        "n_train": 3172,
+        "n_test": 1434
+      },
+      "selected": "cams_only"
+    },
+    "co": {
+      "cities": [
+        "Chittoor",
+        "Hyderabad",
+        "Vijayawada",
+        "Visakhapatnam"
+      ],
+      "raw_test": {
+        "n": 1435,
+        "mae": 0.32,
+        "rmse": 0.41,
+        "bias_pred_minus_obs": -0.13,
+        "r": 0.111
+      },
+      "linear_test": {
+        "n": 1435,
+        "mae": 0.15,
+        "rmse": 0.2,
+        "bias_pred_minus_obs": 0.04,
+        "r": 0.111
+      },
+      "linear_coefficients": {
+        "a": 0.5558,
+        "b": 0.1815
+      },
+      "linear_train": {
+        "n": 3160,
+        "mae": 0.18,
+        "rmse": 0.25,
+        "bias_pred_minus_obs": 0.0,
+        "r": 0.234
+      },
+      "weather_test": {
+        "n": 1433,
+        "mae": 0.22,
+        "rmse": 0.3,
+        "bias_pred_minus_obs": 0.0,
+        "r": -0.027
+      },
+      "weather_coefficients": {
+        "a": 0.7911,
+        "b": 0.1245,
+        "rh": -0.0011,
+        "ws": -0.09,
+        "rain": -0.0074,
+        "n_train": 3159,
+        "n_test": 1433
+      },
+      "selected": "cams_only"
+    }
+  },
+  "aqi_vs_bulletin": {
+    "definition": "CPCB sub-index of daily CAMS concentrations (pollutant calibration applied on the test comparison when use_pollutant_calibration is true) versus the CPCB city bulletin AQI. This is a daily-mean proxy, not the bulletin's own procedure.",
+    "test_2025_raw": {
+      "n": 1367,
+      "mae": 29.19,
+      "rmse": 41.33,
+      "bias_pred_minus_obs": -5.77,
+      "r": 0.45,
+      "exact_category_pct": 53.9,
+      "within_one_category_pct": 97.7,
+      "by_city": [
+        {
+          "n": 316,
+          "mae": 25.57,
+          "rmse": 34.61,
+          "bias_pred_minus_obs": -13.36,
+          "r": 0.447,
+          "city": "Chittoor"
+        },
+        {
+          "n": 364,
+          "mae": 21.04,
+          "rmse": 27.21,
+          "bias_pred_minus_obs": 12.35,
+          "r": 0.684,
+          "city": "Hyderabad"
+        },
+        {
+          "n": 346,
+          "mae": 24.26,
+          "rmse": 33.48,
+          "bias_pred_minus_obs": 18.63,
+          "r": 0.526,
+          "city": "Vijayawada"
+        },
+        {
+          "n": 341,
+          "mae": 46.24,
+          "rmse": 61.72,
+          "bias_pred_minus_obs": -42.86,
+          "r": 0.772,
+          "city": "Visakhapatnam"
+        }
+      ]
+    },
+    "test_2025_calibrated": {
+      "n": 1367,
+      "mae": 26.34,
+      "rmse": 39.19,
+      "bias_pred_minus_obs": -16.19,
+      "r": 0.576,
+      "exact_category_pct": 58.2,
+      "within_one_category_pct": 98.1,
+      "by_city": [
+        {
+          "n": 316,
+          "mae": 27.2,
+          "rmse": 37.29,
+          "bias_pred_minus_obs": -24.72,
+          "r": 0.542,
+          "city": "Chittoor"
+        },
+        {
+          "n": 364,
+          "mae": 15.18,
+          "rmse": 18.01,
+          "bias_pred_minus_obs": -10.6,
+          "r": 0.714,
+          "city": "Hyderabad"
+        },
+        {
+          "n": 346,
+          "mae": 19.62,
+          "rmse": 29.66,
+          "bias_pred_minus_obs": 10.55,
+          "r": 0.531,
+          "city": "Vijayawada"
+        },
+        {
+          "n": 341,
+          "mae": 44.28,
+          "rmse": 60.25,
+          "bias_pred_minus_obs": -41.39,
+          "r": 0.804,
+          "city": "Visakhapatnam"
+        }
+      ]
+    },
+    "test_2025_idw_leave_one_city_out": {
+      "n": 1367,
+      "mae": 30.06,
+      "rmse": 42.52,
+      "bias_pred_minus_obs": -16.19,
+      "r": 0.474,
+      "exact_category_pct": 56.2,
+      "within_one_category_pct": 97.2,
+      "share_with_neighbour_pct": 50.6
+    },
+    "confirm_2026_raw": {
+      "n": 2294,
+      "mae": 26.98,
+      "rmse": 35.21,
+      "bias_pred_minus_obs": 14.42,
+      "r": 0.413,
+      "exact_category_pct": 56.7,
+      "within_one_category_pct": 97.9,
+      "by_city": [
+        {
+          "n": 266,
+          "mae": 22.5,
+          "rmse": 30.46,
+          "bias_pred_minus_obs": 5.35,
+          "r": 0.138,
+          "city": "Chittoor"
+        },
+        {
+          "n": 223,
+          "mae": 23.08,
+          "rmse": 29.63,
+          "bias_pred_minus_obs": 19.96,
+          "r": 0.116,
+          "city": "Eluru"
+        },
+        {
+          "n": 231,
+          "mae": 20.73,
+          "rmse": 27.09,
+          "bias_pred_minus_obs": 17.55,
+          "r": 0.375,
+          "city": "Guntur"
+        },
+        {
+          "n": 310,
+          "mae": 27.89,
+          "rmse": 34.07,
+          "bias_pred_minus_obs": 27.63,
+          "r": 0.855,
+          "city": "Hyderabad"
+        },
+        {
+          "n": 81,
+          "mae": 48.83,
+          "rmse": 58.53,
+          "bias_pred_minus_obs": 47.69,
+          "r": 0.493,
+          "city": "Kakinada"
+        },
+        {
+          "n": 115,
+          "mae": 26.31,
+          "rmse": 31.79,
+          "bias_pred_minus_obs": 26.31,
+          "r": 0.574,
+          "city": "Kurnool"
+        },
+        {
+          "n": 207,
+          "mae": 32.99,
+          "rmse": 44.02,
+          "bias_pred_minus_obs": 24.13,
+          "r": -0.053,
+          "city": "Machilipatnam"
+        },
+        {
+          "n": 196,
+          "mae": 27.22,
+          "rmse": 35.49,
+          "bias_pred_minus_obs": 22.7,
+          "r": 0.066,
+          "city": "Nellore"
+        },
+        {
+          "n": 11,
+          "mae": 33.18,
+          "rmse": 44.68,
+          "bias_pred_minus_obs": 29.55,
+          "r": 0.161,
+          "city": "Ongole"
+        },
+        {
+          "n": 50,
+          "mae": 15.94,
+          "rmse": 19.58,
+          "bias_pred_minus_obs": 7.62,
+          "r": 0.743,
+          "city": "Srikakulam"
+        },
+        {
+          "n": 309,
+          "mae": 21.86,
+          "rmse": 28.97,
+          "bias_pred_minus_obs": 17.59,
+          "r": 0.556,
+          "city": "Vijayawada"
+        },
+        {
+          "n": 295,
+          "mae": 34.78,
+          "rmse": 42.37,
+          "bias_pred_minus_obs": -26.72,
+          "r": 0.733,
+          "city": "Visakhapatnam"
+        }
+      ]
+    },
+    "confirm_2026_calibrated": {
+      "n": 2294,
+      "mae": 17.93,
+      "rmse": 25.44,
+      "bias_pred_minus_obs": -0.65,
+      "r": 0.574,
+      "exact_category_pct": 67.6,
+      "within_one_category_pct": 99.5,
+      "by_city": [
+        {
+          "n": 266,
+          "mae": 15.44,
+          "rmse": 24.22,
+          "bias_pred_minus_obs": -6.75,
+          "r": 0.35,
+          "city": "Chittoor"
+        },
+        {
+          "n": 223,
+          "mae": 17.48,
+          "rmse": 23.63,
+          "bias_pred_minus_obs": 14.15,
+          "r": 0.137,
+          "city": "Eluru"
+        },
+        {
+          "n": 231,
+          "mae": 14.87,
+          "rmse": 19.25,
+          "bias_pred_minus_obs": 5.64,
+          "r": 0.022,
+          "city": "Guntur"
+        },
+        {
+          "n": 310,
+          "mae": 11.85,
+          "rmse": 17.55,
+          "bias_pred_minus_obs": 6.79,
+          "r": 0.744,
+          "city": "Hyderabad"
+        },
+        {
+          "n": 81,
+          "mae": 18.8,
+          "rmse": 22.61,
+          "bias_pred_minus_obs": 14.01,
+          "r": 0.429,
+          "city": "Kakinada"
+        },
+        {
+          "n": 115,
+          "mae": 16.51,
+          "rmse": 19.06,
+          "bias_pred_minus_obs": 9.8,
+          "r": 0.344,
+          "city": "Kurnool"
+        },
+        {
+          "n": 207,
+          "mae": 16.09,
+          "rmse": 27.06,
+          "bias_pred_minus_obs": -4.02,
+          "r": -0.11,
+          "city": "Machilipatnam"
+        },
+        {
+          "n": 196,
+          "mae": 11.86,
+          "rmse": 17.11,
+          "bias_pred_minus_obs": -2.92,
+          "r": 0.115,
+          "city": "Nellore"
+        },
+        {
+          "n": 11,
+          "mae": 12.09,
+          "rmse": 13.96,
+          "bias_pred_minus_obs": -1.73,
+          "r": 0.284,
+          "city": "Ongole"
+        },
+        {
+          "n": 50,
+          "mae": 16.4,
+          "rmse": 20.6,
+          "bias_pred_minus_obs": -7.36,
+          "r": 0.586,
+          "city": "Srikakulam"
+        },
+        {
+          "n": 309,
+          "mae": 17.75,
+          "rmse": 24.53,
+          "bias_pred_minus_obs": 8.23,
+          "r": 0.529,
+          "city": "Vijayawada"
+        },
+        {
+          "n": 295,
+          "mae": 35.62,
+          "rmse": 42.03,
+          "bias_pred_minus_obs": -31.46,
+          "r": 0.822,
+          "city": "Visakhapatnam"
+        }
+      ]
+    },
+    "train_2022_2024_calibrated_not_used_for_selection": {
+      "n": 2844,
+      "mae": 21.31,
+      "rmse": 33.13,
+      "bias_pred_minus_obs": -5.49,
+      "r": 0.695,
+      "exact_category_pct": 63.3,
+      "within_one_category_pct": 99.0,
+      "by_city": [
+        {
+          "n": 568,
+          "mae": 21.6,
+          "rmse": 30.95,
+          "bias_pred_minus_obs": -2.08,
+          "r": 0.575,
+          "city": "Chittoor"
+        },
+        {
+          "n": 881,
+          "mae": 10.79,
+          "rmse": 14.29,
+          "bias_pred_minus_obs": -0.75,
+          "r": 0.82,
+          "city": "Hyderabad"
+        },
+        {
+          "n": 574,
+          "mae": 25.57,
+          "rmse": 41.79,
+          "bias_pred_minus_obs": 6.82,
+          "r": 0.302,
+          "city": "Vijayawada"
+        },
+        {
+          "n": 821,
+          "mae": 29.43,
+          "rmse": 41.21,
+          "bias_pred_minus_obs": -21.53,
+          "r": 0.782,
+          "city": "Visakhapatnam"
+        }
+      ]
+    },
+    "selection_rule": "Use pollutant calibration only if 2025 bulletin RMSE falls. Use IDW only if leave-one-city-out 2025 RMSE falls further. 2026 is reported and was not used to choose."
+  },
+  "uncertainty": {
+    "test_2025_rmse_aqi": 39.19,
+    "test_2025_rmse_without_idw": 39.19,
+    "note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+  }
+}

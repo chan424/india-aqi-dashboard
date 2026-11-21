@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Methods and sources — RGUKT Ongole</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,560;8..60,650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="mark" aria-hidden="true"></span><span><span class="brand-name">AQI Observatory</span><span class="brand-sub">RGUKT Ongole</span></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <a href="index.html">Map</a><a href="series.html">Cities</a><a href="ongole.html">Ongole</a><a href="ncap.html">NCAP</a><a href="health.html">Health</a><a href="emissions.html">Fires &amp; plants</a><a href="enso.html">ENSO</a><a href="data.html">Data</a><a href="methods.html" aria-current="page">Methods</a>
+    </nav>
+  </header>
+  <main id="content">
+    <p class="kicker">How a number gets onto the map</p>
+    <div class="page-head"><h1>Methods and sources</h1>
+      <p id="freshness" class="muted"></p></div>
+
+    <section class="block">
+      <h2>Sources</h2>
+      <ul>
+        <li><a href="https://app.cpcbccr.com/ccr_docs/caaqms_list_All_India.pdf">CPCB CAAQMS list, all India</a> (PDF dated 18 November 2026, 358 stations with coordinates). Central Pollution Control Board, Central Control Room.</li>
+        <li><a href="https://airquality.xkdr.org/">XKDR Forum, India Air Quality Database</a> (station directory exported 30 September 2026, CC BY 4.0). Used for stations the PDF does not list, including US Embassy monitors. Credit CPCB CAAQM and the US Department of State via AirNow alongside XKDR.</li>
+        <li><a href="https://cpcb.gov.in/upload/Downloads/AQI_Bulletin_20261121.pdf">CPCB national daily AQI bulletin</a>, parsed for 21 November 2026 at build time and refreshed by the hourly action. City AQI, prominent pollutant, stations reporting.</li>
+        <li><a href="https://air-quality-api.open-meteo.com/">Open-Meteo Air Quality API</a> (CAMS global): hourly PM2.5, PM10, NO2, ozone, SO2, CO. No key.</li>
+        <li><a href="https://api.open-meteo.com/">Open-Meteo weather</a>: wind, humidity, rain, boundary-layer height. No key.</li>
+        <li><a href="https://app.cpcbccr.com/ccr_docs/How_AQI_Calculated.pdf">CPCB, How is AQI calculated</a> and the National Air Quality Index report (CUPS/82) for breakpoints.</li>
+        <li><a href="https://github.com/datameet/maps">DataMeet Census 2011 district boundaries</a>, CC BY 4.0. Telangana is the ten 2011 districts that formed the state in 2014.</li>
+        <li><a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> basemap. <a href="https://gibs.earthdata.nasa.gov/">NASA GIBS</a> MODIS Terra true colour and Combined Value-Added AOD for 20 November 2026, optional layers.</li>
+        <li>The research tables (bulletins 2015–2026, station pollutants 2017–2025, CAMS daily 2022–2026, NCAP, Swachh Vayu, AQLI, NFHS, FIRMS, WRI power plants, ONI, the Ongole case study) are the RGUKT Ongole archive compiled from those agencies. Citations for each file are in the archive README and on the data page. Drive folder: <a href="https://drive.google.com/drive/folders/1Q9KlGgUM53I7rSg95I7NhhphVkNkYrjw">AQI_DATA_ALL</a>.</li>
+        <li>NOAA ONI, ERSSTv5. WRI Global Power Plant Database v1.3, CC BY 4.0. NASA FIRMS VIIRS NOAA-20. EPIC AQLI 2025. NFHS-5 and NFHS-6, IIPS. Lok Sabha SQ 12 (20 July 2026) and SQ 120 (27 July 2026). Swachh Vayu Survekshan 2023–2025.</li>
+      </ul>
+    </section>
+
+    <section class="block">
+      <h2>AQI formula</h2>
+      <p>For each pollutant the sub-index is</p>
+      <p><em>I</em> = (<em>I</em><sub>hi</sub> − <em>I</em><sub>lo</sub>) / (<em>BP</em><sub>hi</sub> − <em>BP</em><sub>lo</sub>) × (<em>C</em> − <em>BP</em><sub>lo</sub>) + <em>I</em><sub>lo</sub></p>
+      <p>Concentration is truncated (micrograms to an integer, CO to one decimal) before the lookup, which is what makes CPCB’s own examples land on integers: PM2.5 of 31 µg/m³ → 51, 45 → 75, 60 → 100. The AQI is the worst sub-index. CPCB publishes an overall AQI when at least three pollutants are present and one of them is PM2.5 or PM10. This site still shows a partial index if that bar is missed, and says so.</p>
+      <p>Severe has no published upper concentration. The upper end used here is the top of Very Poor plus the width of Very Poor, so the index reaches 500 at a finite value (PM2.5 at 380 µg/m³, PM10 at 510). Above that, the index stays at 500.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Category</th><th>AQI</th><th>PM2.5 24h</th><th>PM10 24h</th><th>NO2 24h</th><th>O3 8h</th><th>CO 8h mg/m³</th><th>SO2 24h</th></tr></thead>
+        <tbody>
+          <tr><td>Good</td><td>0–50</td><td>0–30</td><td>0–50</td><td>0–40</td><td>0–50</td><td>0–1.0</td><td>0–40</td></tr>
+          <tr><td>Satisfactory</td><td>51–100</td><td>31–60</td><td>51–100</td><td>41–80</td><td>51–100</td><td>1.1–2.0</td><td>41–80</td></tr>
+          <tr><td>Moderate</td><td>101–200</td><td>61–90</td><td>101–250</td><td>81–180</td><td>101–168</td><td>2.1–10</td><td>81–380</td></tr>
+          <tr><td>Poor</td><td>201–300</td><td>91–120</td><td>251–350</td><td>181–280</td><td>169–208</td><td>10.1–17</td><td>381–800</td></tr>
+          <tr><td>Very Poor</td><td>301–400</td><td>121–250</td><td>351–430</td><td>281–400</td><td>209–748</td><td>17.1–34</td><td>801–1600</td></tr>
+          <tr><td>Severe</td><td>401–500</td><td>251–380</td><td>431–510</td><td>401–520</td><td>749–1288</td><td>34.1–51</td><td>1601–2400</td></tr>
+        </tbody>
+      </table></div>
+      <p class="muted">The Severe column is the finite cap described above, not a second official breakpoint. NH3 is implemented in the code and is not in the live CAMS feed.</p>
+    </section>
+
+    <section class="block">
+      <h2>The estimate</h2>
+      <ol>
+        <li>Take the last 24 hourly CAMS values (at least 16 hours). PM2.5, PM10, NO2 and SO2 use that mean. Ozone and CO use the highest 8-hour mean inside those 24 hours. CO is converted from µg/m³ to mg/m³ by dividing by 1000.</li>
+        <li>Apply a straight-line correction, concentration = a + b × CAMS, fitted on city-day means for <span id="fit-cities"></span>. Training days are 2022–2024. A day counts only when the station file has at least 18 hours. The line is kept only if it lowers 2025 bulletin RMSE.</li>
+        <li>Turn the corrected concentrations into sub-indices and take the worst.</li>
+        <li>Inverse-distance residuals from neighbouring cities were tested and are not applied. See the table.</li>
+        <li>Where the CPCB bulletin names the same city, the card also shows that value as Measured (monitor). It is a city figure. The station-level CPCB feed is requested by the hourly job; when it does not answer, the map says so and keeps the city bulletin.</li>
+      </ol>
+      <p id="choice" class="callout"></p>
+      <h3>Holdout against the CPCB city bulletin</h3>
+      <p>The historical score uses daily CAMS means, including for ozone and CO. The live estimate uses 8-hour maxima for those two. Bias is prediction minus bulletin. Category rates are percent of days.</p>
+      <div class="table-wrap"><table id="metrics">
+        <thead><tr><th>Comparison</th><th>n</th><th>MAE</th><th>RMSE</th><th>Bias</th><th>r</th><th>Exact category %</th><th>Within one category %</th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+      <h3>Pollutant fit, 2025 city-days</h3>
+      <div class="table-wrap"><table id="pol">
+        <thead><tr><th></th><th>a</th><th>b</th><th>Raw RMSE</th><th>Linear RMSE</th><th>r</th><th>Weather RMSE</th><th>Selected</th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+      <p class="muted">Weather RMSE adds station relative humidity, wind and rain. It is selected only when it cuts the linear RMSE by at least 5%. It did not.</p>
+    </section>
+
+    <section class="block">
+      <h2>Limitations</h2>
+      <ul>
+        <li>The calibration is four cities: Hyderabad, Visakhapatnam, Vijayawada and Chittoor. Using it in Delhi or a Telangana district with no monitor is a transfer, and the ± band is the Andhra–Hyderabad holdout error, not a local interval.</li>
+        <li>On the 2025 bulletin the calibration lowers RMSE a little (about 41 to 39) and raises the low bias (about −6 to −16). Raw CAMS ozone is much too high and can inflate the raw AQI by accident. After the ozone correction the index sits further below the bulletin in 2025. In the 2026 months available in the archive the calibrated bias is near zero and RMSE is lower. 2026 was not used to choose the model.</li>
+        <li>IDW helped on only about half of city-days, because the CAMS cities are far apart, and it made RMSE worse. It is switched off.</li>
+        <li>The CPCB PDF lists four Andhra Pradesh stations. The 21 November 2026 bulletin reports monitors in many more AP cities, including Ongole. Those cities are drawn as “coordinates unpublished”, not as invented pins.</li>
+        <li>District gaps use Census 2011 polygons. Andhra Pradesh and Telangana have been split into smaller districts since then. A parent polygon can hide a gap inside a new district, or the reverse.</li>
+        <li>City-bulletin colour is painted on every station in that city. It is not that station’s own analyser.</li>
+        <li>Open-Meteo can fail. The hourly GitHub Action writes <code>data/cache/city_estimates.json</code> so the cards still load. A click on the map needs the live API.</li>
+        <li>Nothing here is a health warning or a substitute for the CPCB bulletin.</li>
+      </ul>
+    </section>
+  </main>
+  <footer class="site-footer"><p><strong>RGUKT Ongole</strong> · Rajiv Gandhi University of Knowledge Technologies, Ongole. Research display.</p></footer>
+  <script src="js/nav.js"></script>
+  <script src="js/methods.js"></script>
+</body>
+</html>

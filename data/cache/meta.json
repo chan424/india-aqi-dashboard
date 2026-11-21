@@ -1,0 +1,14 @@
+{
+  "refresh_started": "2026-11-21T10:53:26Z",
+  "bulletin_date": "2026-11-21",
+  "bulletin_cities": 281,
+  "bulletin_stations_coloured": 499,
+  "bulletin_error": null,
+  "rss_status": "unavailable: <urlopen error _ssl.c:983: The handshake operation timed out>",
+  "estimates_updated": "2026-11-21T10:53:53Z",
+  "estimates_ok": 59,
+  "estimates_requested": 59,
+  "open_meteo_errors": [],
+  "use_pollutant_calibration": true,
+  "use_idw": false
+}

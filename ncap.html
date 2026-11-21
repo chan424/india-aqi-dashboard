@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NCAP and Swachh Vayu — RGUKT Ongole</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,560;8..60,650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="mark" aria-hidden="true"></span><span><span class="brand-name">AQI Observatory</span><span class="brand-sub">RGUKT Ongole</span></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <a href="index.html">Map</a><a href="series.html">Cities</a><a href="ongole.html">Ongole</a><a href="ncap.html" aria-current="page">NCAP</a><a href="health.html">Health</a><a href="emissions.html">Fires &amp; plants</a><a href="enso.html">ENSO</a><a href="data.html">Data</a><a href="methods.html">Methods</a>
+    </nav>
+  </header>
+  <main id="content">
+    <p class="kicker">National Clean Air Programme</p>
+    <div class="page-head"><h1>City comparisons</h1>
+      <p class="muted">PM10 figures are as printed in Lok Sabha Starred Question 12 (20 July 2026). “Meets 60” is a derived flag in the archive (annual PM10 at or below 60 µg/m³). Swachh Vayu scores are official; the state column in that file was added by the archive.</p></div>
+    <section class="block">
+      <div class="filters"><label>State <select id="state"></select></label></div>
+      <div class="chart-box"><canvas id="pm-chart" aria-label="PM10 in 2017-18 and 2025-26"></canvas></div>
+      <div class="table-wrap"><table id="pm-table"><thead><tr><th>City</th><th>State</th><th>2017–18</th><th>2025–26</th><th>% improvement as printed</th><th>Meets 60 (derived)</th></tr></thead><tbody></tbody></table></div>
+    </section>
+    <section class="block">
+      <h2>Swachh Vayu Survekshan, AP and Telangana cities</h2>
+      <div class="chart-box"><canvas id="svs-chart" aria-label="Swachh Vayu scores"></canvas></div>
+    </section>
+    <section class="block">
+      <h2>AQI-category days</h2>
+      <div class="filters"><label>City <select id="day-city"></select></label></div>
+      <div class="chart-box short"><canvas id="day-chart" aria-label="Days in each AQI category"></canvas></div>
+      <p class="muted">Lok Sabha Starred Question 120, 27 July 2026. Counts are as printed.</p>
+    </section>
+  </main>
+  <footer class="site-footer"><p id="updated"></p><p><strong>RGUKT Ongole.</strong></p></footer>
+  <script src="vendor/chart.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/chart-theme.js"></script>
+  <script src="js/ncap.js"></script>
+</body>
+</html>

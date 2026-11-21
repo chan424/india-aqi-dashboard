@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Health panel — RGUKT Ongole</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,560;8..60,650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="mark" aria-hidden="true"></span><span><span class="brand-name">AQI Observatory</span><span class="brand-sub">RGUKT Ongole</span></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <a href="index.html">Map</a><a href="series.html">Cities</a><a href="ongole.html">Ongole</a><a href="ncap.html">NCAP</a><a href="health.html" aria-current="page">Health</a><a href="emissions.html">Fires &amp; plants</a><a href="enso.html">ENSO</a><a href="data.html">Data</a><a href="methods.html">Methods</a>
+    </nav>
+  </header>
+  <main id="content">
+    <p class="kicker">District panel</p>
+    <div class="page-head"><h1>Air quality and health, side by side</h1>
+      <p id="health-note" class="callout warn"></p></div>
+    <div class="grid-2">
+      <section class="block"><h2>PM2.5 and child ARI</h2><div class="chart-box"><canvas id="scatter" aria-label="Scatter of AQLI PM2.5 and NFHS child ARI"></canvas></div></section>
+      <section class="block"><h2>Life-years lost, AQLI 2023</h2><div class="chart-box"><canvas id="llpp" aria-label="Life years lost by district"></canvas></div>
+        <p class="muted">Teal is Telangana, rust is Andhra Pradesh. AQLI is a model, not a count of deaths in the district.</p></section>
+    </div>
+    <section class="block">
+      <div class="table-wrap"><table id="health-table">
+        <thead><tr><th>District</th><th>State</th><th>PM2.5 2023</th><th>Years lost 2023</th><th>ARI NFHS-6</th><th>ARI NFHS-5</th><th>Men’s tobacco NFHS-6</th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+    </section>
+  </main>
+  <footer class="site-footer"><p id="updated"></p><p><strong>RGUKT Ongole.</strong> Survey estimates and a modelled pollution surface. Not hospital data, and not a causal result.</p></footer>
+  <script src="vendor/chart.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/chart-theme.js"></script>
+  <script src="js/health.js"></script>
+</body>
+</html>
