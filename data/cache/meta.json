@@ -1,11 +1,11 @@
 {
-  "refresh_started": "2026-11-21T23:21:05Z",
+  "refresh_started": "2026-11-22T06:53:15Z",
   "bulletin_date": "2026-11-21",
   "bulletin_cities": 281,
   "bulletin_stations_coloured": 499,
   "bulletin_error": null,
   "rss_status": "unavailable: <urlopen error timed out>",
-  "estimates_updated": "2026-11-21T23:21:29Z",
+  "estimates_updated": "2026-11-22T06:53:42Z",
   "estimates_ok": 59,
   "estimates_requested": 59,
   "open_meteo_errors": [],
