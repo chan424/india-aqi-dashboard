@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "source": "CPCB national daily AQI bulletin PDF",
-  "source_url": "https://cpcb.gov.in/upload/Downloads/AQI_Bulletin_20261122.pdf",
+  "source_url": "https://cpcb.gov.in/upload/Downloads/AQI_Bulletin_20261123.pdf",
   "cities": [
     {
       "sno": 1,
       "city": "Agartala",
-      "category": "Good",
-      "aqi": 36,
-      "prominent_pollutant": "CO",
+      "category": "Satisfactory",
+      "aqi": 60,
+      "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 2
     },
@@ -16,7 +16,7 @@
       "sno": 2,
       "city": "Agra",
       "category": "Moderate",
-      "aqi": 113,
+      "aqi": 109,
       "prominent_pollutant": "PM10",
       "stations_participated": 5,
       "stations_total": 6
@@ -25,239 +25,221 @@
       "sno": 3,
       "city": "Ahmedabad",
       "category": "Moderate",
-      "aqi": 132,
-      "prominent_pollutant": "PM10, NO2, PM2.5",
-      "stations_participated": 7,
+      "aqi": 122,
+      "prominent_pollutant": "PM10, PM2.5",
+      "stations_participated": 6,
       "stations_total": 9
     },
     {
       "sno": 4,
       "city": "Ahmednagar",
-      "category": "Moderate",
-      "aqi": 108,
+      "category": "Satisfactory",
+      "aqi": 99,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 5,
-      "city": "Ajmer",
-      "category": "Moderate",
-      "aqi": 145,
+      "city": "Aizawl",
+      "category": "Good",
+      "aqi": 12,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 6,
-      "city": "Akola",
-      "category": "Satisfactory",
-      "aqi": 90,
-      "prominent_pollutant": "PM10",
+      "city": "Ajmer",
+      "category": "Moderate",
+      "aqi": 111,
+      "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 7,
-      "city": "Alwar",
-      "category": "Moderate",
-      "aqi": 134,
-      "prominent_pollutant": "PM2.5, PM10",
-      "stations_participated": 2,
-      "stations_total": 2
-    },
-    {
-      "sno": 8,
-      "city": "Amaravati",
-      "category": "Moderate",
-      "aqi": 120,
+      "city": "Akola",
+      "category": "Satisfactory",
+      "aqi": 64,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
-      "sno": 9,
-      "city": "Ambala",
-      "category": "Poor",
-      "aqi": 241,
+      "sno": 8,
+      "city": "Alwar",
+      "category": "Moderate",
+      "aqi": 139,
       "prominent_pollutant": "PM2.5",
+      "stations_participated": 2,
+      "stations_total": 2
+    },
+    {
+      "sno": 9,
+      "city": "Amaravati",
+      "category": "Satisfactory",
+      "aqi": 85,
+      "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 10,
-      "city": "Ambernath",
+      "city": "Ambala",
       "category": "Moderate",
-      "aqi": 128,
-      "prominent_pollutant": "PM10",
+      "aqi": 182,
+      "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 11,
+      "city": "Ambernath",
+      "category": "Moderate",
+      "aqi": 129,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 12,
       "city": "Amravati",
       "category": "Satisfactory",
-      "aqi": 92,
+      "aqi": 73,
       "prominent_pollutant": "PM10",
       "stations_participated": 2,
       "stations_total": 2
     },
     {
-      "sno": 12,
+      "sno": 13,
       "city": "Amritsar",
       "category": "Moderate",
-      "aqi": 180,
+      "aqi": 171,
       "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 13,
-      "city": "Anantapur",
-      "category": "Satisfactory",
-      "aqi": 74,
-      "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 14,
-      "city": "Angul",
+      "city": "Anantapur",
       "category": "Satisfactory",
-      "aqi": 81,
-      "prominent_pollutant": "CO",
+      "aqi": 67,
+      "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 15,
-      "city": "Ankleshwar",
-      "category": "Poor",
-      "aqi": 251,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 16,
-      "city": "Arrah",
+      "city": "Angul",
       "category": "Satisfactory",
-      "aqi": 53,
+      "aqi": 88,
       "prominent_pollutant": "CO",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
+      "sno": 16,
+      "city": "Ankleshwar",
+      "category": "Moderate",
+      "aqi": 186,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
       "sno": 17,
-      "city": "Asansol",
+      "city": "Anpara",
       "category": "Good",
-      "aqi": 45,
-      "prominent_pollutant": "CO, PM10",
-      "stations_participated": 4,
-      "stations_total": 4
+      "aqi": 43,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
     },
     {
       "sno": 18,
-      "city": "Aurangabad (Bihar)",
-      "category": "Good",
-      "aqi": 30,
+      "city": "Araria",
+      "category": "Satisfactory",
+      "aqi": 81,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 19,
-      "city": "Aurangabad (Maharashtra)",
-      "category": "Moderate",
-      "aqi": 177,
-      "prominent_pollutant": "PM2.5, O3",
-      "stations_participated": 3,
-      "stations_total": 3
-    },
-    {
-      "sno": 20,
-      "city": "Baddi",
-      "category": "Moderate",
-      "aqi": 170,
+      "city": "Arrah",
+      "category": "Satisfactory",
+      "aqi": 66,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
+      "sno": 20,
+      "city": "Asansol",
+      "category": "Good",
+      "aqi": 49,
+      "prominent_pollutant": "CO, PM10",
+      "stations_participated": 4,
+      "stations_total": 4
+    },
+    {
       "sno": 21,
-      "city": "Badlapur",
-      "category": "Poor",
-      "aqi": 213,
-      "prominent_pollutant": "PM2.5",
+      "city": "Aurangabad (Bihar)",
+      "category": "Satisfactory",
+      "aqi": 53,
+      "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 22,
-      "city": "Baghpat",
+      "city": "Aurangabad (Maharashtra)",
       "category": "Moderate",
-      "aqi": 122,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
+      "aqi": 104,
+      "prominent_pollutant": "PM2.5, PM10, O3",
+      "stations_participated": 3,
+      "stations_total": 3
     },
     {
       "sno": 23,
-      "city": "Bahadurgarh",
+      "city": "Baddi",
       "category": "Poor",
-      "aqi": 278,
+      "aqi": 208,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 24,
-      "city": "Balasore",
-      "category": "Good",
-      "aqi": 39,
-      "prominent_pollutant": "CO",
+      "city": "Badlapur",
+      "category": "Poor",
+      "aqi": 220,
+      "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 25,
-      "city": "Ballabgarh",
-      "category": "Poor",
-      "aqi": 242,
-      "prominent_pollutant": "PM10",
+      "city": "Baghpat",
+      "category": "Moderate",
+      "aqi": 185,
+      "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 26,
-      "city": "Banswara",
+      "city": "Bahadurgarh",
       "category": "Moderate",
-      "aqi": 118,
-      "prominent_pollutant": "O3",
+      "aqi": 196,
+      "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 27,
-      "city": "Baran",
-      "category": "Moderate",
-      "aqi": 126,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 28,
-      "city": "Baraut",
-      "category": "Moderate",
-      "aqi": 147,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 29,
-      "city": "Barbil",
+      "city": "Balasore",
       "category": "Good",
       "aqi": 44,
       "prominent_pollutant": "CO",
@@ -265,107 +247,197 @@
       "stations_total": 1
     },
     {
-      "sno": 30,
-      "city": "Bareilly",
-      "category": "Satisfactory",
-      "aqi": 69,
-      "prominent_pollutant": "PM10, PM2.5",
-      "stations_participated": 2,
-      "stations_total": 2
-    },
-    {
-      "sno": 31,
-      "city": "Baripada",
-      "category": "Satisfactory",
-      "aqi": 59,
-      "prominent_pollutant": "O3",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 32,
-      "city": "Barmer",
-      "category": "Moderate",
-      "aqi": 105,
+      "sno": 28,
+      "city": "Ballabgarh",
+      "category": "Poor",
+      "aqi": 210,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
-      "sno": 33,
-      "city": "Barrackpore",
+      "sno": 29,
+      "city": "Banswara",
+      "category": "Moderate",
+      "aqi": 126,
+      "prominent_pollutant": "O3",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 30,
+      "city": "Baran",
+      "category": "Moderate",
+      "aqi": 137,
+      "prominent_pollutant": "O3",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 31,
+      "city": "Baraut",
+      "category": "Poor",
+      "aqi": 216,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 32,
+      "city": "Barbil",
       "category": "Satisfactory",
-      "aqi": 62,
+      "aqi": 77,
       "prominent_pollutant": "CO",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
-      "sno": 34,
-      "city": "Bathinda",
+      "sno": 33,
+      "city": "Bareilly",
       "category": "Satisfactory",
-      "aqi": 100,
-      "prominent_pollutant": "PM2.5",
+      "aqi": 80,
+      "prominent_pollutant": "PM10, CO",
+      "stations_participated": 2,
+      "stations_total": 2
+    },
+    {
+      "sno": 34,
+      "city": "Baripada",
+      "category": "Satisfactory",
+      "aqi": 68,
+      "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 35,
-      "city": "Beed",
+      "city": "Barmer",
       "category": "Moderate",
-      "aqi": 105,
-      "prominent_pollutant": "PM2.5",
+      "aqi": 101,
+      "prominent_pollutant": "O3",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 36,
-      "city": "Begusarai",
+      "city": "Barrackpore",
       "category": "Satisfactory",
-      "aqi": 52,
+      "aqi": 71,
       "prominent_pollutant": "CO",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 37,
-      "city": "Belapur",
-      "category": "Moderate",
-      "aqi": 174,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 38,
-      "city": "Bengaluru",
-      "category": "Moderate",
-      "aqi": 152,
-      "prominent_pollutant": "PM2.5, O3",
-      "stations_participated": 8,
-      "stations_total": 14
-    },
-    {
-      "sno": 39,
-      "city": "Bettiah",
-      "category": "Moderate",
-      "aqi": 176,
+      "city": "Bathinda",
+      "category": "Satisfactory",
+      "aqi": 98,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
+      "sno": 38,
+      "city": "Beed",
+      "category": "Satisfactory",
+      "aqi": 80,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 39,
+      "city": "Begusarai",
+      "category": "Good",
+      "aqi": 41,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
       "sno": 40,
+      "city": "Belapur",
+      "category": "Moderate",
+      "aqi": 132,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 41,
+      "city": "Bengaluru",
+      "category": "Moderate",
+      "aqi": 111,
+      "prominent_pollutant": "PM2.5, PM10",
+      "stations_participated": 8,
+      "stations_total": 14
+    },
+    {
+      "sno": 42,
+      "city": "Bettiah",
+      "category": "Moderate",
+      "aqi": 177,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 43,
       "city": "Bhagalpur",
       "category": "Satisfactory",
-      "aqi": 59,
-      "prominent_pollutant": "SO2, CO",
+      "aqi": 60,
+      "prominent_pollutant": "CO, SO2",
       "stations_participated": 2,
       "stations_total": 2
     },
     {
-      "sno": 41,
+      "sno": 44,
       "city": "Bharatpur",
+      "category": "Moderate",
+      "aqi": 123,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 45,
+      "city": "Bhavnagar",
+      "category": "Moderate",
+      "aqi": 160,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 46,
+      "city": "Bhilai",
+      "category": "Good",
+      "aqi": 40,
+      "prominent_pollutant": "PM10, CO",
+      "stations_participated": 3,
+      "stations_total": 3
+    },
+    {
+      "sno": 47,
+      "city": "Bhilwara",
+      "category": "Moderate",
+      "aqi": 146,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 48,
+      "city": "Bhiwadi",
+      "category": "Poor",
+      "aqi": 233,
+      "prominent_pollutant": "PM2.5, PM10",
+      "stations_participated": 2,
+      "stations_total": 2
+    },
+    {
+      "sno": 49,
+      "city": "Bhiwandi",
       "category": "Moderate",
       "aqi": 145,
       "prominent_pollutant": "PM10",
@@ -373,116 +445,107 @@
       "stations_total": 1
     },
     {
-      "sno": 42,
-      "city": "Bhavnagar",
-      "category": "Poor",
-      "aqi": 218,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 43,
-      "city": "Bhilai",
-      "category": "Good",
-      "aqi": 35,
-      "prominent_pollutant": "PM2.5, PM10",
-      "stations_participated": 3,
-      "stations_total": 3
-    },
-    {
-      "sno": 44,
-      "city": "Bhilwara",
-      "category": "Moderate",
-      "aqi": 159,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 45,
-      "city": "Bhiwadi",
-      "category": "Poor",
-      "aqi": 263,
-      "prominent_pollutant": "PM2.5, PM10",
-      "stations_participated": 2,
-      "stations_total": 2
-    },
-    {
-      "sno": 46,
-      "city": "Bhiwandi",
-      "category": "Poor",
-      "aqi": 262,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 47,
+      "sno": 50,
       "city": "Bhiwani",
       "category": "Poor",
-      "aqi": 254,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 48,
-      "city": "Bhopal",
-      "category": "Moderate",
-      "aqi": 189,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 3,
-      "stations_total": 3
-    },
-    {
-      "sno": 49,
-      "city": "Bhubaneswar",
-      "category": "Good",
-      "aqi": 41,
-      "prominent_pollutant": "PM10, O3",
-      "stations_participated": 2,
-      "stations_total": 2
-    },
-    {
-      "sno": 50,
-      "city": "Bikaner",
-      "category": "Poor",
-      "aqi": 233,
+      "aqi": 268,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 51,
-      "city": "Bilaspur",
-      "category": "Satisfactory",
-      "aqi": 67,
+      "city": "Bhopal",
+      "category": "Moderate",
+      "aqi": 160,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 3,
+      "stations_total": 3
+    },
+    {
+      "sno": 52,
+      "city": "Bhubaneswar",
+      "category": "Good",
+      "aqi": 48,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 2,
+      "stations_total": 2
+    },
+    {
+      "sno": 53,
+      "city": "Bikaner",
+      "category": "Poor",
+      "aqi": 287,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
-      "sno": 52,
-      "city": "Bileipada",
-      "category": "Satisfactory",
-      "aqi": 81,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 53,
-      "city": "Boisar",
-      "category": "Satisfactory",
-      "aqi": 82,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
       "sno": 54,
+      "city": "Bilaspur",
+      "category": "Satisfactory",
+      "aqi": 54,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 55,
+      "city": "Bileipada",
+      "category": "Moderate",
+      "aqi": 177,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 56,
       "city": "Brajrajnagar",
+      "category": "Satisfactory",
+      "aqi": 53,
+      "prominent_pollutant": "CO",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 57,
+      "city": "Bulandshahr",
+      "category": "Moderate",
+      "aqi": 199,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 58,
+      "city": "Bundi",
+      "category": "Moderate",
+      "aqi": 148,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 59,
+      "city": "Buxar",
+      "category": "Satisfactory",
+      "aqi": 77,
+      "prominent_pollutant": "O3",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 60,
+      "city": "Byasanagar",
+      "category": "Satisfactory",
+      "aqi": 57,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 61,
+      "city": "Byrnihat (Assam)",
       "category": "Satisfactory",
       "aqi": 56,
       "prominent_pollutant": "CO",
@@ -490,52 +553,16 @@
       "stations_total": 1
     },
     {
-      "sno": 55,
-      "city": "Bulandshahr",
-      "category": "Moderate",
-      "aqi": 169,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 56,
-      "city": "Bundi",
-      "category": "Moderate",
-      "aqi": 166,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 57,
-      "city": "Buxar",
+      "sno": 62,
+      "city": "Byrnihat (Meghalaya)",
       "category": "Satisfactory",
-      "aqi": 58,
-      "prominent_pollutant": "PM2.5",
+      "aqi": 72,
+      "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
-      "sno": 58,
-      "city": "Byasanagar",
-      "category": "Good",
-      "aqi": 47,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 59,
-      "city": "Byrnihat (Assam)",
-      "category": "Moderate",
-      "aqi": 119,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 60,
+      "sno": 63,
       "city": "Chamarajanagar",
       "category": "Good",
       "aqi": 45,
@@ -544,52 +571,52 @@
       "stations_total": 1
     },
     {
-      "sno": 61,
+      "sno": 64,
       "city": "Chandigarh",
       "category": "Satisfactory",
-      "aqi": 95,
+      "aqi": 85,
       "prominent_pollutant": "PM10, PM2.5",
       "stations_participated": 3,
       "stations_total": 3
     },
     {
-      "sno": 62,
+      "sno": 65,
       "city": "Chandrapur",
-      "category": "Satisfactory",
-      "aqi": 75,
-      "prominent_pollutant": "PM10, PM2.5",
+      "category": "Moderate",
+      "aqi": 117,
+      "prominent_pollutant": "PM2.5, PM10",
       "stations_participated": 2,
       "stations_total": 2
     },
     {
-      "sno": 63,
+      "sno": 66,
       "city": "Charkhi dadri",
-      "category": "Poor",
-      "aqi": 206,
-      "prominent_pollutant": "PM2.5",
+      "category": "Moderate",
+      "aqi": 158,
+      "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
-      "sno": 64,
+      "sno": 67,
       "city": "Chennai",
-      "category": "Moderate",
-      "aqi": 179,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 5,
+      "category": "Satisfactory",
+      "aqi": 89,
+      "prominent_pollutant": "PM10, PM2.5",
+      "stations_participated": 4,
       "stations_total": 9
     },
     {
-      "sno": 65,
+      "sno": 68,
       "city": "Chhal",
       "category": "Satisfactory",
-      "aqi": 61,
+      "aqi": 59,
       "prominent_pollutant": "O3",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
-      "sno": 66,
+      "sno": 69,
       "city": "Chhapra",
       "category": "Moderate",
       "aqi": 119,
@@ -598,197 +625,314 @@
       "stations_total": 1
     },
     {
-      "sno": 67,
-      "city": "Chittoor",
-      "category": "Satisfactory",
-      "aqi": 82,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 68,
-      "city": "Chittorgarh",
-      "category": "Poor",
-      "aqi": 268,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 69,
-      "city": "Churu",
-      "category": "Moderate",
-      "aqi": 150,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
       "sno": 70,
-      "city": "Cuttack",
-      "category": "Good",
-      "aqi": 37,
-      "prominent_pollutant": "O3",
+      "city": "Chikkaballapur",
+      "category": "Moderate",
+      "aqi": 140,
+      "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 71,
-      "city": "Damoh",
-      "category": "Moderate",
-      "aqi": 111,
-      "prominent_pollutant": "PM2.5",
+      "city": "Chikkamagaluru",
+      "category": "Satisfactory",
+      "aqi": 53,
+      "prominent_pollutant": "CO",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 72,
-      "city": "Darbhanga",
-      "category": "Good",
-      "aqi": 49,
+      "city": "Chittoor",
+      "category": "Satisfactory",
+      "aqi": 68,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 73,
-      "city": "Dausa",
-      "category": "Satisfactory",
-      "aqi": 96,
-      "prominent_pollutant": "PM10",
+      "city": "Chittorgarh",
+      "category": "Poor",
+      "aqi": 220,
+      "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 74,
-      "city": "Deeg",
-      "category": "Satisfactory",
-      "aqi": 87,
-      "prominent_pollutant": "PM10",
+      "city": "Churu",
+      "category": "Poor",
+      "aqi": 238,
+      "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 75,
-      "city": "Dehradun",
+      "city": "Cuddalore",
+      "category": "Good",
+      "aqi": 37,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 2
+    },
+    {
+      "sno": 76,
+      "city": "Cuttack",
       "category": "Satisfactory",
-      "aqi": 69,
+      "aqi": 51,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
-      "sno": 76,
-      "city": "Delhi",
-      "category": "Poor",
-      "aqi": 239,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 56,
-      "stations_total": 59
-    },
-    {
       "sno": 77,
-      "city": "Dewas",
+      "city": "Damoh",
       "category": "Moderate",
-      "aqi": 153,
-      "prominent_pollutant": "NO2",
+      "aqi": 120,
+      "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 78,
-      "city": "Dhanbad",
-      "category": "Satisfactory",
-      "aqi": 97,
-      "prominent_pollutant": "NO2",
+      "city": "Darbhanga",
+      "category": "Moderate",
+      "aqi": 104,
+      "prominent_pollutant": "PM10",
       "stations_participated": 1,
-      "stations_total": 2
+      "stations_total": 1
     },
     {
       "sno": 79,
-      "city": "Dharuhera",
-      "category": "Poor",
-      "aqi": 270,
-      "prominent_pollutant": "PM2.5",
+      "city": "Dausa",
+      "category": "Moderate",
+      "aqi": 122,
+      "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 80,
-      "city": "Dholpur",
-      "category": "Moderate",
-      "aqi": 113,
-      "prominent_pollutant": "PM2.5",
+      "city": "Deeg",
+      "category": "Satisfactory",
+      "aqi": 80,
+      "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 81,
-      "city": "Dhule",
-      "category": "Moderate",
-      "aqi": 155,
+      "city": "Dehradun",
+      "category": "Satisfactory",
+      "aqi": 67,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 82,
-      "city": "Dombivli",
-      "category": "Moderate",
-      "aqi": 139,
+      "city": "Delhi",
+      "category": "Poor",
+      "aqi": 260,
       "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
+      "stations_participated": 58,
+      "stations_total": 59
     },
     {
       "sno": 83,
-      "city": "Dungarpur",
+      "city": "Dewas",
       "category": "Moderate",
-      "aqi": 122,
-      "prominent_pollutant": "PM2.5",
+      "aqi": 146,
+      "prominent_pollutant": "NO2",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 84,
-      "city": "Durgapur",
-      "category": "Satisfactory",
-      "aqi": 58,
-      "prominent_pollutant": "NO2, PM10, PM2.5",
-      "stations_participated": 3,
-      "stations_total": 3
+      "city": "Dharuhera",
+      "category": "Poor",
+      "aqi": 277,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
     },
     {
       "sno": 85,
-      "city": "Eluru",
+      "city": "Dholpur",
       "category": "Satisfactory",
-      "aqi": 77,
-      "prominent_pollutant": "PM10",
+      "aqi": 87,
+      "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 86,
-      "city": "Faridabad",
+      "city": "Dhule",
       "category": "Moderate",
-      "aqi": 113,
-      "prominent_pollutant": "PM10, PM2.5",
-      "stations_participated": 2,
-      "stations_total": 3
-    },
-    {
-      "sno": 87,
-      "city": "Fatehabad",
-      "category": "Moderate",
-      "aqi": 130,
+      "aqi": 122,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
+      "sno": 87,
+      "city": "Dombivli",
+      "category": "Moderate",
+      "aqi": 171,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
       "sno": 88,
+      "city": "Dungarpur",
+      "category": "Satisfactory",
+      "aqi": 100,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 89,
+      "city": "Durgapur",
+      "category": "Satisfactory",
+      "aqi": 58,
+      "prominent_pollutant": "NO2, PM10, CO",
+      "stations_participated": 3,
+      "stations_total": 3
+    },
+    {
+      "sno": 90,
+      "city": "Eluru",
+      "category": "Satisfactory",
+      "aqi": 58,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 91,
+      "city": "Faridabad",
+      "category": "Moderate",
+      "aqi": 141,
+      "prominent_pollutant": "PM2.5, PM10",
+      "stations_participated": 3,
+      "stations_total": 3
+    },
+    {
+      "sno": 92,
+      "city": "Fatehabad",
+      "category": "Moderate",
+      "aqi": 164,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 93,
       "city": "Fatehpur sikri",
+      "category": "Satisfactory",
+      "aqi": 58,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 94,
+      "city": "Firozabad",
+      "category": "Satisfactory",
+      "aqi": 100,
+      "prominent_pollutant": "PM2.5, PM10",
+      "stations_participated": 2,
+      "stations_total": 2
+    },
+    {
+      "sno": 95,
+      "city": "Gadag",
+      "category": "Satisfactory",
+      "aqi": 57,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 96,
+      "city": "Gajraula",
+      "category": "Poor",
+      "aqi": 282,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 97,
+      "city": "Gandhinagar",
+      "category": "Moderate",
+      "aqi": 113,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 3,
+      "stations_total": 3
+    },
+    {
+      "sno": 98,
+      "city": "Gangtok",
+      "category": "Good",
+      "aqi": 27,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 99,
+      "city": "Gaya",
+      "category": "Good",
+      "aqi": 39,
+      "prominent_pollutant": "SO2, CO",
+      "stations_participated": 2,
+      "stations_total": 3
+    },
+    {
+      "sno": 100,
+      "city": "Ghaziabad",
+      "category": "Poor",
+      "aqi": 241,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 9,
+      "stations_total": 9
+    },
+    {
+      "sno": 101,
+      "city": "Gopalganj",
+      "category": "Satisfactory",
+      "aqi": 65,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 102,
+      "city": "Gorakhpur",
+      "category": "Satisfactory",
+      "aqi": 94,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 103,
+      "city": "Greater noida",
+      "category": "Poor",
+      "aqi": 239,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 7,
+      "stations_total": 7
+    },
+    {
+      "sno": 104,
+      "city": "Guntur",
       "category": "Satisfactory",
       "aqi": 65,
       "prominent_pollutant": "PM10",
@@ -796,358 +940,268 @@
       "stations_total": 1
     },
     {
-      "sno": 89,
-      "city": "Firozabad",
-      "category": "Satisfactory",
-      "aqi": 87,
-      "prominent_pollutant": "PM10, PM2.5",
-      "stations_participated": 2,
-      "stations_total": 2
-    },
-    {
-      "sno": 90,
-      "city": "Gadag",
-      "category": "Satisfactory",
-      "aqi": 53,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 91,
-      "city": "Gajraula",
-      "category": "Poor",
-      "aqi": 219,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 92,
-      "city": "Gandhinagar",
-      "category": "Moderate",
-      "aqi": 131,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 3,
-      "stations_total": 3
-    },
-    {
-      "sno": 93,
-      "city": "Gangtok",
-      "category": "Good",
-      "aqi": 26,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 94,
-      "city": "Gaya",
-      "category": "Good",
-      "aqi": 38,
-      "prominent_pollutant": "CO",
-      "stations_participated": 1,
-      "stations_total": 3
-    },
-    {
-      "sno": 95,
-      "city": "Ghaziabad",
-      "category": "Poor",
-      "aqi": 225,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 9,
-      "stations_total": 9
-    },
-    {
-      "sno": 96,
-      "city": "Gopalganj",
-      "category": "Satisfactory",
-      "aqi": 58,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 97,
-      "city": "Gorakhpur",
-      "category": "Moderate",
-      "aqi": 144,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 98,
-      "city": "Greater noida",
-      "category": "Moderate",
-      "aqi": 190,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 7,
-      "stations_total": 7
-    },
-    {
-      "sno": 99,
-      "city": "Guntur",
-      "category": "Satisfactory",
-      "aqi": 75,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 100,
+      "sno": 105,
       "city": "Gurugram",
       "category": "Poor",
-      "aqi": 205,
+      "aqi": 246,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 4,
       "stations_total": 4
     },
     {
-      "sno": 101,
-      "city": "Guwahati",
-      "category": "Moderate",
-      "aqi": 135,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 3,
-      "stations_total": 4
-    },
-    {
-      "sno": 102,
-      "city": "Gwalior",
-      "category": "Poor",
-      "aqi": 209,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 3,
-      "stations_total": 4
-    },
-    {
-      "sno": 103,
-      "city": "Hajipur",
-      "category": "Moderate",
-      "aqi": 101,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 104,
-      "city": "Haldia",
-      "category": "Good",
-      "aqi": 45,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 105,
-      "city": "Hanumangarh",
-      "category": "Poor",
-      "aqi": 269,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
       "sno": 106,
-      "city": "Hapur",
-      "category": "Moderate",
-      "aqi": 122,
+      "city": "Guwahati",
+      "category": "Satisfactory",
+      "aqi": 83,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
-      "stations_total": 1
+      "stations_total": 4
     },
     {
       "sno": 107,
-      "city": "Hingoli",
-      "category": "Satisfactory",
-      "aqi": 97,
-      "prominent_pollutant": "O3",
-      "stations_participated": 1,
-      "stations_total": 1
+      "city": "Gwalior",
+      "category": "Moderate",
+      "aqi": 180,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 3,
+      "stations_total": 4
     },
     {
       "sno": 108,
-      "city": "Hisar",
+      "city": "Hajipur",
       "category": "Moderate",
-      "aqi": 132,
-      "prominent_pollutant": "PM10",
+      "aqi": 115,
+      "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 109,
-      "city": "Howrah",
+      "city": "Haldia",
       "category": "Good",
-      "aqi": 49,
-      "prominent_pollutant": "CO, NO2",
+      "aqi": 37,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 110,
+      "city": "Hanumangarh",
+      "category": "Poor",
+      "aqi": 218,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 111,
+      "city": "Hapur",
+      "category": "Poor",
+      "aqi": 202,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 112,
+      "city": "Hingoli",
+      "category": "Satisfactory",
+      "aqi": 86,
+      "prominent_pollutant": "O3",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 113,
+      "city": "Hisar",
+      "category": "Poor",
+      "aqi": 246,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 114,
+      "city": "Howrah",
+      "category": "Satisfactory",
+      "aqi": 60,
+      "prominent_pollutant": "CO, PM10",
       "stations_participated": 4,
       "stations_total": 5
     },
     {
-      "sno": 110,
+      "sno": 115,
       "city": "Hubballi",
       "category": "Satisfactory",
-      "aqi": 68,
+      "aqi": 62,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 2
     },
     {
-      "sno": 111,
+      "sno": 116,
       "city": "Hyderabad",
       "category": "Satisfactory",
-      "aqi": 74,
+      "aqi": 75,
       "prominent_pollutant": "PM10, PM2.5",
       "stations_participated": 11,
       "stations_total": 14
     },
     {
-      "sno": 112,
+      "sno": 117,
       "city": "Indore",
       "category": "Satisfactory",
-      "aqi": 98,
-      "prominent_pollutant": "PM2.5, PM10",
+      "aqi": 79,
+      "prominent_pollutant": "O3, PM10",
       "stations_participated": 4,
       "stations_total": 6
     },
     {
-      "sno": 113,
+      "sno": 118,
       "city": "Jabalpur",
       "category": "Satisfactory",
-      "aqi": 62,
-      "prominent_pollutant": "CO, PM2.5, PM10",
+      "aqi": 59,
+      "prominent_pollutant": "PM10, NO2, O3",
       "stations_participated": 3,
       "stations_total": 4
     },
     {
-      "sno": 114,
+      "sno": 119,
       "city": "Jaipur",
       "category": "Moderate",
-      "aqi": 157,
+      "aqi": 192,
       "prominent_pollutant": "PM2.5, PM10",
       "stations_participated": 6,
       "stations_total": 6
     },
     {
-      "sno": 115,
+      "sno": 120,
       "city": "Jaisalmer",
       "category": "Moderate",
-      "aqi": 141,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 116,
-      "city": "Jalandhar",
-      "category": "Moderate",
-      "aqi": 160,
+      "aqi": 189,
       "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 117,
-      "city": "Jalgaon",
-      "category": "Moderate",
-      "aqi": 122,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 118,
-      "city": "Jalna",
-      "category": "Moderate",
-      "aqi": 161,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 119,
-      "city": "Jalore",
-      "category": "Moderate",
-      "aqi": 151,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 120,
-      "city": "Jamui",
-      "category": "Good",
-      "aqi": 41,
-      "prominent_pollutant": "CO",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 121,
-      "city": "Jhalawar",
-      "category": "Moderate",
-      "aqi": 166,
+      "city": "Jalandhar",
+      "category": "Poor",
+      "aqi": 208,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 122,
-      "city": "Jhansi",
+      "city": "Jalgaon",
       "category": "Satisfactory",
-      "aqi": 58,
-      "prominent_pollutant": "PM10",
+      "aqi": 70,
+      "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 123,
-      "city": "Jhunjhunu",
+      "city": "Jalna",
       "category": "Moderate",
-      "aqi": 174,
-      "prominent_pollutant": "PM2.5",
+      "aqi": 102,
+      "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 124,
-      "city": "Jind",
+      "city": "Jalore",
       "category": "Moderate",
-      "aqi": 138,
-      "prominent_pollutant": "PM2.5",
+      "aqi": 121,
+      "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 125,
-      "city": "Jodhpur",
-      "category": "Moderate",
-      "aqi": 133,
-      "prominent_pollutant": "PM10, O3",
-      "stations_participated": 5,
-      "stations_total": 5
+      "city": "Jamui",
+      "category": "Satisfactory",
+      "aqi": 70,
+      "prominent_pollutant": "O3",
+      "stations_participated": 1,
+      "stations_total": 1
     },
     {
       "sno": 126,
-      "city": "Kadapa",
-      "category": "Satisfactory",
-      "aqi": 72,
+      "city": "Jhalawar",
+      "category": "Moderate",
+      "aqi": 181,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 127,
-      "city": "Kaithal",
-      "category": "Poor",
-      "aqi": 228,
-      "prominent_pollutant": "PM2.5",
+      "city": "Jhansi",
+      "category": "Satisfactory",
+      "aqi": 69,
+      "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 128,
+      "city": "Jhunjhunu",
+      "category": "Poor",
+      "aqi": 227,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 129,
+      "city": "Jind",
+      "category": "Moderate",
+      "aqi": 199,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 130,
+      "city": "Jodhpur",
+      "category": "Moderate",
+      "aqi": 135,
+      "prominent_pollutant": "O3, PM10",
+      "stations_participated": 5,
+      "stations_total": 5
+    },
+    {
+      "sno": 131,
+      "city": "Jorapokhar",
+      "category": "Satisfactory",
+      "aqi": 54,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 132,
+      "city": "Kadapa",
+      "category": "Satisfactory",
+      "aqi": 66,
+      "prominent_pollutant": "O3",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 133,
+      "city": "Kaithal",
+      "category": "Poor",
+      "aqi": 216,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 134,
       "city": "Kakinada",
       "category": "Satisfactory",
       "aqi": 75,
@@ -1156,251 +1210,278 @@
       "stations_total": 1
     },
     {
-      "sno": 129,
+      "sno": 135,
       "city": "Kalaburagi",
       "category": "Good",
-      "aqi": 50,
+      "aqi": 37,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 2
     },
     {
-      "sno": 130,
+      "sno": 136,
       "city": "Kalyan",
       "category": "Moderate",
-      "aqi": 155,
-      "prominent_pollutant": "PM2.5, PM10",
-      "stations_participated": 2,
-      "stations_total": 3
-    },
-    {
-      "sno": 131,
-      "city": "Kalyan",
-      "category": "Moderate",
-      "aqi": 145,
+      "aqi": 146,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 3
     },
     {
-      "sno": 132,
+      "sno": 137,
       "city": "Kannur",
       "category": "Satisfactory",
-      "aqi": 72,
+      "aqi": 71,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
-      "sno": 133,
+      "sno": 138,
       "city": "Kanpur",
       "category": "Satisfactory",
-      "aqi": 69,
-      "prominent_pollutant": "PM10, CO",
+      "aqi": 84,
+      "prominent_pollutant": "PM10, PM2.5",
       "stations_participated": 3,
       "stations_total": 4
     },
     {
-      "sno": 134,
+      "sno": 139,
       "city": "Karauli",
       "category": "Moderate",
-      "aqi": 195,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 135,
-      "city": "Karnal",
-      "category": "Moderate",
-      "aqi": 189,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 136,
-      "city": "Karwar",
-      "category": "Moderate",
-      "aqi": 108,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 137,
-      "city": "Kashipur",
-      "category": "Satisfactory",
-      "aqi": 96,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 138,
-      "city": "Katihar",
-      "category": "Satisfactory",
-      "aqi": 75,
-      "prominent_pollutant": "CO",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 139,
-      "city": "Katni",
-      "category": "Satisfactory",
-      "aqi": 70,
+      "aqi": 116,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 140,
-      "city": "Keonjhar",
-      "category": "Satisfactory",
-      "aqi": 52,
-      "prominent_pollutant": "CO",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 141,
-      "city": "Khairthal",
-      "category": "Poor",
-      "aqi": 218,
+      "city": "Karnal",
+      "category": "Moderate",
+      "aqi": 138,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
+      "sno": 141,
+      "city": "Karwar",
+      "category": "Satisfactory",
+      "aqi": 63,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
       "sno": 142,
-      "city": "Khanna",
-      "category": "Moderate",
-      "aqi": 160,
+      "city": "Kashipur",
+      "category": "Satisfactory",
+      "aqi": 92,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 143,
-      "city": "Khora",
-      "category": "Poor",
-      "aqi": 231,
-      "prominent_pollutant": "PM2.5",
+      "city": "Katihar",
+      "category": "Satisfactory",
+      "aqi": 74,
+      "prominent_pollutant": "CO",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 144,
-      "city": "Khurja",
+      "city": "Katni",
       "category": "Moderate",
-      "aqi": 171,
+      "aqi": 121,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 145,
-      "city": "Kishanganj",
-      "category": "Good",
-      "aqi": 40,
+      "city": "Keonjhar",
+      "category": "Satisfactory",
+      "aqi": 60,
       "prominent_pollutant": "CO",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 146,
-      "city": "Kiul",
-      "category": "Good",
-      "aqi": 17,
-      "prominent_pollutant": "O3",
+      "city": "Khairthal",
+      "category": "Poor",
+      "aqi": 268,
+      "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 147,
-      "city": "Kohima",
-      "category": "Satisfactory",
-      "aqi": 66,
-      "prominent_pollutant": "SO2",
+      "city": "Khanna",
+      "category": "Poor",
+      "aqi": 277,
+      "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 148,
-      "city": "Kolhapur",
-      "category": "Satisfactory",
-      "aqi": 99,
-      "prominent_pollutant": "PM2.5, PM10",
-      "stations_participated": 2,
-      "stations_total": 2
+      "city": "Khora",
+      "category": "Poor",
+      "aqi": 215,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
     },
     {
       "sno": 149,
-      "city": "Kolkata",
-      "category": "Good",
-      "aqi": 34,
-      "prominent_pollutant": "CO, PM10, O3",
-      "stations_participated": 7,
-      "stations_total": 7
+      "city": "Khurja",
+      "category": "Moderate",
+      "aqi": 197,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
     },
     {
       "sno": 150,
-      "city": "Koppal",
-      "category": "Satisfactory",
-      "aqi": 87,
-      "prominent_pollutant": "PM10",
+      "city": "Kishanganj",
+      "category": "Good",
+      "aqi": 41,
+      "prominent_pollutant": "CO",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 151,
-      "city": "Korba",
-      "category": "Good",
-      "aqi": 39,
-      "prominent_pollutant": "CO, O3",
-      "stations_participated": 2,
-      "stations_total": 2
-    },
-    {
-      "sno": 152,
-      "city": "Kota",
-      "category": "Moderate",
-      "aqi": 140,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 2,
-      "stations_total": 3
-    },
-    {
-      "sno": 153,
-      "city": "Kotputli",
-      "category": "Moderate",
-      "aqi": 111,
-      "prominent_pollutant": "O3",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 154,
-      "city": "Kunjemura",
+      "city": "Kiul",
       "category": "Satisfactory",
-      "aqi": 60,
+      "aqi": 74,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
-      "sno": 155,
-      "city": "Kurnool",
+      "sno": 152,
+      "city": "Kohima",
       "category": "Satisfactory",
-      "aqi": 81,
-      "prominent_pollutant": "PM2.5",
+      "aqi": 64,
+      "prominent_pollutant": "SO2",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 153,
+      "city": "Kolhapur",
+      "category": "Satisfactory",
+      "aqi": 72,
+      "prominent_pollutant": "PM10, PM2.5",
+      "stations_participated": 2,
+      "stations_total": 2
+    },
+    {
+      "sno": 154,
+      "city": "Kolkata",
+      "category": "Good",
+      "aqi": 46,
+      "prominent_pollutant": "CO, PM10",
+      "stations_participated": 7,
+      "stations_total": 7
+    },
+    {
+      "sno": 155,
+      "city": "Koppal",
+      "category": "Satisfactory",
+      "aqi": 85,
+      "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 156,
+      "city": "Korba",
+      "category": "Good",
+      "aqi": 49,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 2,
+      "stations_total": 2
+    },
+    {
+      "sno": 157,
+      "city": "Kota",
+      "category": "Moderate",
+      "aqi": 185,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 3,
+      "stations_total": 3
+    },
+    {
+      "sno": 158,
+      "city": "Kotputli",
+      "category": "Moderate",
+      "aqi": 130,
+      "prominent_pollutant": "O3",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 159,
+      "city": "Kunjemura",
+      "category": "Satisfactory",
+      "aqi": 55,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 160,
+      "city": "Kurnool",
+      "category": "Satisfactory",
+      "aqi": 65,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 161,
       "city": "Kurukshetra",
+      "category": "Moderate",
+      "aqi": 179,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 162,
+      "city": "Latur",
+      "category": "Satisfactory",
+      "aqi": 75,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 163,
+      "city": "Leh",
+      "category": "Good",
+      "aqi": 47,
+      "prominent_pollutant": "O3",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 164,
+      "city": "Lucknow",
+      "category": "Satisfactory",
+      "aqi": 99,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 6,
+      "stations_total": 6
+    },
+    {
+      "sno": 165,
+      "city": "Ludhiana",
       "category": "Moderate",
       "aqi": 200,
       "prominent_pollutant": "PM2.5",
@@ -1408,79 +1489,43 @@
       "stations_total": 1
     },
     {
-      "sno": 157,
-      "city": "Latur",
-      "category": "Satisfactory",
-      "aqi": 80,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 158,
-      "city": "Leh",
-      "category": "Satisfactory",
-      "aqi": 85,
-      "prominent_pollutant": "O3",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 159,
-      "city": "Lucknow",
-      "category": "Satisfactory",
-      "aqi": 94,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 5,
-      "stations_total": 6
-    },
-    {
-      "sno": 160,
-      "city": "Ludhiana",
-      "category": "Poor",
-      "aqi": 207,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 161,
+      "sno": 166,
       "city": "Machilipatnam",
       "category": "Satisfactory",
-      "aqi": 70,
+      "aqi": 65,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
-      "sno": 162,
+      "sno": 167,
       "city": "Madhubani",
-      "category": "Good",
-      "aqi": 48,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 163,
-      "city": "Madikeri",
-      "category": "Satisfactory",
-      "aqi": 61,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 164,
-      "city": "Mahad",
       "category": "Moderate",
-      "aqi": 198,
+      "aqi": 106,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
-      "sno": 165,
+      "sno": 168,
+      "city": "Madikeri",
+      "category": "Satisfactory",
+      "aqi": 97,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 169,
+      "city": "Mahad",
+      "category": "Moderate",
+      "aqi": 151,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 170,
       "city": "Maihar",
       "category": "Satisfactory",
       "aqi": 60,
@@ -1489,268 +1534,277 @@
       "stations_total": 1
     },
     {
-      "sno": 166,
-      "city": "Malegaon",
-      "category": "Moderate",
-      "aqi": 184,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 167,
-      "city": "Mandideep",
-      "category": "Moderate",
-      "aqi": 113,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 168,
-      "city": "Mandi gobindgarh",
-      "category": "Poor",
-      "aqi": 212,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 169,
-      "city": "Mandikhera",
-      "category": "Moderate",
-      "aqi": 159,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 170,
-      "city": "Manesar",
-      "category": "Poor",
-      "aqi": 285,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
       "sno": 171,
-      "city": "Mangalore",
-      "category": "Satisfactory",
-      "aqi": 85,
-      "prominent_pollutant": "PM10",
+      "city": "Malegaon",
+      "category": "Poor",
+      "aqi": 270,
+      "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 172,
-      "city": "Manguraha",
-      "category": "Satisfactory",
-      "aqi": 95,
+      "city": "Mandideep",
+      "category": "Moderate",
+      "aqi": 147,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 173,
-      "city": "Mathura",
-      "category": "Satisfactory",
-      "aqi": 87,
+      "city": "Mandi gobindgarh",
+      "category": "Poor",
+      "aqi": 206,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 174,
-      "city": "Meerut",
+      "city": "Mandikhera",
       "category": "Moderate",
-      "aqi": 171,
+      "aqi": 118,
       "prominent_pollutant": "PM2.5",
-      "stations_participated": 5,
-      "stations_total": 5
+      "stations_participated": 1,
+      "stations_total": 1
     },
     {
       "sno": 175,
-      "city": "Mehsana",
-      "category": "Satisfactory",
-      "aqi": 90,
+      "city": "Manesar",
+      "category": "Poor",
+      "aqi": 211,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 176,
-      "city": "Milupara",
-      "category": "Good",
-      "aqi": 49,
-      "prominent_pollutant": "O3",
+      "city": "Mangalore",
+      "category": "Satisfactory",
+      "aqi": 90,
+      "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 177,
-      "city": "Mira-bhayandar",
+      "city": "Manguraha",
       "category": "Moderate",
       "aqi": 137,
-      "prominent_pollutant": "PM10",
+      "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 178,
-      "city": "Moradabad",
-      "category": "Moderate",
-      "aqi": 137,
-      "prominent_pollutant": "PM2.5, PM10",
-      "stations_participated": 6,
-      "stations_total": 6
+      "city": "Mathura",
+      "category": "Satisfactory",
+      "aqi": 82,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
     },
     {
       "sno": 179,
-      "city": "Mumbai",
-      "category": "Moderate",
-      "aqi": 152,
+      "city": "Meerut",
+      "category": "Poor",
+      "aqi": 201,
       "prominent_pollutant": "PM2.5",
-      "stations_participated": 25,
-      "stations_total": 26
+      "stations_participated": 5,
+      "stations_total": 5
     },
     {
       "sno": 180,
-      "city": "Munger",
+      "city": "Mehsana",
       "category": "Satisfactory",
-      "aqi": 58,
-      "prominent_pollutant": "PM10",
+      "aqi": 81,
+      "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 181,
-      "city": "Muzaffarnagar",
-      "category": "Moderate",
-      "aqi": 184,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 2,
-      "stations_total": 2
+      "city": "Milupara",
+      "category": "Satisfactory",
+      "aqi": 63,
+      "prominent_pollutant": "O3",
+      "stations_participated": 1,
+      "stations_total": 1
     },
     {
       "sno": 182,
-      "city": "Muzaffarpur",
-      "category": "Satisfactory",
-      "aqi": 66,
-      "prominent_pollutant": "PM2.5, PM10",
-      "stations_participated": 3,
-      "stations_total": 3
-    },
-    {
-      "sno": 183,
-      "city": "Mysuru",
+      "city": "Mira-bhayandar",
       "category": "Moderate",
-      "aqi": 106,
+      "aqi": 130,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
-      "sno": 184,
-      "city": "Nagaon",
-      "category": "Satisfactory",
-      "aqi": 71,
+      "sno": 183,
+      "city": "Moradabad",
+      "category": "Moderate",
+      "aqi": 150,
       "prominent_pollutant": "PM2.5",
+      "stations_participated": 5,
+      "stations_total": 6
+    },
+    {
+      "sno": 184,
+      "city": "Motihari",
+      "category": "Satisfactory",
+      "aqi": 98,
+      "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 185,
-      "city": "Nagaur",
+      "city": "Mumbai",
       "category": "Moderate",
-      "aqi": 182,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
+      "aqi": 145,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 21,
+      "stations_total": 26
     },
     {
       "sno": 186,
-      "city": "Nagpur",
-      "category": "Moderate",
-      "aqi": 113,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 4,
-      "stations_total": 4
-    },
-    {
-      "sno": 187,
-      "city": "Naharlagun",
+      "city": "Munger",
       "category": "Satisfactory",
-      "aqi": 56,
+      "aqi": 61,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
-      "sno": 188,
-      "city": "Nalbari",
-      "category": "Satisfactory",
-      "aqi": 91,
+      "sno": 187,
+      "city": "Muzaffarnagar",
+      "category": "Moderate",
+      "aqi": 176,
       "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
+      "stations_participated": 2,
+      "stations_total": 2
+    },
+    {
+      "sno": 188,
+      "city": "Muzaffarpur",
+      "category": "Satisfactory",
+      "aqi": 88,
+      "prominent_pollutant": "PM2.5, PM10",
+      "stations_participated": 3,
+      "stations_total": 3
     },
     {
       "sno": 189,
-      "city": "Nanded",
+      "city": "Mysuru",
       "category": "Moderate",
-      "aqi": 114,
-      "prominent_pollutant": "PM2.5",
+      "aqi": 122,
+      "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 190,
-      "city": "Nandesari",
+      "city": "Nagaon",
       "category": "Satisfactory",
-      "aqi": 85,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 191,
-      "city": "Narnaul",
-      "category": "Moderate",
-      "aqi": 199,
+      "aqi": 64,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
-      "sno": 192,
-      "city": "Nashik",
+      "sno": 191,
+      "city": "Nagaur",
       "category": "Moderate",
-      "aqi": 170,
-      "prominent_pollutant": "PM2.5, PM10",
-      "stations_participated": 4,
-      "stations_total": 4
-    },
-    {
-      "sno": 193,
-      "city": "Navi mumbai",
-      "category": "Moderate",
-      "aqi": 148,
-      "prominent_pollutant": "PM2.5, PM10",
-      "stations_participated": 6,
-      "stations_total": 8
-    },
-    {
-      "sno": 194,
-      "city": "Nayagarh",
-      "category": "Good",
-      "aqi": 44,
+      "aqi": 171,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
+      "sno": 192,
+      "city": "Nagpur",
+      "category": "Satisfactory",
+      "aqi": 74,
+      "prominent_pollutant": "PM10, PM2.5",
+      "stations_participated": 4,
+      "stations_total": 4
+    },
+    {
+      "sno": 193,
+      "city": "Naharlagun",
+      "category": "Satisfactory",
+      "aqi": 67,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 194,
+      "city": "Nalbari",
+      "category": "Good",
+      "aqi": 37,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
       "sno": 195,
+      "city": "Nanded",
+      "category": "Moderate",
+      "aqi": 128,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 196,
+      "city": "Nandesari",
+      "category": "Satisfactory",
+      "aqi": 69,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 197,
+      "city": "Narnaul",
+      "category": "Moderate",
+      "aqi": 188,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 198,
+      "city": "Nashik",
+      "category": "Moderate",
+      "aqi": 182,
+      "prominent_pollutant": "PM10, PM2.5",
+      "stations_participated": 4,
+      "stations_total": 4
+    },
+    {
+      "sno": 199,
+      "city": "Navi mumbai",
+      "category": "Moderate",
+      "aqi": 128,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 6,
+      "stations_total": 8
+    },
+    {
+      "sno": 200,
+      "city": "Nayagarh",
+      "category": "Satisfactory",
+      "aqi": 61,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 201,
       "city": "Nellore",
       "category": "Satisfactory",
       "aqi": 52,
@@ -1759,431 +1813,80 @@
       "stations_total": 1
     },
     {
-      "sno": 196,
+      "sno": 202,
       "city": "Noida",
       "category": "Poor",
-      "aqi": 214,
+      "aqi": 221,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 7,
       "stations_total": 7
     },
     {
-      "sno": 197,
+      "sno": 203,
       "city": "Ongole",
       "category": "Satisfactory",
-      "aqi": 75,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 198,
-      "city": "Pali",
-      "category": "Moderate",
-      "aqi": 155,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 199,
-      "city": "Pampore",
-      "category": "Moderate",
-      "aqi": 103,
+      "aqi": 70,
       "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 200,
-      "city": "Panchgaon",
-      "category": "Poor",
-      "aqi": 252,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 201,
-      "city": "Panchkula",
-      "category": "Moderate",
-      "aqi": 103,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 202,
-      "city": "Panipat",
-      "category": "Satisfactory",
-      "aqi": 96,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 203,
-      "city": "Paradeep",
-      "category": "Satisfactory",
-      "aqi": 58,
-      "prominent_pollutant": "CO",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 204,
-      "city": "Parbhani",
+      "city": "Pali",
       "category": "Moderate",
-      "aqi": 113,
-      "prominent_pollutant": "PM10",
+      "aqi": 148,
+      "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 205,
-      "city": "Patiala",
-      "category": "Moderate",
-      "aqi": 135,
+      "city": "Palwal",
+      "category": "Satisfactory",
+      "aqi": 96,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 206,
-      "city": "Patna",
+      "city": "Pampore",
       "category": "Satisfactory",
-      "aqi": 95,
-      "prominent_pollutant": "PM10, PM2.5",
-      "stations_participated": 6,
-      "stations_total": 6
+      "aqi": 91,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
     },
     {
       "sno": 207,
-      "city": "Pimpri-chinchwad",
-      "category": "Moderate",
-      "aqi": 152,
-      "prominent_pollutant": "PM2.5, PM10",
-      "stations_participated": 7,
-      "stations_total": 8
+      "city": "Panchgaon",
+      "category": "Poor",
+      "aqi": 277,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
     },
     {
       "sno": 208,
-      "city": "Pithampur",
-      "category": "Poor",
-      "aqi": 270,
+      "city": "Panchkula",
+      "category": "Satisfactory",
+      "aqi": 94,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 209,
-      "city": "Pratapgarh",
-      "category": "Poor",
-      "aqi": 202,
+      "city": "Panipat",
+      "category": "Moderate",
+      "aqi": 121,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
       "sno": 210,
-      "city": "Prayagraj",
-      "category": "Satisfactory",
-      "aqi": 84,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 3,
-      "stations_total": 3
-    },
-    {
-      "sno": 211,
-      "city": "Puducherry",
-      "category": "Moderate",
-      "aqi": 146,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 212,
-      "city": "Pune",
-      "category": "Moderate",
-      "aqi": 135,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 5,
-      "stations_total": 9
-    },
-    {
-      "sno": 213,
-      "city": "Purnia",
-      "category": "Satisfactory",
-      "aqi": 71,
-      "prominent_pollutant": "CO",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 214,
-      "city": "Raebareli",
-      "category": "Poor",
-      "aqi": 216,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 2
-    },
-    {
-      "sno": 215,
-      "city": "Raipur",
-      "category": "Good",
-      "aqi": 43,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 4,
-      "stations_total": 4
-    },
-    {
-      "sno": 216,
-      "city": "Rairangpur",
-      "category": "Good",
-      "aqi": 23,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 217,
-      "city": "Rajamahendravaram",
-      "category": "Moderate",
-      "aqi": 119,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 218,
-      "city": "Rajgir",
-      "category": "Good",
-      "aqi": 41,
-      "prominent_pollutant": "CO",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 219,
-      "city": "Rajkot",
-      "category": "Moderate",
-      "aqi": 163,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 220,
-      "city": "Rajsamand",
-      "category": "Poor",
-      "aqi": 204,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 221,
-      "city": "Ramanagara",
-      "category": "Moderate",
-      "aqi": 162,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 222,
-      "city": "Ramgarh",
-      "category": "Good",
-      "aqi": 41,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 223,
-      "city": "Ratlam",
-      "category": "Moderate",
-      "aqi": 108,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 224,
-      "city": "Rishikesh",
-      "category": "Satisfactory",
-      "aqi": 70,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 225,
-      "city": "Rohtak",
-      "category": "Poor",
-      "aqi": 247,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 226,
-      "city": "Rourkela",
-      "category": "Good",
-      "aqi": 37,
-      "prominent_pollutant": "PM10, PM2.5",
-      "stations_participated": 3,
-      "stations_total": 3
-    },
-    {
-      "sno": 227,
-      "city": "Rupnagar",
-      "category": "Good",
-      "aqi": 41,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 228,
-      "city": "Sagar",
-      "category": "Moderate",
-      "aqi": 151,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 2,
-      "stations_total": 2
-    },
-    {
-      "sno": 229,
-      "city": "Sangli",
-      "category": "Moderate",
-      "aqi": 142,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 230,
-      "city": "Sasaram",
-      "category": "Good",
-      "aqi": 17,
-      "prominent_pollutant": "CO",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 231,
-      "city": "Satara",
-      "category": "Moderate",
-      "aqi": 112,
-      "prominent_pollutant": "O3",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 232,
-      "city": "Satna",
-      "category": "Satisfactory",
-      "aqi": 70,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 233,
-      "city": "Sawai madhopur",
-      "category": "Moderate",
-      "aqi": 126,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 234,
-      "city": "Shamli",
-      "category": "Moderate",
-      "aqi": 118,
-      "prominent_pollutant": "NO2",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 235,
-      "city": "Shivamogga",
-      "category": "Good",
-      "aqi": 50,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 236,
-      "city": "Sikar",
-      "category": "Moderate",
-      "aqi": 192,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 237,
-      "city": "Silchar",
-      "category": "Good",
-      "aqi": 44,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 238,
-      "city": "Siliguri",
-      "category": "Satisfactory",
-      "aqi": 62,
-      "prominent_pollutant": "NO2",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 239,
-      "city": "Singrauli",
-      "category": "Satisfactory",
-      "aqi": 77,
-      "prominent_pollutant": "SO2",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 240,
-      "city": "Sirohi",
-      "category": "Moderate",
-      "aqi": 123,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 241,
-      "city": "Sitamarhi",
-      "category": "Satisfactory",
-      "aqi": 85,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 242,
-      "city": "Sivasagar",
-      "category": "Satisfactory",
-      "aqi": 68,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 243,
-      "city": "Siwan",
+      "city": "Paradeep",
       "category": "Satisfactory",
       "aqi": 65,
       "prominent_pollutant": "CO",
@@ -2191,35 +1894,179 @@
       "stations_total": 1
     },
     {
-      "sno": 244,
-      "city": "Solapur",
+      "sno": 211,
+      "city": "Parbhani",
       "category": "Moderate",
-      "aqi": 112,
-      "prominent_pollutant": "O3, PM10",
-      "stations_participated": 3,
-      "stations_total": 3
-    },
-    {
-      "sno": 245,
-      "city": "Sonipat",
-      "category": "Moderate",
-      "aqi": 175,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 246,
-      "city": "Sri ganganagar",
-      "category": "Poor",
-      "aqi": 231,
+      "aqi": 109,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
-      "sno": 247,
-      "city": "Srikakulam",
+      "sno": 212,
+      "city": "Patiala",
+      "category": "Moderate",
+      "aqi": 129,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 213,
+      "city": "Patna",
+      "category": "Satisfactory",
+      "aqi": 84,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 6,
+      "stations_total": 6
+    },
+    {
+      "sno": 214,
+      "city": "Pimpri-chinchwad",
+      "category": "Moderate",
+      "aqi": 172,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 7,
+      "stations_total": 8
+    },
+    {
+      "sno": 215,
+      "city": "Pithampur",
+      "category": "Poor",
+      "aqi": 221,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 216,
+      "city": "Pratapgarh",
+      "category": "Moderate",
+      "aqi": 122,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 217,
+      "city": "Prayagraj",
+      "category": "Satisfactory",
+      "aqi": 77,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 3,
+      "stations_total": 3
+    },
+    {
+      "sno": 218,
+      "city": "Puducherry",
+      "category": "Satisfactory",
+      "aqi": 75,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 219,
+      "city": "Pune",
+      "category": "Moderate",
+      "aqi": 160,
+      "prominent_pollutant": "PM10, PM2.5",
+      "stations_participated": 7,
+      "stations_total": 9
+    },
+    {
+      "sno": 220,
+      "city": "Purnia",
+      "category": "Satisfactory",
+      "aqi": 72,
+      "prominent_pollutant": "CO",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 221,
+      "city": "Raebareli",
+      "category": "Moderate",
+      "aqi": 169,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 2
+    },
+    {
+      "sno": 222,
+      "city": "Raipur",
+      "category": "Satisfactory",
+      "aqi": 75,
+      "prominent_pollutant": "PM10, CO",
+      "stations_participated": 3,
+      "stations_total": 4
+    },
+    {
+      "sno": 223,
+      "city": "Rairangpur",
+      "category": "Good",
+      "aqi": 41,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 224,
+      "city": "Rajamahendravaram",
+      "category": "Satisfactory",
+      "aqi": 95,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 225,
+      "city": "Rajgir",
+      "category": "Good",
+      "aqi": 42,
+      "prominent_pollutant": "CO",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 226,
+      "city": "Rajkot",
+      "category": "Moderate",
+      "aqi": 109,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 227,
+      "city": "Ramanagara",
+      "category": "Moderate",
+      "aqi": 161,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 228,
+      "city": "Ramgarh",
+      "category": "Satisfactory",
+      "aqi": 51,
+      "prominent_pollutant": "O3",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 229,
+      "city": "Ratlam",
+      "category": "Satisfactory",
+      "aqi": 83,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 230,
+      "city": "Rishikesh",
       "category": "Satisfactory",
       "aqi": 81,
       "prominent_pollutant": "PM2.5",
@@ -2227,44 +2074,26 @@
       "stations_total": 1
     },
     {
-      "sno": 248,
-      "city": "Srinagar",
-      "category": "Satisfactory",
-      "aqi": 77,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 2,
-      "stations_total": 2
-    },
-    {
-      "sno": 249,
-      "city": "Suakati",
-      "category": "Good",
-      "aqi": 40,
-      "prominent_pollutant": "PM10",
+      "sno": 231,
+      "city": "Rohtak",
+      "category": "Poor",
+      "aqi": 223,
+      "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
-      "sno": 250,
-      "city": "Surat",
-      "category": "Moderate",
-      "aqi": 163,
-      "prominent_pollutant": "PM2.5, PM10",
-      "stations_participated": 2,
-      "stations_total": 2
-    },
-    {
-      "sno": 251,
-      "city": "Talcher",
+      "sno": 232,
+      "city": "Rourkela",
       "category": "Satisfactory",
-      "aqi": 82,
+      "aqi": 69,
       "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
+      "stations_participated": 2,
+      "stations_total": 3
     },
     {
-      "sno": 252,
-      "city": "Tensa",
+      "sno": 233,
+      "city": "Rupnagar",
       "category": "Good",
       "aqi": 42,
       "prominent_pollutant": "PM10",
@@ -2272,134 +2101,62 @@
       "stations_total": 1
     },
     {
-      "sno": 253,
-      "city": "Thane",
+      "sno": 234,
+      "city": "Sagar",
       "category": "Moderate",
-      "aqi": 145,
+      "aqi": 121,
       "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 2
-    },
-    {
-      "sno": 254,
-      "city": "Thiruvananthapuram",
-      "category": "Satisfactory",
-      "aqi": 96,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 2
-    },
-    {
-      "sno": 255,
-      "city": "Thoothukudi",
-      "category": "Satisfactory",
-      "aqi": 93,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 256,
-      "city": "Thrissur",
-      "category": "Satisfactory",
-      "aqi": 54,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 257,
-      "city": "Tirumala",
-      "category": "Moderate",
-      "aqi": 118,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 258,
-      "city": "Tirupati",
-      "category": "Satisfactory",
-      "aqi": 63,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 259,
-      "city": "Tumidih",
-      "category": "Satisfactory",
-      "aqi": 57,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 260,
-      "city": "Udaipur",
-      "category": "Poor",
-      "aqi": 273,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 261,
-      "city": "Udupi",
-      "category": "Satisfactory",
-      "aqi": 66,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 1,
-      "stations_total": 1
-    },
-    {
-      "sno": 262,
-      "city": "Ujjain",
-      "category": "Moderate",
-      "aqi": 191,
-      "prominent_pollutant": "PM2.5",
-      "stations_participated": 1,
-      "stations_total": 2
-    },
-    {
-      "sno": 263,
-      "city": "Ulhasnagar",
-      "category": "Moderate",
-      "aqi": 170,
-      "prominent_pollutant": "PM2.5, PM10",
       "stations_participated": 2,
       "stations_total": 2
     },
     {
-      "sno": 264,
-      "city": "Vadodara",
-      "category": "Poor",
-      "aqi": 228,
+      "sno": 235,
+      "city": "Saharsa",
+      "category": "Satisfactory",
+      "aqi": 86,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 236,
+      "city": "Sangli",
+      "category": "Moderate",
+      "aqi": 164,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
-      "sno": 265,
-      "city": "Varanasi",
+      "sno": 237,
+      "city": "Sasaram",
+      "category": "Good",
+      "aqi": 23,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 238,
+      "city": "Satara",
       "category": "Satisfactory",
-      "aqi": 54,
-      "prominent_pollutant": "PM10, NO2",
-      "stations_participated": 3,
-      "stations_total": 4
+      "aqi": 97,
+      "prominent_pollutant": "O3",
+      "stations_participated": 1,
+      "stations_total": 1
     },
     {
-      "sno": 266,
-      "city": "Vasai",
-      "category": "Moderate",
-      "aqi": 132,
-      "prominent_pollutant": "PM2.5, PM10",
-      "stations_participated": 2,
-      "stations_total": 2
+      "sno": 239,
+      "city": "Satna",
+      "category": "Satisfactory",
+      "aqi": 71,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
     },
     {
-      "sno": 267,
-      "city": "Vatva",
+      "sno": 240,
+      "city": "Sawai madhopur",
       "category": "Moderate",
       "aqi": 135,
       "prominent_pollutant": "PM2.5",
@@ -2407,55 +2164,370 @@
       "stations_total": 1
     },
     {
-      "sno": 268,
-      "city": "Vijayawada",
+      "sno": 241,
+      "city": "Shamli",
       "category": "Satisfactory",
-      "aqi": 84,
-      "prominent_pollutant": "PM2.5, PM10",
-      "stations_participated": 3,
-      "stations_total": 4
+      "aqi": 93,
+      "prominent_pollutant": "CO",
+      "stations_participated": 1,
+      "stations_total": 1
     },
     {
-      "sno": 269,
-      "city": "Virar",
+      "sno": 242,
+      "city": "Shivamogga",
+      "category": "Satisfactory",
+      "aqi": 52,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 243,
+      "city": "Sikar",
       "category": "Poor",
-      "aqi": 207,
+      "aqi": 264,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 244,
+      "city": "Silchar",
+      "category": "Satisfactory",
+      "aqi": 58,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 245,
+      "city": "Siliguri",
+      "category": "Satisfactory",
+      "aqi": 68,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 246,
+      "city": "Sirohi",
+      "category": "Moderate",
+      "aqi": 113,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 247,
+      "city": "Sirsa",
+      "category": "Moderate",
+      "aqi": 161,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
-      "sno": 270,
-      "city": "Visakhapatnam",
-      "category": "Satisfactory",
-      "aqi": 89,
-      "prominent_pollutant": "PM10, PM2.5",
-      "stations_participated": 4,
-      "stations_total": 4
-    },
-    {
-      "sno": 271,
-      "city": "Vrindavan",
-      "category": "Satisfactory",
-      "aqi": 90,
-      "prominent_pollutant": "PM10",
-      "stations_participated": 2,
-      "stations_total": 2
-    },
-    {
-      "sno": 272,
-      "city": "Yadgir",
+      "sno": 248,
+      "city": "Sitamarhi",
       "category": "Moderate",
-      "aqi": 111,
+      "aqi": 124,
       "prominent_pollutant": "PM10",
       "stations_participated": 1,
       "stations_total": 1
     },
     {
+      "sno": 249,
+      "city": "Sivasagar",
+      "category": "Good",
+      "aqi": 35,
+      "prominent_pollutant": "O3",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 250,
+      "city": "Siwan",
+      "category": "Satisfactory",
+      "aqi": 63,
+      "prominent_pollutant": "CO",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 251,
+      "city": "Solapur",
+      "category": "Moderate",
+      "aqi": 103,
+      "prominent_pollutant": "PM10, O3",
+      "stations_participated": 3,
+      "stations_total": 3
+    },
+    {
+      "sno": 252,
+      "city": "Sonipat",
+      "category": "Moderate",
+      "aqi": 179,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 253,
+      "city": "Sri ganganagar",
+      "category": "Moderate",
+      "aqi": 144,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 254,
+      "city": "Srikakulam",
+      "category": "Satisfactory",
+      "aqi": 82,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 255,
+      "city": "Srinagar",
+      "category": "Satisfactory",
+      "aqi": 83,
+      "prominent_pollutant": "PM10, O3",
+      "stations_participated": 2,
+      "stations_total": 2
+    },
+    {
+      "sno": 256,
+      "city": "Suakati",
+      "category": "Satisfactory",
+      "aqi": 53,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 257,
+      "city": "Surat",
+      "category": "Moderate",
+      "aqi": 136,
+      "prominent_pollutant": "PM2.5, PM10",
+      "stations_participated": 2,
+      "stations_total": 2
+    },
+    {
+      "sno": 258,
+      "city": "Talcher",
+      "category": "Moderate",
+      "aqi": 130,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 259,
+      "city": "Tensa",
+      "category": "Satisfactory",
+      "aqi": 78,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 260,
+      "city": "Thane",
+      "category": "Moderate",
+      "aqi": 194,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 2,
+      "stations_total": 2
+    },
+    {
+      "sno": 261,
+      "city": "Thiruvananthapuram",
+      "category": "Satisfactory",
+      "aqi": 97,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 2
+    },
+    {
+      "sno": 262,
+      "city": "Thoothukudi",
+      "category": "Satisfactory",
+      "aqi": 79,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 263,
+      "city": "Thrissur",
+      "category": "Satisfactory",
+      "aqi": 55,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 264,
+      "city": "Tirumala",
+      "category": "Satisfactory",
+      "aqi": 59,
+      "prominent_pollutant": "NO2",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 265,
+      "city": "Tirupati",
+      "category": "Satisfactory",
+      "aqi": 60,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 266,
+      "city": "Tonk",
+      "category": "Poor",
+      "aqi": 237,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 267,
+      "city": "Tumakuru",
+      "category": "Good",
+      "aqi": 46,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 268,
+      "city": "Udaipur",
+      "category": "Poor",
+      "aqi": 263,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 269,
+      "city": "Udupi",
+      "category": "Satisfactory",
+      "aqi": 53,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 270,
+      "city": "Ujjain",
+      "category": "Moderate",
+      "aqi": 184,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 2
+    },
+    {
+      "sno": 271,
+      "city": "Ulhasnagar",
+      "category": "Moderate",
+      "aqi": 179,
+      "prominent_pollutant": "PM2.5, PM10",
+      "stations_participated": 2,
+      "stations_total": 2
+    },
+    {
+      "sno": 272,
+      "city": "Vadodara",
+      "category": "Moderate",
+      "aqi": 123,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
       "sno": 273,
+      "city": "Varanasi",
+      "category": "Satisfactory",
+      "aqi": 76,
+      "prominent_pollutant": "PM10, PM2.5",
+      "stations_participated": 4,
+      "stations_total": 4
+    },
+    {
+      "sno": 274,
+      "city": "Vasai",
+      "category": "Moderate",
+      "aqi": 129,
+      "prominent_pollutant": "PM2.5, PM10",
+      "stations_participated": 2,
+      "stations_total": 2
+    },
+    {
+      "sno": 275,
+      "city": "Vatva",
+      "category": "Moderate",
+      "aqi": 124,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 276,
+      "city": "Vijayawada",
+      "category": "Satisfactory",
+      "aqi": 67,
+      "prominent_pollutant": "PM2.5, PM10",
+      "stations_participated": 3,
+      "stations_total": 4
+    },
+    {
+      "sno": 277,
+      "city": "Virar",
+      "category": "Moderate",
+      "aqi": 157,
+      "prominent_pollutant": "PM2.5",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 278,
+      "city": "Visakhapatnam",
+      "category": "Good",
+      "aqi": 45,
+      "prominent_pollutant": "PM10, SO2, NO2",
+      "stations_participated": 4,
+      "stations_total": 4
+    },
+    {
+      "sno": 279,
+      "city": "Vrindavan",
+      "category": "Satisfactory",
+      "aqi": 74,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 2
+    },
+    {
+      "sno": 280,
+      "city": "Yadgir",
+      "category": "Moderate",
+      "aqi": 108,
+      "prominent_pollutant": "PM10",
+      "stations_participated": 1,
+      "stations_total": 1
+    },
+    {
+      "sno": 281,
       "city": "Yamuna nagar",
       "category": "Moderate",
-      "aqi": 200,
+      "aqi": 128,
       "prominent_pollutant": "PM2.5",
       "stations_participated": 1,
       "stations_total": 1
