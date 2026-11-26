@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T08:24:25Z",
+  "generated_at": "2026-11-26T19:04:21Z",
   "source": "Open-Meteo Air Quality API (CAMS) and Open-Meteo weather, bias-corrected with the stored calibration when enabled.",
   "label": "Estimated (model)",
   "open_meteo_errors": [],
@@ -12,57 +12,57 @@
       "lat": 17.42,
       "lon": 78.45,
       "label": "Estimated (model)",
-      "aqi": 69,
-      "aqi_unrounded": 69.0,
+      "aqi": 72,
+      "aqi_unrounded": 72.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 69.7,
-          "sub_index": 69.0
+          "concentration": 72.46,
+          "sub_index": 72.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 41.69,
-          "sub_index": 67.9
+          "concentration": 43.44,
+          "sub_index": 71.3
         },
         {
           "pollutant": "o3",
-          "concentration": 41.03,
-          "sub_index": 41.0
+          "concentration": 42.74,
+          "sub_index": 42.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.65,
+          "concentration": 0.64,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 17.49,
-          "sub_index": 21.2
+          "concentration": 16.31,
+          "sub_index": 20.0
         },
         {
           "pollutant": "so2",
-          "concentration": 8.06,
+          "concentration": 8.05,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 31.47,
-        "pm10": 32.38,
-        "no2": 10.86,
-        "so2": 12.27,
-        "o3": 138.62,
-        "co": 0.5
+        "pm25": 33.64,
+        "pm10": 34.9,
+        "no2": 8.48,
+        "so2": 12.04,
+        "o3": 148.0,
+        "co": 0.45
       },
       "weather": {
-        "rh_24h_mean_pct": 78.8,
-        "wind_24h_mean_ms": 1.41,
-        "rain_24h_mm": 1.1,
-        "blh_24h_mean_m": 359.0,
-        "ventilation_m2s": 507.0
+        "rh_24h_mean_pct": 59.9,
+        "wind_24h_mean_ms": 2.15,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 722.0,
+        "ventilation_m2s": 1555.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -71,14 +71,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Hyderabad",
-      "nearest_bulletin_aqi": 63,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 63,
+      "nearest_bulletin_aqi": 54,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 54,
       "measured_category": "Satisfactory",
       "measured_pollutant": "PM10",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Hyderabad on 2026-11-25 (14/14 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Hyderabad on 2026-11-26 (12/14 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -90,57 +90,57 @@
       "lat": 16.5151,
       "lon": 80.5182,
       "label": "Estimated (model)",
-      "aqi": 75,
-      "aqi_unrounded": 74.7,
+      "aqi": 88,
+      "aqi_unrounded": 88.2,
       "category": "Satisfactory",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 45.01,
-          "sub_index": 74.7
+          "concentration": 53.95,
+          "sub_index": 88.2
         },
         {
           "pollutant": "pm10",
-          "concentration": 74.53,
-          "sub_index": 74.0
+          "concentration": 87.67,
+          "sub_index": 87.0
         },
         {
           "pollutant": "o3",
-          "concentration": 38.48,
-          "sub_index": 38.0
+          "concentration": 40.58,
+          "sub_index": 40.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.64,
+          "concentration": 0.63,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 16.25,
-          "sub_index": 20.0
+          "concentration": 15.58,
+          "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 8.12,
+          "concentration": 8.2,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 35.6,
-        "pm10": 36.77,
-        "no2": 8.36,
-        "so2": 13.09,
-        "o3": 124.62,
-        "co": 0.48
+        "pm25": 46.75,
+        "pm10": 48.74,
+        "no2": 6.99,
+        "so2": 14.28,
+        "o3": 136.12,
+        "co": 0.4
       },
       "weather": {
-        "rh_24h_mean_pct": 80.2,
-        "wind_24h_mean_ms": 1.67,
-        "rain_24h_mm": 0.3,
-        "blh_24h_mean_m": 495.0,
-        "ventilation_m2s": 826.0
+        "rh_24h_mean_pct": 74.8,
+        "wind_24h_mean_ms": 2.16,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 661.0,
+        "ventilation_m2s": 1428.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -149,14 +149,8 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Amaravati",
-      "nearest_bulletin_aqi": 38,
+      "nearest_bulletin_aqi": null,
       "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 38,
-      "measured_category": "Good",
-      "measured_pollutant": "PM10",
-      "measured_date": "2026-11-25",
-      "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Amaravati on 2026-11-25 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -168,57 +162,57 @@
       "lat": 14.6759,
       "lon": 77.593,
       "label": "Estimated (model)",
-      "aqi": 42,
-      "aqi_unrounded": 42.0,
-      "category": "Good",
+      "aqi": 51,
+      "aqi_unrounded": 51.0,
+      "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 42.72,
-          "sub_index": 42.0
+          "concentration": 51.67,
+          "sub_index": 51.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 22.22,
-          "sub_index": 36.7
+          "concentration": 28.56,
+          "sub_index": 46.7
         },
         {
           "pollutant": "o3",
-          "concentration": 32.18,
-          "sub_index": 32.0
+          "concentration": 38.41,
+          "sub_index": 38.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.6,
+          "concentration": 0.61,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 14.56,
+          "concentration": 14.1,
           "sub_index": 17.5
         },
         {
           "pollutant": "so2",
-          "concentration": 7.81,
+          "concentration": 7.85,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 7.17,
-        "pm10": 7.82,
-        "no2": 4.93,
-        "so2": 8.32,
-        "o3": 90.0,
-        "co": 0.25
+        "pm25": 15.08,
+        "pm10": 15.96,
+        "no2": 4.0,
+        "so2": 9.01,
+        "o3": 124.25,
+        "co": 0.28
       },
       "weather": {
-        "rh_24h_mean_pct": 76.9,
-        "wind_24h_mean_ms": 2.87,
-        "rain_24h_mm": 2.3,
-        "blh_24h_mean_m": 612.0,
-        "ventilation_m2s": 1754.0
+        "rh_24h_mean_pct": 73.5,
+        "wind_24h_mean_ms": 3.08,
+        "rain_24h_mm": 1.5,
+        "blh_24h_mean_m": 685.0,
+        "ventilation_m2s": 2110.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -227,14 +221,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Anantapur",
-      "nearest_bulletin_aqi": 68,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 68,
+      "nearest_bulletin_aqi": 57,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 57,
       "measured_category": "Satisfactory",
       "measured_pollutant": "PM10",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Anantapur on 2026-11-25 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Anantapur on 2026-11-26 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -246,21 +240,26 @@
       "lat": 13.2049,
       "lon": 79.0979,
       "label": "Estimated (model)",
-      "aqi": 45,
-      "aqi_unrounded": 45.0,
-      "category": "Good",
+      "aqi": 53,
+      "aqi_unrounded": 53.0,
+      "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 45.05,
-          "sub_index": 45.0
+          "concentration": 53.38,
+          "sub_index": 53.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 23.56,
-          "sub_index": 38.3
+          "concentration": 29.2,
+          "sub_index": 48.3
+        },
+        {
+          "pollutant": "o3",
+          "concentration": 34.55,
+          "sub_index": 34.0
         },
         {
           "pollutant": "co",
@@ -268,35 +267,30 @@
           "sub_index": 30.0
         },
         {
-          "pollutant": "o3",
-          "concentration": 28.63,
-          "sub_index": 28.0
-        },
-        {
           "pollutant": "no2",
-          "concentration": 16.26,
-          "sub_index": 20.0
+          "concentration": 14.82,
+          "sub_index": 17.5
         },
         {
           "pollutant": "so2",
-          "concentration": 7.58,
+          "concentration": 7.56,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 8.84,
-        "pm10": 9.93,
-        "no2": 8.38,
-        "so2": 4.85,
-        "o3": 70.5,
-        "co": 0.32
+        "pm25": 15.88,
+        "pm10": 17.52,
+        "no2": 5.45,
+        "so2": 4.54,
+        "o3": 103.0,
+        "co": 0.3
       },
       "weather": {
-        "rh_24h_mean_pct": 91.5,
-        "wind_24h_mean_ms": 1.54,
-        "rain_24h_mm": 5.1,
-        "blh_24h_mean_m": 313.0,
-        "ventilation_m2s": 482.0
+        "rh_24h_mean_pct": 89.1,
+        "wind_24h_mean_ms": 2.75,
+        "rain_24h_mm": 3.7,
+        "blh_24h_mean_m": 455.0,
+        "ventilation_m2s": 1253.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -305,14 +299,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Chittoor",
-      "nearest_bulletin_aqi": 59,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 59,
+      "nearest_bulletin_aqi": 61,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 61,
       "measured_category": "Satisfactory",
       "measured_pollutant": "PM10",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Chittoor on 2026-11-25 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Chittoor on 2026-11-26 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -324,26 +318,26 @@
       "lat": 16.7104,
       "lon": 81.1154,
       "label": "Estimated (model)",
-      "aqi": 80,
-      "aqi_unrounded": 80.0,
+      "aqi": 100,
+      "aqi_unrounded": 100.0,
       "category": "Satisfactory",
-      "dominant": "pm10",
+      "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
-          "pollutant": "pm10",
-          "concentration": 80.16,
-          "sub_index": 80.0
+          "pollutant": "pm25",
+          "concentration": 60.56,
+          "sub_index": 100.0
         },
         {
-          "pollutant": "pm25",
-          "concentration": 48.95,
-          "sub_index": 79.7
+          "pollutant": "pm10",
+          "concentration": 96.46,
+          "sub_index": 96.0
         },
         {
           "pollutant": "o3",
-          "concentration": 37.34,
-          "sub_index": 37.0
+          "concentration": 42.17,
+          "sub_index": 42.0
         },
         {
           "pollutant": "co",
@@ -352,29 +346,29 @@
         },
         {
           "pollutant": "no2",
-          "concentration": 15.97,
+          "concentration": 15.24,
           "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 7.98,
-          "sub_index": 8.8
+          "concentration": 8.54,
+          "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 40.51,
-        "pm10": 41.9,
-        "no2": 7.79,
-        "so2": 10.98,
-        "o3": 118.38,
-        "co": 0.45
+        "pm25": 55.0,
+        "pm10": 56.75,
+        "no2": 6.32,
+        "so2": 19.54,
+        "o3": 144.88,
+        "co": 0.47
       },
       "weather": {
-        "rh_24h_mean_pct": 82.0,
-        "wind_24h_mean_ms": 1.92,
-        "rain_24h_mm": 0.3,
-        "blh_24h_mean_m": 481.0,
-        "ventilation_m2s": 923.0
+        "rh_24h_mean_pct": 74.0,
+        "wind_24h_mean_ms": 2.12,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 550.0,
+        "ventilation_m2s": 1168.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -383,14 +377,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Vijayawada",
-      "nearest_bulletin_aqi": 66,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 55,
+      "nearest_bulletin_aqi": 69,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 63,
       "measured_category": "Satisfactory",
       "measured_pollutant": "PM10",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Eluru on 2026-11-25 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Eluru on 2026-11-26 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -402,57 +396,57 @@
       "lat": 16.2915,
       "lon": 80.4542,
       "label": "Estimated (model)",
-      "aqi": 75,
-      "aqi_unrounded": 74.7,
+      "aqi": 88,
+      "aqi_unrounded": 88.2,
       "category": "Satisfactory",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 45.01,
-          "sub_index": 74.7
+          "concentration": 53.95,
+          "sub_index": 88.2
         },
         {
           "pollutant": "pm10",
-          "concentration": 74.53,
-          "sub_index": 74.0
+          "concentration": 87.67,
+          "sub_index": 87.0
         },
         {
           "pollutant": "o3",
-          "concentration": 38.48,
-          "sub_index": 38.0
+          "concentration": 40.58,
+          "sub_index": 40.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.64,
+          "concentration": 0.63,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 16.25,
-          "sub_index": 20.0
+          "concentration": 15.58,
+          "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 8.12,
+          "concentration": 8.2,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 35.6,
-        "pm10": 36.77,
-        "no2": 8.36,
-        "so2": 13.09,
-        "o3": 124.62,
-        "co": 0.45
+        "pm25": 46.75,
+        "pm10": 48.74,
+        "no2": 6.99,
+        "so2": 14.28,
+        "o3": 136.12,
+        "co": 0.43
       },
       "weather": {
-        "rh_24h_mean_pct": 83.2,
-        "wind_24h_mean_ms": 1.62,
-        "rain_24h_mm": 0.2,
-        "blh_24h_mean_m": 389.0,
-        "ventilation_m2s": 632.0
+        "rh_24h_mean_pct": 77.1,
+        "wind_24h_mean_ms": 2.05,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 550.0,
+        "ventilation_m2s": 1131.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -461,14 +455,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Amaravati",
-      "nearest_bulletin_aqi": 38,
+      "nearest_bulletin_aqi": null,
       "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 62,
+      "measured_aqi": 72,
       "measured_category": "Satisfactory",
       "measured_pollutant": "PM10",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Guntur on 2026-11-25 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Guntur on 2026-11-26 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -480,57 +474,57 @@
       "lat": 14.4654,
       "lon": 78.8245,
       "label": "Estimated (model)",
-      "aqi": 43,
-      "aqi_unrounded": 43.0,
-      "category": "Good",
+      "aqi": 56,
+      "aqi_unrounded": 56.0,
+      "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 43.77,
-          "sub_index": 43.0
+          "concentration": 56.52,
+          "sub_index": 56.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 22.56,
-          "sub_index": 36.7
+          "concentration": 31.14,
+          "sub_index": 51.0
         },
         {
           "pollutant": "o3",
-          "concentration": 32.11,
-          "sub_index": 32.0
+          "concentration": 37.37,
+          "sub_index": 37.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.6,
-          "sub_index": 25.0
+          "concentration": 0.61,
+          "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 14.6,
+          "concentration": 14.18,
           "sub_index": 17.5
         },
         {
           "pollutant": "so2",
-          "concentration": 7.68,
+          "concentration": 7.77,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 7.6,
-        "pm10": 8.77,
-        "no2": 5.01,
-        "so2": 6.43,
-        "o3": 89.62,
-        "co": 0.23
+        "pm25": 18.3,
+        "pm10": 20.38,
+        "no2": 4.15,
+        "so2": 7.75,
+        "o3": 118.5,
+        "co": 0.3
       },
       "weather": {
-        "rh_24h_mean_pct": 80.8,
-        "wind_24h_mean_ms": 2.64,
-        "rain_24h_mm": 0.4,
-        "blh_24h_mean_m": 560.0,
-        "ventilation_m2s": 1479.0
+        "rh_24h_mean_pct": 78.5,
+        "wind_24h_mean_ms": 2.92,
+        "rain_24h_mm": 1.6,
+        "blh_24h_mean_m": 604.0,
+        "ventilation_m2s": 1763.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -539,14 +533,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Kadapa",
-      "nearest_bulletin_aqi": 59,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 59,
+      "nearest_bulletin_aqi": 66,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 66,
       "measured_category": "Satisfactory",
       "measured_pollutant": "PM2.5",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Kadapa on 2026-11-25 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Kadapa on 2026-11-26 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -558,57 +552,57 @@
       "lat": 16.9437,
       "lon": 82.2351,
       "label": "Estimated (model)",
-      "aqi": 81,
-      "aqi_unrounded": 81.0,
+      "aqi": 98,
+      "aqi_unrounded": 98.3,
       "category": "Satisfactory",
-      "dominant": "pm10",
+      "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
-          "pollutant": "pm10",
-          "concentration": 81.47,
-          "sub_index": 81.0
+          "pollutant": "pm25",
+          "concentration": 59.63,
+          "sub_index": 98.3
         },
         {
-          "pollutant": "pm25",
-          "concentration": 46.54,
-          "sub_index": 76.3
+          "pollutant": "pm10",
+          "concentration": 98.33,
+          "sub_index": 98.0
         },
         {
           "pollutant": "o3",
-          "concentration": 41.28,
-          "sub_index": 41.0
+          "concentration": 51.5,
+          "sub_index": 51.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.64,
+          "concentration": 0.65,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 14.48,
-          "sub_index": 17.5
+          "concentration": 13.82,
+          "sub_index": 16.2
         },
         {
           "pollutant": "so2",
-          "concentration": 8.34,
+          "concentration": 8.67,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 37.52,
-        "pm10": 43.1,
-        "no2": 4.77,
-        "so2": 16.53,
-        "o3": 140.0,
-        "co": 0.49
+        "pm25": 53.85,
+        "pm10": 58.45,
+        "no2": 3.43,
+        "so2": 21.56,
+        "o3": 196.12,
+        "co": 0.52
       },
       "weather": {
-        "rh_24h_mean_pct": 79.0,
-        "wind_24h_mean_ms": 3.23,
-        "rain_24h_mm": 0.1,
-        "blh_24h_mean_m": 489.0,
-        "ventilation_m2s": 1582.0
+        "rh_24h_mean_pct": 66.1,
+        "wind_24h_mean_ms": 3.39,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 528.0,
+        "ventilation_m2s": 1792.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -617,14 +611,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Rajamahendravaram",
-      "nearest_bulletin_aqi": 88,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 69,
+      "nearest_bulletin_aqi": 80,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 84,
       "measured_category": "Satisfactory",
       "measured_pollutant": "PM2.5",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Kakinada on 2026-11-25 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Kakinada on 2026-11-26 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -636,26 +630,26 @@
       "lat": 15.8309,
       "lon": 78.0425,
       "label": "Estimated (model)",
-      "aqi": 50,
-      "aqi_unrounded": 50.0,
-      "category": "Good",
+      "aqi": 58,
+      "aqi_unrounded": 58.0,
+      "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 50.94,
-          "sub_index": 50.0
+          "concentration": 58.62,
+          "sub_index": 58.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 28.32,
-          "sub_index": 46.7
+          "concentration": 33.7,
+          "sub_index": 54.4
         },
         {
           "pollutant": "o3",
-          "concentration": 35.5,
-          "sub_index": 35.0
+          "concentration": 39.37,
+          "sub_index": 39.0
         },
         {
           "pollutant": "co",
@@ -664,29 +658,29 @@
         },
         {
           "pollutant": "no2",
-          "concentration": 13.49,
+          "concentration": 13.52,
           "sub_index": 16.2
         },
         {
           "pollutant": "so2",
-          "concentration": 7.61,
+          "concentration": 7.8,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 14.78,
-        "pm10": 15.3,
-        "no2": 2.77,
-        "so2": 5.27,
-        "o3": 108.25,
-        "co": 0.29
+        "pm25": 21.5,
+        "pm10": 22.29,
+        "no2": 2.82,
+        "so2": 8.19,
+        "o3": 129.5,
+        "co": 0.3
       },
       "weather": {
-        "rh_24h_mean_pct": 72.4,
-        "wind_24h_mean_ms": 2.03,
-        "rain_24h_mm": 0.9,
-        "blh_24h_mean_m": 601.0,
-        "ventilation_m2s": 1221.0
+        "rh_24h_mean_pct": 65.9,
+        "wind_24h_mean_ms": 2.9,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 762.0,
+        "ventilation_m2s": 2209.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -697,6 +691,12 @@
       "nearest_city": "Raichur",
       "nearest_bulletin_aqi": null,
       "nearest_bulletin_date": null,
+      "measured_aqi": 56,
+      "measured_category": "Satisfactory",
+      "measured_pollutant": "PM2.5",
+      "measured_date": "2026-11-26",
+      "measured_label": "Measured (monitor)",
+      "measured_detail": "CPCB city bulletin for Kurnool on 2026-11-26 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -708,57 +708,57 @@
       "lat": 16.1817,
       "lon": 81.1348,
       "label": "Estimated (model)",
-      "aqi": 65,
-      "aqi_unrounded": 65.0,
+      "aqi": 92,
+      "aqi_unrounded": 92.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 65.41,
-          "sub_index": 65.0
+          "concentration": 92.06,
+          "sub_index": 92.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 36.48,
-          "sub_index": 59.4
+          "concentration": 54.78,
+          "sub_index": 89.9
         },
         {
           "pollutant": "o3",
-          "concentration": 38.19,
-          "sub_index": 38.0
+          "concentration": 47.15,
+          "sub_index": 47.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.63,
+          "concentration": 0.64,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 13.4,
-          "sub_index": 16.2
+          "concentration": 12.94,
+          "sub_index": 15.0
         },
         {
           "pollutant": "so2",
-          "concentration": 7.78,
-          "sub_index": 8.8
+          "concentration": 8.06,
+          "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 24.96,
-        "pm10": 28.47,
-        "no2": 2.57,
-        "so2": 7.98,
-        "o3": 123.0,
-        "co": 0.39
+        "pm25": 47.79,
+        "pm10": 52.74,
+        "no2": 1.65,
+        "so2": 12.17,
+        "o3": 172.25,
+        "co": 0.44
       },
       "weather": {
-        "rh_24h_mean_pct": 85.4,
-        "wind_24h_mean_ms": 2.43,
-        "rain_24h_mm": 2.7,
-        "blh_24h_mean_m": 398.0,
-        "ventilation_m2s": 965.0
+        "rh_24h_mean_pct": 76.7,
+        "wind_24h_mean_ms": 2.93,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 545.0,
+        "ventilation_m2s": 1600.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -767,14 +767,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Vijayawada",
-      "nearest_bulletin_aqi": 66,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 67,
+      "nearest_bulletin_aqi": 69,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 76,
       "measured_category": "Satisfactory",
       "measured_pollutant": "PM10",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Machilipatnam on 2026-11-25 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Machilipatnam on 2026-11-26 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -786,57 +786,57 @@
       "lat": 14.4494,
       "lon": 79.9874,
       "label": "Estimated (model)",
-      "aqi": 48,
-      "aqi_unrounded": 48.0,
-      "category": "Good",
+      "aqi": 73,
+      "aqi_unrounded": 73.0,
+      "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 48.39,
-          "sub_index": 48.0
+          "concentration": 73.65,
+          "sub_index": 73.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 24.95,
-          "sub_index": 40.0
+          "concentration": 40.88,
+          "sub_index": 66.2
         },
         {
           "pollutant": "o3",
-          "concentration": 31.68,
-          "sub_index": 31.0
+          "concentration": 39.16,
+          "sub_index": 39.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.61,
+          "concentration": 0.62,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 13.84,
+          "concentration": 13.32,
           "sub_index": 16.2
         },
         {
           "pollutant": "so2",
-          "concentration": 7.48,
+          "concentration": 7.67,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 10.58,
-        "pm10": 12.97,
-        "no2": 3.47,
-        "so2": 3.28,
-        "o3": 87.25,
-        "co": 0.27
+        "pm25": 30.45,
+        "pm10": 35.98,
+        "no2": 2.41,
+        "so2": 6.2,
+        "o3": 128.38,
+        "co": 0.33
       },
       "weather": {
-        "rh_24h_mean_pct": 87.0,
-        "wind_24h_mean_ms": 1.58,
-        "rain_24h_mm": 5.5,
-        "blh_24h_mean_m": 308.0,
-        "ventilation_m2s": 486.0
+        "rh_24h_mean_pct": 82.3,
+        "wind_24h_mean_ms": 2.42,
+        "rain_24h_mm": 1.7,
+        "blh_24h_mean_m": 452.0,
+        "ventilation_m2s": 1096.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -845,14 +845,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Tirumala",
-      "nearest_bulletin_aqi": 45,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 51,
-      "measured_category": "Satisfactory",
+      "nearest_bulletin_aqi": 38,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 49,
+      "measured_category": "Good",
       "measured_pollutant": "PM2.5",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Nellore on 2026-11-25 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Nellore on 2026-11-26 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -864,57 +864,57 @@
       "lat": 15.5059,
       "lon": 80.0499,
       "label": "Estimated (model)",
-      "aqi": 56,
-      "aqi_unrounded": 56.0,
+      "aqi": 75,
+      "aqi_unrounded": 75.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 56.81,
-          "sub_index": 56.0
+          "concentration": 75.39,
+          "sub_index": 75.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 31.79,
-          "sub_index": 51.0
+          "concentration": 44.38,
+          "sub_index": 73.0
         },
         {
           "pollutant": "o3",
-          "concentration": 38.25,
-          "sub_index": 38.0
+          "concentration": 42.28,
+          "sub_index": 42.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.61,
+          "concentration": 0.62,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 14.27,
-          "sub_index": 17.5
+          "concentration": 13.73,
+          "sub_index": 16.2
         },
         {
           "pollutant": "so2",
-          "concentration": 7.81,
+          "concentration": 7.92,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 19.11,
-        "pm10": 20.64,
-        "no2": 4.35,
-        "so2": 8.33,
-        "o3": 123.38,
-        "co": 0.3
+        "pm25": 34.82,
+        "pm10": 37.56,
+        "no2": 3.24,
+        "so2": 10.1,
+        "o3": 145.5,
+        "co": 0.34
       },
       "weather": {
-        "rh_24h_mean_pct": 82.5,
-        "wind_24h_mean_ms": 1.84,
-        "rain_24h_mm": 0.3,
-        "blh_24h_mean_m": 452.0,
-        "ventilation_m2s": 834.0
+        "rh_24h_mean_pct": 78.4,
+        "wind_24h_mean_ms": 2.77,
+        "rain_24h_mm": 2.2,
+        "blh_24h_mean_m": 493.0,
+        "ventilation_m2s": 1365.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -923,14 +923,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Amaravati",
-      "nearest_bulletin_aqi": 38,
+      "nearest_bulletin_aqi": null,
       "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 49,
-      "measured_category": "Good",
+      "measured_aqi": 51,
+      "measured_category": "Satisfactory",
       "measured_pollutant": "PM2.5",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Ongole on 2026-11-25 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Ongole on 2026-11-26 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -942,57 +942,57 @@
       "lat": 17.0084,
       "lon": 81.7714,
       "label": "Estimated (model)",
-      "aqi": 75,
-      "aqi_unrounded": 75.0,
+      "aqi": 97,
+      "aqi_unrounded": 96.6,
       "category": "Satisfactory",
-      "dominant": "pm10",
+      "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
-          "pollutant": "pm10",
-          "concentration": 75.02,
-          "sub_index": 75.0
+          "pollutant": "pm25",
+          "concentration": 58.69,
+          "sub_index": 96.6
         },
         {
-          "pollutant": "pm25",
-          "concentration": 45.26,
-          "sub_index": 74.7
+          "pollutant": "pm10",
+          "concentration": 93.74,
+          "sub_index": 93.0
         },
         {
           "pollutant": "o3",
-          "concentration": 36.87,
-          "sub_index": 36.0
+          "concentration": 41.51,
+          "sub_index": 41.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.63,
+          "concentration": 0.65,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 15.88,
+          "concentration": 15.6,
           "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 7.99,
-          "sub_index": 8.8
+          "concentration": 8.73,
+          "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 35.91,
-        "pm10": 37.23,
-        "no2": 7.61,
-        "so2": 11.11,
-        "o3": 115.75,
-        "co": 0.39
+        "pm25": 52.67,
+        "pm10": 54.27,
+        "no2": 7.04,
+        "so2": 22.38,
+        "o3": 141.25,
+        "co": 0.52
       },
       "weather": {
-        "rh_24h_mean_pct": 81.7,
-        "wind_24h_mean_ms": 2.36,
-        "rain_24h_mm": 0.1,
-        "blh_24h_mean_m": 467.0,
-        "ventilation_m2s": 1104.0
+        "rh_24h_mean_pct": 72.0,
+        "wind_24h_mean_ms": 2.66,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 566.0,
+        "ventilation_m2s": 1504.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1001,14 +1001,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Rajamahendravaram",
-      "nearest_bulletin_aqi": 88,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 88,
+      "nearest_bulletin_aqi": 80,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 80,
       "measured_category": "Satisfactory",
-      "measured_pollutant": "O3",
-      "measured_date": "2026-11-25",
+      "measured_pollutant": "PM10",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Rajamahendravaram on 2026-11-25 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Rajamahendravaram on 2026-11-26 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -1020,26 +1020,26 @@
       "lat": 18.2949,
       "lon": 83.8939,
       "label": "Estimated (model)",
-      "aqi": 108,
-      "aqi_unrounded": 107.8,
+      "aqi": 115,
+      "aqi_unrounded": 114.7,
       "category": "Moderate",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 63.48,
-          "sub_index": 107.8
+          "concentration": 65.47,
+          "sub_index": 114.7
         },
         {
           "pollutant": "pm10",
-          "concentration": 101.24,
-          "sub_index": 101.0
+          "concentration": 103.24,
+          "sub_index": 102.3
         },
         {
           "pollutant": "o3",
-          "concentration": 40.03,
-          "sub_index": 40.0
+          "concentration": 46.31,
+          "sub_index": 46.0
         },
         {
           "pollutant": "co",
@@ -1048,29 +1048,29 @@
         },
         {
           "pollutant": "no2",
-          "concentration": 15.72,
+          "concentration": 15.74,
           "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 8.15,
+          "concentration": 8.46,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 58.64,
-        "pm10": 61.1,
-        "no2": 7.28,
-        "so2": 13.53,
-        "o3": 133.12,
-        "co": 0.5
+        "pm25": 61.12,
+        "pm10": 62.92,
+        "no2": 7.31,
+        "so2": 18.35,
+        "o3": 167.62,
+        "co": 0.53
       },
       "weather": {
-        "rh_24h_mean_pct": 78.0,
-        "wind_24h_mean_ms": 2.24,
+        "rh_24h_mean_pct": 71.7,
+        "wind_24h_mean_ms": 2.47,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 431.0,
-        "ventilation_m2s": 966.0
+        "blh_24h_mean_m": 408.0,
+        "ventilation_m2s": 1007.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1079,14 +1079,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Visakhapatnam",
-      "nearest_bulletin_aqi": 54,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 89,
+      "nearest_bulletin_aqi": 65,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 79,
       "measured_category": "Satisfactory",
       "measured_pollutant": "PM2.5",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Srikakulam on 2026-11-25 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Srikakulam on 2026-11-26 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -1098,21 +1098,26 @@
       "lat": 13.675,
       "lon": 79.3509,
       "label": "Estimated (model)",
-      "aqi": 43,
-      "aqi_unrounded": 43.0,
-      "category": "Good",
+      "aqi": 54,
+      "aqi_unrounded": 54.0,
+      "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 43.79,
-          "sub_index": 43.0
+          "concentration": 54.65,
+          "sub_index": 54.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 22.76,
-          "sub_index": 36.7
+          "concentration": 29.84,
+          "sub_index": 48.3
+        },
+        {
+          "pollutant": "o3",
+          "concentration": 35.34,
+          "sub_index": 35.0
         },
         {
           "pollutant": "co",
@@ -1120,35 +1125,30 @@
           "sub_index": 30.0
         },
         {
-          "pollutant": "o3",
-          "concentration": 29.06,
-          "sub_index": 29.0
-        },
-        {
           "pollutant": "no2",
-          "concentration": 16.02,
-          "sub_index": 20.0
+          "concentration": 14.74,
+          "sub_index": 17.5
         },
         {
           "pollutant": "so2",
-          "concentration": 7.43,
+          "concentration": 7.51,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 7.84,
-        "pm10": 8.78,
-        "no2": 7.88,
-        "so2": 2.59,
-        "o3": 72.88,
+        "pm25": 16.68,
+        "pm10": 18.68,
+        "no2": 5.29,
+        "so2": 3.86,
+        "o3": 107.38,
         "co": 0.29
       },
       "weather": {
-        "rh_24h_mean_pct": 92.5,
-        "wind_24h_mean_ms": 1.29,
-        "rain_24h_mm": 3.1,
-        "blh_24h_mean_m": 225.0,
-        "ventilation_m2s": 290.0
+        "rh_24h_mean_pct": 91.3,
+        "wind_24h_mean_ms": 1.67,
+        "rain_24h_mm": 4.9,
+        "blh_24h_mean_m": 338.0,
+        "ventilation_m2s": 564.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1157,14 +1157,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Tirumala",
-      "nearest_bulletin_aqi": 45,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 45,
+      "nearest_bulletin_aqi": 38,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 38,
       "measured_category": "Good",
       "measured_pollutant": "NO2",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Tirumala on 2026-11-25 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Tirumala on 2026-11-26 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -1176,57 +1176,57 @@
       "lat": 13.6154,
       "lon": 79.4092,
       "label": "Estimated (model)",
-      "aqi": 48,
-      "aqi_unrounded": 48.0,
-      "category": "Good",
+      "aqi": 60,
+      "aqi_unrounded": 60.0,
+      "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 48.5,
-          "sub_index": 48.0
+          "concentration": 60.98,
+          "sub_index": 60.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 25.88,
-          "sub_index": 41.7
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.62,
-          "sub_index": 30.0
+          "concentration": 33.8,
+          "sub_index": 54.4
         },
         {
           "pollutant": "o3",
-          "concentration": 29.2,
-          "sub_index": 29.0
+          "concentration": 35.21,
+          "sub_index": 35.0
+        },
+        {
+          "pollutant": "co",
+          "concentration": 0.61,
+          "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 18.0,
-          "sub_index": 22.5
+          "concentration": 15.42,
+          "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 7.46,
+          "concentration": 7.52,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 11.74,
-        "pm10": 13.08,
-        "no2": 11.9,
-        "so2": 3.05,
-        "o3": 73.62,
-        "co": 0.36
+        "pm25": 21.61,
+        "pm10": 24.44,
+        "no2": 6.67,
+        "so2": 4.0,
+        "o3": 106.62,
+        "co": 0.31
       },
       "weather": {
-        "rh_24h_mean_pct": 91.2,
-        "wind_24h_mean_ms": 1.52,
-        "rain_24h_mm": 7.3,
-        "blh_24h_mean_m": 274.0,
-        "ventilation_m2s": 416.0
+        "rh_24h_mean_pct": 88.5,
+        "wind_24h_mean_ms": 2.38,
+        "rain_24h_mm": 2.8,
+        "blh_24h_mean_m": 444.0,
+        "ventilation_m2s": 1056.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1235,14 +1235,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Tirupati",
-      "nearest_bulletin_aqi": 57,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 57,
+      "nearest_bulletin_aqi": 63,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 63,
       "measured_category": "Satisfactory",
       "measured_pollutant": "PM2.5",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Tirupati on 2026-11-25 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Tirupati on 2026-11-26 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -1254,57 +1254,57 @@
       "lat": 16.5215,
       "lon": 80.6376,
       "label": "Estimated (model)",
-      "aqi": 75,
-      "aqi_unrounded": 75.0,
+      "aqi": 93,
+      "aqi_unrounded": 93.2,
       "category": "Satisfactory",
-      "dominant": "pm10",
+      "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
-          "pollutant": "pm10",
-          "concentration": 75.85,
-          "sub_index": 75.0
+          "pollutant": "pm25",
+          "concentration": 56.53,
+          "sub_index": 93.2
         },
         {
-          "pollutant": "pm25",
-          "concentration": 45.88,
-          "sub_index": 74.7
+          "pollutant": "pm10",
+          "concentration": 91.23,
+          "sub_index": 91.0
         },
         {
           "pollutant": "o3",
-          "concentration": 37.91,
-          "sub_index": 37.0
+          "concentration": 41.71,
+          "sub_index": 41.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.64,
+          "concentration": 0.63,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 16.14,
-          "sub_index": 20.0
+          "concentration": 15.07,
+          "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 8.11,
+          "concentration": 8.28,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 36.68,
-        "pm10": 37.98,
-        "no2": 8.13,
-        "so2": 12.9,
-        "o3": 121.5,
-        "co": 0.49
+        "pm25": 49.97,
+        "pm10": 51.98,
+        "no2": 5.97,
+        "so2": 15.51,
+        "o3": 142.38,
+        "co": 0.42
       },
       "weather": {
-        "rh_24h_mean_pct": 76.8,
-        "wind_24h_mean_ms": 1.94,
+        "rh_24h_mean_pct": 70.7,
+        "wind_24h_mean_ms": 2.36,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 575.0,
-        "ventilation_m2s": 1113.0
+        "blh_24h_mean_m": 685.0,
+        "ventilation_m2s": 1616.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1313,14 +1313,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Vijayawada",
-      "nearest_bulletin_aqi": 66,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 66,
+      "nearest_bulletin_aqi": 69,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 69,
       "measured_category": "Satisfactory",
       "measured_pollutant": "PM2.5, PM10",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Vijayawada on 2026-11-25 (3/4 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Vijayawada on 2026-11-26 (3/4 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -1332,57 +1332,57 @@
       "lat": 17.7224,
       "lon": 83.3082,
       "label": "Estimated (model)",
-      "aqi": 101,
-      "aqi_unrounded": 101.0,
+      "aqi": 115,
+      "aqi_unrounded": 114.7,
       "category": "Moderate",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 61.99,
-          "sub_index": 101.0
+          "concentration": 65.47,
+          "sub_index": 114.7
         },
         {
           "pollutant": "pm10",
-          "concentration": 99.61,
-          "sub_index": 99.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 31.8,
-          "sub_index": 38.8
+          "concentration": 103.42,
+          "sub_index": 102.3
         },
         {
           "pollutant": "o3",
-          "concentration": 36.98,
-          "sub_index": 36.0
+          "concentration": 46.24,
+          "sub_index": 46.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.74,
+          "concentration": 0.72,
           "sub_index": 35.0
         },
         {
+          "pollutant": "no2",
+          "concentration": 24.57,
+          "sub_index": 30.0
+        },
+        {
           "pollutant": "so2",
-          "concentration": 11.24,
-          "sub_index": 13.8
+          "concentration": 10.5,
+          "sub_index": 12.5
         }
       ],
       "raw_concentrations": {
-        "pm25": 56.78,
-        "pm10": 59.62,
-        "no2": 39.85,
-        "so2": 60.69,
-        "o3": 116.38,
-        "co": 1.02
+        "pm25": 61.12,
+        "pm10": 63.08,
+        "no2": 25.2,
+        "so2": 49.43,
+        "o3": 167.25,
+        "co": 0.89
       },
       "weather": {
-        "rh_24h_mean_pct": 82.5,
-        "wind_24h_mean_ms": 2.62,
-        "rain_24h_mm": 0.1,
-        "blh_24h_mean_m": 373.0,
-        "ventilation_m2s": 977.0
+        "rh_24h_mean_pct": 70.0,
+        "wind_24h_mean_ms": 3.01,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 463.0,
+        "ventilation_m2s": 1394.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1391,14 +1391,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Visakhapatnam",
-      "nearest_bulletin_aqi": 54,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 54,
+      "nearest_bulletin_aqi": 65,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 65,
       "measured_category": "Satisfactory",
-      "measured_pollutant": "PM10, SO2, PM2.5",
-      "measured_date": "2026-11-25",
+      "measured_pollutant": "PM10, PM2.5",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Visakhapatnam on 2026-11-25 (4/4 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Visakhapatnam on 2026-11-26 (4/4 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -1410,57 +1410,57 @@
       "lat": 28.6385,
       "lon": 77.1817,
       "label": "Estimated (model)",
-      "aqi": 308,
-      "aqi_unrounded": 307.9,
+      "aqi": 332,
+      "aqi_unrounded": 331.7,
       "category": "Very Poor",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 130.22,
-          "sub_index": 307.9
+          "concentration": 161.56,
+          "sub_index": 331.7
         },
         {
           "pollutant": "pm10",
-          "concentration": 191.49,
-          "sub_index": 160.8
+          "concentration": 234.16,
+          "sub_index": 189.4
         },
         {
           "pollutant": "no2",
-          "concentration": 50.85,
-          "sub_index": 62.3
+          "concentration": 55.1,
+          "sub_index": 68.6
         },
         {
           "pollutant": "co",
-          "concentration": 1.36,
+          "concentration": 1.31,
           "sub_index": 61.9
         },
         {
           "pollutant": "o3",
-          "concentration": 42.05,
-          "sub_index": 42.0
+          "concentration": 43.85,
+          "sub_index": 43.0
         },
         {
           "pollutant": "so2",
-          "concentration": 11.73,
-          "sub_index": 13.8
+          "concentration": 12.14,
+          "sub_index": 15.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 141.9,
-        "pm10": 143.28,
-        "no2": 78.43,
-        "so2": 68.13,
-        "o3": 144.25,
-        "co": 4.44
+        "pm25": 181.0,
+        "pm10": 182.14,
+        "no2": 87.05,
+        "so2": 74.36,
+        "o3": 154.12,
+        "co": 4.16
       },
       "weather": {
-        "rh_24h_mean_pct": 65.7,
-        "wind_24h_mean_ms": 0.43,
+        "rh_24h_mean_pct": 72.8,
+        "wind_24h_mean_ms": 0.37,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 145.0,
-        "ventilation_m2s": 62.0
+        "blh_24h_mean_m": 180.0,
+        "ventilation_m2s": 66.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1469,14 +1469,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Delhi",
-      "nearest_bulletin_aqi": 220,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 220,
+      "nearest_bulletin_aqi": 224,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 224,
       "measured_category": "Poor",
-      "measured_pollutant": "PM10, PM2.5",
-      "measured_date": "2026-11-25",
+      "measured_pollutant": "PM2.5",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Delhi on 2026-11-25 (56/59 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Delhi on 2026-11-26 (54/59 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -1496,49 +1496,49 @@
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 61.13,
+          "concentration": 61.15,
           "sub_index": 101.0
         },
         {
           "pollutant": "pm10",
-          "concentration": 97.67,
-          "sub_index": 97.0
+          "concentration": 98.04,
+          "sub_index": 98.0
         },
         {
           "pollutant": "o3",
-          "concentration": 55.2,
+          "concentration": 55.93,
           "sub_index": 55.0
         },
         {
           "pollutant": "co",
           "concentration": 0.7,
-          "sub_index": 35.0
+          "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 25.16,
-          "sub_index": 31.2
+          "concentration": 23.43,
+          "sub_index": 28.8
         },
         {
           "pollutant": "so2",
-          "concentration": 9.15,
+          "concentration": 9.01,
           "sub_index": 11.2
         }
       ],
       "raw_concentrations": {
-        "pm25": 55.71,
-        "pm10": 57.85,
-        "no2": 26.39,
-        "so2": 28.75,
-        "o3": 216.5,
-        "co": 0.8
+        "pm25": 55.74,
+        "pm10": 58.19,
+        "no2": 22.89,
+        "so2": 26.72,
+        "o3": 220.5,
+        "co": 0.79
       },
       "weather": {
-        "rh_24h_mean_pct": 54.0,
-        "wind_24h_mean_ms": 1.94,
+        "rh_24h_mean_pct": 50.8,
+        "wind_24h_mean_ms": 1.86,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 212.0,
-        "ventilation_m2s": 411.0
+        "blh_24h_mean_m": 233.0,
+        "ventilation_m2s": 433.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1547,14 +1547,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Mumbai",
-      "nearest_bulletin_aqi": 108,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 108,
+      "nearest_bulletin_aqi": 121,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 121,
       "measured_category": "Moderate",
-      "measured_pollutant": "PM10, PM2.5",
-      "measured_date": "2026-11-25",
+      "measured_pollutant": "PM2.5",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Mumbai on 2026-11-25 (25/26 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Mumbai on 2026-11-26 (24/26 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -1566,26 +1566,26 @@
       "lat": 22.5526,
       "lon": 88.3652,
       "label": "Estimated (model)",
-      "aqi": 307,
-      "aqi_unrounded": 307.1,
-      "category": "Very Poor",
+      "aqi": 208,
+      "aqi_unrounded": 207.8,
+      "category": "Poor",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 129.49,
-          "sub_index": 307.1
+          "concentration": 93.07,
+          "sub_index": 207.8
         },
         {
           "pollutant": "pm10",
-          "concentration": 190.75,
-          "sub_index": 160.1
+          "concentration": 139.95,
+          "sub_index": 126.2
         },
         {
           "pollutant": "o3",
-          "concentration": 50.4,
-          "sub_index": 50.0
+          "concentration": 47.13,
+          "sub_index": 47.0
         },
         {
           "pollutant": "co",
@@ -1594,29 +1594,29 @@
         },
         {
           "pollutant": "no2",
-          "concentration": 26.22,
-          "sub_index": 32.5
+          "concentration": 25.24,
+          "sub_index": 31.2
         },
         {
           "pollutant": "so2",
-          "concentration": 9.73,
-          "sub_index": 11.2
+          "concentration": 8.99,
+          "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 140.99,
-        "pm10": 142.6,
-        "no2": 28.54,
-        "so2": 37.7,
-        "o3": 190.12,
-        "co": 1.06
+        "pm25": 95.56,
+        "pm10": 96.35,
+        "no2": 26.56,
+        "so2": 26.44,
+        "o3": 172.12,
+        "co": 1.09
       },
       "weather": {
-        "rh_24h_mean_pct": 73.5,
-        "wind_24h_mean_ms": 1.49,
+        "rh_24h_mean_pct": 75.4,
+        "wind_24h_mean_ms": 1.68,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 362.0,
-        "ventilation_m2s": 538.0
+        "blh_24h_mean_m": 287.0,
+        "ventilation_m2s": 482.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1625,14 +1625,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Kolkata",
-      "nearest_bulletin_aqi": 93,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 93,
-      "measured_category": "Satisfactory",
-      "measured_pollutant": "PM2.5, PM10",
-      "measured_date": "2026-11-25",
+      "nearest_bulletin_aqi": 152,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 152,
+      "measured_category": "Moderate",
+      "measured_pollutant": "PM2.5",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Kolkata on 2026-11-25 (7/7 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Kolkata on 2026-11-26 (7/7 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -1644,21 +1644,26 @@
       "lat": 13.065,
       "lon": 80.2388,
       "label": "Estimated (model)",
-      "aqi": 46,
-      "aqi_unrounded": 46.0,
-      "category": "Good",
+      "aqi": 71,
+      "aqi_unrounded": 71.0,
+      "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 46.68,
-          "sub_index": 46.0
+          "concentration": 71.31,
+          "sub_index": 71.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 24.03,
-          "sub_index": 40.0
+          "concentration": 39.29,
+          "sub_index": 64.5
+        },
+        {
+          "pollutant": "o3",
+          "concentration": 38.23,
+          "sub_index": 38.0
         },
         {
           "pollutant": "co",
@@ -1666,35 +1671,30 @@
           "sub_index": 30.0
         },
         {
-          "pollutant": "o3",
-          "concentration": 29.79,
-          "sub_index": 29.0
-        },
-        {
           "pollutant": "no2",
-          "concentration": 15.62,
-          "sub_index": 18.8
+          "concentration": 14.72,
+          "sub_index": 17.5
         },
         {
           "pollutant": "so2",
-          "concentration": 7.6,
+          "concentration": 7.74,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 9.42,
-        "pm10": 11.42,
-        "no2": 7.08,
-        "so2": 5.25,
-        "o3": 76.88,
+        "pm25": 28.47,
+        "pm10": 33.84,
+        "no2": 5.26,
+        "so2": 7.34,
+        "o3": 123.25,
         "co": 0.41
       },
       "weather": {
-        "rh_24h_mean_pct": 84.4,
-        "wind_24h_mean_ms": 2.17,
-        "rain_24h_mm": 4.0,
-        "blh_24h_mean_m": 365.0,
-        "ventilation_m2s": 792.0
+        "rh_24h_mean_pct": 78.7,
+        "wind_24h_mean_ms": 3.61,
+        "rain_24h_mm": 2.5,
+        "blh_24h_mean_m": 653.0,
+        "ventilation_m2s": 2360.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1703,14 +1703,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Chennai",
-      "nearest_bulletin_aqi": 39,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 39,
+      "nearest_bulletin_aqi": 50,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 50,
       "measured_category": "Good",
-      "measured_pollutant": "CO, PM10",
-      "measured_date": "2026-11-25",
+      "measured_pollutant": "O3, PM10, CO",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Chennai on 2026-11-25 (5/9 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Chennai on 2026-11-26 (6/9 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -1722,57 +1722,57 @@
       "lat": 12.9522,
       "lon": 77.5791,
       "label": "Estimated (model)",
-      "aqi": 45,
-      "aqi_unrounded": 45.0,
+      "aqi": 46,
+      "aqi_unrounded": 46.0,
       "category": "Good",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 45.85,
-          "sub_index": 45.0
+          "concentration": 46.14,
+          "sub_index": 46.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 24.83,
+          "concentration": 24.99,
           "sub_index": 40.0
         },
         {
+          "pollutant": "o3",
+          "concentration": 31.63,
+          "sub_index": 31.0
+        },
+        {
           "pollutant": "co",
-          "concentration": 0.67,
+          "concentration": 0.68,
           "sub_index": 30.0
         },
         {
-          "pollutant": "o3",
-          "concentration": 29.52,
-          "sub_index": 29.0
-        },
-        {
           "pollutant": "no2",
-          "concentration": 20.65,
-          "sub_index": 25.0
+          "concentration": 18.83,
+          "sub_index": 22.5
         },
         {
           "pollutant": "so2",
-          "concentration": 7.8,
+          "concentration": 7.74,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 10.42,
-        "pm10": 10.66,
-        "no2": 17.27,
-        "so2": 8.21,
-        "o3": 75.38,
-        "co": 0.61
+        "pm25": 10.63,
+        "pm10": 10.92,
+        "no2": 13.58,
+        "so2": 7.32,
+        "o3": 87.0,
+        "co": 0.66
       },
       "weather": {
-        "rh_24h_mean_pct": 83.8,
-        "wind_24h_mean_ms": 2.42,
-        "rain_24h_mm": 0.9,
-        "blh_24h_mean_m": 524.0,
-        "ventilation_m2s": 1266.0
+        "rh_24h_mean_pct": 78.4,
+        "wind_24h_mean_ms": 2.84,
+        "rain_24h_mm": 0.4,
+        "blh_24h_mean_m": 673.0,
+        "ventilation_m2s": 1909.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1781,14 +1781,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Bengaluru",
-      "nearest_bulletin_aqi": 62,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 62,
+      "nearest_bulletin_aqi": 60,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 60,
       "measured_category": "Satisfactory",
       "measured_pollutant": "CO, PM10",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Bengaluru on 2026-11-25 (8/14 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Bengaluru on 2026-11-26 (9/14 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -1800,36 +1800,36 @@
       "lat": 23.0344,
       "lon": 72.5653,
       "label": "Estimated (model)",
-      "aqi": 90,
-      "aqi_unrounded": 89.9,
+      "aqi": 77,
+      "aqi_unrounded": 77.0,
       "category": "Satisfactory",
-      "dominant": "pm25",
+      "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
-          "pollutant": "pm25",
-          "concentration": 54.84,
-          "sub_index": 89.9
+          "pollutant": "pm10",
+          "concentration": 77.08,
+          "sub_index": 77.0
         },
         {
-          "pollutant": "pm10",
-          "concentration": 88.3,
-          "sub_index": 88.0
+          "pollutant": "pm25",
+          "concentration": 46.99,
+          "sub_index": 76.3
         },
         {
           "pollutant": "o3",
-          "concentration": 41.89,
+          "concentration": 41.55,
           "sub_index": 41.0
         },
         {
-          "pollutant": "no2",
-          "concentration": 31.1,
-          "sub_index": 38.8
+          "pollutant": "co",
+          "concentration": 0.63,
+          "sub_index": 30.0
         },
         {
-          "pollutant": "co",
-          "concentration": 0.68,
-          "sub_index": 30.0
+          "pollutant": "no2",
+          "concentration": 21.02,
+          "sub_index": 26.2
         },
         {
           "pollutant": "so2",
@@ -1838,19 +1838,19 @@
         }
       ],
       "raw_concentrations": {
-        "pm25": 47.87,
-        "pm10": 49.32,
-        "no2": 38.43,
-        "so2": 13.63,
-        "o3": 143.38,
-        "co": 0.7
+        "pm25": 38.07,
+        "pm10": 39.1,
+        "no2": 18.02,
+        "so2": 13.6,
+        "o3": 141.5,
+        "co": 0.41
       },
       "weather": {
-        "rh_24h_mean_pct": 36.6,
-        "wind_24h_mean_ms": 1.9,
+        "rh_24h_mean_pct": 36.0,
+        "wind_24h_mean_ms": 2.75,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 527.0,
-        "ventilation_m2s": 1000.0
+        "blh_24h_mean_m": 633.0,
+        "ventilation_m2s": 1743.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1859,14 +1859,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Ahmedabad",
-      "nearest_bulletin_aqi": 159,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 159,
+      "nearest_bulletin_aqi": 120,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 120,
       "measured_category": "Moderate",
-      "measured_pollutant": "PM10",
-      "measured_date": "2026-11-25",
+      "measured_pollutant": "PM10, NO2",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Ahmedabad on 2026-11-25 (8/9 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Ahmedabad on 2026-11-26 (8/9 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -1878,26 +1878,26 @@
       "lat": 18.555,
       "lon": 73.8425,
       "label": "Estimated (model)",
-      "aqi": 80,
-      "aqi_unrounded": 79.7,
+      "aqi": 71,
+      "aqi_unrounded": 71.3,
       "category": "Satisfactory",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 48.18,
-          "sub_index": 79.7
+          "concentration": 43.02,
+          "sub_index": 71.3
         },
         {
           "pollutant": "pm10",
-          "concentration": 78.38,
-          "sub_index": 78.0
+          "concentration": 71.04,
+          "sub_index": 71.0
         },
         {
           "pollutant": "o3",
-          "concentration": 43.71,
-          "sub_index": 43.0
+          "concentration": 41.17,
+          "sub_index": 41.0
         },
         {
           "pollutant": "co",
@@ -1906,29 +1906,29 @@
         },
         {
           "pollutant": "no2",
-          "concentration": 22.44,
+          "concentration": 22.83,
           "sub_index": 27.5
         },
         {
           "pollutant": "so2",
-          "concentration": 8.53,
+          "concentration": 8.29,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 39.55,
-        "pm10": 40.28,
-        "no2": 20.9,
-        "so2": 19.41,
-        "o3": 153.38,
-        "co": 0.68
+        "pm25": 33.12,
+        "pm10": 33.6,
+        "no2": 21.68,
+        "so2": 15.69,
+        "o3": 139.38,
+        "co": 0.7
       },
       "weather": {
-        "rh_24h_mean_pct": 47.3,
-        "wind_24h_mean_ms": 1.09,
+        "rh_24h_mean_pct": 47.4,
+        "wind_24h_mean_ms": 1.1,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 571.0,
-        "ventilation_m2s": 620.0
+        "blh_24h_mean_m": 666.0,
+        "ventilation_m2s": 733.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1937,14 +1937,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Pune",
-      "nearest_bulletin_aqi": 161,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 161,
+      "nearest_bulletin_aqi": 133,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 133,
       "measured_category": "Moderate",
-      "measured_pollutant": "PM2.5, PM10",
-      "measured_date": "2026-11-25",
+      "measured_pollutant": "PM10",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Pune on 2026-11-25 (7/9 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Pune on 2026-11-26 (7/9 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -1956,57 +1956,57 @@
       "lat": 26.8934,
       "lon": 75.789,
       "label": "Estimated (model)",
-      "aqi": 83,
-      "aqi_unrounded": 83.1,
+      "aqi": 90,
+      "aqi_unrounded": 89.9,
       "category": "Satisfactory",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 50.38,
-          "sub_index": 83.1
+          "concentration": 54.09,
+          "sub_index": 89.9
         },
         {
           "pollutant": "pm10",
-          "concentration": 81.9,
-          "sub_index": 81.0
+          "concentration": 86.65,
+          "sub_index": 86.0
         },
         {
           "pollutant": "o3",
-          "concentration": 41.78,
-          "sub_index": 41.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.7,
-          "sub_index": 35.0
+          "concentration": 43.08,
+          "sub_index": 43.0
         },
         {
           "pollutant": "no2",
-          "concentration": 23.91,
-          "sub_index": 28.8
+          "concentration": 24.1,
+          "sub_index": 30.0
+        },
+        {
+          "pollutant": "co",
+          "concentration": 0.69,
+          "sub_index": 30.0
         },
         {
           "pollutant": "so2",
-          "concentration": 8.21,
+          "concentration": 8.11,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 42.3,
-        "pm10": 43.49,
-        "no2": 23.86,
-        "so2": 14.48,
-        "o3": 142.75,
-        "co": 0.81
+        "pm25": 46.93,
+        "pm10": 47.81,
+        "no2": 24.26,
+        "so2": 12.98,
+        "o3": 149.88,
+        "co": 0.73
       },
       "weather": {
-        "rh_24h_mean_pct": 47.6,
-        "wind_24h_mean_ms": 0.91,
+        "rh_24h_mean_pct": 49.5,
+        "wind_24h_mean_ms": 1.32,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 316.0,
-        "ventilation_m2s": 288.0
+        "blh_24h_mean_m": 340.0,
+        "ventilation_m2s": 449.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2015,14 +2015,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Jaipur",
-      "nearest_bulletin_aqi": 174,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 174,
+      "nearest_bulletin_aqi": 188,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 188,
       "measured_category": "Moderate",
-      "measured_pollutant": "PM10",
-      "measured_date": "2026-11-25",
+      "measured_pollutant": "PM10, PM2.5",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Jaipur on 2026-11-25 (6/6 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Jaipur on 2026-11-26 (6/6 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -2034,57 +2034,57 @@
       "lat": 26.8506,
       "lon": 80.9461,
       "label": "Estimated (model)",
-      "aqi": 262,
-      "aqi_unrounded": 262.4,
-      "category": "Poor",
+      "aqi": 302,
+      "aqi_unrounded": 301.8,
+      "category": "Very Poor",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 109.67,
-          "sub_index": 262.4
+          "concentration": 122.12,
+          "sub_index": 301.8
         },
         {
           "pollutant": "pm10",
-          "concentration": 164.33,
-          "sub_index": 142.9
+          "concentration": 180.71,
+          "sub_index": 153.5
         },
         {
           "pollutant": "o3",
-          "concentration": 46.74,
-          "sub_index": 46.0
+          "concentration": 48.99,
+          "sub_index": 48.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.78,
+          "concentration": 0.76,
           "sub_index": 35.0
         },
         {
           "pollutant": "no2",
-          "concentration": 25.93,
-          "sub_index": 31.2
+          "concentration": 27.87,
+          "sub_index": 33.8
         },
         {
           "pollutant": "so2",
-          "concentration": 9.4,
+          "concentration": 9.91,
           "sub_index": 11.2
         }
       ],
       "raw_concentrations": {
-        "pm25": 116.27,
-        "pm10": 118.55,
-        "no2": 27.96,
-        "so2": 32.65,
-        "o3": 170.0,
-        "co": 1.25
+        "pm25": 131.8,
+        "pm10": 133.46,
+        "no2": 31.89,
+        "so2": 40.46,
+        "o3": 182.38,
+        "co": 1.15
       },
       "weather": {
-        "rh_24h_mean_pct": 70.3,
-        "wind_24h_mean_ms": 0.78,
+        "rh_24h_mean_pct": 71.2,
+        "wind_24h_mean_ms": 0.39,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 294.0,
-        "ventilation_m2s": 228.0
+        "blh_24h_mean_m": 263.0,
+        "ventilation_m2s": 102.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2093,14 +2093,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Lucknow",
-      "nearest_bulletin_aqi": 203,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 203,
-      "measured_category": "Poor",
+      "nearest_bulletin_aqi": 159,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 159,
+      "measured_category": "Moderate",
       "measured_pollutant": "PM2.5",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Lucknow on 2026-11-25 (5/6 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Lucknow on 2026-11-26 (6/6 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -2112,57 +2112,57 @@
       "lat": 25.5982,
       "lon": 85.1258,
       "label": "Estimated (model)",
-      "aqi": 276,
-      "aqi_unrounded": 276.1,
+      "aqi": 300,
+      "aqi_unrounded": 300.0,
       "category": "Poor",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 113.88,
-          "sub_index": 276.1
+          "concentration": 120.03,
+          "sub_index": 300.0
         },
         {
           "pollutant": "pm10",
-          "concentration": 170.13,
-          "sub_index": 146.8
+          "concentration": 178.33,
+          "sub_index": 152.2
         },
         {
           "pollutant": "o3",
-          "concentration": 45.74,
-          "sub_index": 45.0
+          "concentration": 47.58,
+          "sub_index": 47.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.76,
+          "concentration": 0.75,
           "sub_index": 35.0
         },
         {
           "pollutant": "no2",
-          "concentration": 24.76,
-          "sub_index": 30.0
+          "concentration": 26.43,
+          "sub_index": 32.5
         },
         {
           "pollutant": "so2",
-          "concentration": 9.01,
+          "concentration": 9.06,
           "sub_index": 11.2
         }
       ],
       "raw_concentrations": {
-        "pm25": 121.51,
-        "pm10": 123.83,
-        "no2": 25.59,
-        "so2": 26.65,
-        "o3": 164.5,
-        "co": 1.11
+        "pm25": 129.2,
+        "pm10": 131.3,
+        "no2": 28.97,
+        "so2": 27.42,
+        "o3": 174.62,
+        "co": 1.05
       },
       "weather": {
-        "rh_24h_mean_pct": 73.3,
-        "wind_24h_mean_ms": 1.25,
+        "rh_24h_mean_pct": 72.2,
+        "wind_24h_mean_ms": 0.8,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 248.0,
-        "ventilation_m2s": 309.0
+        "blh_24h_mean_m": 204.0,
+        "ventilation_m2s": 162.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2171,14 +2171,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Patna",
-      "nearest_bulletin_aqi": 157,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 157,
+      "nearest_bulletin_aqi": 183,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 183,
       "measured_category": "Moderate",
       "measured_pollutant": "PM2.5",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Patna on 2026-11-25 (5/6 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Patna on 2026-11-26 (5/6 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -2190,57 +2190,57 @@
       "lat": 23.2363,
       "lon": 77.4025,
       "label": "Estimated (model)",
-      "aqi": 69,
-      "aqi_unrounded": 69.0,
+      "aqi": 64,
+      "aqi_unrounded": 64.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 69.38,
-          "sub_index": 69.0
+          "concentration": 64.84,
+          "sub_index": 64.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 41.05,
-          "sub_index": 67.9
+          "concentration": 38.16,
+          "sub_index": 62.8
         },
         {
           "pollutant": "o3",
-          "concentration": 38.8,
+          "concentration": 38.57,
           "sub_index": 38.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.64,
+          "concentration": 0.65,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 16.42,
-          "sub_index": 20.0
+          "concentration": 15.86,
+          "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 7.68,
+          "concentration": 7.67,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 30.67,
-        "pm10": 32.09,
-        "no2": 8.7,
-        "so2": 6.41,
-        "o3": 126.38,
-        "co": 0.47
+        "pm25": 27.06,
+        "pm10": 27.95,
+        "no2": 7.56,
+        "so2": 6.19,
+        "o3": 125.12,
+        "co": 0.5
       },
       "weather": {
-        "rh_24h_mean_pct": 52.8,
-        "wind_24h_mean_ms": 1.9,
+        "rh_24h_mean_pct": 50.1,
+        "wind_24h_mean_ms": 2.24,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 420.0,
-        "ventilation_m2s": 797.0
+        "blh_24h_mean_m": 383.0,
+        "ventilation_m2s": 857.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2249,14 +2249,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Bhopal",
-      "nearest_bulletin_aqi": 220,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 220,
+      "nearest_bulletin_aqi": 202,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 202,
       "measured_category": "Poor",
       "measured_pollutant": "PM2.5",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Bhopal on 2026-11-25 (3/3 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Bhopal on 2026-11-26 (3/3 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -2268,57 +2268,57 @@
       "lat": 30.7357,
       "lon": 76.7591,
       "label": "Estimated (model)",
-      "aqi": 245,
-      "aqi_unrounded": 245.4,
+      "aqi": 266,
+      "aqi_unrounded": 265.9,
       "category": "Poor",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 104.02,
-          "sub_index": 245.4
+          "concentration": 110.69,
+          "sub_index": 265.9
         },
         {
           "pollutant": "pm10",
-          "concentration": 155.54,
-          "sub_index": 136.9
+          "concentration": 164.08,
+          "sub_index": 142.9
         },
         {
           "pollutant": "o3",
-          "concentration": 49.02,
-          "sub_index": 49.0
+          "concentration": 50.29,
+          "sub_index": 50.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.94,
-          "sub_index": 45.0
+          "concentration": 0.84,
+          "sub_index": 40.0
         },
         {
           "pollutant": "no2",
-          "concentration": 29.97,
-          "sub_index": 36.2
+          "concentration": 31.91,
+          "sub_index": 38.8
         },
         {
           "pollutant": "so2",
-          "concentration": 9.36,
+          "concentration": 9.39,
           "sub_index": 11.2
         }
       ],
       "raw_concentrations": {
-        "pm25": 109.21,
-        "pm10": 110.54,
-        "no2": 36.14,
-        "so2": 32.08,
-        "o3": 182.5,
-        "co": 2.14
+        "pm25": 117.54,
+        "pm10": 118.32,
+        "no2": 40.08,
+        "so2": 32.41,
+        "o3": 189.5,
+        "co": 1.56
       },
       "weather": {
-        "rh_24h_mean_pct": 71.8,
-        "wind_24h_mean_ms": 1.12,
+        "rh_24h_mean_pct": 72.1,
+        "wind_24h_mean_ms": 1.46,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 154.0,
-        "ventilation_m2s": 173.0
+        "blh_24h_mean_m": 131.0,
+        "ventilation_m2s": 192.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2327,14 +2327,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Chandigarh",
-      "nearest_bulletin_aqi": 146,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 146,
+      "nearest_bulletin_aqi": 109,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 109,
       "measured_category": "Moderate",
-      "measured_pollutant": "PM2.5, PM10",
-      "measured_date": "2026-11-25",
+      "measured_pollutant": "PM10",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Chandigarh on 2026-11-25 (3/3 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Chandigarh on 2026-11-26 (3/3 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -2346,57 +2346,57 @@
       "lat": 26.1594,
       "lon": 91.7048,
       "label": "Estimated (model)",
-      "aqi": 85,
-      "aqi_unrounded": 84.8,
+      "aqi": 71,
+      "aqi_unrounded": 71.3,
       "category": "Satisfactory",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 51.7,
-          "sub_index": 84.8
+          "concentration": 43.34,
+          "sub_index": 71.3
         },
         {
           "pollutant": "pm10",
-          "concentration": 82.83,
-          "sub_index": 82.0
+          "concentration": 71.9,
+          "sub_index": 71.0
         },
         {
           "pollutant": "o3",
-          "concentration": 36.82,
-          "sub_index": 36.0
+          "concentration": 37.0,
+          "sub_index": 37.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.7,
+          "concentration": 0.69,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 20.12,
-          "sub_index": 25.0
+          "concentration": 18.68,
+          "sub_index": 22.5
         },
         {
           "pollutant": "so2",
-          "concentration": 7.59,
+          "concentration": 7.58,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 43.95,
-        "pm10": 44.33,
-        "no2": 16.2,
-        "so2": 5.05,
-        "o3": 115.5,
-        "co": 0.78
+        "pm25": 33.52,
+        "pm10": 34.39,
+        "no2": 13.27,
+        "so2": 4.91,
+        "o3": 116.5,
+        "co": 0.71
       },
       "weather": {
-        "rh_24h_mean_pct": 85.5,
-        "wind_24h_mean_ms": 1.67,
+        "rh_24h_mean_pct": 84.5,
+        "wind_24h_mean_ms": 2.01,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 208.0,
-        "ventilation_m2s": 348.0
+        "blh_24h_mean_m": 203.0,
+        "ventilation_m2s": 408.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2406,13 +2406,13 @@
       "hours_pm25": 24,
       "nearest_city": "Guwahati",
       "nearest_bulletin_aqi": 103,
-      "nearest_bulletin_date": "2026-11-25",
+      "nearest_bulletin_date": "2026-11-26",
       "measured_aqi": 103,
       "measured_category": "Moderate",
-      "measured_pollutant": "PM2.5",
-      "measured_date": "2026-11-25",
+      "measured_pollutant": "PM2.5, SO2",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Guwahati on 2026-11-25 (3/4 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Guwahati on 2026-11-26 (3/4 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -2432,49 +2432,49 @@
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 50.4,
+          "concentration": 50.7,
           "sub_index": 50.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 28.25,
+          "concentration": 28.35,
           "sub_index": 46.7
         },
         {
           "pollutant": "o3",
-          "concentration": 41.1,
+          "concentration": 41.49,
           "sub_index": 41.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.66,
+          "concentration": 0.64,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 19.43,
+          "concentration": 19.01,
           "sub_index": 23.8
         },
         {
           "pollutant": "so2",
-          "concentration": 7.67,
+          "concentration": 7.66,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 14.69,
-        "pm10": 14.8,
-        "no2": 14.79,
-        "so2": 6.22,
-        "o3": 139.0,
-        "co": 0.59
+        "pm25": 14.82,
+        "pm10": 15.08,
+        "no2": 13.95,
+        "so2": 6.15,
+        "o3": 141.12,
+        "co": 0.48
       },
       "weather": {
-        "rh_24h_mean_pct": 87.8,
-        "wind_24h_mean_ms": 1.18,
-        "rain_24h_mm": 23.0,
-        "blh_24h_mean_m": 276.0,
-        "ventilation_m2s": 325.0
+        "rh_24h_mean_pct": 84.8,
+        "wind_24h_mean_ms": 1.73,
+        "rain_24h_mm": 12.2,
+        "blh_24h_mean_m": 300.0,
+        "ventilation_m2s": 518.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2496,57 +2496,57 @@
       "lat": 20.2937,
       "lon": 85.8265,
       "label": "Estimated (model)",
-      "aqi": 235,
-      "aqi_unrounded": 235.1,
-      "category": "Poor",
+      "aqi": 156,
+      "aqi_unrounded": 155.6,
+      "category": "Moderate",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 101.86,
-          "sub_index": 235.1
+          "concentration": 77.14,
+          "sub_index": 155.6
         },
         {
           "pollutant": "pm10",
-          "concentration": 153.33,
-          "sub_index": 135.6
+          "concentration": 118.73,
+          "sub_index": 112.3
         },
         {
           "pollutant": "o3",
-          "concentration": 44.4,
+          "concentration": 44.17,
           "sub_index": 44.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.73,
+          "concentration": 0.75,
           "sub_index": 35.0
         },
         {
           "pollutant": "no2",
-          "concentration": 22.07,
-          "sub_index": 27.5
+          "concentration": 18.34,
+          "sub_index": 22.5
         },
         {
           "pollutant": "so2",
-          "concentration": 9.37,
-          "sub_index": 11.2
+          "concentration": 8.94,
+          "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 106.52,
-        "pm10": 108.53,
-        "no2": 20.15,
-        "so2": 32.11,
-        "o3": 157.12,
-        "co": 0.95
+        "pm25": 75.68,
+        "pm10": 77.03,
+        "no2": 12.58,
+        "so2": 25.61,
+        "o3": 155.88,
+        "co": 1.08
       },
       "weather": {
-        "rh_24h_mean_pct": 75.2,
-        "wind_24h_mean_ms": 1.94,
+        "rh_24h_mean_pct": 70.1,
+        "wind_24h_mean_ms": 2.48,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 353.0,
-        "ventilation_m2s": 684.0
+        "blh_24h_mean_m": 363.0,
+        "ventilation_m2s": 900.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2555,14 +2555,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Bhubaneswar",
-      "nearest_bulletin_aqi": 71,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 71,
+      "nearest_bulletin_aqi": 99,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 99,
       "measured_category": "Satisfactory",
       "measured_pollutant": "PM2.5",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Bhubaneswar on 2026-11-25 (1/2 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Bhubaneswar on 2026-11-26 (1/2 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -2574,57 +2574,57 @@
       "lat": 22.6597,
       "lon": 75.7907,
       "label": "Estimated (model)",
-      "aqi": 73,
-      "aqi_unrounded": 73.0,
+      "aqi": 70,
+      "aqi_unrounded": 70.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 73.99,
-          "sub_index": 73.0
+          "concentration": 70.07,
+          "sub_index": 70.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 44.43,
-          "sub_index": 73.0
+          "concentration": 41.85,
+          "sub_index": 67.9
         },
         {
           "pollutant": "o3",
-          "concentration": 41.67,
+          "concentration": 41.1,
           "sub_index": 41.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.65,
+          "concentration": 0.64,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 16.92,
+          "concentration": 16.14,
           "sub_index": 20.0
         },
         {
           "pollutant": "so2",
-          "concentration": 7.87,
+          "concentration": 7.78,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 34.88,
-        "pm10": 36.28,
-        "no2": 9.71,
-        "so2": 9.28,
-        "o3": 142.12,
-        "co": 0.54
+        "pm25": 31.66,
+        "pm10": 32.72,
+        "no2": 8.14,
+        "so2": 7.97,
+        "o3": 139.0,
+        "co": 0.49
       },
       "weather": {
-        "rh_24h_mean_pct": 46.5,
-        "wind_24h_mean_ms": 1.96,
+        "rh_24h_mean_pct": 44.9,
+        "wind_24h_mean_ms": 2.33,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 576.0,
-        "ventilation_m2s": 1127.0
+        "blh_24h_mean_m": 517.0,
+        "ventilation_m2s": 1205.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2633,14 +2633,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Indore",
-      "nearest_bulletin_aqi": 92,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 92,
+      "nearest_bulletin_aqi": 100,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 100,
       "measured_category": "Satisfactory",
-      "measured_pollutant": "O3, PM10",
-      "measured_date": "2026-11-25",
+      "measured_pollutant": "O3, PM2.5, PM10",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Indore on 2026-11-25 (5/6 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Indore on 2026-11-26 (4/6 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -2652,21 +2652,338 @@
       "lat": 21.1407,
       "lon": 79.0645,
       "label": "Estimated (model)",
-      "aqi": 76,
-      "aqi_unrounded": 76.0,
+      "aqi": 80,
+      "aqi_unrounded": 79.7,
       "category": "Satisfactory",
-      "dominant": "pm10",
+      "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
-          "pollutant": "pm10",
-          "concentration": 76.1,
-          "sub_index": 76.0
+          "pollutant": "pm25",
+          "concentration": 48.0,
+          "sub_index": 79.7
         },
         {
+          "pollutant": "pm10",
+          "concentration": 78.66,
+          "sub_index": 78.0
+        },
+        {
+          "pollutant": "o3",
+          "concentration": 38.69,
+          "sub_index": 38.0
+        },
+        {
+          "pollutant": "co",
+          "concentration": 0.63,
+          "sub_index": 30.0
+        },
+        {
+          "pollutant": "no2",
+          "concentration": 18.72,
+          "sub_index": 22.5
+        },
+        {
+          "pollutant": "so2",
+          "concentration": 9.14,
+          "sub_index": 11.2
+        }
+      ],
+      "raw_concentrations": {
+        "pm25": 39.33,
+        "pm10": 40.54,
+        "no2": 13.36,
+        "so2": 28.6,
+        "o3": 125.75,
+        "co": 0.42
+      },
+      "weather": {
+        "rh_24h_mean_pct": 47.7,
+        "wind_24h_mean_ms": 1.63,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 460.0,
+        "ventilation_m2s": 750.0
+      },
+      "idw_correction": 0,
+      "idw_donors": [],
+      "nearest_monitor_km": 1.6,
+      "nearest_monitor": "Ram Nagar, Nagpur - MPCB",
+      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
+      "hours_pm25": 24,
+      "nearest_city": "Nagpur",
+      "nearest_bulletin_aqi": 195,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 195,
+      "measured_category": "Moderate",
+      "measured_pollutant": "PM2.5",
+      "measured_date": "2026-11-26",
+      "measured_label": "Measured (monitor)",
+      "measured_detail": "CPCB city bulletin for Nagpur on 2026-11-26 (4/4 stations). This is the city value, not a reading taken at the map coordinate.",
+      "uncertainty_rmse": 39.19,
+      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+    },
+    {
+      "id": "major:varanasi",
+      "name": "Varanasi",
+      "state": "Uttar Pradesh",
+      "kind": "major_city",
+      "lat": 25.3096,
+      "lon": 82.9744,
+      "label": "Estimated (model)",
+      "aqi": 266,
+      "aqi_unrounded": 265.9,
+      "category": "Poor",
+      "dominant": "pm25",
+      "official_minimum_met": true,
+      "sub_indices": [
+        {
           "pollutant": "pm25",
-          "concentration": 45.81,
-          "sub_index": 74.7
+          "concentration": 110.24,
+          "sub_index": 265.9
+        },
+        {
+          "pollutant": "pm10",
+          "concentration": 165.99,
+          "sub_index": 143.5
+        },
+        {
+          "pollutant": "co",
+          "concentration": 1.01,
+          "sub_index": 50.0
+        },
+        {
+          "pollutant": "o3",
+          "concentration": 47.6,
+          "sub_index": 47.0
+        },
+        {
+          "pollutant": "no2",
+          "concentration": 21.29,
+          "sub_index": 26.2
+        },
+        {
+          "pollutant": "so2",
+          "concentration": 9.21,
+          "sub_index": 11.2
+        }
+      ],
+      "raw_concentrations": {
+        "pm25": 116.98,
+        "pm10": 120.06,
+        "no2": 18.57,
+        "so2": 29.68,
+        "o3": 174.75,
+        "co": 2.51
+      },
+      "weather": {
+        "rh_24h_mean_pct": 72.6,
+        "wind_24h_mean_ms": 0.5,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 224.0,
+        "ventilation_m2s": 113.0
+      },
+      "idw_correction": 0,
+      "idw_donors": [],
+      "nearest_monitor_km": 2.4,
+      "nearest_monitor": "Bhelupur, Varanasi",
+      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
+      "hours_pm25": 24,
+      "nearest_city": "Varanasi",
+      "nearest_bulletin_aqi": 206,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 206,
+      "measured_category": "Poor",
+      "measured_pollutant": "PM10, PM2.5",
+      "measured_date": "2026-11-26",
+      "measured_label": "Measured (monitor)",
+      "measured_detail": "CPCB city bulletin for Varanasi on 2026-11-26 (4/4 stations). This is the city value, not a reading taken at the map coordinate.",
+      "uncertainty_rmse": 39.19,
+      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+    },
+    {
+      "id": "major:amritsar",
+      "name": "Amritsar",
+      "state": "Punjab",
+      "kind": "major_city",
+      "lat": 31.62,
+      "lon": 74.8765,
+      "label": "Estimated (model)",
+      "aqi": 322,
+      "aqi_unrounded": 322.5,
+      "category": "Very Poor",
+      "dominant": "pm25",
+      "official_minimum_met": true,
+      "sub_indices": [
+        {
+          "pollutant": "pm25",
+          "concentration": 149.67,
+          "sub_index": 322.5
+        },
+        {
+          "pollutant": "pm10",
+          "concentration": 217.74,
+          "sub_index": 178.1
+        },
+        {
+          "pollutant": "no2",
+          "concentration": 40.39,
+          "sub_index": 50.0
+        },
+        {
+          "pollutant": "co",
+          "concentration": 1.0,
+          "sub_index": 50.0
+        },
+        {
+          "pollutant": "o3",
+          "concentration": 46.31,
+          "sub_index": 46.0
+        },
+        {
+          "pollutant": "so2",
+          "concentration": 9.56,
+          "sub_index": 11.2
+        }
+      ],
+      "raw_concentrations": {
+        "pm25": 166.17,
+        "pm10": 167.18,
+        "no2": 57.25,
+        "so2": 35.0,
+        "o3": 167.62,
+        "co": 2.45
+      },
+      "weather": {
+        "rh_24h_mean_pct": 75.1,
+        "wind_24h_mean_ms": 0.73,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 148.0,
+        "ventilation_m2s": 108.0
+      },
+      "idw_correction": 0,
+      "idw_donors": [],
+      "nearest_monitor_km": 0.0,
+      "nearest_monitor": "Golden Temple, Amritsar",
+      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
+      "hours_pm25": 24,
+      "nearest_city": "Amritsar",
+      "nearest_bulletin_aqi": 173,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 173,
+      "measured_category": "Moderate",
+      "measured_pollutant": "PM2.5",
+      "measured_date": "2026-11-26",
+      "measured_label": "Measured (monitor)",
+      "measured_detail": "CPCB city bulletin for Amritsar on 2026-11-26 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
+      "uncertainty_rmse": 39.19,
+      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+    },
+    {
+      "id": "major:kanpur",
+      "name": "Kanpur",
+      "state": "Uttar Pradesh",
+      "kind": "major_city",
+      "lat": 26.4801,
+      "lon": 80.2837,
+      "label": "Estimated (model)",
+      "aqi": 276,
+      "aqi_unrounded": 276.1,
+      "category": "Poor",
+      "dominant": "pm25",
+      "official_minimum_met": true,
+      "sub_indices": [
+        {
+          "pollutant": "pm25",
+          "concentration": 113.08,
+          "sub_index": 276.1
+        },
+        {
+          "pollutant": "pm10",
+          "concentration": 168.35,
+          "sub_index": 145.5
+        },
+        {
+          "pollutant": "o3",
+          "concentration": 49.47,
+          "sub_index": 49.0
+        },
+        {
+          "pollutant": "co",
+          "concentration": 0.74,
+          "sub_index": 35.0
+        },
+        {
+          "pollutant": "no2",
+          "concentration": 27.05,
+          "sub_index": 33.8
+        },
+        {
+          "pollutant": "so2",
+          "concentration": 9.56,
+          "sub_index": 11.2
+        }
+      ],
+      "raw_concentrations": {
+        "pm25": 120.52,
+        "pm10": 122.21,
+        "no2": 30.23,
+        "so2": 35.01,
+        "o3": 185.0,
+        "co": 1.03
+      },
+      "weather": {
+        "rh_24h_mean_pct": 65.0,
+        "wind_24h_mean_ms": 0.79,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 351.0,
+        "ventilation_m2s": 276.0
+      },
+      "idw_correction": 0,
+      "idw_donors": [],
+      "nearest_monitor_km": 4.1,
+      "nearest_monitor": "Nehru Nagar, Kanpur",
+      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
+      "hours_pm25": 24,
+      "nearest_city": "Kanpur",
+      "nearest_bulletin_aqi": 131,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 131,
+      "measured_category": "Moderate",
+      "measured_pollutant": "PM10, PM2.5",
+      "measured_date": "2026-11-26",
+      "measured_label": "Measured (monitor)",
+      "measured_detail": "CPCB city bulletin for Kanpur on 2026-11-26 (3/4 stations). This is the city value, not a reading taken at the map coordinate.",
+      "uncertainty_rmse": 39.19,
+      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+    },
+    {
+      "id": "major:surat",
+      "name": "Surat",
+      "state": "Gujarat",
+      "kind": "major_city",
+      "lat": 21.17,
+      "lon": 72.7954,
+      "label": "Estimated (model)",
+      "aqi": 118,
+      "aqi_unrounded": 118.1,
+      "category": "Moderate",
+      "dominant": "pm25",
+      "official_minimum_met": true,
+      "sub_indices": [
+        {
+          "pollutant": "pm25",
+          "concentration": 66.81,
+          "sub_index": 118.1
+        },
+        {
+          "pollutant": "pm10",
+          "concentration": 104.1,
+          "sub_index": 103.0
+        },
+        {
+          "pollutant": "no2",
+          "concentration": 34.44,
+          "sub_index": 42.5
         },
         {
           "pollutant": "o3",
@@ -2679,342 +2996,25 @@
           "sub_index": 30.0
         },
         {
-          "pollutant": "no2",
-          "concentration": 19.63,
-          "sub_index": 23.8
-        },
-        {
           "pollutant": "so2",
-          "concentration": 8.7,
-          "sub_index": 10.0
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 36.6,
-        "pm10": 38.21,
-        "no2": 15.2,
-        "so2": 21.91,
-        "o3": 132.62,
-        "co": 0.44
-      },
-      "weather": {
-        "rh_24h_mean_pct": 53.2,
-        "wind_24h_mean_ms": 1.55,
-        "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 458.0,
-        "ventilation_m2s": 710.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 1.6,
-      "nearest_monitor": "Ram Nagar, Nagpur - MPCB",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Nagpur",
-      "nearest_bulletin_aqi": 152,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 152,
-      "measured_category": "Moderate",
-      "measured_pollutant": "PM2.5",
-      "measured_date": "2026-11-25",
-      "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Nagpur on 2026-11-25 (4/4 stations). This is the city value, not a reading taken at the map coordinate.",
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
-    },
-    {
-      "id": "major:varanasi",
-      "name": "Varanasi",
-      "state": "Uttar Pradesh",
-      "kind": "major_city",
-      "lat": 25.3096,
-      "lon": 82.9744,
-      "label": "Estimated (model)",
-      "aqi": 235,
-      "aqi_unrounded": 235.1,
-      "category": "Poor",
-      "dominant": "pm25",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm25",
-          "concentration": 101.86,
-          "sub_index": 235.1
-        },
-        {
-          "pollutant": "pm10",
-          "concentration": 154.75,
-          "sub_index": 136.2
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 46.08,
-          "sub_index": 46.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.89,
-          "sub_index": 40.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 21.73,
-          "sub_index": 26.2
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 9.2,
-          "sub_index": 11.2
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 106.53,
-        "pm10": 109.83,
-        "no2": 19.45,
-        "so2": 29.6,
-        "o3": 166.38,
-        "co": 1.86
-      },
-      "weather": {
-        "rh_24h_mean_pct": 72.9,
-        "wind_24h_mean_ms": 1.0,
-        "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 290.0,
-        "ventilation_m2s": 289.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 2.4,
-      "nearest_monitor": "Bhelupur, Varanasi",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Varanasi",
-      "nearest_bulletin_aqi": 167,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 167,
-      "measured_category": "Moderate",
-      "measured_pollutant": "PM2.5, PM10",
-      "measured_date": "2026-11-25",
-      "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Varanasi on 2026-11-25 (4/4 stations). This is the city value, not a reading taken at the map coordinate.",
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
-    },
-    {
-      "id": "major:amritsar",
-      "name": "Amritsar",
-      "state": "Punjab",
-      "kind": "major_city",
-      "lat": 31.62,
-      "lon": 74.8765,
-      "label": "Estimated (model)",
-      "aqi": 308,
-      "aqi_unrounded": 307.9,
-      "category": "Very Poor",
-      "dominant": "pm25",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm25",
-          "concentration": 130.9,
-          "sub_index": 307.9
-        },
-        {
-          "pollutant": "pm10",
-          "concentration": 192.95,
-          "sub_index": 161.5
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 37.78,
-          "sub_index": 46.2
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.98,
-          "sub_index": 45.0
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 44.69,
-          "sub_index": 44.0
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 9.24,
-          "sub_index": 11.2
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 142.75,
-        "pm10": 144.61,
-        "no2": 51.96,
-        "so2": 30.25,
-        "o3": 158.75,
-        "co": 2.31
-      },
-      "weather": {
-        "rh_24h_mean_pct": 72.5,
-        "wind_24h_mean_ms": 0.68,
-        "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 153.0,
-        "ventilation_m2s": 103.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 0.0,
-      "nearest_monitor": "Golden Temple, Amritsar",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Amritsar",
-      "nearest_bulletin_aqi": 172,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 172,
-      "measured_category": "Moderate",
-      "measured_pollutant": "PM2.5",
-      "measured_date": "2026-11-25",
-      "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Amritsar on 2026-11-25 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
-    },
-    {
-      "id": "major:kanpur",
-      "name": "Kanpur",
-      "state": "Uttar Pradesh",
-      "kind": "major_city",
-      "lat": 26.4801,
-      "lon": 80.2837,
-      "label": "Estimated (model)",
-      "aqi": 218,
-      "aqi_unrounded": 218.1,
-      "category": "Poor",
-      "dominant": "pm25",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm25",
-          "concentration": 96.36,
-          "sub_index": 218.1
-        },
-        {
-          "pollutant": "pm10",
-          "concentration": 146.11,
-          "sub_index": 130.9
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 47.06,
-          "sub_index": 47.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.71,
-          "sub_index": 35.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 26.21,
-          "sub_index": 32.5
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 9.04,
-          "sub_index": 11.2
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 99.66,
-        "pm10": 101.95,
-        "no2": 28.53,
-        "so2": 27.1,
-        "o3": 171.75,
-        "co": 0.84
-      },
-      "weather": {
-        "rh_24h_mean_pct": 58.2,
-        "wind_24h_mean_ms": 1.35,
-        "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 341.0,
-        "ventilation_m2s": 460.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 4.1,
-      "nearest_monitor": "Nehru Nagar, Kanpur",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Kanpur",
-      "nearest_bulletin_aqi": 167,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 167,
-      "measured_category": "Moderate",
-      "measured_pollutant": "PM2.5, PM10",
-      "measured_date": "2026-11-25",
-      "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Kanpur on 2026-11-25 (3/4 stations). This is the city value, not a reading taken at the map coordinate.",
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
-    },
-    {
-      "id": "major:surat",
-      "name": "Surat",
-      "state": "Gujarat",
-      "kind": "major_city",
-      "lat": 21.17,
-      "lon": 72.7954,
-      "label": "Estimated (model)",
-      "aqi": 100,
-      "aqi_unrounded": 100.0,
-      "category": "Satisfactory",
-      "dominant": "pm25",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm25",
-          "concentration": 60.57,
-          "sub_index": 100.0
-        },
-        {
-          "pollutant": "pm10",
-          "concentration": 96.13,
-          "sub_index": 96.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 33.34,
-          "sub_index": 41.2
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 38.1,
-          "sub_index": 38.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.65,
-          "sub_index": 30.0
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 12.04,
+          "concentration": 12.06,
           "sub_index": 15.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 55.02,
-        "pm10": 56.45,
-        "no2": 42.96,
-        "so2": 72.86,
-        "o3": 122.5,
-        "co": 0.5
+        "pm25": 62.8,
+        "pm10": 63.7,
+        "no2": 45.2,
+        "so2": 73.11,
+        "o3": 132.62,
+        "co": 0.47
       },
       "weather": {
-        "rh_24h_mean_pct": 48.1,
-        "wind_24h_mean_ms": 2.19,
+        "rh_24h_mean_pct": 53.7,
+        "wind_24h_mean_ms": 2.1,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 379.0,
-        "ventilation_m2s": 832.0
+        "blh_24h_mean_m": 364.0,
+        "ventilation_m2s": 764.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -3023,14 +3023,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Surat",
-      "nearest_bulletin_aqi": 121,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 121,
+      "nearest_bulletin_aqi": 128,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 128,
       "measured_category": "Moderate",
-      "measured_pollutant": "PM2.5, PM10",
-      "measured_date": "2026-11-25",
+      "measured_pollutant": "PM2.5, O3",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Surat on 2026-11-25 (2/2 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Surat on 2026-11-26 (2/2 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -3042,57 +3042,57 @@
       "lat": 10.9877,
       "lon": 77.0069,
       "label": "Estimated (model)",
-      "aqi": 47,
-      "aqi_unrounded": 47.0,
+      "aqi": 45,
+      "aqi_unrounded": 45.0,
       "category": "Good",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 47.69,
-          "sub_index": 47.0
+          "concentration": 45.74,
+          "sub_index": 45.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 25.98,
-          "sub_index": 41.7
+          "concentration": 24.7,
+          "sub_index": 40.0
         },
         {
           "pollutant": "o3",
-          "concentration": 33.61,
+          "concentration": 33.82,
           "sub_index": 33.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.65,
+          "concentration": 0.62,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 17.56,
-          "sub_index": 21.2
+          "concentration": 16.81,
+          "sub_index": 20.0
         },
         {
           "pollutant": "so2",
-          "concentration": 7.76,
+          "concentration": 7.84,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 11.86,
-        "pm10": 12.34,
-        "no2": 11.0,
-        "so2": 7.69,
-        "o3": 97.88,
-        "co": 0.52
+        "pm25": 10.27,
+        "pm10": 10.57,
+        "no2": 9.49,
+        "so2": 8.91,
+        "o3": 99.0,
+        "co": 0.38
       },
       "weather": {
-        "rh_24h_mean_pct": 81.1,
-        "wind_24h_mean_ms": 2.87,
-        "rain_24h_mm": 9.2,
-        "blh_24h_mean_m": 506.0,
-        "ventilation_m2s": 1454.0
+        "rh_24h_mean_pct": 86.6,
+        "wind_24h_mean_ms": 2.67,
+        "rain_24h_mm": 21.1,
+        "blh_24h_mean_m": 454.0,
+        "ventilation_m2s": 1211.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -3114,57 +3114,57 @@
       "lat": 8.5393,
       "lon": 76.9151,
       "label": "Estimated (model)",
-      "aqi": 43,
-      "aqi_unrounded": 43.0,
+      "aqi": 50,
+      "aqi_unrounded": 50.0,
       "category": "Good",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 43.66,
-          "sub_index": 43.0
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 41.19,
-          "sub_index": 41.0
+          "concentration": 50.76,
+          "sub_index": 50.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 22.77,
-          "sub_index": 36.7
+          "concentration": 26.92,
+          "sub_index": 43.3
+        },
+        {
+          "pollutant": "o3",
+          "concentration": 42.01,
+          "sub_index": 42.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.65,
+          "concentration": 0.67,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 15.33,
+          "concentration": 15.15,
           "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 7.57,
+          "concentration": 7.6,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 7.86,
-        "pm10": 8.67,
-        "no2": 6.49,
-        "so2": 4.71,
-        "o3": 139.5,
-        "co": 0.52
+        "pm25": 13.04,
+        "pm10": 15.13,
+        "no2": 6.12,
+        "so2": 5.19,
+        "o3": 144.0,
+        "co": 0.61
       },
       "weather": {
-        "rh_24h_mean_pct": 92.7,
-        "wind_24h_mean_ms": 0.95,
-        "rain_24h_mm": 13.5,
-        "blh_24h_mean_m": 245.0,
-        "ventilation_m2s": 234.0
+        "rh_24h_mean_pct": 89.6,
+        "wind_24h_mean_ms": 1.28,
+        "rain_24h_mm": 11.4,
+        "blh_24h_mean_m": 262.0,
+        "ventilation_m2s": 336.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -3173,14 +3173,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Thiruvananthapuram",
-      "nearest_bulletin_aqi": 95,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 95,
-      "measured_category": "Satisfactory",
+      "nearest_bulletin_aqi": 47,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 47,
+      "measured_category": "Good",
       "measured_pollutant": "PM10",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Thiruvananthapuram on 2026-11-25 (2/2 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Thiruvananthapuram on 2026-11-26 (2/2 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -3200,23 +3200,18 @@
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 80.79,
+          "concentration": 80.57,
           "sub_index": 165.9
         },
         {
           "pollutant": "pm10",
-          "concentration": 125.08,
-          "sub_index": 116.9
+          "concentration": 124.22,
+          "sub_index": 116.3
         },
         {
           "pollutant": "o3",
-          "concentration": 37.62,
-          "sub_index": 37.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 25.16,
-          "sub_index": 31.2
+          "concentration": 38.32,
+          "sub_index": 38.0
         },
         {
           "pollutant": "co",
@@ -3224,25 +3219,30 @@
           "sub_index": 30.0
         },
         {
+          "pollutant": "no2",
+          "concentration": 23.42,
+          "sub_index": 28.8
+        },
+        {
           "pollutant": "so2",
-          "concentration": 10.67,
+          "concentration": 10.4,
           "sub_index": 12.5
         }
       ],
       "raw_concentrations": {
-        "pm25": 80.24,
-        "pm10": 82.81,
-        "no2": 26.4,
-        "so2": 52.06,
-        "o3": 119.88,
+        "pm25": 79.97,
+        "pm10": 82.02,
+        "no2": 22.87,
+        "so2": 47.84,
+        "o3": 123.75,
         "co": 0.57
       },
       "weather": {
-        "rh_24h_mean_pct": 69.6,
-        "wind_24h_mean_ms": 1.26,
+        "rh_24h_mean_pct": 70.5,
+        "wind_24h_mean_ms": 1.31,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 313.0,
-        "ventilation_m2s": 393.0
+        "blh_24h_mean_m": 311.0,
+        "ventilation_m2s": 406.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -3251,14 +3251,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Raipur",
-      "nearest_bulletin_aqi": 83,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 83,
+      "nearest_bulletin_aqi": 93,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 93,
       "measured_category": "Satisfactory",
       "measured_pollutant": "PM10",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Raipur on 2026-11-25 (4/4 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Raipur on 2026-11-26 (4/4 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -3270,57 +3270,57 @@
       "lat": 30.2694,
       "lon": 78.0442,
       "label": "Estimated (model)",
-      "aqi": 169,
-      "aqi_unrounded": 169.3,
+      "aqi": 132,
+      "aqi_unrounded": 131.7,
       "category": "Moderate",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 81.5,
-          "sub_index": 169.3
+          "concentration": 70.54,
+          "sub_index": 131.7
         },
         {
           "pollutant": "pm10",
-          "concentration": 124.76,
-          "sub_index": 116.3
+          "concentration": 108.91,
+          "sub_index": 105.7
         },
         {
           "pollutant": "o3",
-          "concentration": 46.38,
-          "sub_index": 46.0
+          "concentration": 45.31,
+          "sub_index": 45.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.74,
+          "concentration": 0.71,
           "sub_index": 35.0
         },
         {
           "pollutant": "no2",
-          "concentration": 25.3,
+          "concentration": 25.89,
           "sub_index": 31.2
         },
         {
           "pollutant": "so2",
-          "concentration": 8.86,
+          "concentration": 8.42,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 81.12,
-        "pm10": 82.51,
-        "no2": 26.68,
-        "so2": 24.41,
-        "o3": 168.0,
-        "co": 1.0
+        "pm25": 67.45,
+        "pm10": 68.08,
+        "no2": 27.87,
+        "so2": 17.64,
+        "o3": 162.12,
+        "co": 0.86
       },
       "weather": {
-        "rh_24h_mean_pct": 68.2,
-        "wind_24h_mean_ms": 0.35,
+        "rh_24h_mean_pct": 61.4,
+        "wind_24h_mean_ms": 0.33,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 152.0,
-        "ventilation_m2s": 54.0
+        "blh_24h_mean_m": 113.0,
+        "ventilation_m2s": 38.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -3329,14 +3329,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Dehradun",
-      "nearest_bulletin_aqi": 61,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 61,
+      "nearest_bulletin_aqi": 86,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 86,
       "measured_category": "Satisfactory",
       "measured_pollutant": "PM2.5",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Dehradun on 2026-11-25 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Dehradun on 2026-11-26 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -3348,21 +3348,21 @@
       "lat": 34.0662,
       "lon": 74.8198,
       "label": "Estimated (model)",
-      "aqi": 108,
-      "aqi_unrounded": 107.8,
+      "aqi": 111,
+      "aqi_unrounded": 111.2,
       "category": "Moderate",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 63.38,
-          "sub_index": 107.8
+          "concentration": 64.29,
+          "sub_index": 111.2
         },
         {
           "pollutant": "pm10",
-          "concentration": 100.72,
-          "sub_index": 100.0
+          "concentration": 102.18,
+          "sub_index": 101.7
         },
         {
           "pollutant": "co",
@@ -3371,33 +3371,33 @@
         },
         {
           "pollutant": "no2",
-          "concentration": 29.0,
+          "concentration": 29.63,
           "sub_index": 36.2
         },
         {
           "pollutant": "o3",
-          "concentration": 36.48,
+          "concentration": 36.3,
           "sub_index": 36.0
         },
         {
           "pollutant": "so2",
-          "concentration": 8.24,
+          "concentration": 8.22,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 58.52,
-        "pm10": 60.62,
-        "no2": 34.18,
-        "so2": 14.94,
-        "o3": 113.62,
-        "co": 2.09
+        "pm25": 59.65,
+        "pm10": 61.96,
+        "no2": 35.45,
+        "so2": 14.7,
+        "o3": 112.62,
+        "co": 2.11
       },
       "weather": {
-        "rh_24h_mean_pct": 59.1,
-        "wind_24h_mean_ms": 0.45,
+        "rh_24h_mean_pct": 59.6,
+        "wind_24h_mean_ms": 0.43,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 70.0,
+        "blh_24h_mean_m": 73.0,
         "ventilation_m2s": 31.0
       },
       "idw_correction": 0,
@@ -3407,14 +3407,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Srinagar",
-      "nearest_bulletin_aqi": 176,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 176,
+      "nearest_bulletin_aqi": 180,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 180,
       "measured_category": "Moderate",
       "measured_pollutant": "PM10",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Srinagar on 2026-11-25 (1/2 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Srinagar on 2026-11-26 (1/2 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -3426,57 +3426,57 @@
       "lat": 23.8402,
       "lon": 91.2807,
       "label": "Estimated (model)",
-      "aqi": 104,
-      "aqi_unrounded": 104.4,
-      "category": "Moderate",
+      "aqi": 100,
+      "aqi_unrounded": 100.0,
+      "category": "Satisfactory",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 62.4,
-          "sub_index": 104.4
+          "concentration": 60.42,
+          "sub_index": 100.0
         },
         {
           "pollutant": "pm10",
-          "concentration": 98.2,
-          "sub_index": 98.0
+          "concentration": 95.63,
+          "sub_index": 95.0
         },
         {
           "pollutant": "o3",
-          "concentration": 42.49,
-          "sub_index": 42.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.67,
-          "sub_index": 30.0
+          "concentration": 41.33,
+          "sub_index": 41.0
         },
         {
           "pollutant": "no2",
-          "concentration": 22.29,
-          "sub_index": 27.5
+          "concentration": 24.11,
+          "sub_index": 30.0
+        },
+        {
+          "pollutant": "co",
+          "concentration": 0.68,
+          "sub_index": 30.0
         },
         {
           "pollutant": "so2",
-          "concentration": 7.68,
+          "concentration": 7.58,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 57.29,
-        "pm10": 58.33,
-        "no2": 20.58,
-        "so2": 6.43,
-        "o3": 146.62,
-        "co": 0.65
+        "pm25": 54.83,
+        "pm10": 55.99,
+        "no2": 24.28,
+        "so2": 4.9,
+        "o3": 140.25,
+        "co": 0.69
       },
       "weather": {
-        "rh_24h_mean_pct": 81.5,
-        "wind_24h_mean_ms": 1.37,
+        "rh_24h_mean_pct": 81.0,
+        "wind_24h_mean_ms": 1.64,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 237.0,
-        "ventilation_m2s": 326.0
+        "blh_24h_mean_m": 188.0,
+        "ventilation_m2s": 307.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -3485,14 +3485,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Agartala",
-      "nearest_bulletin_aqi": 113,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 113,
+      "nearest_bulletin_aqi": 114,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 114,
       "measured_category": "Moderate",
       "measured_pollutant": "PM10",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Agartala on 2026-11-25 (1/2 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Agartala on 2026-11-26 (1/2 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -3504,57 +3504,57 @@
       "lat": 24.7865,
       "lon": 93.9355,
       "label": "Estimated (model)",
-      "aqi": 62,
-      "aqi_unrounded": 62.0,
+      "aqi": 56,
+      "aqi_unrounded": 56.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 62.08,
-          "sub_index": 62.0
+          "concentration": 56.5,
+          "sub_index": 56.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 36.39,
-          "sub_index": 59.4
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.7,
-          "sub_index": 35.0
+          "concentration": 32.35,
+          "sub_index": 52.7
         },
         {
           "pollutant": "o3",
-          "concentration": 32.39,
-          "sub_index": 32.0
+          "concentration": 31.91,
+          "sub_index": 31.0
+        },
+        {
+          "pollutant": "co",
+          "concentration": 0.68,
+          "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 23.38,
-          "sub_index": 28.8
+          "concentration": 21.84,
+          "sub_index": 26.2
         },
         {
           "pollutant": "so2",
-          "concentration": 7.55,
+          "concentration": 7.48,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 24.85,
-        "pm10": 25.44,
-        "no2": 22.8,
-        "so2": 4.48,
-        "o3": 91.12,
-        "co": 0.8
+        "pm25": 19.81,
+        "pm10": 20.36,
+        "no2": 19.67,
+        "so2": 3.35,
+        "o3": 88.5,
+        "co": 0.69
       },
       "weather": {
-        "rh_24h_mean_pct": 76.3,
-        "wind_24h_mean_ms": 0.93,
+        "rh_24h_mean_pct": 72.5,
+        "wind_24h_mean_ms": 1.09,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 163.0,
-        "ventilation_m2s": 152.0
+        "blh_24h_mean_m": 328.0,
+        "ventilation_m2s": 358.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -3576,57 +3576,57 @@
       "lat": 25.5694,
       "lon": 91.8964,
       "label": "Estimated (model)",
-      "aqi": 49,
-      "aqi_unrounded": 49.0,
+      "aqi": 48,
+      "aqi_unrounded": 48.0,
       "category": "Good",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 49.69,
-          "sub_index": 49.0
+          "concentration": 48.39,
+          "sub_index": 48.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 27.59,
-          "sub_index": 45.0
+          "concentration": 26.73,
+          "sub_index": 43.3
         },
         {
           "pollutant": "o3",
-          "concentration": 37.03,
-          "sub_index": 37.0
+          "concentration": 35.98,
+          "sub_index": 35.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.64,
+          "concentration": 0.63,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 16.71,
+          "concentration": 16.69,
           "sub_index": 20.0
         },
         {
           "pollutant": "so2",
-          "concentration": 7.43,
+          "concentration": 7.39,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 13.87,
-        "pm10": 14.16,
-        "no2": 9.29,
-        "so2": 2.66,
-        "o3": 116.62,
-        "co": 0.44
+        "pm25": 12.8,
+        "pm10": 12.98,
+        "no2": 9.24,
+        "so2": 2.05,
+        "o3": 110.88,
+        "co": 0.39
       },
       "weather": {
-        "rh_24h_mean_pct": 69.0,
-        "wind_24h_mean_ms": 0.94,
+        "rh_24h_mean_pct": 50.0,
+        "wind_24h_mean_ms": 1.24,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 391.0,
-        "ventilation_m2s": 368.0
+        "blh_24h_mean_m": 496.0,
+        "ventilation_m2s": 613.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -3635,8 +3635,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Shillong",
-      "nearest_bulletin_aqi": null,
-      "nearest_bulletin_date": null,
+      "nearest_bulletin_aqi": 27,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 27,
+      "measured_category": "Good",
+      "measured_pollutant": "O3",
+      "measured_date": "2026-11-26",
+      "measured_label": "Measured (monitor)",
+      "measured_detail": "CPCB city bulletin for Shillong on 2026-11-26 (1/2 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -3648,25 +3654,25 @@
       "lat": 23.7176,
       "lon": 92.7193,
       "label": "Estimated (model)",
-      "aqi": 50,
-      "aqi_unrounded": 50.0,
+      "aqi": 47,
+      "aqi_unrounded": 47.0,
       "category": "Good",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 50.92,
-          "sub_index": 50.0
+          "concentration": 47.72,
+          "sub_index": 47.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 28.46,
-          "sub_index": 46.7
+          "concentration": 26.07,
+          "sub_index": 43.3
         },
         {
           "pollutant": "o3",
-          "concentration": 32.75,
+          "concentration": 32.34,
           "sub_index": 32.0
         },
         {
@@ -3676,29 +3682,29 @@
         },
         {
           "pollutant": "no2",
-          "concentration": 17.48,
-          "sub_index": 21.2
+          "concentration": 18.09,
+          "sub_index": 22.5
         },
         {
           "pollutant": "so2",
-          "concentration": 7.42,
+          "concentration": 7.36,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 14.96,
-        "pm10": 15.28,
-        "no2": 10.84,
-        "so2": 2.49,
-        "o3": 93.12,
-        "co": 0.36
+        "pm25": 11.98,
+        "pm10": 12.37,
+        "no2": 12.08,
+        "so2": 1.57,
+        "o3": 90.88,
+        "co": 0.33
       },
       "weather": {
-        "rh_24h_mean_pct": 81.8,
-        "wind_24h_mean_ms": 0.8,
+        "rh_24h_mean_pct": 71.6,
+        "wind_24h_mean_ms": 0.69,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 233.0,
-        "ventilation_m2s": 186.0
+        "blh_24h_mean_m": 144.0,
+        "ventilation_m2s": 99.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -3707,14 +3713,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Aizawl",
-      "nearest_bulletin_aqi": 39,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 39,
+      "nearest_bulletin_aqi": 29,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 29,
       "measured_category": "Good",
       "measured_pollutant": "PM10",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Aizawl on 2026-11-25 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Aizawl on 2026-11-26 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -3726,57 +3732,57 @@
       "lat": 25.6635,
       "lon": 94.099,
       "label": "Estimated (model)",
-      "aqi": 55,
-      "aqi_unrounded": 55.0,
+      "aqi": 51,
+      "aqi_unrounded": 51.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 55.76,
-          "sub_index": 55.0
+          "concentration": 51.3,
+          "sub_index": 51.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 32.01,
-          "sub_index": 52.7
+          "concentration": 28.75,
+          "sub_index": 46.7
         },
         {
           "pollutant": "o3",
-          "concentration": 35.43,
-          "sub_index": 35.0
+          "concentration": 32.41,
+          "sub_index": 32.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.63,
+          "concentration": 0.62,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 17.47,
+          "concentration": 17.66,
           "sub_index": 21.2
         },
         {
           "pollutant": "so2",
-          "concentration": 7.46,
+          "concentration": 7.4,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 19.38,
-        "pm10": 19.68,
-        "no2": 10.83,
-        "so2": 2.99,
-        "o3": 107.88,
-        "co": 0.43
+        "pm25": 15.32,
+        "pm10": 15.62,
+        "no2": 11.2,
+        "so2": 2.1,
+        "o3": 91.25,
+        "co": 0.38
       },
       "weather": {
-        "rh_24h_mean_pct": 76.1,
-        "wind_24h_mean_ms": 1.33,
+        "rh_24h_mean_pct": 67.1,
+        "wind_24h_mean_ms": 1.48,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 225.0,
-        "ventilation_m2s": 300.0
+        "blh_24h_mean_m": 270.0,
+        "ventilation_m2s": 398.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -3785,14 +3791,8 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Kohima",
-      "nearest_bulletin_aqi": 63,
+      "nearest_bulletin_aqi": null,
       "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 63,
-      "measured_category": "Satisfactory",
-      "measured_pollutant": "SO2",
-      "measured_date": "2026-11-25",
-      "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Kohima on 2026-11-25 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -3804,26 +3804,26 @@
       "lat": 27.3385,
       "lon": 88.6141,
       "label": "Estimated (model)",
-      "aqi": 56,
-      "aqi_unrounded": 56.0,
+      "aqi": 51,
+      "aqi_unrounded": 51.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 56.56,
-          "sub_index": 56.0
+          "concentration": 51.93,
+          "sub_index": 51.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 32.45,
-          "sub_index": 52.7
+          "concentration": 29.16,
+          "sub_index": 48.3
         },
         {
           "pollutant": "o3",
-          "concentration": 36.16,
-          "sub_index": 36.0
+          "concentration": 35.75,
+          "sub_index": 35.0
         },
         {
           "pollutant": "co",
@@ -3832,29 +3832,29 @@
         },
         {
           "pollutant": "no2",
-          "concentration": 18.15,
-          "sub_index": 22.5
+          "concentration": 17.95,
+          "sub_index": 21.2
         },
         {
           "pollutant": "so2",
-          "concentration": 7.41,
+          "concentration": 7.38,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 19.94,
-        "pm10": 20.42,
-        "no2": 12.19,
-        "so2": 2.34,
-        "o3": 111.88,
-        "co": 0.55
+        "pm25": 15.83,
+        "pm10": 16.2,
+        "no2": 11.8,
+        "so2": 1.79,
+        "o3": 109.62,
+        "co": 0.53
       },
       "weather": {
-        "rh_24h_mean_pct": 60.5,
-        "wind_24h_mean_ms": 0.78,
+        "rh_24h_mean_pct": 55.7,
+        "wind_24h_mean_ms": 0.88,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 218.0,
-        "ventilation_m2s": 169.0
+        "blh_24h_mean_m": 242.0,
+        "ventilation_m2s": 212.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -3863,14 +3863,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Gangtok",
-      "nearest_bulletin_aqi": 40,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 40,
+      "nearest_bulletin_aqi": 24,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 24,
       "measured_category": "Good",
-      "measured_pollutant": "PM2.5",
-      "measured_date": "2026-11-25",
+      "measured_pollutant": "PM10",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Gangtok on 2026-11-25 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Gangtok on 2026-11-26 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -3882,21 +3882,26 @@
       "lat": 11.9309,
       "lon": 79.8027,
       "label": "Estimated (model)",
-      "aqi": 43,
-      "aqi_unrounded": 43.0,
-      "category": "Good",
+      "aqi": 58,
+      "aqi_unrounded": 58.0,
+      "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 43.07,
-          "sub_index": 43.0
+          "concentration": 58.66,
+          "sub_index": 58.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 21.39,
-          "sub_index": 35.0
+          "concentration": 31.12,
+          "sub_index": 51.0
+        },
+        {
+          "pollutant": "o3",
+          "concentration": 37.32,
+          "sub_index": 37.0
         },
         {
           "pollutant": "co",
@@ -3904,35 +3909,30 @@
           "sub_index": 30.0
         },
         {
-          "pollutant": "o3",
-          "concentration": 29.88,
-          "sub_index": 29.0
-        },
-        {
           "pollutant": "no2",
-          "concentration": 13.84,
+          "concentration": 13.34,
           "sub_index": 16.2
         },
         {
           "pollutant": "so2",
-          "concentration": 7.43,
+          "concentration": 7.47,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 6.14,
-        "pm10": 8.13,
-        "no2": 3.47,
-        "so2": 2.56,
-        "o3": 77.38,
-        "co": 0.28
+        "pm25": 18.27,
+        "pm10": 22.33,
+        "no2": 2.45,
+        "so2": 3.15,
+        "o3": 118.25,
+        "co": 0.29
       },
       "weather": {
-        "rh_24h_mean_pct": 86.8,
-        "wind_24h_mean_ms": 3.07,
-        "rain_24h_mm": 2.5,
-        "blh_24h_mean_m": 395.0,
-        "ventilation_m2s": 1211.0
+        "rh_24h_mean_pct": 83.2,
+        "wind_24h_mean_ms": 4.38,
+        "rain_24h_mm": 3.4,
+        "blh_24h_mean_m": 609.0,
+        "ventilation_m2s": 2671.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -3941,14 +3941,14 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Puducherry",
-      "nearest_bulletin_aqi": 55,
-      "nearest_bulletin_date": "2026-11-25",
-      "measured_aqi": 55,
-      "measured_category": "Satisfactory",
+      "nearest_bulletin_aqi": 45,
+      "nearest_bulletin_date": "2026-11-26",
+      "measured_aqi": 45,
+      "measured_category": "Good",
       "measured_pollutant": "PM2.5",
-      "measured_date": "2026-11-25",
+      "measured_date": "2026-11-26",
       "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Puducherry on 2026-11-25 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
+      "measured_detail": "CPCB city bulletin for Puducherry on 2026-11-26 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -3960,25 +3960,25 @@
       "lat": 18.5303,
       "lon": 79.3925,
       "label": "Estimated (model)",
-      "aqi": 90,
-      "aqi_unrounded": 89.9,
+      "aqi": 83,
+      "aqi_unrounded": 83.1,
       "category": "Satisfactory",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 54.39,
-          "sub_index": 89.9
+          "concentration": 50.71,
+          "sub_index": 83.1
         },
         {
           "pollutant": "pm10",
-          "concentration": 88.09,
-          "sub_index": 88.0
+          "concentration": 82.56,
+          "sub_index": 82.0
         },
         {
           "pollutant": "o3",
-          "concentration": 42.76,
+          "concentration": 42.37,
           "sub_index": 42.0
         },
         {
@@ -3988,29 +3988,29 @@
         },
         {
           "pollutant": "no2",
-          "concentration": 16.74,
-          "sub_index": 20.0
+          "concentration": 17.27,
+          "sub_index": 21.2
         },
         {
           "pollutant": "so2",
-          "concentration": 8.26,
+          "concentration": 8.23,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 47.3,
-        "pm10": 49.12,
-        "no2": 9.35,
-        "so2": 15.24,
-        "o3": 148.12,
-        "co": 0.4
+        "pm25": 42.72,
+        "pm10": 44.09,
+        "no2": 10.42,
+        "so2": 14.8,
+        "o3": 146.0,
+        "co": 0.39
       },
       "weather": {
-        "rh_24h_mean_pct": 58.7,
-        "wind_24h_mean_ms": 1.75,
+        "rh_24h_mean_pct": 59.3,
+        "wind_24h_mean_ms": 1.85,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 360.0,
-        "ventilation_m2s": 628.0
+        "blh_24h_mean_m": 324.0,
+        "ventilation_m2s": 599.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -4019,8 +4019,8 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Hyderabad",
-      "nearest_bulletin_aqi": 63,
-      "nearest_bulletin_date": "2026-11-25",
+      "nearest_bulletin_aqi": 54,
+      "nearest_bulletin_date": "2026-11-26",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -4032,57 +4032,57 @@
       "lat": 17.6832,
       "lon": 80.813,
       "label": "Estimated (model)",
-      "aqi": 70,
-      "aqi_unrounded": 70.0,
+      "aqi": 76,
+      "aqi_unrounded": 76.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 70.13,
-          "sub_index": 70.0
+          "concentration": 76.09,
+          "sub_index": 76.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 41.75,
-          "sub_index": 67.9
+          "concentration": 45.78,
+          "sub_index": 74.7
         },
         {
           "pollutant": "o3",
-          "concentration": 37.16,
-          "sub_index": 37.0
+          "concentration": 38.39,
+          "sub_index": 38.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.63,
+          "concentration": 0.64,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 15.05,
+          "concentration": 15.0,
           "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 7.81,
-          "sub_index": 8.8
+          "concentration": 8.05,
+          "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 31.54,
-        "pm10": 32.77,
-        "no2": 5.92,
-        "so2": 8.42,
-        "o3": 117.38,
-        "co": 0.39
+        "pm25": 36.56,
+        "pm10": 38.2,
+        "no2": 5.83,
+        "so2": 12.1,
+        "o3": 124.12,
+        "co": 0.47
       },
       "weather": {
-        "rh_24h_mean_pct": 76.8,
-        "wind_24h_mean_ms": 1.16,
-        "rain_24h_mm": 0.1,
-        "blh_24h_mean_m": 363.0,
-        "ventilation_m2s": 420.0
+        "rh_24h_mean_pct": 73.2,
+        "wind_24h_mean_ms": 1.27,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 332.0,
+        "ventilation_m2s": 424.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -4091,8 +4091,8 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Rajamahendravaram",
-      "nearest_bulletin_aqi": 88,
-      "nearest_bulletin_date": "2026-11-25",
+      "nearest_bulletin_aqi": 80,
+      "nearest_bulletin_date": "2026-11-26",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -4104,57 +4104,57 @@
       "lat": 17.921,
       "lon": 79.5714,
       "label": "Estimated (model)",
-      "aqi": 83,
-      "aqi_unrounded": 83.1,
+      "aqi": 75,
+      "aqi_unrounded": 75.0,
       "category": "Satisfactory",
-      "dominant": "pm25",
+      "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
-          "pollutant": "pm25",
-          "concentration": 50.08,
-          "sub_index": 83.1
+          "pollutant": "pm10",
+          "concentration": 75.81,
+          "sub_index": 75.0
         },
         {
-          "pollutant": "pm10",
-          "concentration": 81.82,
-          "sub_index": 81.0
+          "pollutant": "pm25",
+          "concentration": 45.66,
+          "sub_index": 74.7
         },
         {
           "pollutant": "o3",
-          "concentration": 39.48,
+          "concentration": 39.78,
           "sub_index": 39.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.67,
+          "concentration": 0.62,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 16.16,
-          "sub_index": 20.0
+          "concentration": 15.52,
+          "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 7.96,
+          "concentration": 7.9,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 41.93,
-        "pm10": 43.41,
-        "no2": 8.16,
-        "so2": 10.6,
-        "o3": 130.12,
-        "co": 0.62
+        "pm25": 36.42,
+        "pm10": 37.94,
+        "no2": 6.88,
+        "so2": 9.82,
+        "o3": 131.75,
+        "co": 0.37
       },
       "weather": {
-        "rh_24h_mean_pct": 69.0,
-        "wind_24h_mean_ms": 1.6,
+        "rh_24h_mean_pct": 64.9,
+        "wind_24h_mean_ms": 1.35,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 439.0,
-        "ventilation_m2s": 700.0
+        "blh_24h_mean_m": 419.0,
+        "ventilation_m2s": 565.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -4163,8 +4163,8 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Hyderabad",
-      "nearest_bulletin_aqi": 63,
-      "nearest_bulletin_date": "2026-11-25",
+      "nearest_bulletin_aqi": 54,
+      "nearest_bulletin_date": "2026-11-26",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -4176,57 +4176,57 @@
       "lat": 17.0927,
       "lon": 79.4081,
       "label": "Estimated (model)",
-      "aqi": 76,
-      "aqi_unrounded": 76.3,
+      "aqi": 85,
+      "aqi_unrounded": 84.8,
       "category": "Satisfactory",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 46.56,
-          "sub_index": 76.3
+          "concentration": 51.03,
+          "sub_index": 84.8
         },
         {
           "pollutant": "pm10",
-          "concentration": 76.41,
-          "sub_index": 76.0
+          "concentration": 83.02,
+          "sub_index": 83.0
         },
         {
           "pollutant": "o3",
-          "concentration": 40.71,
+          "concentration": 40.48,
           "sub_index": 40.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.62,
+          "concentration": 0.64,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 16.14,
+          "concentration": 16.76,
           "sub_index": 20.0
         },
         {
           "pollutant": "so2",
-          "concentration": 8.15,
+          "concentration": 8.12,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 37.54,
-        "pm10": 38.49,
-        "no2": 8.13,
-        "so2": 13.59,
-        "o3": 136.88,
-        "co": 0.38
+        "pm25": 43.11,
+        "pm10": 44.5,
+        "no2": 9.38,
+        "so2": 13.05,
+        "o3": 135.62,
+        "co": 0.45
       },
       "weather": {
-        "rh_24h_mean_pct": 78.7,
-        "wind_24h_mean_ms": 1.24,
-        "rain_24h_mm": 0.1,
-        "blh_24h_mean_m": 443.0,
-        "ventilation_m2s": 548.0
+        "rh_24h_mean_pct": 75.3,
+        "wind_24h_mean_ms": 1.73,
+        "rain_24h_mm": 0.2,
+        "blh_24h_mean_m": 511.0,
+        "ventilation_m2s": 885.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -4235,8 +4235,8 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Hyderabad",
-      "nearest_bulletin_aqi": 63,
-      "nearest_bulletin_date": "2026-11-25",
+      "nearest_bulletin_aqi": 54,
+      "nearest_bulletin_date": "2026-11-26",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -4248,35 +4248,35 @@
       "lat": 18.5357,
       "lon": 78.1205,
       "label": "Estimated (model)",
-      "aqi": 80,
-      "aqi_unrounded": 79.7,
+      "aqi": 75,
+      "aqi_unrounded": 75.0,
       "category": "Satisfactory",
-      "dominant": "pm25",
+      "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
-          "pollutant": "pm25",
-          "concentration": 48.55,
-          "sub_index": 79.7
+          "pollutant": "pm10",
+          "concentration": 75.12,
+          "sub_index": 75.0
         },
         {
-          "pollutant": "pm10",
-          "concentration": 79.43,
-          "sub_index": 79.0
+          "pollutant": "pm25",
+          "concentration": 45.39,
+          "sub_index": 74.7
         },
         {
           "pollutant": "o3",
-          "concentration": 39.94,
-          "sub_index": 39.0
+          "concentration": 42.8,
+          "sub_index": 42.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.62,
+          "concentration": 0.61,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 15.65,
+          "concentration": 15.03,
           "sub_index": 18.8
         },
         {
@@ -4286,19 +4286,19 @@
         }
       ],
       "raw_concentrations": {
-        "pm25": 40.02,
-        "pm10": 41.24,
-        "no2": 7.14,
-        "so2": 12.88,
-        "o3": 132.62,
-        "co": 0.33
+        "pm25": 36.07,
+        "pm10": 37.32,
+        "no2": 5.89,
+        "so2": 12.85,
+        "o3": 148.38,
+        "co": 0.28
       },
       "weather": {
-        "rh_24h_mean_pct": 59.2,
-        "wind_24h_mean_ms": 2.31,
+        "rh_24h_mean_pct": 53.2,
+        "wind_24h_mean_ms": 2.77,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 639.0,
-        "ventilation_m2s": 1473.0
+        "blh_24h_mean_m": 588.0,
+        "ventilation_m2s": 1626.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -4320,57 +4320,57 @@
       "lat": 18.4799,
       "lon": 83.3107,
       "label": "Estimated (model)",
-      "aqi": 77,
-      "aqi_unrounded": 77.0,
+      "aqi": 93,
+      "aqi_unrounded": 93.2,
       "category": "Satisfactory",
-      "dominant": "pm10",
+      "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
-          "pollutant": "pm10",
-          "concentration": 77.39,
-          "sub_index": 77.0
+          "pollutant": "pm25",
+          "concentration": 56.16,
+          "sub_index": 93.2
         },
         {
-          "pollutant": "pm25",
-          "concentration": 46.93,
-          "sub_index": 76.3
+          "pollutant": "pm10",
+          "concentration": 90.51,
+          "sub_index": 90.0
         },
         {
           "pollutant": "o3",
-          "concentration": 36.59,
-          "sub_index": 36.0
+          "concentration": 40.14,
+          "sub_index": 40.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.64,
+          "concentration": 0.67,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 16.75,
-          "sub_index": 20.0
+          "concentration": 17.32,
+          "sub_index": 21.2
         },
         {
           "pollutant": "so2",
-          "concentration": 7.78,
-          "sub_index": 8.8
+          "concentration": 8.05,
+          "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 37.99,
-        "pm10": 39.38,
-        "no2": 9.38,
-        "so2": 7.98,
-        "o3": 114.25,
-        "co": 0.46
+        "pm25": 49.52,
+        "pm10": 51.32,
+        "no2": 10.53,
+        "so2": 11.97,
+        "o3": 133.75,
+        "co": 0.6
       },
       "weather": {
-        "rh_24h_mean_pct": 81.9,
-        "wind_24h_mean_ms": 1.18,
-        "rain_24h_mm": 0.2,
-        "blh_24h_mean_m": 303.0,
-        "ventilation_m2s": 358.0
+        "rh_24h_mean_pct": 75.4,
+        "wind_24h_mean_ms": 0.93,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 295.0,
+        "ventilation_m2s": 276.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -4379,8 +4379,8 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Visakhapatnam",
-      "nearest_bulletin_aqi": 54,
-      "nearest_bulletin_date": "2026-11-25",
+      "nearest_bulletin_aqi": 65,
+      "nearest_bulletin_date": "2026-11-26",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     },
@@ -4392,26 +4392,26 @@
       "lat": 16.5368,
       "lon": 78.0252,
       "label": "Estimated (model)",
-      "aqi": 55,
-      "aqi_unrounded": 55.0,
+      "aqi": 62,
+      "aqi_unrounded": 62.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 55.32,
-          "sub_index": 55.0
+          "concentration": 62.66,
+          "sub_index": 62.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 31.5,
-          "sub_index": 51.0
+          "concentration": 36.65,
+          "sub_index": 59.4
         },
         {
           "pollutant": "o3",
-          "concentration": 37.21,
-          "sub_index": 37.0
+          "concentration": 39.23,
+          "sub_index": 39.0
         },
         {
           "pollutant": "co",
@@ -4420,29 +4420,29 @@
         },
         {
           "pollutant": "no2",
-          "concentration": 13.68,
+          "concentration": 13.84,
           "sub_index": 16.2
         },
         {
           "pollutant": "so2",
-          "concentration": 7.65,
+          "concentration": 7.79,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 18.75,
-        "pm10": 19.29,
-        "no2": 3.14,
-        "so2": 5.9,
-        "o3": 117.62,
-        "co": 0.29
+        "pm25": 25.17,
+        "pm10": 25.97,
+        "no2": 3.47,
+        "so2": 8.08,
+        "o3": 128.75,
+        "co": 0.32
       },
       "weather": {
-        "rh_24h_mean_pct": 76.0,
-        "wind_24h_mean_ms": 2.22,
-        "rain_24h_mm": 0.8,
-        "blh_24h_mean_m": 638.0,
-        "ventilation_m2s": 1414.0
+        "rh_24h_mean_pct": 66.2,
+        "wind_24h_mean_ms": 3.01,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 757.0,
+        "ventilation_m2s": 2276.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -4464,57 +4464,57 @@
       "lat": 19.2855,
       "lon": 79.0728,
       "label": "Estimated (model)",
-      "aqi": 80,
-      "aqi_unrounded": 79.7,
+      "aqi": 75,
+      "aqi_unrounded": 75.0,
       "category": "Satisfactory",
-      "dominant": "pm25",
+      "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
-          "pollutant": "pm25",
-          "concentration": 48.21,
-          "sub_index": 79.7
+          "pollutant": "pm10",
+          "concentration": 75.61,
+          "sub_index": 75.0
         },
         {
-          "pollutant": "pm10",
-          "concentration": 79.96,
-          "sub_index": 79.0
+          "pollutant": "pm25",
+          "concentration": 45.6,
+          "sub_index": 74.7
         },
         {
           "pollutant": "o3",
-          "concentration": 40.05,
-          "sub_index": 40.0
+          "concentration": 39.07,
+          "sub_index": 39.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.61,
+          "concentration": 0.6,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 15.99,
+          "concentration": 15.53,
           "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 8.26,
+          "concentration": 8.04,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 39.6,
-        "pm10": 41.73,
-        "no2": 7.82,
-        "so2": 15.21,
-        "o3": 133.25,
+        "pm25": 36.34,
+        "pm10": 37.76,
+        "no2": 6.9,
+        "so2": 11.85,
+        "o3": 127.88,
         "co": 0.27
       },
       "weather": {
-        "rh_24h_mean_pct": 59.5,
-        "wind_24h_mean_ms": 1.81,
+        "rh_24h_mean_pct": 58.6,
+        "wind_24h_mean_ms": 2.0,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 449.0,
-        "ventilation_m2s": 811.0
+        "blh_24h_mean_m": 394.0,
+        "ventilation_m2s": 789.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -4523,8 +4523,8 @@
       "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
       "hours_pm25": 24,
       "nearest_city": "Chandrapur",
-      "nearest_bulletin_aqi": 240,
-      "nearest_bulletin_date": "2026-11-25",
+      "nearest_bulletin_aqi": 181,
+      "nearest_bulletin_date": "2026-11-26",
       "uncertainty_rmse": 39.19,
       "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
     }
