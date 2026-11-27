@@ -1,8 +1,10 @@
 {
-  "generated_at": "2026-11-27T10:54:49Z",
+  "generated_at": "2026-11-27T20:00:02Z",
   "source": "Open-Meteo Air Quality API (CAMS) and Open-Meteo weather, bias-corrected with the stored calibration when enabled.",
   "label": "Estimated (model)",
-  "open_meteo_errors": [],
+  "open_meteo_errors": [
+    "HTTP Error 503: Service Unavailable"
+  ],
   "places": [
     {
       "id": "city:hyderabad",
@@ -12,57 +14,57 @@
       "lat": 17.42,
       "lon": 78.45,
       "label": "Estimated (model)",
-      "aqi": 76,
-      "aqi_unrounded": 76.3,
+      "aqi": 73,
+      "aqi_unrounded": 73.0,
       "category": "Satisfactory",
-      "dominant": "pm25",
+      "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
-          "pollutant": "pm25",
-          "concentration": 46.34,
-          "sub_index": 76.3
+          "pollutant": "pm10",
+          "concentration": 73.5,
+          "sub_index": 73.0
         },
         {
-          "pollutant": "pm10",
-          "concentration": 76.43,
-          "sub_index": 76.0
+          "pollutant": "pm25",
+          "concentration": 44.15,
+          "sub_index": 73.0
         },
         {
           "pollutant": "o3",
-          "concentration": 41.44,
+          "concentration": 41.03,
           "sub_index": 41.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.64,
+          "concentration": 0.63,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 16.47,
+          "concentration": 16.22,
           "sub_index": 20.0
         },
         {
           "pollutant": "so2",
-          "concentration": 8.07,
+          "concentration": 8.14,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 37.27,
-        "pm10": 38.5,
-        "no2": 8.8,
-        "so2": 12.38,
-        "o3": 140.88,
-        "co": 0.45
+        "pm25": 34.53,
+        "pm10": 35.84,
+        "no2": 8.3,
+        "so2": 13.42,
+        "o3": 138.62,
+        "co": 0.42
       },
       "weather": {
-        "rh_24h_mean_pct": 58.3,
-        "wind_24h_mean_ms": 2.31,
+        "rh_24h_mean_pct": 48.5,
+        "wind_24h_mean_ms": 2.1,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 801.0,
-        "ventilation_m2s": 1853.0
+        "blh_24h_mean_m": 650.0,
+        "ventilation_m2s": 1369.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -90,57 +92,57 @@
       "lat": 16.5151,
       "lon": 80.5182,
       "label": "Estimated (model)",
-      "aqi": 95,
-      "aqi_unrounded": 94.9,
-      "category": "Satisfactory",
+      "aqi": 111,
+      "aqi_unrounded": 111.2,
+      "category": "Moderate",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 57.59,
-          "sub_index": 94.9
+          "concentration": 64.78,
+          "sub_index": 111.2
         },
         {
           "pollutant": "pm10",
-          "concentration": 93.15,
-          "sub_index": 93.0
+          "concentration": 102.85,
+          "sub_index": 101.7
         },
         {
           "pollutant": "o3",
-          "concentration": 41.76,
-          "sub_index": 41.0
+          "concentration": 42.21,
+          "sub_index": 42.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.63,
+          "concentration": 0.67,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 15.37,
+          "concentration": 16.0,
           "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 8.22,
+          "concentration": 8.41,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 51.29,
-        "pm10": 53.73,
-        "no2": 6.57,
-        "so2": 14.68,
-        "o3": 142.62,
-        "co": 0.4
+        "pm25": 60.27,
+        "pm10": 62.56,
+        "no2": 7.84,
+        "so2": 17.5,
+        "o3": 145.12,
+        "co": 0.61
       },
       "weather": {
-        "rh_24h_mean_pct": 75.0,
-        "wind_24h_mean_ms": 2.17,
+        "rh_24h_mean_pct": 67.3,
+        "wind_24h_mean_ms": 1.59,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 604.0,
-        "ventilation_m2s": 1310.0
+        "blh_24h_mean_m": 492.0,
+        "ventilation_m2s": 782.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -162,57 +164,57 @@
       "lat": 14.6759,
       "lon": 77.593,
       "label": "Estimated (model)",
-      "aqi": 52,
-      "aqi_unrounded": 52.0,
+      "aqi": 80,
+      "aqi_unrounded": 80.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 52.68,
-          "sub_index": 52.0
+          "concentration": 80.79,
+          "sub_index": 80.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 29.07,
-          "sub_index": 48.3
+          "concentration": 48.08,
+          "sub_index": 79.7
         },
         {
           "pollutant": "o3",
-          "concentration": 38.32,
-          "sub_index": 38.0
+          "concentration": 43.15,
+          "sub_index": 43.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.61,
+          "concentration": 0.62,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 14.04,
-          "sub_index": 17.5
+          "concentration": 13.7,
+          "sub_index": 16.2
         },
         {
           "pollutant": "so2",
-          "concentration": 7.83,
-          "sub_index": 8.8
+          "concentration": 8.14,
+          "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 15.72,
-        "pm10": 16.88,
-        "no2": 3.88,
-        "so2": 8.75,
-        "o3": 123.75,
-        "co": 0.28
+        "pm25": 39.44,
+        "pm10": 42.48,
+        "no2": 3.18,
+        "so2": 13.43,
+        "o3": 150.25,
+        "co": 0.37
       },
       "weather": {
-        "rh_24h_mean_pct": 69.6,
-        "wind_24h_mean_ms": 3.55,
-        "rain_24h_mm": 0.7,
-        "blh_24h_mean_m": 789.0,
-        "ventilation_m2s": 2797.0
+        "rh_24h_mean_pct": 61.1,
+        "wind_24h_mean_ms": 3.08,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 828.0,
+        "ventilation_m2s": 2552.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -240,57 +242,57 @@
       "lat": 13.2049,
       "lon": 79.0979,
       "label": "Estimated (model)",
-      "aqi": 58,
-      "aqi_unrounded": 58.0,
+      "aqi": 87,
+      "aqi_unrounded": 87.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 58.84,
-          "sub_index": 58.0
+          "concentration": 87.78,
+          "sub_index": 87.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 32.85,
-          "sub_index": 52.7
+          "concentration": 50.99,
+          "sub_index": 83.1
         },
         {
           "pollutant": "o3",
-          "concentration": 35.32,
-          "sub_index": 35.0
+          "concentration": 39.76,
+          "sub_index": 39.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.61,
+          "concentration": 0.63,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 14.94,
+          "concentration": 14.48,
           "sub_index": 17.5
         },
         {
           "pollutant": "so2",
-          "concentration": 7.62,
+          "concentration": 7.71,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 20.44,
-        "pm10": 22.49,
-        "no2": 5.69,
-        "so2": 5.46,
-        "o3": 107.25,
-        "co": 0.3
+        "pm25": 43.07,
+        "pm10": 48.85,
+        "no2": 4.76,
+        "so2": 6.8,
+        "o3": 131.62,
+        "co": 0.41
       },
       "weather": {
-        "rh_24h_mean_pct": 89.6,
-        "wind_24h_mean_ms": 2.73,
-        "rain_24h_mm": 5.4,
-        "blh_24h_mean_m": 459.0,
-        "ventilation_m2s": 1253.0
+        "rh_24h_mean_pct": 77.2,
+        "wind_24h_mean_ms": 2.36,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 588.0,
+        "ventilation_m2s": 1387.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -318,57 +320,57 @@
       "lat": 16.7104,
       "lon": 81.1154,
       "label": "Estimated (model)",
-      "aqi": 104,
-      "aqi_unrounded": 104.4,
-      "category": "Moderate",
+      "aqi": 100,
+      "aqi_unrounded": 100.0,
+      "category": "Satisfactory",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 62.3,
-          "sub_index": 104.4
+          "concentration": 60.47,
+          "sub_index": 100.0
         },
         {
           "pollutant": "pm10",
-          "concentration": 99.03,
-          "sub_index": 99.0
+          "concentration": 96.57,
+          "sub_index": 96.0
         },
         {
           "pollutant": "o3",
-          "concentration": 43.74,
-          "sub_index": 43.0
+          "concentration": 40.71,
+          "sub_index": 40.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.64,
+          "concentration": 0.66,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 15.34,
+          "concentration": 15.1,
           "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 8.59,
+          "concentration": 8.54,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 57.18,
-        "pm10": 59.09,
-        "no2": 6.51,
-        "so2": 20.24,
-        "o3": 153.5,
-        "co": 0.47
+        "pm25": 54.88,
+        "pm10": 56.85,
+        "no2": 6.03,
+        "so2": 19.46,
+        "o3": 136.88,
+        "co": 0.55
       },
       "weather": {
-        "rh_24h_mean_pct": 73.6,
-        "wind_24h_mean_ms": 2.22,
+        "rh_24h_mean_pct": 69.1,
+        "wind_24h_mean_ms": 1.57,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 555.0,
-        "ventilation_m2s": 1233.0
+        "blh_24h_mean_m": 461.0,
+        "ventilation_m2s": 726.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -396,57 +398,57 @@
       "lat": 16.2915,
       "lon": 80.4542,
       "label": "Estimated (model)",
-      "aqi": 95,
-      "aqi_unrounded": 94.9,
-      "category": "Satisfactory",
+      "aqi": 111,
+      "aqi_unrounded": 111.2,
+      "category": "Moderate",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 57.59,
-          "sub_index": 94.9
+          "concentration": 64.78,
+          "sub_index": 111.2
         },
         {
           "pollutant": "pm10",
-          "concentration": 93.15,
-          "sub_index": 93.0
+          "concentration": 102.85,
+          "sub_index": 101.7
         },
         {
           "pollutant": "o3",
-          "concentration": 41.76,
-          "sub_index": 41.0
+          "concentration": 42.21,
+          "sub_index": 42.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.63,
+          "concentration": 0.67,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 15.37,
+          "concentration": 16.0,
           "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 8.22,
+          "concentration": 8.41,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 51.29,
-        "pm10": 53.73,
-        "no2": 6.57,
-        "so2": 14.68,
-        "o3": 142.62,
-        "co": 0.43
+        "pm25": 60.27,
+        "pm10": 62.56,
+        "no2": 7.84,
+        "so2": 17.5,
+        "o3": 145.12,
+        "co": 0.61
       },
       "weather": {
-        "rh_24h_mean_pct": 77.8,
-        "wind_24h_mean_ms": 1.97,
+        "rh_24h_mean_pct": 69.1,
+        "wind_24h_mean_ms": 1.38,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 550.0,
-        "ventilation_m2s": 1084.0
+        "blh_24h_mean_m": 416.0,
+        "ventilation_m2s": 574.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -468,57 +470,57 @@
       "lat": 14.4654,
       "lon": 78.8245,
       "label": "Estimated (model)",
-      "aqi": 58,
-      "aqi_unrounded": 58.0,
+      "aqi": 84,
+      "aqi_unrounded": 84.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 58.89,
-          "sub_index": 58.0
+          "concentration": 84.37,
+          "sub_index": 84.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 32.64,
-          "sub_index": 52.7
+          "concentration": 49.45,
+          "sub_index": 81.4
         },
         {
           "pollutant": "o3",
-          "concentration": 37.03,
-          "sub_index": 37.0
+          "concentration": 42.37,
+          "sub_index": 42.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.61,
+          "concentration": 0.62,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 14.27,
-          "sub_index": 17.5
+          "concentration": 13.97,
+          "sub_index": 16.2
         },
         {
           "pollutant": "so2",
-          "concentration": 7.77,
+          "concentration": 7.98,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 20.18,
-        "pm10": 22.53,
-        "no2": 4.33,
-        "so2": 7.79,
-        "o3": 116.62,
-        "co": 0.3
+        "pm25": 41.14,
+        "pm10": 45.74,
+        "no2": 3.73,
+        "so2": 10.91,
+        "o3": 146.0,
+        "co": 0.38
       },
       "weather": {
-        "rh_24h_mean_pct": 76.7,
-        "wind_24h_mean_ms": 3.17,
-        "rain_24h_mm": 0.6,
-        "blh_24h_mean_m": 702.0,
-        "ventilation_m2s": 2228.0
+        "rh_24h_mean_pct": 66.0,
+        "wind_24h_mean_ms": 2.72,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 734.0,
+        "ventilation_m2s": 1998.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -546,57 +548,57 @@
       "lat": 16.9437,
       "lon": 82.2351,
       "label": "Estimated (model)",
-      "aqi": 101,
-      "aqi_unrounded": 101.0,
-      "category": "Moderate",
+      "aqi": 92,
+      "aqi_unrounded": 91.6,
+      "category": "Satisfactory",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 61.73,
-          "sub_index": 101.0
+          "concentration": 55.0,
+          "sub_index": 91.6
         },
         {
           "pollutant": "pm10",
-          "concentration": 100.93,
-          "sub_index": 100.0
+          "concentration": 91.16,
+          "sub_index": 91.0
         },
         {
           "pollutant": "o3",
-          "concentration": 50.49,
+          "concentration": 50.33,
           "sub_index": 50.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.65,
+          "concentration": 0.66,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 13.91,
+          "concentration": 13.96,
           "sub_index": 16.2
         },
         {
           "pollutant": "so2",
-          "concentration": 8.69,
+          "concentration": 8.68,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 56.47,
-        "pm10": 60.82,
-        "no2": 3.6,
-        "so2": 21.8,
-        "o3": 190.62,
-        "co": 0.52
+        "pm25": 48.07,
+        "pm10": 51.92,
+        "no2": 3.71,
+        "so2": 21.69,
+        "o3": 189.75,
+        "co": 0.58
       },
       "weather": {
-        "rh_24h_mean_pct": 67.3,
-        "wind_24h_mean_ms": 3.38,
+        "rh_24h_mean_pct": 64.9,
+        "wind_24h_mean_ms": 2.74,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 532.0,
-        "ventilation_m2s": 1797.0
+        "blh_24h_mean_m": 536.0,
+        "ventilation_m2s": 1468.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -624,57 +626,57 @@
       "lat": 15.8309,
       "lon": 78.0425,
       "label": "Estimated (model)",
-      "aqi": 59,
-      "aqi_unrounded": 59.0,
+      "aqi": 79,
+      "aqi_unrounded": 79.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 59.93,
-          "sub_index": 59.0
+          "concentration": 79.16,
+          "sub_index": 79.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 34.54,
-          "sub_index": 56.1
+          "concentration": 47.64,
+          "sub_index": 78.0
         },
         {
           "pollutant": "o3",
-          "concentration": 38.3,
-          "sub_index": 38.0
+          "concentration": 40.85,
+          "sub_index": 40.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.61,
+          "concentration": 0.62,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 13.44,
+          "concentration": 13.26,
           "sub_index": 16.2
         },
         {
           "pollutant": "so2",
-          "concentration": 7.69,
+          "concentration": 7.9,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 22.55,
-        "pm10": 23.49,
-        "no2": 2.65,
-        "so2": 6.53,
-        "o3": 123.62,
-        "co": 0.3
+        "pm25": 38.89,
+        "pm10": 40.99,
+        "no2": 2.29,
+        "so2": 9.76,
+        "o3": 137.62,
+        "co": 0.37
       },
       "weather": {
-        "rh_24h_mean_pct": 64.0,
-        "wind_24h_mean_ms": 2.84,
-        "rain_24h_mm": 0.3,
-        "blh_24h_mean_m": 879.0,
-        "ventilation_m2s": 2494.0
+        "rh_24h_mean_pct": 56.3,
+        "wind_24h_mean_ms": 2.97,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 790.0,
+        "ventilation_m2s": 2348.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -702,57 +704,57 @@
       "lat": 16.1817,
       "lon": 81.1348,
       "label": "Estimated (model)",
-      "aqi": 95,
-      "aqi_unrounded": 95.0,
+      "aqi": 89,
+      "aqi_unrounded": 89.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 95.46,
-          "sub_index": 95.0
+          "concentration": 89.07,
+          "sub_index": 89.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 57.1,
-          "sub_index": 94.9
+          "concentration": 53.66,
+          "sub_index": 88.2
         },
         {
           "pollutant": "o3",
-          "concentration": 45.35,
-          "sub_index": 45.0
+          "concentration": 46.01,
+          "sub_index": 46.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.64,
+          "concentration": 0.63,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 12.83,
-          "sub_index": 15.0
+          "concentration": 13.13,
+          "sub_index": 16.2
         },
         {
           "pollutant": "so2",
-          "concentration": 8.06,
+          "concentration": 8.15,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 50.68,
-        "pm10": 55.84,
-        "no2": 1.43,
-        "so2": 12.23,
-        "o3": 162.38,
+        "pm25": 46.39,
+        "pm10": 50.02,
+        "no2": 2.04,
+        "so2": 13.56,
+        "o3": 166.0,
         "co": 0.44
       },
       "weather": {
-        "rh_24h_mean_pct": 76.5,
-        "wind_24h_mean_ms": 3.04,
+        "rh_24h_mean_pct": 69.0,
+        "wind_24h_mean_ms": 2.22,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 549.0,
-        "ventilation_m2s": 1672.0
+        "blh_24h_mean_m": 486.0,
+        "ventilation_m2s": 1079.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -780,26 +782,26 @@
       "lat": 14.4494,
       "lon": 79.9874,
       "label": "Estimated (model)",
-      "aqi": 78,
-      "aqi_unrounded": 78.0,
+      "aqi": 91,
+      "aqi_unrounded": 91.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 78.88,
-          "sub_index": 78.0
+          "concentration": 91.24,
+          "sub_index": 91.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 44.33,
-          "sub_index": 73.0
+          "concentration": 52.79,
+          "sub_index": 86.5
         },
         {
           "pollutant": "o3",
-          "concentration": 39.19,
-          "sub_index": 39.0
+          "concentration": 41.53,
+          "sub_index": 41.0
         },
         {
           "pollutant": "co",
@@ -808,29 +810,29 @@
         },
         {
           "pollutant": "no2",
-          "concentration": 13.33,
+          "concentration": 13.36,
           "sub_index": 16.2
         },
         {
           "pollutant": "so2",
-          "concentration": 7.7,
+          "concentration": 7.8,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 34.75,
-        "pm10": 40.74,
-        "no2": 2.43,
-        "so2": 6.78,
-        "o3": 128.5,
-        "co": 0.33
+        "pm25": 45.31,
+        "pm10": 52.0,
+        "no2": 2.49,
+        "so2": 8.21,
+        "o3": 141.38,
+        "co": 0.38
       },
       "weather": {
-        "rh_24h_mean_pct": 83.6,
-        "wind_24h_mean_ms": 2.34,
-        "rain_24h_mm": 5.1,
-        "blh_24h_mean_m": 404.0,
-        "ventilation_m2s": 945.0
+        "rh_24h_mean_pct": 71.3,
+        "wind_24h_mean_ms": 2.23,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 568.0,
+        "ventilation_m2s": 1264.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -858,57 +860,57 @@
       "lat": 15.5059,
       "lon": 80.0499,
       "label": "Estimated (model)",
-      "aqi": 82,
-      "aqi_unrounded": 82.0,
+      "aqi": 92,
+      "aqi_unrounded": 91.6,
       "category": "Satisfactory",
-      "dominant": "pm10",
+      "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
-          "pollutant": "pm10",
-          "concentration": 82.39,
-          "sub_index": 82.0
+          "pollutant": "pm25",
+          "concentration": 55.45,
+          "sub_index": 91.6
         },
         {
-          "pollutant": "pm25",
-          "concentration": 48.91,
-          "sub_index": 79.7
+          "pollutant": "pm10",
+          "concentration": 90.55,
+          "sub_index": 90.0
         },
         {
           "pollutant": "o3",
-          "concentration": 41.96,
-          "sub_index": 41.0
+          "concentration": 43.76,
+          "sub_index": 43.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.62,
+          "concentration": 0.64,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 13.84,
-          "sub_index": 16.2
+          "concentration": 14.4,
+          "sub_index": 17.5
         },
         {
           "pollutant": "so2",
-          "concentration": 7.92,
-          "sub_index": 8.8
+          "concentration": 8.13,
+          "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 40.47,
-        "pm10": 43.94,
-        "no2": 3.48,
-        "so2": 10.09,
-        "o3": 143.75,
-        "co": 0.34
+        "pm25": 48.63,
+        "pm10": 51.37,
+        "no2": 4.6,
+        "so2": 13.34,
+        "o3": 153.62,
+        "co": 0.45
       },
       "weather": {
-        "rh_24h_mean_pct": 78.2,
-        "wind_24h_mean_ms": 2.71,
-        "rain_24h_mm": 1.6,
-        "blh_24h_mean_m": 486.0,
-        "ventilation_m2s": 1317.0
+        "rh_24h_mean_pct": 67.4,
+        "wind_24h_mean_ms": 2.07,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 529.0,
+        "ventilation_m2s": 1092.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -936,57 +938,57 @@
       "lat": 17.0084,
       "lon": 81.7714,
       "label": "Estimated (model)",
-      "aqi": 100,
-      "aqi_unrounded": 100.0,
+      "aqi": 93,
+      "aqi_unrounded": 93.2,
       "category": "Satisfactory",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 60.98,
-          "sub_index": 100.0
+          "concentration": 56.52,
+          "sub_index": 93.2
         },
         {
           "pollutant": "pm10",
-          "concentration": 97.01,
-          "sub_index": 97.0
+          "concentration": 91.01,
+          "sub_index": 91.0
         },
         {
           "pollutant": "o3",
-          "concentration": 43.37,
-          "sub_index": 43.0
+          "concentration": 39.6,
+          "sub_index": 39.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.65,
+          "concentration": 0.67,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 15.93,
+          "concentration": 15.21,
           "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 8.73,
+          "concentration": 8.54,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 55.52,
-        "pm10": 57.25,
-        "no2": 7.7,
-        "so2": 22.42,
-        "o3": 151.5,
-        "co": 0.52
+        "pm25": 49.97,
+        "pm10": 51.79,
+        "no2": 6.24,
+        "so2": 19.56,
+        "o3": 130.75,
+        "co": 0.6
       },
       "weather": {
-        "rh_24h_mean_pct": 72.7,
-        "wind_24h_mean_ms": 2.63,
+        "rh_24h_mean_pct": 69.0,
+        "wind_24h_mean_ms": 2.16,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 569.0,
-        "ventilation_m2s": 1498.0
+        "blh_24h_mean_m": 535.0,
+        "ventilation_m2s": 1156.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1014,57 +1016,57 @@
       "lat": 18.2949,
       "lon": 83.8939,
       "label": "Estimated (model)",
-      "aqi": 145,
-      "aqi_unrounded": 145.4,
+      "aqi": 101,
+      "aqi_unrounded": 101.0,
       "category": "Moderate",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 74.98,
-          "sub_index": 145.4
+          "concentration": 61.49,
+          "sub_index": 101.0
         },
         {
           "pollutant": "pm10",
-          "concentration": 117.39,
-          "sub_index": 111.6
+          "concentration": 97.72,
+          "sub_index": 97.0
         },
         {
           "pollutant": "o3",
-          "concentration": 45.26,
-          "sub_index": 45.0
+          "concentration": 43.26,
+          "sub_index": 43.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.65,
+          "concentration": 0.67,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 16.71,
-          "sub_index": 20.0
+          "concentration": 15.15,
+          "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 8.49,
+          "concentration": 8.12,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 72.99,
-        "pm10": 75.8,
-        "no2": 9.28,
-        "so2": 18.8,
-        "o3": 161.88,
-        "co": 0.53
+        "pm25": 56.16,
+        "pm10": 57.89,
+        "no2": 6.13,
+        "so2": 13.08,
+        "o3": 150.88,
+        "co": 0.61
       },
       "weather": {
-        "rh_24h_mean_pct": 68.9,
-        "wind_24h_mean_ms": 2.58,
+        "rh_24h_mean_pct": 74.2,
+        "wind_24h_mean_ms": 2.71,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 455.0,
-        "ventilation_m2s": 1175.0
+        "blh_24h_mean_m": 425.0,
+        "ventilation_m2s": 1151.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1092,57 +1094,57 @@
       "lat": 13.675,
       "lon": 79.3509,
       "label": "Estimated (model)",
-      "aqi": 57,
-      "aqi_unrounded": 57.0,
+      "aqi": 87,
+      "aqi_unrounded": 87.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 57.66,
-          "sub_index": 57.0
+          "concentration": 87.44,
+          "sub_index": 87.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 32.04,
-          "sub_index": 52.7
+          "concentration": 50.92,
+          "sub_index": 83.1
         },
         {
           "pollutant": "o3",
-          "concentration": 34.84,
-          "sub_index": 34.0
+          "concentration": 40.73,
+          "sub_index": 40.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.61,
+          "concentration": 0.63,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 14.54,
+          "concentration": 14.64,
           "sub_index": 17.5
         },
         {
           "pollutant": "so2",
-          "concentration": 7.5,
+          "concentration": 7.75,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 19.43,
-        "pm10": 21.41,
-        "no2": 4.88,
-        "so2": 3.73,
-        "o3": 104.62,
-        "co": 0.29
+        "pm25": 42.98,
+        "pm10": 48.53,
+        "no2": 5.1,
+        "so2": 7.4,
+        "o3": 137.0,
+        "co": 0.39
       },
       "weather": {
-        "rh_24h_mean_pct": 90.5,
-        "wind_24h_mean_ms": 1.66,
-        "rain_24h_mm": 4.2,
-        "blh_24h_mean_m": 365.0,
-        "ventilation_m2s": 606.0
+        "rh_24h_mean_pct": 79.8,
+        "wind_24h_mean_ms": 1.85,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 489.0,
+        "ventilation_m2s": 907.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1170,57 +1172,57 @@
       "lat": 13.6154,
       "lon": 79.4092,
       "label": "Estimated (model)",
-      "aqi": 64,
-      "aqi_unrounded": 64.0,
+      "aqi": 90,
+      "aqi_unrounded": 90.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 64.53,
-          "sub_index": 64.0
+          "concentration": 90.23,
+          "sub_index": 90.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 36.21,
-          "sub_index": 59.4
+          "concentration": 52.33,
+          "sub_index": 86.5
         },
         {
           "pollutant": "o3",
-          "concentration": 35.3,
-          "sub_index": 35.0
+          "concentration": 40.28,
+          "sub_index": 40.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.61,
+          "concentration": 0.63,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 15.03,
+          "concentration": 15.27,
           "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 7.54,
+          "concentration": 7.71,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 24.63,
-        "pm10": 27.68,
-        "no2": 5.88,
-        "so2": 4.27,
-        "o3": 107.12,
-        "co": 0.31
+        "pm25": 44.73,
+        "pm10": 51.07,
+        "no2": 6.38,
+        "so2": 6.8,
+        "o3": 134.5,
+        "co": 0.4
       },
       "weather": {
-        "rh_24h_mean_pct": 87.9,
-        "wind_24h_mean_ms": 2.19,
-        "rain_24h_mm": 3.2,
-        "blh_24h_mean_m": 442.0,
-        "ventilation_m2s": 969.0
+        "rh_24h_mean_pct": 75.5,
+        "wind_24h_mean_ms": 1.99,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 576.0,
+        "ventilation_m2s": 1150.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1248,57 +1250,57 @@
       "lat": 16.5215,
       "lon": 80.6376,
       "label": "Estimated (model)",
-      "aqi": 98,
-      "aqi_unrounded": 98.3,
-      "category": "Satisfactory",
+      "aqi": 101,
+      "aqi_unrounded": 101.0,
+      "category": "Moderate",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 59.38,
-          "sub_index": 98.3
+          "concentration": 61.41,
+          "sub_index": 101.0
         },
         {
           "pollutant": "pm10",
-          "concentration": 95.41,
-          "sub_index": 95.0
+          "concentration": 97.96,
+          "sub_index": 97.0
         },
         {
           "pollutant": "o3",
-          "concentration": 42.49,
-          "sub_index": 42.0
+          "concentration": 41.51,
+          "sub_index": 41.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.63,
+          "concentration": 0.65,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 15.07,
+          "concentration": 15.49,
           "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 8.26,
+          "concentration": 8.4,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 53.53,
-        "pm10": 55.79,
-        "no2": 5.97,
-        "so2": 15.3,
-        "o3": 146.62,
-        "co": 0.42
+        "pm25": 56.06,
+        "pm10": 58.12,
+        "no2": 6.8,
+        "so2": 17.41,
+        "o3": 141.25,
+        "co": 0.54
       },
       "weather": {
-        "rh_24h_mean_pct": 72.0,
-        "wind_24h_mean_ms": 2.37,
+        "rh_24h_mean_pct": 61.1,
+        "wind_24h_mean_ms": 2.04,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 669.0,
-        "ventilation_m2s": 1586.0
+        "blh_24h_mean_m": 573.0,
+        "ventilation_m2s": 1171.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1326,26 +1328,26 @@
       "lat": 17.7224,
       "lon": 83.3082,
       "label": "Estimated (model)",
-      "aqi": 128,
-      "aqi_unrounded": 128.3,
-      "category": "Moderate",
+      "aqi": 98,
+      "aqi_unrounded": 98.3,
+      "category": "Satisfactory",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 69.07,
-          "sub_index": 128.3
+          "concentration": 59.77,
+          "sub_index": 98.3
         },
         {
           "pollutant": "pm10",
-          "concentration": 109.0,
-          "sub_index": 106.3
+          "concentration": 95.8,
+          "sub_index": 95.0
         },
         {
           "pollutant": "o3",
-          "concentration": 45.6,
-          "sub_index": 45.0
+          "concentration": 42.92,
+          "sub_index": 42.0
         },
         {
           "pollutant": "co",
@@ -1354,29 +1356,29 @@
         },
         {
           "pollutant": "no2",
-          "concentration": 24.63,
-          "sub_index": 30.0
+          "concentration": 23.66,
+          "sub_index": 28.8
         },
         {
           "pollutant": "so2",
-          "concentration": 10.37,
+          "concentration": 10.2,
           "sub_index": 12.5
         }
       ],
       "raw_concentrations": {
-        "pm25": 65.61,
-        "pm10": 68.17,
-        "no2": 25.32,
-        "so2": 47.41,
-        "o3": 163.75,
-        "co": 0.89
+        "pm25": 54.02,
+        "pm10": 56.14,
+        "no2": 23.36,
+        "so2": 44.77,
+        "o3": 149.0,
+        "co": 0.93
       },
       "weather": {
-        "rh_24h_mean_pct": 69.1,
-        "wind_24h_mean_ms": 2.98,
+        "rh_24h_mean_pct": 69.0,
+        "wind_24h_mean_ms": 3.29,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 474.0,
-        "ventilation_m2s": 1410.0
+        "blh_24h_mean_m": 461.0,
+        "ventilation_m2s": 1517.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1404,57 +1406,57 @@
       "lat": 28.6385,
       "lon": 77.1817,
       "label": "Estimated (model)",
-      "aqi": 338,
-      "aqi_unrounded": 337.8,
+      "aqi": 342,
+      "aqi_unrounded": 342.4,
       "category": "Very Poor",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 169.26,
-          "sub_index": 337.8
+          "concentration": 175.74,
+          "sub_index": 342.4
         },
         {
           "pollutant": "pm10",
-          "concentration": 244.97,
-          "sub_index": 196.0
+          "concentration": 253.77,
+          "sub_index": 203.0
         },
         {
           "pollutant": "no2",
-          "concentration": 56.24,
-          "sub_index": 69.8
+          "concentration": 53.71,
+          "sub_index": 66.1
         },
         {
           "pollutant": "co",
-          "concentration": 1.31,
-          "sub_index": 61.9
+          "concentration": 1.26,
+          "sub_index": 56.4
         },
         {
           "pollutant": "o3",
-          "concentration": 42.21,
-          "sub_index": 42.0
+          "concentration": 50.72,
+          "sub_index": 50.0
         },
         {
           "pollutant": "so2",
-          "concentration": 12.52,
+          "concentration": 12.97,
           "sub_index": 15.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 190.61,
-        "pm10": 191.98,
-        "no2": 89.36,
-        "so2": 80.12,
-        "o3": 145.12,
-        "co": 4.16
+        "pm25": 198.69,
+        "pm10": 199.99,
+        "no2": 84.22,
+        "so2": 86.99,
+        "o3": 191.88,
+        "co": 3.9
       },
       "weather": {
-        "rh_24h_mean_pct": 73.7,
-        "wind_24h_mean_ms": 0.49,
+        "rh_24h_mean_pct": 76.6,
+        "wind_24h_mean_ms": 0.5,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 180.0,
-        "ventilation_m2s": 88.0
+        "blh_24h_mean_m": 189.0,
+        "ventilation_m2s": 94.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1490,49 +1492,49 @@
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 61.34,
+          "concentration": 61.33,
           "sub_index": 101.0
         },
         {
           "pollutant": "pm10",
-          "concentration": 97.58,
+          "concentration": 97.9,
           "sub_index": 97.0
         },
         {
           "pollutant": "o3",
-          "concentration": 56.34,
-          "sub_index": 56.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 24.36,
-          "sub_index": 30.0
+          "concentration": 57.61,
+          "sub_index": 57.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.7,
+          "concentration": 0.69,
           "sub_index": 30.0
         },
         {
+          "pollutant": "no2",
+          "concentration": 21.43,
+          "sub_index": 26.2
+        },
+        {
           "pollutant": "so2",
-          "concentration": 8.97,
+          "concentration": 8.69,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 55.98,
-        "pm10": 57.77,
-        "no2": 24.78,
-        "so2": 26.14,
-        "o3": 222.75,
-        "co": 0.79
+        "pm25": 55.96,
+        "pm10": 58.06,
+        "no2": 18.85,
+        "so2": 21.79,
+        "o3": 229.75,
+        "co": 0.73
       },
       "weather": {
-        "rh_24h_mean_pct": 48.2,
-        "wind_24h_mean_ms": 1.86,
+        "rh_24h_mean_pct": 58.0,
+        "wind_24h_mean_ms": 1.76,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 231.0,
-        "ventilation_m2s": 430.0
+        "blh_24h_mean_m": 282.0,
+        "ventilation_m2s": 495.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1560,57 +1562,57 @@
       "lat": 22.5526,
       "lon": 88.3652,
       "label": "Estimated (model)",
-      "aqi": 180,
-      "aqi_unrounded": 179.5,
+      "aqi": 132,
+      "aqi_unrounded": 131.7,
       "category": "Moderate",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 84.07,
-          "sub_index": 179.5
+          "concentration": 70.71,
+          "sub_index": 131.7
         },
         {
           "pollutant": "pm10",
-          "concentration": 127.59,
-          "sub_index": 118.3
+          "concentration": 109.23,
+          "sub_index": 106.3
         },
         {
           "pollutant": "o3",
-          "concentration": 46.22,
+          "concentration": 46.85,
           "sub_index": 46.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.75,
+          "concentration": 0.73,
           "sub_index": 35.0
         },
         {
           "pollutant": "no2",
-          "concentration": 24.52,
-          "sub_index": 30.0
+          "concentration": 22.29,
+          "sub_index": 27.5
         },
         {
           "pollutant": "so2",
-          "concentration": 8.81,
+          "concentration": 8.64,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 84.33,
-        "pm10": 85.09,
-        "no2": 25.1,
-        "so2": 23.7,
-        "o3": 167.12,
-        "co": 1.09
+        "pm25": 67.66,
+        "pm10": 68.38,
+        "no2": 20.58,
+        "so2": 21.05,
+        "o3": 170.62,
+        "co": 0.94
       },
       "weather": {
-        "rh_24h_mean_pct": 76.2,
-        "wind_24h_mean_ms": 1.51,
+        "rh_24h_mean_pct": 73.7,
+        "wind_24h_mean_ms": 1.65,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 304.0,
-        "ventilation_m2s": 458.0
+        "blh_24h_mean_m": 272.0,
+        "ventilation_m2s": 451.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1638,57 +1640,57 @@
       "lat": 13.065,
       "lon": 80.2388,
       "label": "Estimated (model)",
-      "aqi": 77,
-      "aqi_unrounded": 77.0,
+      "aqi": 92,
+      "aqi_unrounded": 92.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 77.7,
-          "sub_index": 77.0
+          "concentration": 92.89,
+          "sub_index": 92.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 43.29,
-          "sub_index": 71.3
+          "concentration": 52.77,
+          "sub_index": 86.5
         },
         {
           "pollutant": "o3",
-          "concentration": 38.14,
-          "sub_index": 38.0
+          "concentration": 41.05,
+          "sub_index": 41.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.63,
+          "concentration": 0.62,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 14.42,
+          "concentration": 14.23,
           "sub_index": 17.5
         },
         {
           "pollutant": "so2",
-          "concentration": 7.75,
+          "concentration": 7.67,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 33.46,
-        "pm10": 39.67,
-        "no2": 4.64,
-        "so2": 7.55,
-        "o3": 122.75,
-        "co": 0.41
+        "pm25": 45.28,
+        "pm10": 53.5,
+        "no2": 4.25,
+        "so2": 6.33,
+        "o3": 138.75,
+        "co": 0.35
       },
       "weather": {
-        "rh_24h_mean_pct": 79.0,
-        "wind_24h_mean_ms": 3.5,
-        "rain_24h_mm": 1.6,
-        "blh_24h_mean_m": 659.0,
-        "ventilation_m2s": 2306.0
+        "rh_24h_mean_pct": 64.0,
+        "wind_24h_mean_ms": 3.51,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 779.0,
+        "ventilation_m2s": 2731.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1716,57 +1718,57 @@
       "lat": 12.9522,
       "lon": 77.5791,
       "label": "Estimated (model)",
-      "aqi": 49,
-      "aqi_unrounded": 49.0,
-      "category": "Good",
+      "aqi": 68,
+      "aqi_unrounded": 68.0,
+      "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 49.3,
-          "sub_index": 49.0
+          "concentration": 68.63,
+          "sub_index": 68.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 27.23,
-          "sub_index": 45.0
+          "concentration": 40.37,
+          "sub_index": 66.2
         },
         {
           "pollutant": "o3",
-          "concentration": 33.32,
-          "sub_index": 33.0
+          "concentration": 39.89,
+          "sub_index": 39.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.68,
+          "concentration": 0.65,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 18.12,
-          "sub_index": 22.5
+          "concentration": 16.79,
+          "sub_index": 20.0
         },
         {
           "pollutant": "so2",
-          "concentration": 7.85,
+          "concentration": 7.94,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 13.42,
-        "pm10": 13.81,
-        "no2": 12.15,
-        "so2": 9.01,
-        "o3": 96.25,
-        "co": 0.66
+        "pm25": 29.81,
+        "pm10": 31.41,
+        "no2": 9.45,
+        "so2": 10.42,
+        "o3": 132.38,
+        "co": 0.49
       },
       "weather": {
-        "rh_24h_mean_pct": 76.0,
-        "wind_24h_mean_ms": 2.92,
-        "rain_24h_mm": 0.2,
-        "blh_24h_mean_m": 718.0,
-        "ventilation_m2s": 2095.0
+        "rh_24h_mean_pct": 68.9,
+        "wind_24h_mean_ms": 2.94,
+        "rain_24h_mm": 0.0,
+        "blh_24h_mean_m": 772.0,
+        "ventilation_m2s": 2271.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1794,25 +1796,25 @@
       "lat": 23.0344,
       "lon": 72.5653,
       "label": "Estimated (model)",
-      "aqi": 75,
-      "aqi_unrounded": 75.0,
+      "aqi": 72,
+      "aqi_unrounded": 72.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 75.39,
-          "sub_index": 75.0
+          "concentration": 72.17,
+          "sub_index": 72.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 45.81,
-          "sub_index": 74.7
+          "concentration": 43.63,
+          "sub_index": 71.3
         },
         {
           "pollutant": "o3",
-          "concentration": 40.92,
+          "concentration": 40.67,
           "sub_index": 40.0
         },
         {
@@ -1822,29 +1824,29 @@
         },
         {
           "pollutant": "no2",
-          "concentration": 18.37,
-          "sub_index": 22.5
+          "concentration": 17.0,
+          "sub_index": 20.0
         },
         {
           "pollutant": "so2",
-          "concentration": 8.18,
+          "concentration": 8.1,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 36.6,
-        "pm10": 37.56,
-        "no2": 12.65,
-        "so2": 14.03,
-        "o3": 138.0,
-        "co": 0.41
+        "pm25": 33.88,
+        "pm10": 34.63,
+        "no2": 9.87,
+        "so2": 12.81,
+        "o3": 136.62,
+        "co": 0.4
       },
       "weather": {
-        "rh_24h_mean_pct": 36.1,
-        "wind_24h_mean_ms": 2.94,
+        "rh_24h_mean_pct": 35.9,
+        "wind_24h_mean_ms": 3.18,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 631.0,
-        "ventilation_m2s": 1853.0
+        "blh_24h_mean_m": 623.0,
+        "ventilation_m2s": 1979.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1872,57 +1874,57 @@
       "lat": 18.555,
       "lon": 73.8425,
       "label": "Estimated (model)",
-      "aqi": 67,
-      "aqi_unrounded": 67.0,
+      "aqi": 75,
+      "aqi_unrounded": 74.7,
       "category": "Satisfactory",
-      "dominant": "pm10",
+      "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
-          "pollutant": "pm10",
-          "concentration": 67.72,
-          "sub_index": 67.0
+          "pollutant": "pm25",
+          "concentration": 45.38,
+          "sub_index": 74.7
         },
         {
-          "pollutant": "pm25",
-          "concentration": 40.64,
-          "sub_index": 66.2
+          "pollutant": "pm10",
+          "concentration": 74.41,
+          "sub_index": 74.0
         },
         {
           "pollutant": "o3",
-          "concentration": 39.78,
-          "sub_index": 39.0
+          "concentration": 41.89,
+          "sub_index": 41.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.68,
+          "concentration": 0.67,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 23.22,
-          "sub_index": 28.8
+          "concentration": 20.46,
+          "sub_index": 25.0
         },
         {
           "pollutant": "so2",
-          "concentration": 8.06,
+          "concentration": 8.09,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 30.15,
-        "pm10": 30.57,
-        "no2": 22.47,
-        "so2": 12.12,
-        "o3": 131.75,
-        "co": 0.7
+        "pm25": 36.06,
+        "pm10": 36.67,
+        "no2": 16.88,
+        "so2": 12.63,
+        "o3": 143.38,
+        "co": 0.65
       },
       "weather": {
-        "rh_24h_mean_pct": 46.9,
-        "wind_24h_mean_ms": 0.98,
+        "rh_24h_mean_pct": 49.5,
+        "wind_24h_mean_ms": 1.4,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 708.0,
-        "ventilation_m2s": 693.0
+        "blh_24h_mean_m": 836.0,
+        "ventilation_m2s": 1174.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -1950,57 +1952,57 @@
       "lat": 26.8934,
       "lon": 75.789,
       "label": "Estimated (model)",
-      "aqi": 85,
-      "aqi_unrounded": 84.8,
-      "category": "Satisfactory",
+      "aqi": 149,
+      "aqi_unrounded": 148.8,
+      "category": "Moderate",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 51.7,
-          "sub_index": 84.8
+          "concentration": 75.71,
+          "sub_index": 148.8
         },
         {
           "pollutant": "pm10",
-          "concentration": 83.55,
-          "sub_index": 83.0
+          "concentration": 116.84,
+          "sub_index": 111.0
         },
         {
           "pollutant": "o3",
-          "concentration": 41.42,
-          "sub_index": 41.0
+          "concentration": 47.99,
+          "sub_index": 47.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.69,
-          "sub_index": 30.0
+          "concentration": 0.7,
+          "sub_index": 35.0
         },
         {
           "pollutant": "no2",
-          "concentration": 23.81,
-          "sub_index": 28.8
+          "concentration": 21.86,
+          "sub_index": 26.2
         },
         {
           "pollutant": "so2",
-          "concentration": 8.09,
+          "concentration": 8.79,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 43.95,
-        "pm10": 44.99,
-        "no2": 23.66,
-        "so2": 12.59,
-        "o3": 140.75,
-        "co": 0.73
+        "pm25": 73.9,
+        "pm10": 75.3,
+        "no2": 19.72,
+        "so2": 23.36,
+        "o3": 176.88,
+        "co": 0.8
       },
       "weather": {
-        "rh_24h_mean_pct": 50.2,
-        "wind_24h_mean_ms": 1.27,
+        "rh_24h_mean_pct": 56.5,
+        "wind_24h_mean_ms": 1.17,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 335.0,
-        "ventilation_m2s": 425.0
+        "blh_24h_mean_m": 402.0,
+        "ventilation_m2s": 472.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2036,49 +2038,49 @@
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 143.76,
+          "concentration": 143.98,
           "sub_index": 317.9
         },
         {
           "pollutant": "pm10",
-          "concentration": 211.32,
+          "concentration": 211.7,
           "sub_index": 174.1
         },
         {
           "pollutant": "o3",
-          "concentration": 47.22,
-          "sub_index": 47.0
+          "concentration": 45.28,
+          "sub_index": 45.0
         },
         {
           "pollutant": "no2",
-          "concentration": 30.53,
-          "sub_index": 37.5
+          "concentration": 31.45,
+          "sub_index": 38.8
         },
         {
           "pollutant": "co",
-          "concentration": 0.76,
+          "concentration": 0.78,
           "sub_index": 35.0
         },
         {
           "pollutant": "so2",
-          "concentration": 10.05,
+          "concentration": 10.03,
           "sub_index": 12.5
         }
       ],
       "raw_concentrations": {
-        "pm25": 158.79,
-        "pm10": 161.33,
-        "no2": 37.27,
-        "so2": 42.46,
-        "o3": 172.62,
-        "co": 1.15
+        "pm25": 159.07,
+        "pm10": 161.68,
+        "no2": 39.15,
+        "so2": 42.3,
+        "o3": 162.0,
+        "co": 1.25
       },
       "weather": {
-        "rh_24h_mean_pct": 72.3,
-        "wind_24h_mean_ms": 0.57,
+        "rh_24h_mean_pct": 67.9,
+        "wind_24h_mean_ms": 0.3,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 265.0,
-        "ventilation_m2s": 150.0
+        "blh_24h_mean_m": 237.0,
+        "ventilation_m2s": 70.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2106,57 +2108,57 @@
       "lat": 25.5982,
       "lon": 85.1258,
       "label": "Estimated (model)",
-      "aqi": 315,
-      "aqi_unrounded": 314.8,
-      "category": "Very Poor",
+      "aqi": 290,
+      "aqi_unrounded": 289.8,
+      "category": "Poor",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 139.71,
-          "sub_index": 314.8
+          "concentration": 117.76,
+          "sub_index": 289.8
         },
         {
           "pollutant": "pm10",
-          "concentration": 206.69,
-          "sub_index": 170.8
+          "concentration": 175.69,
+          "sub_index": 150.2
         },
         {
           "pollutant": "o3",
-          "concentration": 46.9,
+          "concentration": 46.17,
           "sub_index": 46.0
         },
         {
-          "pollutant": "no2",
-          "concentration": 28.54,
+          "pollutant": "co",
+          "concentration": 0.73,
           "sub_index": 35.0
         },
         {
-          "pollutant": "co",
-          "concentration": 0.75,
-          "sub_index": 35.0
+          "pollutant": "no2",
+          "concentration": 23.92,
+          "sub_index": 28.8
         },
         {
           "pollutant": "so2",
-          "concentration": 9.32,
-          "sub_index": 11.2
+          "concentration": 8.91,
+          "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 153.74,
-        "pm10": 157.12,
-        "no2": 33.25,
-        "so2": 31.42,
-        "o3": 170.88,
-        "co": 1.05
+        "pm25": 126.36,
+        "pm10": 128.89,
+        "no2": 23.89,
+        "so2": 25.23,
+        "o3": 166.88,
+        "co": 0.97
       },
       "weather": {
-        "rh_24h_mean_pct": 72.3,
-        "wind_24h_mean_ms": 0.81,
+        "rh_24h_mean_pct": 72.8,
+        "wind_24h_mean_ms": 1.13,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 197.0,
-        "ventilation_m2s": 159.0
+        "blh_24h_mean_m": 201.0,
+        "ventilation_m2s": 226.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2184,57 +2186,57 @@
       "lat": 23.2363,
       "lon": 77.4025,
       "label": "Estimated (model)",
-      "aqi": 71,
-      "aqi_unrounded": 71.0,
+      "aqi": 92,
+      "aqi_unrounded": 91.6,
       "category": "Satisfactory",
-      "dominant": "pm10",
+      "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
-          "pollutant": "pm10",
-          "concentration": 71.81,
-          "sub_index": 71.0
+          "pollutant": "pm25",
+          "concentration": 55.73,
+          "sub_index": 91.6
         },
         {
-          "pollutant": "pm25",
-          "concentration": 42.73,
-          "sub_index": 69.6
+          "pollutant": "pm10",
+          "concentration": 89.92,
+          "sub_index": 89.0
         },
         {
           "pollutant": "o3",
-          "concentration": 38.16,
-          "sub_index": 38.0
+          "concentration": 40.01,
+          "sub_index": 40.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.65,
+          "concentration": 0.63,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 15.88,
-          "sub_index": 18.8
+          "concentration": 16.2,
+          "sub_index": 20.0
         },
         {
           "pollutant": "so2",
-          "concentration": 7.67,
+          "concentration": 7.9,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 32.76,
-        "pm10": 34.3,
-        "no2": 7.6,
-        "so2": 6.27,
-        "o3": 122.88,
-        "co": 0.5
+        "pm25": 48.97,
+        "pm10": 50.79,
+        "no2": 8.25,
+        "so2": 9.7,
+        "o3": 133.0,
+        "co": 0.42
       },
       "weather": {
-        "rh_24h_mean_pct": 52.7,
-        "wind_24h_mean_ms": 2.22,
+        "rh_24h_mean_pct": 54.1,
+        "wind_24h_mean_ms": 1.98,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 377.0,
-        "ventilation_m2s": 838.0
+        "blh_24h_mean_m": 363.0,
+        "ventilation_m2s": 718.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2262,57 +2264,57 @@
       "lat": 30.7357,
       "lon": 76.7591,
       "label": "Estimated (model)",
-      "aqi": 280,
-      "aqi_unrounded": 279.5,
+      "aqi": 235,
+      "aqi_unrounded": 235.1,
       "category": "Poor",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 114.1,
-          "sub_index": 279.5
+          "concentration": 101.64,
+          "sub_index": 235.1
         },
         {
           "pollutant": "pm10",
-          "concentration": 169.16,
-          "sub_index": 146.2
+          "concentration": 151.49,
+          "sub_index": 134.2
         },
         {
           "pollutant": "o3",
-          "concentration": 47.86,
-          "sub_index": 47.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.84,
-          "sub_index": 40.0
+          "concentration": 49.2,
+          "sub_index": 49.0
         },
         {
           "pollutant": "no2",
-          "concentration": 31.92,
-          "sub_index": 38.8
+          "concentration": 28.24,
+          "sub_index": 35.0
+        },
+        {
+          "pollutant": "co",
+          "concentration": 0.79,
+          "sub_index": 35.0
         },
         {
           "pollutant": "so2",
-          "concentration": 9.41,
+          "concentration": 9.33,
           "sub_index": 11.2
         }
       ],
       "raw_concentrations": {
-        "pm25": 121.79,
-        "pm10": 122.95,
-        "no2": 40.09,
-        "so2": 32.8,
-        "o3": 176.12,
-        "co": 1.56
+        "pm25": 106.25,
+        "pm10": 106.86,
+        "no2": 32.63,
+        "so2": 31.62,
+        "o3": 183.5,
+        "co": 1.3
       },
       "weather": {
-        "rh_24h_mean_pct": 73.0,
-        "wind_24h_mean_ms": 1.35,
+        "rh_24h_mean_pct": 73.1,
+        "wind_24h_mean_ms": 1.05,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 137.0,
-        "ventilation_m2s": 186.0
+        "blh_24h_mean_m": 120.0,
+        "ventilation_m2s": 126.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2340,57 +2342,57 @@
       "lat": 26.1594,
       "lon": 91.7048,
       "label": "Estimated (model)",
-      "aqi": 64,
-      "aqi_unrounded": 64.0,
+      "aqi": 65,
+      "aqi_unrounded": 65.0,
       "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 64.51,
-          "sub_index": 64.0
+          "concentration": 65.37,
+          "sub_index": 65.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 38.11,
+          "concentration": 38.79,
           "sub_index": 62.8
         },
         {
           "pollutant": "o3",
-          "concentration": 36.18,
-          "sub_index": 36.0
+          "concentration": 35.18,
+          "sub_index": 35.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.69,
+          "concentration": 0.66,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 17.88,
+          "concentration": 17.83,
           "sub_index": 21.2
         },
         {
           "pollutant": "so2",
-          "concentration": 7.54,
+          "concentration": 7.53,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 26.99,
-        "pm10": 27.66,
-        "no2": 11.65,
-        "so2": 4.3,
-        "o3": 112.0,
-        "co": 0.71
+        "pm25": 27.84,
+        "pm10": 28.43,
+        "no2": 11.55,
+        "so2": 4.06,
+        "o3": 106.5,
+        "co": 0.6
       },
       "weather": {
-        "rh_24h_mean_pct": 83.8,
-        "wind_24h_mean_ms": 2.11,
+        "rh_24h_mean_pct": 83.3,
+        "wind_24h_mean_ms": 1.27,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 221.0,
-        "ventilation_m2s": 465.0
+        "blh_24h_mean_m": 151.0,
+        "ventilation_m2s": 192.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2418,26 +2420,26 @@
       "lat": 9.9694,
       "lon": 76.3212,
       "label": "Estimated (model)",
-      "aqi": 55,
-      "aqi_unrounded": 55.0,
-      "category": "Satisfactory",
+      "aqi": 50,
+      "aqi_unrounded": 50.0,
+      "category": "Good",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 55.58,
-          "sub_index": 55.0
+          "concentration": 50.65,
+          "sub_index": 50.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 31.65,
-          "sub_index": 51.0
+          "concentration": 28.46,
+          "sub_index": 46.7
         },
         {
           "pollutant": "o3",
-          "concentration": 42.8,
-          "sub_index": 42.0
+          "concentration": 39.76,
+          "sub_index": 39.0
         },
         {
           "pollutant": "co",
@@ -2446,29 +2448,29 @@
         },
         {
           "pollutant": "no2",
-          "concentration": 19.68,
-          "sub_index": 23.8
+          "concentration": 17.59,
+          "sub_index": 21.2
         },
         {
           "pollutant": "so2",
-          "concentration": 7.71,
+          "concentration": 7.72,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 18.93,
-        "pm10": 19.53,
-        "no2": 15.3,
-        "so2": 6.88,
-        "o3": 148.38,
-        "co": 0.48
+        "pm25": 14.96,
+        "pm10": 15.03,
+        "no2": 11.07,
+        "so2": 6.97,
+        "o3": 131.62,
+        "co": 0.49
       },
       "weather": {
-        "rh_24h_mean_pct": 84.8,
-        "wind_24h_mean_ms": 1.39,
-        "rain_24h_mm": 6.1,
-        "blh_24h_mean_m": 253.0,
-        "ventilation_m2s": 352.0
+        "rh_24h_mean_pct": 84.0,
+        "wind_24h_mean_ms": 1.82,
+        "rain_24h_mm": 3.0,
+        "blh_24h_mean_m": 313.0,
+        "ventilation_m2s": 569.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2490,57 +2492,57 @@
       "lat": 20.2937,
       "lon": 85.8265,
       "label": "Estimated (model)",
-      "aqi": 186,
-      "aqi_unrounded": 186.3,
-      "category": "Moderate",
+      "aqi": 97,
+      "aqi_unrounded": 96.6,
+      "category": "Satisfactory",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 86.09,
-          "sub_index": 186.3
+          "concentration": 58.26,
+          "sub_index": 96.6
         },
         {
           "pollutant": "pm10",
-          "concentration": 131.84,
-          "sub_index": 120.9
+          "concentration": 92.16,
+          "sub_index": 92.0
         },
         {
           "pollutant": "o3",
-          "concentration": 42.92,
-          "sub_index": 42.0
+          "concentration": 40.92,
+          "sub_index": 40.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.75,
-          "sub_index": 35.0
+          "concentration": 0.7,
+          "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 17.89,
-          "sub_index": 21.2
+          "concentration": 16.22,
+          "sub_index": 20.0
         },
         {
           "pollutant": "so2",
-          "concentration": 8.9,
+          "concentration": 8.55,
           "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 86.85,
-        "pm10": 88.97,
-        "no2": 11.67,
-        "so2": 24.97,
-        "o3": 149.0,
-        "co": 1.08
+        "pm25": 52.14,
+        "pm10": 52.83,
+        "no2": 8.3,
+        "so2": 19.7,
+        "o3": 138.0,
+        "co": 0.78
       },
       "weather": {
-        "rh_24h_mean_pct": 69.0,
-        "wind_24h_mean_ms": 2.39,
+        "rh_24h_mean_pct": 72.8,
+        "wind_24h_mean_ms": 2.4,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 395.0,
-        "ventilation_m2s": 944.0
+        "blh_24h_mean_m": 314.0,
+        "ventilation_m2s": 756.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2576,49 +2578,49 @@
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 73.09,
+          "concentration": 73.45,
           "sub_index": 73.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 44.04,
+          "concentration": 44.33,
           "sub_index": 73.0
         },
         {
           "pollutant": "o3",
-          "concentration": 40.92,
+          "concentration": 40.07,
           "sub_index": 40.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.64,
+          "concentration": 0.63,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 16.2,
-          "sub_index": 20.0
+          "concentration": 15.67,
+          "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 7.81,
+          "concentration": 7.77,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 34.39,
-        "pm10": 35.46,
-        "no2": 8.25,
-        "so2": 8.38,
-        "o3": 138.0,
-        "co": 0.49
+        "pm25": 34.75,
+        "pm10": 35.8,
+        "no2": 7.17,
+        "so2": 7.83,
+        "o3": 133.38,
+        "co": 0.42
       },
       "weather": {
-        "rh_24h_mean_pct": 48.7,
-        "wind_24h_mean_ms": 2.42,
+        "rh_24h_mean_pct": 45.7,
+        "wind_24h_mean_ms": 1.93,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 528.0,
-        "ventilation_m2s": 1279.0
+        "blh_24h_mean_m": 545.0,
+        "ventilation_m2s": 1050.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2646,57 +2648,57 @@
       "lat": 21.1407,
       "lon": 79.0645,
       "label": "Estimated (model)",
-      "aqi": 83,
-      "aqi_unrounded": 83.1,
+      "aqi": 100,
+      "aqi_unrounded": 100.0,
       "category": "Satisfactory",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 50.87,
-          "sub_index": 83.1
+          "concentration": 60.83,
+          "sub_index": 100.0
         },
         {
           "pollutant": "pm10",
-          "concentration": 83.22,
-          "sub_index": 83.0
+          "concentration": 97.38,
+          "sub_index": 97.0
         },
         {
           "pollutant": "o3",
-          "concentration": 37.96,
-          "sub_index": 37.0
+          "concentration": 40.67,
+          "sub_index": 40.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.63,
+          "concentration": 0.64,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 19.37,
-          "sub_index": 23.8
+          "concentration": 18.31,
+          "sub_index": 22.5
         },
         {
           "pollutant": "so2",
-          "concentration": 9.12,
+          "concentration": 9.25,
           "sub_index": 11.2
         }
       ],
       "raw_concentrations": {
-        "pm25": 42.92,
-        "pm10": 44.69,
-        "no2": 14.67,
-        "so2": 28.33,
-        "o3": 121.75,
-        "co": 0.42
+        "pm25": 55.33,
+        "pm10": 57.59,
+        "no2": 12.52,
+        "so2": 30.39,
+        "o3": 136.62,
+        "co": 0.48
       },
       "weather": {
-        "rh_24h_mean_pct": 48.5,
-        "wind_24h_mean_ms": 1.54,
+        "rh_24h_mean_pct": 49.4,
+        "wind_24h_mean_ms": 1.7,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 463.0,
-        "ventilation_m2s": 711.0
+        "blh_24h_mean_m": 443.0,
+        "ventilation_m2s": 754.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2724,57 +2726,57 @@
       "lat": 25.3096,
       "lon": 82.9744,
       "label": "Estimated (model)",
-      "aqi": 304,
-      "aqi_unrounded": 304.1,
-      "category": "Very Poor",
+      "aqi": 262,
+      "aqi_unrounded": 262.4,
+      "category": "Poor",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 125.44,
-          "sub_index": 304.1
+          "concentration": 109.14,
+          "sub_index": 262.4
         },
         {
           "pollutant": "pm10",
-          "concentration": 187.71,
-          "sub_index": 158.1
-        },
-        {
-          "pollutant": "co",
-          "concentration": 1.01,
-          "sub_index": 50.0
+          "concentration": 164.46,
+          "sub_index": 142.9
         },
         {
           "pollutant": "o3",
-          "concentration": 46.65,
+          "concentration": 46.22,
           "sub_index": 46.0
         },
         {
+          "pollutant": "co",
+          "concentration": 0.89,
+          "sub_index": 40.0
+        },
+        {
           "pollutant": "no2",
-          "concentration": 21.19,
-          "sub_index": 26.2
+          "concentration": 19.27,
+          "sub_index": 23.8
         },
         {
           "pollutant": "so2",
-          "concentration": 9.2,
-          "sub_index": 11.2
+          "concentration": 8.75,
+          "sub_index": 10.0
         }
       ],
       "raw_concentrations": {
-        "pm25": 135.94,
-        "pm10": 139.84,
-        "no2": 18.37,
-        "so2": 29.6,
-        "o3": 169.5,
-        "co": 2.51
+        "pm25": 115.6,
+        "pm10": 118.66,
+        "no2": 14.46,
+        "so2": 22.76,
+        "o3": 167.12,
+        "co": 1.86
       },
       "weather": {
-        "rh_24h_mean_pct": 71.5,
-        "wind_24h_mean_ms": 0.31,
+        "rh_24h_mean_pct": 73.2,
+        "wind_24h_mean_ms": 0.5,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 221.0,
-        "ventilation_m2s": 68.0
+        "blh_24h_mean_m": 244.0,
+        "ventilation_m2s": 122.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2802,57 +2804,57 @@
       "lat": 31.62,
       "lon": 74.8765,
       "label": "Estimated (model)",
-      "aqi": 322,
-      "aqi_unrounded": 321.7,
+      "aqi": 319,
+      "aqi_unrounded": 318.7,
       "category": "Very Poor",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 148.44,
-          "sub_index": 321.7
+          "concentration": 144.81,
+          "sub_index": 318.7
         },
         {
           "pollutant": "pm10",
-          "concentration": 216.22,
-          "sub_index": 177.4
-        },
-        {
-          "pollutant": "co",
-          "concentration": 1.0,
-          "sub_index": 50.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 36.29,
-          "sub_index": 45.0
+          "concentration": 210.84,
+          "sub_index": 173.4
         },
         {
           "pollutant": "o3",
-          "concentration": 45.19,
-          "sub_index": 45.0
+          "concentration": 47.63,
+          "sub_index": 47.0
+        },
+        {
+          "pollutant": "no2",
+          "concentration": 34.21,
+          "sub_index": 42.5
+        },
+        {
+          "pollutant": "co",
+          "concentration": 0.88,
+          "sub_index": 40.0
         },
         {
           "pollutant": "so2",
-          "concentration": 9.43,
+          "concentration": 9.12,
           "sub_index": 11.2
         }
       ],
       "raw_concentrations": {
-        "pm25": 164.63,
-        "pm10": 165.8,
-        "no2": 48.94,
-        "so2": 33.02,
-        "o3": 161.5,
-        "co": 2.45
+        "pm25": 160.11,
+        "pm10": 160.9,
+        "no2": 44.74,
+        "so2": 28.43,
+        "o3": 174.88,
+        "co": 1.78
       },
       "weather": {
-        "rh_24h_mean_pct": 75.5,
-        "wind_24h_mean_ms": 0.73,
+        "rh_24h_mean_pct": 74.4,
+        "wind_24h_mean_ms": 1.36,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 149.0,
-        "ventilation_m2s": 109.0
+        "blh_24h_mean_m": 148.0,
+        "ventilation_m2s": 201.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2880,57 +2882,57 @@
       "lat": 26.4801,
       "lon": 80.2837,
       "label": "Estimated (model)",
-      "aqi": 307,
-      "aqi_unrounded": 307.1,
+      "aqi": 313,
+      "aqi_unrounded": 312.5,
       "category": "Very Poor",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 129.75,
-          "sub_index": 307.1
+          "concentration": 136.59,
+          "sub_index": 312.5
         },
         {
           "pollutant": "pm10",
-          "concentration": 192.05,
-          "sub_index": 161.5
+          "concentration": 201.46,
+          "sub_index": 167.4
         },
         {
           "pollutant": "o3",
-          "concentration": 47.63,
-          "sub_index": 47.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.74,
-          "sub_index": 35.0
+          "concentration": 48.4,
+          "sub_index": 48.0
         },
         {
           "pollutant": "no2",
-          "concentration": 26.63,
-          "sub_index": 32.5
+          "concentration": 29.71,
+          "sub_index": 36.2
+        },
+        {
+          "pollutant": "co",
+          "concentration": 0.77,
+          "sub_index": 35.0
         },
         {
           "pollutant": "so2",
-          "concentration": 9.65,
+          "concentration": 9.68,
           "sub_index": 11.2
         }
       ],
       "raw_concentrations": {
-        "pm25": 141.32,
-        "pm10": 143.79,
-        "no2": 29.38,
-        "so2": 36.5,
-        "o3": 174.88,
-        "co": 1.03
+        "pm25": 149.85,
+        "pm10": 152.36,
+        "no2": 35.62,
+        "so2": 36.83,
+        "o3": 179.12,
+        "co": 1.16
       },
       "weather": {
-        "rh_24h_mean_pct": 67.0,
-        "wind_24h_mean_ms": 0.89,
+        "rh_24h_mean_pct": 65.0,
+        "wind_24h_mean_ms": 0.47,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 328.0,
-        "ventilation_m2s": 292.0
+        "blh_24h_mean_m": 285.0,
+        "ventilation_m2s": 135.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -2958,57 +2960,57 @@
       "lat": 21.17,
       "lon": 72.7954,
       "label": "Estimated (model)",
-      "aqi": 135,
-      "aqi_unrounded": 135.1,
+      "aqi": 108,
+      "aqi_unrounded": 107.8,
       "category": "Moderate",
       "dominant": "pm25",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm25",
-          "concentration": 71.68,
-          "sub_index": 135.1
+          "concentration": 63.29,
+          "sub_index": 107.8
         },
         {
           "pollutant": "pm10",
-          "concentration": 110.95,
-          "sub_index": 107.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 35.7,
-          "sub_index": 43.8
+          "concentration": 98.97,
+          "sub_index": 98.0
         },
         {
           "pollutant": "o3",
-          "concentration": 39.32,
-          "sub_index": 39.0
+          "concentration": 40.73,
+          "sub_index": 40.0
+        },
+        {
+          "pollutant": "no2",
+          "concentration": 29.87,
+          "sub_index": 36.2
         },
         {
           "pollutant": "co",
-          "concentration": 0.64,
+          "concentration": 0.67,
           "sub_index": 30.0
         },
         {
           "pollutant": "so2",
-          "concentration": 12.25,
-          "sub_index": 15.0
+          "concentration": 11.35,
+          "sub_index": 13.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 68.87,
-        "pm10": 69.94,
-        "no2": 47.76,
-        "so2": 76.0,
-        "o3": 129.25,
-        "co": 0.47
+        "pm25": 58.41,
+        "pm10": 59.03,
+        "no2": 35.93,
+        "so2": 62.33,
+        "o3": 137.0,
+        "co": 0.62
       },
       "weather": {
-        "rh_24h_mean_pct": 56.7,
-        "wind_24h_mean_ms": 1.92,
+        "rh_24h_mean_pct": 52.6,
+        "wind_24h_mean_ms": 2.1,
         "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 338.0,
-        "ventilation_m2s": 648.0
+        "blh_24h_mean_m": 451.0,
+        "ventilation_m2s": 946.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -3036,57 +3038,57 @@
       "lat": 10.9877,
       "lon": 77.0069,
       "label": "Estimated (model)",
-      "aqi": 46,
-      "aqi_unrounded": 46.0,
-      "category": "Good",
+      "aqi": 64,
+      "aqi_unrounded": 64.0,
+      "category": "Satisfactory",
       "dominant": "pm10",
       "official_minimum_met": true,
       "sub_indices": [
         {
           "pollutant": "pm10",
-          "concentration": 46.65,
-          "sub_index": 46.0
+          "concentration": 64.98,
+          "sub_index": 64.0
         },
         {
           "pollutant": "pm25",
-          "concentration": 24.99,
-          "sub_index": 40.0
+          "concentration": 37.52,
+          "sub_index": 61.1
         },
         {
           "pollutant": "o3",
-          "concentration": 33.73,
-          "sub_index": 33.0
+          "concentration": 39.44,
+          "sub_index": 39.0
         },
         {
           "pollutant": "co",
-          "concentration": 0.62,
+          "concentration": 0.63,
           "sub_index": 30.0
         },
         {
           "pollutant": "no2",
-          "concentration": 16.5,
-          "sub_index": 20.0
+          "concentration": 15.26,
+          "sub_index": 18.8
         },
         {
           "pollutant": "so2",
-          "concentration": 7.88,
+          "concentration": 8.0,
           "sub_index": 8.8
         }
       ],
       "raw_concentrations": {
-        "pm25": 10.63,
-        "pm10": 11.39,
-        "no2": 8.85,
-        "so2": 9.52,
-        "o3": 98.5,
-        "co": 0.38
+        "pm25": 26.26,
+        "pm10": 28.08,
+        "no2": 6.34,
+        "so2": 11.22,
+        "o3": 129.88,
+        "co": 0.43
       },
       "weather": {
-        "rh_24h_mean_pct": 86.0,
-        "wind_24h_mean_ms": 2.63,
-        "rain_24h_mm": 8.3,
-        "blh_24h_mean_m": 442.0,
-        "ventilation_m2s": 1164.0
+        "rh_24h_mean_pct": 81.6,
+        "wind_24h_mean_ms": 3.19,
+        "rain_24h_mm": 14.7,
+        "blh_24h_mean_m": 545.0,
+        "ventilation_m2s": 1739.0
       },
       "idw_correction": 0,
       "idw_donors": [],
@@ -3108,75 +3110,8 @@
       "lat": 8.5393,
       "lon": 76.9151,
       "label": "Estimated (model)",
-      "aqi": 50,
-      "aqi_unrounded": 50.0,
-      "category": "Good",
-      "dominant": "pm10",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm10",
-          "concentration": 50.22,
-          "sub_index": 50.0
-        },
-        {
-          "pollutant": "pm25",
-          "concentration": 26.2,
-          "sub_index": 43.3
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 38.46,
-          "sub_index": 38.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.67,
-          "sub_index": 30.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 14.97,
-          "sub_index": 17.5
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 7.6,
-          "sub_index": 8.8
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 12.14,
-        "pm10": 14.65,
-        "no2": 5.75,
-        "so2": 5.22,
-        "o3": 124.5,
-        "co": 0.61
-      },
-      "weather": {
-        "rh_24h_mean_pct": 88.0,
-        "wind_24h_mean_ms": 1.12,
-        "rain_24h_mm": 2.1,
-        "blh_24h_mean_m": 244.0,
-        "ventilation_m2s": 273.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 4.1,
-      "nearest_monitor": "Plammoodu, Thiruvananthapuram",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Thiruvananthapuram",
-      "nearest_bulletin_aqi": 40,
-      "nearest_bulletin_date": "2026-11-27",
-      "measured_aqi": 40,
-      "measured_category": "Good",
-      "measured_pollutant": "PM2.5, PM10",
-      "measured_date": "2026-11-27",
-      "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Thiruvananthapuram on 2026-11-27 (2/2 stations). This is the city value, not a reading taken at the map coordinate.",
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+      "aqi": null,
+      "error": "Open-Meteo returned no row"
     },
     {
       "id": "major:raipur",
@@ -3186,75 +3121,8 @@
       "lat": 21.272,
       "lon": 81.6448,
       "label": "Estimated (model)",
-      "aqi": 180,
-      "aqi_unrounded": 179.5,
-      "category": "Moderate",
-      "dominant": "pm25",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm25",
-          "concentration": 84.98,
-          "sub_index": 179.5
-        },
-        {
-          "pollutant": "pm10",
-          "concentration": 131.1,
-          "sub_index": 120.9
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 37.57,
-          "sub_index": 37.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.66,
-          "sub_index": 30.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 23.42,
-          "sub_index": 28.8
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 10.45,
-          "sub_index": 12.5
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 85.47,
-        "pm10": 88.29,
-        "no2": 22.87,
-        "so2": 48.56,
-        "o3": 119.62,
-        "co": 0.57
-      },
-      "weather": {
-        "rh_24h_mean_pct": 69.9,
-        "wind_24h_mean_ms": 1.37,
-        "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 313.0,
-        "ventilation_m2s": 428.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 6.0,
-      "nearest_monitor": "Bhatagaon New ISBT, Raipur - CECB",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Raipur",
-      "nearest_bulletin_aqi": 95,
-      "nearest_bulletin_date": "2026-11-27",
-      "measured_aqi": 95,
-      "measured_category": "Satisfactory",
-      "measured_pollutant": "PM10",
-      "measured_date": "2026-11-27",
-      "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Raipur on 2026-11-27 (4/4 stations). This is the city value, not a reading taken at the map coordinate.",
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+      "aqi": null,
+      "error": "Open-Meteo returned no row"
     },
     {
       "id": "major:dehradun",
@@ -3264,75 +3132,8 @@
       "lat": 30.2694,
       "lon": 78.0442,
       "label": "Estimated (model)",
-      "aqi": 135,
-      "aqi_unrounded": 135.1,
-      "category": "Moderate",
-      "dominant": "pm25",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm25",
-          "concentration": 71.69,
-          "sub_index": 135.1
-        },
-        {
-          "pollutant": "pm10",
-          "concentration": 110.54,
-          "sub_index": 107.0
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 44.1,
-          "sub_index": 44.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.71,
-          "sub_index": 35.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 26.4,
-          "sub_index": 32.5
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 8.5,
-          "sub_index": 10.0
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 68.89,
-        "pm10": 69.57,
-        "no2": 28.91,
-        "so2": 18.95,
-        "o3": 155.5,
-        "co": 0.86
-      },
-      "weather": {
-        "rh_24h_mean_pct": 62.7,
-        "wind_24h_mean_ms": 0.32,
-        "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 109.0,
-        "ventilation_m2s": 35.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 0.0,
-      "nearest_monitor": "Doon University, Dehradun",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Dehradun",
-      "nearest_bulletin_aqi": 105,
-      "nearest_bulletin_date": "2026-11-27",
-      "measured_aqi": 105,
-      "measured_category": "Moderate",
-      "measured_pollutant": "PM2.5",
-      "measured_date": "2026-11-27",
-      "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Dehradun on 2026-11-27 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+      "aqi": null,
+      "error": "Open-Meteo returned no row"
     },
     {
       "id": "major:srinagar",
@@ -3342,75 +3143,8 @@
       "lat": 34.0662,
       "lon": 74.8198,
       "label": "Estimated (model)",
-      "aqi": 104,
-      "aqi_unrounded": 104.4,
-      "category": "Moderate",
-      "dominant": "pm25",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm25",
-          "concentration": 62.94,
-          "sub_index": 104.4
-        },
-        {
-          "pollutant": "pm10",
-          "concentration": 99.9,
-          "sub_index": 99.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.94,
-          "sub_index": 45.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 29.67,
-          "sub_index": 36.2
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 35.34,
-          "sub_index": 35.0
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 8.16,
-          "sub_index": 10.0
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 57.97,
-        "pm10": 59.88,
-        "no2": 35.54,
-        "so2": 13.67,
-        "o3": 107.38,
-        "co": 2.11
-      },
-      "weather": {
-        "rh_24h_mean_pct": 60.0,
-        "wind_24h_mean_ms": 0.43,
-        "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 75.0,
-        "ventilation_m2s": 32.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 0.0,
-      "nearest_monitor": "Rajbagh, Srinagar",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Srinagar",
-      "nearest_bulletin_aqi": 145,
-      "nearest_bulletin_date": "2026-11-27",
-      "measured_aqi": 145,
-      "measured_category": "Moderate",
-      "measured_pollutant": "PM10",
-      "measured_date": "2026-11-27",
-      "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Srinagar on 2026-11-27 (2/2 stations). This is the city value, not a reading taken at the map coordinate.",
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+      "aqi": null,
+      "error": "Open-Meteo returned no row"
     },
     {
       "id": "major:agartala",
@@ -3420,75 +3154,8 @@
       "lat": 23.8402,
       "lon": 91.2807,
       "label": "Estimated (model)",
-      "aqi": 85,
-      "aqi_unrounded": 84.8,
-      "category": "Satisfactory",
-      "dominant": "pm25",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm25",
-          "concentration": 51.59,
-          "sub_index": 84.8
-        },
-        {
-          "pollutant": "pm10",
-          "concentration": 83.22,
-          "sub_index": 83.0
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 39.78,
-          "sub_index": 39.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.68,
-          "sub_index": 30.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 21.78,
-          "sub_index": 26.2
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 7.53,
-          "sub_index": 8.8
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 43.81,
-        "pm10": 44.69,
-        "no2": 19.56,
-        "so2": 4.16,
-        "o3": 131.75,
-        "co": 0.69
-      },
-      "weather": {
-        "rh_24h_mean_pct": 79.8,
-        "wind_24h_mean_ms": 1.49,
-        "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 180.0,
-        "ventilation_m2s": 269.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 2.6,
-      "nearest_monitor": "Kunjaban, Agartala",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Agartala",
-      "nearest_bulletin_aqi": 100,
-      "nearest_bulletin_date": "2026-11-27",
-      "measured_aqi": 100,
-      "measured_category": "Satisfactory",
-      "measured_pollutant": "PM10",
-      "measured_date": "2026-11-27",
-      "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Agartala on 2026-11-27 (1/2 stations). This is the city value, not a reading taken at the map coordinate.",
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+      "aqi": null,
+      "error": "Open-Meteo returned no row"
     },
     {
       "id": "major:imphal",
@@ -3498,69 +3165,8 @@
       "lat": 24.7865,
       "lon": 93.9355,
       "label": "Estimated (model)",
-      "aqi": 56,
-      "aqi_unrounded": 56.0,
-      "category": "Satisfactory",
-      "dominant": "pm10",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm10",
-          "concentration": 56.85,
-          "sub_index": 56.0
-        },
-        {
-          "pollutant": "pm25",
-          "concentration": 32.68,
-          "sub_index": 52.7
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 31.36,
-          "sub_index": 31.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.68,
-          "sub_index": 30.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 21.51,
-          "sub_index": 26.2
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 7.48,
-          "sub_index": 8.8
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 20.22,
-        "pm10": 20.68,
-        "no2": 19.01,
-        "so2": 3.43,
-        "o3": 85.5,
-        "co": 0.69
-      },
-      "weather": {
-        "rh_24h_mean_pct": 71.7,
-        "wind_24h_mean_ms": 1.09,
-        "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 322.0,
-        "ventilation_m2s": 350.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 3.9,
-      "nearest_monitor": "Manipur University, Imphal",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Imphal",
-      "nearest_bulletin_aqi": null,
-      "nearest_bulletin_date": null,
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+      "aqi": null,
+      "error": "Open-Meteo returned no row"
     },
     {
       "id": "major:shillong",
@@ -3570,75 +3176,8 @@
       "lat": 25.5694,
       "lon": 91.8964,
       "label": "Estimated (model)",
-      "aqi": 45,
-      "aqi_unrounded": 45.0,
-      "category": "Good",
-      "dominant": "pm10",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm10",
-          "concentration": 45.38,
-          "sub_index": 45.0
-        },
-        {
-          "pollutant": "pm25",
-          "concentration": 24.55,
-          "sub_index": 40.0
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 35.32,
-          "sub_index": 35.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.63,
-          "sub_index": 30.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 16.2,
-          "sub_index": 20.0
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 7.38,
-          "sub_index": 8.8
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 10.08,
-        "pm10": 10.23,
-        "no2": 8.25,
-        "so2": 1.85,
-        "o3": 107.25,
-        "co": 0.39
-      },
-      "weather": {
-        "rh_24h_mean_pct": 48.7,
-        "wind_24h_mean_ms": 1.29,
-        "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 455.0,
-        "ventilation_m2s": 585.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 1.2,
-      "nearest_monitor": "Lumpyngngad, Shillong",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Shillong",
-      "nearest_bulletin_aqi": 51,
-      "nearest_bulletin_date": "2026-11-27",
-      "measured_aqi": 51,
-      "measured_category": "Satisfactory",
-      "measured_pollutant": "O3",
-      "measured_date": "2026-11-27",
-      "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Shillong on 2026-11-27 (2/2 stations). This is the city value, not a reading taken at the map coordinate.",
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+      "aqi": null,
+      "error": "Open-Meteo returned no row"
     },
     {
       "id": "major:aizawl",
@@ -3648,75 +3187,8 @@
       "lat": 23.7176,
       "lon": 92.7193,
       "label": "Estimated (model)",
-      "aqi": 48,
-      "aqi_unrounded": 48.0,
-      "category": "Good",
-      "dominant": "pm10",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm10",
-          "concentration": 48.7,
-          "sub_index": 48.0
-        },
-        {
-          "pollutant": "pm25",
-          "concentration": 26.72,
-          "sub_index": 43.3
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 31.75,
-          "sub_index": 31.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.62,
-          "sub_index": 30.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 18.04,
-          "sub_index": 22.5
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 7.35,
-          "sub_index": 8.8
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 12.79,
-        "pm10": 13.25,
-        "no2": 11.98,
-        "so2": 1.45,
-        "o3": 87.62,
-        "co": 0.33
-      },
-      "weather": {
-        "rh_24h_mean_pct": 70.8,
-        "wind_24h_mean_ms": 0.78,
-        "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 139.0,
-        "ventilation_m2s": 108.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 0.0,
-      "nearest_monitor": "Sikulpuikawn, Aizawl",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Aizawl",
-      "nearest_bulletin_aqi": 26,
-      "nearest_bulletin_date": "2026-11-27",
-      "measured_aqi": 26,
-      "measured_category": "Good",
-      "measured_pollutant": "PM10",
-      "measured_date": "2026-11-27",
-      "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Aizawl on 2026-11-27 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+      "aqi": null,
+      "error": "Open-Meteo returned no row"
     },
     {
       "id": "major:kohima",
@@ -3726,69 +3198,8 @@
       "lat": 25.6635,
       "lon": 94.099,
       "label": "Estimated (model)",
-      "aqi": 51,
-      "aqi_unrounded": 51.0,
-      "category": "Satisfactory",
-      "dominant": "pm10",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm10",
-          "concentration": 51.06,
-          "sub_index": 51.0
-        },
-        {
-          "pollutant": "pm25",
-          "concentration": 28.6,
-          "sub_index": 46.7
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 31.93,
-          "sub_index": 31.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.62,
-          "sub_index": 30.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 17.75,
-          "sub_index": 21.2
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 7.4,
-          "sub_index": 8.8
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 15.13,
-        "pm10": 15.41,
-        "no2": 11.4,
-        "so2": 2.1,
-        "o3": 88.62,
-        "co": 0.38
-      },
-      "weather": {
-        "rh_24h_mean_pct": 63.1,
-        "wind_24h_mean_ms": 1.58,
-        "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 296.0,
-        "ventilation_m2s": 468.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 0.0,
-      "nearest_monitor": "PWD Juction, Kohima",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Kohima",
-      "nearest_bulletin_aqi": null,
-      "nearest_bulletin_date": "2026-11-25",
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+      "aqi": null,
+      "error": "Open-Meteo returned no row"
     },
     {
       "id": "major:gangtok",
@@ -3798,75 +3209,8 @@
       "lat": 27.3385,
       "lon": 88.6141,
       "label": "Estimated (model)",
-      "aqi": 54,
-      "aqi_unrounded": 54.0,
-      "category": "Satisfactory",
-      "dominant": "pm10",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm10",
-          "concentration": 54.44,
-          "sub_index": 54.0
-        },
-        {
-          "pollutant": "pm25",
-          "concentration": 30.99,
-          "sub_index": 50.0
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 35.43,
-          "sub_index": 35.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.65,
-          "sub_index": 30.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 18.13,
-          "sub_index": 22.5
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 7.39,
-          "sub_index": 8.8
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 18.11,
-        "pm10": 18.49,
-        "no2": 12.16,
-        "so2": 1.94,
-        "o3": 107.88,
-        "co": 0.53
-      },
-      "weather": {
-        "rh_24h_mean_pct": 54.2,
-        "wind_24h_mean_ms": 0.94,
-        "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 257.0,
-        "ventilation_m2s": 240.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 0.0,
-      "nearest_monitor": "Zero Point GICI, Gangtok",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Gangtok",
-      "nearest_bulletin_aqi": 35,
-      "nearest_bulletin_date": "2026-11-27",
-      "measured_aqi": 35,
-      "measured_category": "Good",
-      "measured_pollutant": "PM2.5",
-      "measured_date": "2026-11-27",
-      "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Gangtok on 2026-11-27 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+      "aqi": null,
+      "error": "Open-Meteo returned no row"
     },
     {
       "id": "major:puducherry",
@@ -3876,75 +3220,8 @@
       "lat": 11.9309,
       "lon": 79.8027,
       "label": "Estimated (model)",
-      "aqi": 67,
-      "aqi_unrounded": 67.0,
-      "category": "Satisfactory",
-      "dominant": "pm10",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm10",
-          "concentration": 67.12,
-          "sub_index": 67.0
-        },
-        {
-          "pollutant": "pm25",
-          "concentration": 36.31,
-          "sub_index": 59.4
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 37.64,
-          "sub_index": 37.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.61,
-          "sub_index": 30.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 13.19,
-          "sub_index": 16.2
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 7.52,
-          "sub_index": 8.8
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 24.75,
-        "pm10": 30.03,
-        "no2": 2.15,
-        "so2": 3.93,
-        "o3": 120.0,
-        "co": 0.29
-      },
-      "weather": {
-        "rh_24h_mean_pct": 82.4,
-        "wind_24h_mean_ms": 4.16,
-        "rain_24h_mm": 3.7,
-        "blh_24h_mean_m": 576.0,
-        "ventilation_m2s": 2397.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 0.0,
-      "nearest_monitor": "Jawahar Nagar, Puducherry",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Puducherry",
-      "nearest_bulletin_aqi": 25,
-      "nearest_bulletin_date": "2026-11-27",
-      "measured_aqi": 25,
-      "measured_category": "Good",
-      "measured_pollutant": "CO",
-      "measured_date": "2026-11-27",
-      "measured_label": "Measured (monitor)",
-      "measured_detail": "CPCB city bulletin for Puducherry on 2026-11-27 (1/1 stations). This is the city value, not a reading taken at the map coordinate.",
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+      "aqi": null,
+      "error": "Open-Meteo returned no row"
     },
     {
       "id": "district:telangana karimnagar",
@@ -3954,69 +3231,8 @@
       "lat": 18.5303,
       "lon": 79.3925,
       "label": "Estimated (model)",
-      "aqi": 83,
-      "aqi_unrounded": 83.1,
-      "category": "Satisfactory",
-      "dominant": "pm25",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm25",
-          "concentration": 50.95,
-          "sub_index": 83.1
-        },
-        {
-          "pollutant": "pm10",
-          "concentration": 83.09,
-          "sub_index": 83.0
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 41.69,
-          "sub_index": 41.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.63,
-          "sub_index": 30.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 16.64,
-          "sub_index": 20.0
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 8.19,
-          "sub_index": 10.0
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 43.01,
-        "pm10": 44.57,
-        "no2": 9.15,
-        "so2": 14.17,
-        "o3": 142.25,
-        "co": 0.39
-      },
-      "weather": {
-        "rh_24h_mean_pct": 57.4,
-        "wind_24h_mean_ms": 1.9,
-        "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 346.0,
-        "ventilation_m2s": 656.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 145.5,
-      "nearest_monitor": "Kompally Municipal Office, Hyderabad",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Hyderabad",
-      "nearest_bulletin_aqi": 57,
-      "nearest_bulletin_date": "2026-11-27",
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+      "aqi": null,
+      "error": "Open-Meteo returned no row"
     },
     {
       "id": "district:telangana khammam",
@@ -4026,69 +3242,8 @@
       "lat": 17.6832,
       "lon": 80.813,
       "label": "Estimated (model)",
-      "aqi": 83,
-      "aqi_unrounded": 83.1,
-      "category": "Satisfactory",
-      "dominant": "pm25",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm25",
-          "concentration": 50.58,
-          "sub_index": 83.1
-        },
-        {
-          "pollutant": "pm10",
-          "concentration": 83.1,
-          "sub_index": 83.0
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 39.32,
-          "sub_index": 39.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.64,
-          "sub_index": 30.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 15.17,
-          "sub_index": 18.8
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 8.17,
-          "sub_index": 10.0
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 42.55,
-        "pm10": 44.58,
-        "no2": 6.17,
-        "so2": 13.84,
-        "o3": 129.25,
-        "co": 0.47
-      },
-      "weather": {
-        "rh_24h_mean_pct": 72.2,
-        "wind_24h_mean_ms": 1.01,
-        "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 329.0,
-        "ventilation_m2s": 333.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 124.9,
-      "nearest_monitor": "Anand Kala Kshetram, Rajamahendravaram",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Rajamahendravaram",
-      "nearest_bulletin_aqi": 71,
-      "nearest_bulletin_date": "2026-11-27",
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+      "aqi": null,
+      "error": "Open-Meteo returned no row"
     },
     {
       "id": "district:telangana warangal",
@@ -4098,69 +3253,8 @@
       "lat": 17.921,
       "lon": 79.5714,
       "label": "Estimated (model)",
-      "aqi": 78,
-      "aqi_unrounded": 78.0,
-      "category": "Satisfactory",
-      "dominant": "pm25",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm25",
-          "concentration": 47.19,
-          "sub_index": 78.0
-        },
-        {
-          "pollutant": "pm10",
-          "concentration": 78.16,
-          "sub_index": 78.0
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 39.55,
-          "sub_index": 39.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.62,
-          "sub_index": 30.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 15.26,
-          "sub_index": 18.8
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 7.95,
-          "sub_index": 8.8
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 38.32,
-        "pm10": 40.08,
-        "no2": 6.35,
-        "so2": 10.52,
-        "o3": 130.5,
-        "co": 0.37
-      },
-      "weather": {
-        "rh_24h_mean_pct": 65.8,
-        "wind_24h_mean_ms": 1.48,
-        "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 483.0,
-        "ventilation_m2s": 714.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 117.6,
-      "nearest_monitor": "ECIL Kapra, Hyderabad",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Hyderabad",
-      "nearest_bulletin_aqi": 57,
-      "nearest_bulletin_date": "2026-11-27",
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+      "aqi": null,
+      "error": "Open-Meteo returned no row"
     },
     {
       "id": "district:telangana nalgonda",
@@ -4170,69 +3264,8 @@
       "lat": 17.0927,
       "lon": 79.4081,
       "label": "Estimated (model)",
-      "aqi": 92,
-      "aqi_unrounded": 91.6,
-      "category": "Satisfactory",
-      "dominant": "pm25",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm25",
-          "concentration": 55.48,
-          "sub_index": 91.6
-        },
-        {
-          "pollutant": "pm10",
-          "concentration": 89.45,
-          "sub_index": 89.0
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 40.76,
-          "sub_index": 40.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.64,
-          "sub_index": 30.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 16.35,
-          "sub_index": 20.0
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 8.21,
-          "sub_index": 10.0
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 48.66,
-        "pm10": 50.37,
-        "no2": 8.56,
-        "so2": 14.48,
-        "o3": 137.12,
-        "co": 0.45
-      },
-      "weather": {
-        "rh_24h_mean_pct": 72.4,
-        "wind_24h_mean_ms": 2.05,
-        "rain_24h_mm": 0.5,
-        "blh_24h_mean_m": 558.0,
-        "ventilation_m2s": 1144.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 96.6,
-      "nearest_monitor": "Nacharam_TSIIC IALA, Hyderabad",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Hyderabad",
-      "nearest_bulletin_aqi": 57,
-      "nearest_bulletin_date": "2026-11-27",
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+      "aqi": null,
+      "error": "Open-Meteo returned no row"
     },
     {
       "id": "district:telangana nizamabad",
@@ -4242,69 +3275,8 @@
       "lat": 18.5357,
       "lon": 78.1205,
       "label": "Estimated (model)",
-      "aqi": 80,
-      "aqi_unrounded": 79.7,
-      "category": "Satisfactory",
-      "dominant": "pm25",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm25",
-          "concentration": 48.34,
-          "sub_index": 79.7
-        },
-        {
-          "pollutant": "pm10",
-          "concentration": 79.26,
-          "sub_index": 79.0
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 42.71,
-          "sub_index": 42.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.61,
-          "sub_index": 30.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 15.07,
-          "sub_index": 18.8
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 8.06,
-          "sub_index": 10.0
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 39.76,
-        "pm10": 41.09,
-        "no2": 5.96,
-        "so2": 12.23,
-        "o3": 147.88,
-        "co": 0.28
-      },
-      "weather": {
-        "rh_24h_mean_pct": 53.4,
-        "wind_24h_mean_ms": 2.85,
-        "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 591.0,
-        "ventilation_m2s": 1683.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 95.3,
-      "nearest_monitor": "Naubad, Bidar",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Bidar",
-      "nearest_bulletin_aqi": null,
-      "nearest_bulletin_date": null,
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+      "aqi": null,
+      "error": "Open-Meteo returned no row"
     },
     {
       "id": "district:andhra pradesh vizianagaram",
@@ -4314,69 +3286,8 @@
       "lat": 18.4799,
       "lon": 83.3107,
       "label": "Estimated (model)",
-      "aqi": 97,
-      "aqi_unrounded": 96.6,
-      "category": "Satisfactory",
-      "dominant": "pm25",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm25",
-          "concentration": 58.78,
-          "sub_index": 96.6
-        },
-        {
-          "pollutant": "pm10",
-          "concentration": 94.35,
-          "sub_index": 94.0
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 40.42,
-          "sub_index": 40.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.67,
-          "sub_index": 30.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 17.49,
-          "sub_index": 21.2
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 8.24,
-          "sub_index": 10.0
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 52.78,
-        "pm10": 54.83,
-        "no2": 10.86,
-        "so2": 14.91,
-        "o3": 135.25,
-        "co": 0.6
-      },
-      "weather": {
-        "rh_24h_mean_pct": 76.0,
-        "wind_24h_mean_ms": 0.94,
-        "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 306.0,
-        "ventilation_m2s": 286.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 84.5,
-      "nearest_monitor": "GVM Corporation, Visakhapatnam",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Visakhapatnam",
-      "nearest_bulletin_aqi": 79,
-      "nearest_bulletin_date": "2026-11-27",
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+      "aqi": null,
+      "error": "Open-Meteo returned no row"
     },
     {
       "id": "district:telangana mahbubnagar",
@@ -4386,69 +3297,8 @@
       "lat": 16.5368,
       "lon": 78.0252,
       "label": "Estimated (model)",
-      "aqi": 66,
-      "aqi_unrounded": 66.0,
-      "category": "Satisfactory",
-      "dominant": "pm10",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm10",
-          "concentration": 66.39,
-          "sub_index": 66.0
-        },
-        {
-          "pollutant": "pm25",
-          "concentration": 39.25,
-          "sub_index": 64.5
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 37.96,
-          "sub_index": 37.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.61,
-          "sub_index": 30.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 13.72,
-          "sub_index": 16.2
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 7.74,
-          "sub_index": 8.8
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 28.41,
-        "pm10": 29.37,
-        "no2": 3.23,
-        "so2": 7.3,
-        "o3": 121.75,
-        "co": 0.32
-      },
-      "weather": {
-        "rh_24h_mean_pct": 66.7,
-        "wind_24h_mean_ms": 2.96,
-        "rain_24h_mm": 0.3,
-        "blh_24h_mean_m": 692.0,
-        "ventilation_m2s": 2046.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 80.9,
-      "nearest_monitor": "Haji Colony, Raichur",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Raichur",
-      "nearest_bulletin_aqi": null,
-      "nearest_bulletin_date": null,
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+      "aqi": null,
+      "error": "Open-Meteo returned no row"
     },
     {
       "id": "district:telangana adilabad",
@@ -4458,69 +3308,8 @@
       "lat": 19.2855,
       "lon": 79.0728,
       "label": "Estimated (model)",
-      "aqi": 76,
-      "aqi_unrounded": 76.3,
-      "category": "Satisfactory",
-      "dominant": "pm25",
-      "official_minimum_met": true,
-      "sub_indices": [
-        {
-          "pollutant": "pm25",
-          "concentration": 46.4,
-          "sub_index": 76.3
-        },
-        {
-          "pollutant": "pm10",
-          "concentration": 76.76,
-          "sub_index": 76.0
-        },
-        {
-          "pollutant": "o3",
-          "concentration": 38.91,
-          "sub_index": 38.0
-        },
-        {
-          "pollutant": "co",
-          "concentration": 0.6,
-          "sub_index": 30.0
-        },
-        {
-          "pollutant": "no2",
-          "concentration": 15.27,
-          "sub_index": 18.8
-        },
-        {
-          "pollutant": "so2",
-          "concentration": 8.05,
-          "sub_index": 10.0
-        }
-      ],
-      "raw_concentrations": {
-        "pm25": 37.34,
-        "pm10": 38.81,
-        "no2": 6.37,
-        "so2": 12.08,
-        "o3": 127.0,
-        "co": 0.27
-      },
-      "weather": {
-        "rh_24h_mean_pct": 57.8,
-        "wind_24h_mean_ms": 2.06,
-        "rain_24h_mm": 0.0,
-        "blh_24h_mean_m": 391.0,
-        "ventilation_m2s": 807.0
-      },
-      "idw_correction": 0,
-      "idw_donors": [],
-      "nearest_monitor_km": 78.8,
-      "nearest_monitor": "MIDC Khutala, Chandrapur",
-      "method": "Open-Meteo CAMS hourly fields; CPCB sub-index (worst pollutant); linear bias correction fitted on 2022–2024 station days",
-      "hours_pm25": 24,
-      "nearest_city": "Chandrapur",
-      "nearest_bulletin_aqi": 157,
-      "nearest_bulletin_date": "2026-11-27",
-      "uncertainty_rmse": 39.19,
-      "uncertainty_note": "The ± band shown on an estimate is this 2025 holdout RMSE in AQI points. It is an error size from Hyderabad and Andhra Pradesh city-days, not a calibrated prediction interval for every Indian location."
+      "aqi": null,
+      "error": "Open-Meteo returned no row"
     }
   ]
 }
